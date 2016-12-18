@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20140701/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByFunctionIncludingManagementsReviewStatisticsAndTax20140701.xsd" xlink:type="simple"/>
+  <xbrli:context id="c0">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35828192</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-04-09</xbrli:startDate>
+      <xbrli:endDate>2014-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35828192</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-04-09</xbrli:startDate>
+      <xbrli:endDate>2014-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+        <cmn:auditorIdentifier>1</cmn:auditorIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35828192</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-04-09</xbrli:startDate>
+      <xbrli:endDate>2014-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35828192</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-04-09</xbrli:startDate>
+      <xbrli:endDate>2014-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35828192</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2014-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u0">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:DateOfGeneralMeeting contextRef="c0">2015-02-19</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Morten Steen Søndergaard</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">PLUSHOUSECONCEPT HOLDING ApS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Anelystparken</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">31C</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">8381</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">Tilst</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">35828192</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:ReportingPeriodStartDate contextRef="c0">2014-04-09</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate contextRef="c0">2014-12-31</gsd:ReportingPeriodEndDate>
+  <cmn:NameOfAuditFirm contextRef="c1" xml:lang="da">Revisto Statsautoriseret Revisionspartnerselskab</cmn:NameOfAuditFirm>
+  <gsd:AddressOfAuditorStreetName contextRef="c1" xml:lang="da">Sandøvej</gsd:AddressOfAuditorStreetName>
+  <gsd:AddressOfAuditorStreetBuildingIdentifier contextRef="c1" xml:lang="da">1b</gsd:AddressOfAuditorStreetBuildingIdentifier>
+  <gsd:AddressOfAuditorPostCodeIdentifier contextRef="c1" xml:lang="da">8700</gsd:AddressOfAuditorPostCodeIdentifier>
+  <gsd:AddressOfAuditorDistrictName contextRef="c1" xml:lang="da">Horsens</gsd:AddressOfAuditorDistrictName>
+  <gsd:AddressOfAuditorCountryIdentificationCode contextRef="c1" xml:lang="da">DK</gsd:AddressOfAuditorCountryIdentificationCode>
+  <gsd:AddressOfAuditorCountry contextRef="c1" xml:lang="da">Danmark</gsd:AddressOfAuditorCountry>
+  <cmn:IdentificationNumberCvrOfAuditFirm contextRef="c1" xml:lang="da">35465979</cmn:IdentificationNumberCvrOfAuditFirm>
+  <cmn:IdentificationNumberPnrOfAuditFirm contextRef="c1" xml:lang="da">1019976161</cmn:IdentificationNumberPnrOfAuditFirm>
+  <sob:StatementByExecutiveAndSupervisoryBoards contextRef="c0" xml:lang="da">&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Ledelsespåtegning&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Direktionen har dags dato behandlet og godkendt årsrapporten for PlusHouseConcept Holding ApS for 2014.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsrapporten er aflagt i overensstemmelse med årsregnskabsloven samt eventuelle yderligere krav i vedtægter eller aftale. Det er min opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 31. august 2014, samt af resultatet af selskabets aktiviteter for regnskabsåret 1. september 2013 - 31. august 2014. Årsregnskabet er mit ansvar.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsregnskabet er ikke revideret, og virksomheden opfylder betingelserne herfor.&lt;/p&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+  <sob:PlaceOfSignatureOfStatement contextRef="c0" xml:lang="da">Tilst</sob:PlaceOfSignatureOfStatement>
+  <sob:DateOfApprovalOfAnnualReport contextRef="c0">2015-02-06</sob:DateOfApprovalOfAnnualReport>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c2" xml:lang="da">Morten Steen Søndergaard</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption contextRef="c0" xml:lang="da">Det er ledelsens opfattelse, at selskabet opfylder kravene om fravalg af revision. Selskabet har fravalgt revision for kommende regnskabsår.</sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption>
+  <arr:AuditorsReportsOtherReports contextRef="c0" xml:lang="da">Revisors erklæring om opstilling af årsregnskab</arr:AuditorsReportsOtherReports>
+  <arr:AddresseeOfAuditorsReportOnOtherReport contextRef="c0" xml:lang="da">Til den daglige ledelse i PlusHouseConcept Holding ApS</arr:AddresseeOfAuditorsReportOnOtherReport>
+  <arr:DescriptionOfOtherEngagement contextRef="c0" xml:lang="da">Vi har opstillet årsregnskabet for PlusHouseConcept Holding ApS for regnskabsåret 9. april – 31. december 2014 på grundlag af selskabets bogføring og øvrige oplysninger, som De har tilvejebragt.
+
+Årsregnskabet omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter.
+
+Vi har udført opgaven i overensstemmelse med ISRS 4410, Opgaver om opstilling af finansielle oplysninger.
+
+Vi har anvendt vores faglige ekspertise til at assistere Dem med at udarbejde og præsentere årsregnskabet i overensstemmelse med årsregnskabsloven. Vi har overholdt relevante bestemmelser i revisorloven og FSR – danske revisorers Etiske regler for revisorer, herunder principper vedrørende integritet, objektivitet, faglig kompetence og fornøden omhu.
+
+Årsregnskabet samt nøjagtigheden og fuldstændigheden af de oplysninger, der er anvendt til opstillingen af årsregnskabet, er Deres ansvar.
+
+Da en opgave om opstilling af finansielle oplysninger ikke er en erklæringsopgave med sikkerhed, er vi ikke forpligtet til at verificere nøjagtigheden eller fuldstændigheden af de oplysninger, De har givet os til brug for at opstille årsregnskabet. Vi udtrykker derfor ingen revisions- eller reviewkonklusion om, hvorvidt årsregnskabet er udarbejdet i overensstemmelse med årsregnskabsloven.</arr:DescriptionOfOtherEngagement>
+  <arr:SignatureOfAuditorsPlace contextRef="c0" xml:lang="da">Horsens</arr:SignatureOfAuditorsPlace>
+  <arr:SignatureOfAuditorsDate contextRef="c0">2015-02-06</arr:SignatureOfAuditorsDate>
+  <cmn:NameAndSurnameOfAuditor contextRef="c1" xml:lang="da">Jesper Sand</cmn:NameAndSurnameOfAuditor>
+  <cmn:DescriptionOfAuditor contextRef="c1" xml:lang="da">Statsautoriseret revisor</cmn:DescriptionOfAuditor>
+  <cmn:NameOfAuditFirm contextRef="c1" xml:lang="da">Revisto Statsautoriseret Revisionspartnerselskab</cmn:NameOfAuditFirm>
+  <mrv:ManagementsReview contextRef="c0" xml:lang="da">&lt;h3 xmlns="http://www.w3.org/1999/xhtml"&gt;Hovedaktiviteter&lt;/h3&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabets formål er at eje aktier og anparter, samt enhver i forbindelse hermed stående virksomhed.&lt;/p&gt;
+&lt;h3 xmlns="http://www.w3.org/1999/xhtml"&gt;Udviklingen i aktiviteter og økonomiske forhold&lt;/h3&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Det er selskabets første regnskabsår gældende fra 9. april 2014 til 31. december 2014.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabets resultatopgørelse for 2014 udviser et underskud, og opfattes af ledelsen som værende utilfredsstillende. Dette skal dog ses i sammenhæng med igangsættelsen af aktiviteter og de dertilhørende investeringer.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt;Selskabets anpartskapital er tabt, og selskabets ledelse er opmærksom på forholdet. Det er ledelsens forventning, at der kan etableres en overskudsgivende virksomhed. Der er afgivet støtteerkløring fra ovenliggende koncernrselskaber til fordel for PlusHouseConcept Holding ApS. På denne baggrund aflægges årsregnskabet efter principperne for fortsat drift.&lt;/p&gt;
+&lt;h3 xmlns="http://www.w3.org/1999/xhtml"&gt;Begivenheder efter regnskabets afslutning&lt;/h3&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Der er efter regnskabsårets afslutning ikke indtruffet begivenheder, som væsentligt vil kunne påvirke selskabets finansielle stilling.&lt;/p&gt;</mrv:ManagementsReview>
+  <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+  <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Det er selskabets første regnskabsår gældende fra 9. april 2014 til 31. december 2014 hvorfor der ikke er sammenligningstal i årsrapporten.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Der aflægges ikke koncernregnskab, da koncernvirksomhederne tilsammen på balancetidspunktet ikke overskrider grænserne jf. ÅRL § 110.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;br/&gt;
+  &lt;span style="font-size:20px"&gt;
+    &lt;strong&gt;Resultatopgørelse&lt;/strong&gt;
+  &lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Resultat af kapitalandele i dattervirksomheder&lt;/strong&gt;
+&lt;br/&gt;I resultatopgørelsen indregnes den forholdsmæssige andel af de enkelte dattervirksomheders resultat efter skat efter fuld eliminering af intern avance/tab.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Andre eksterne omkostninger&lt;/strong&gt;
+&lt;br/&gt;Andre eksterne omkostninger omfatter salgsfremmende omkostninger, administrationsomkostninger og lokaleomkostninger.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Bruttoresultat&lt;/strong&gt;
+&lt;br/&gt;Selskabet har valgt at sammendrage nettoomsætning og andre eksterne omkostninger til bruttoresultat.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;br/&gt;
+  &lt;strong&gt;
+    &lt;span style="font-size:20px"&gt;Balance&lt;/span&gt;
+  &lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Finansielle anlægsaktiver&lt;/strong&gt;
+&lt;br/&gt;Kapitalandele i tilknyttede virksomheder indregnes i balancen til den forholdsmæssige andel af virksomhedernes regnskabsmæssige indre værdi opgjort efter moderselskabets regnskabspraksis med fradrag eller tillæg af urealiserede koncerninterne avancer og tab.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Nettoopskrivning af kapitalandele i tilknyttede virksomheder overføres under egenkapitalen til reserve for nettoopskrivning efter den indre værdis metode i det omfang, den regnskabsmæssige værdi overstiger anskaffelsesværdien.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Virksomheder med negativ egenkapital måles til kr. 0, idet den til den negative værdi svarende forholdsmæssige andel modregnes i eventuelle tilgodehavender, og beløb herudover indregnes under posten hensatte forpligtelser, såfremt der eksisterer kautioner m.v. over for dattervirksomhederne.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Gældsforpligtelser&lt;/strong&gt;
+&lt;br/&gt;Gæld i øvrigt er opgjort til amortiseret kostpris, hvilket for korte og uforrentede eller variabelt forrentede gældsforpligtelser svarer til nominel værdi.&lt;/p&gt;</fsa:DisclosureOfAccountingPolicies>
+  <fsa:GrossResult contextRef="c0" decimals="0" unitRef="u0">-5000</fsa:GrossResult>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">-5000</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:IncomeFromInvestmentsInGroupEnterprises contextRef="c0" decimals="0" unitRef="u0">-146483</fsa:IncomeFromInvestmentsInGroupEnterprises>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">-151483</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:TaxExpense contextRef="c0" decimals="0" unitRef="u0">-1225</fsa:TaxExpense>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-150258</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c3" decimals="0" unitRef="u0">-150258</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-150258</fsa:ProfitLoss>
+  <fsa:LongtermInvestmentsInGroupEnterprises contextRef="c4" decimals="0" unitRef="u0">0</fsa:LongtermInvestmentsInGroupEnterprises>
+  <fsa:LongtermInvestmentsAndReceivables contextRef="c4" decimals="0" unitRef="u0">0</fsa:LongtermInvestmentsAndReceivables>
+  <fsa:NoncurrentAssets contextRef="c4" decimals="0" unitRef="u0">0</fsa:NoncurrentAssets>
+  <fsa:CurrentDeferredTaxAssets contextRef="c4" decimals="0" unitRef="u0">1225</fsa:CurrentDeferredTaxAssets>
+  <fsa:ShorttermReceivables contextRef="c4" decimals="0" unitRef="u0">1225</fsa:ShorttermReceivables>
+  <fsa:CurrentAssets contextRef="c4" decimals="0" unitRef="u0">1225</fsa:CurrentAssets>
+  <fsa:Assets contextRef="c4" decimals="0" unitRef="u0">1225</fsa:Assets>
+  <fsa:ContributedCapital contextRef="c4" decimals="0" unitRef="u0">125000</fsa:ContributedCapital>
+  <fsa:RetainedEarnings contextRef="c4" decimals="0" unitRef="u0">-150258</fsa:RetainedEarnings>
+  <fsa:Equity contextRef="c4" decimals="0" unitRef="u0">-25258</fsa:Equity>
+  <fsa:ProvisionsForInvestmentsInGroupEnterprises contextRef="c4" decimals="0" unitRef="u0">21483</fsa:ProvisionsForInvestmentsInGroupEnterprises>
+  <fsa:Provisions contextRef="c4" decimals="0" unitRef="u0">21483</fsa:Provisions>
+  <fsa:OtherShorttermPayables contextRef="c4" decimals="0" unitRef="u0">5000</fsa:OtherShorttermPayables>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c4" decimals="0" unitRef="u0">5000</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="c4" decimals="0" unitRef="u0">5000</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity contextRef="c4" decimals="0" unitRef="u0">1225</fsa:LiabilitiesAndEquity>
+  <fsa:DisclosureOfInvestments contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-bottom:0pt; border-collapse:collapse; border-left:0pt; border-right:0pt; border-top:0pt; width:650px"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border-bottom:0pt; border-left:0pt; border-right:0pt; border-top:0pt; width:70%"&gt; &lt;/th&gt;
+      &lt;th style="border-bottom:0pt; border-left:0pt; border-right:0pt; border-top:0pt; font-weight:bold; text-align:right; width:15%"&gt;Kapitalandele i tilknyttede virksomheder&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; padding-bottom:10px; text-align:right"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kostpris primo&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tilgang&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;125.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Afgang&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight:bold"&gt;Kostpris ultimo&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;125.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="text-align:right"&gt; &lt;/td&gt;
+      &lt;td style="text-align:right"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nettoopskrivninger primo&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Andel i årets resultat jf. note&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;-146.483&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Udloddet udbytte&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Overført til datterselskabshenlæggelser&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;21.483&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight:bold"&gt;Nettoopskrivninger ultimo&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;-125.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="text-align:right"&gt; &lt;/td&gt;
+      &lt;td style="text-align:right"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight:bold"&gt;Regnskabsmæssig værdi ultimo&lt;/td&gt;
+      &lt;td style="border-bottom:1px solid; font-weight:bold; text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td/&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td/&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt;Kapitalandele i tilknyttede virksomheder omfatter:&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-bottom:0pt; border-collapse:collapse; border-left:0pt; border-right:0pt; border-top:0pt; width:100%"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border-bottom:0pt; border-left:0pt; border-right:0pt; border-top:0pt; text-align:left; width:55%"&gt;Navn, retsform og hjemsted&lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; font-weight:bold; text-align:right; width:15%"&gt;Ejerandel&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PlusHouseConcept ApS, 8700 Horsens&lt;/td&gt;
+      &lt;td style="border-bottom:1px solid; text-align:right"&gt;100 %&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfInvestments>
+  <fsa:DisclosureOfEquity contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-collapse:collapse; border:0pt none; width:650px"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border:0pt none; width:30%"&gt; &lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Virksomhedskapital&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Reserve for nettoopskrivning efter indre værdis metode&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Overført resultat&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Foreslået udbytte&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;I alt&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th style="border:0pt none; width:30%"&gt; &lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Saldo primo&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;125.000&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;125.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Udloddet ordinært udbytte&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Årets resultat&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;-150.258&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;-150.258&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight:bold"&gt;Egenkapital ultimo&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;125.000&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;-150.528&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;-25.258&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfEquity>
+  <fsa:DisclosureOfUncertaintiesRelatingToGoingConcern contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Oplysninger fra ledelsen&lt;/strong&gt;
+&lt;br/&gt;Selskabets anpartskapital er tabt, og selskabets ledelse er opmærksom på forholdet. Det er ledelsens forventning, at der kan etableres en overskudsgivende virksomhed. Der er afgivet støtteerkløring fra ovenliggende koncernrselskaber til fordel for PlusHouseConcept ApS og PlusHouseConcept Holding ApS. På denne baggrund aflægges årsregnskabet efter principperne for fortsat drift.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;</fsa:DisclosureOfUncertaintiesRelatingToGoingConcern>
+  <fsa:DisclosureOfContingentLiabilities contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Koncernens danske selskaber hæfter solidarisk for skat af koncernens sambeskattede indkomst m.v. Koncernens danske selskaber hæfter endvidere solidarisk for danske kildeskatter i form af udbytteskat, royaltyskat og renteskat. Eventuelle senere korrektioner til selskabsskatter og kildeskatter kan medføre at selskabets hæftelse udgør et større beløb.&lt;/p&gt;</fsa:DisclosureOfContingentLiabilities>
+  <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Andre erklæringer uden sikkerhed</cmn:TypeOfAuditorAssistance>
+  <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">Jesper Sand</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Solhøjsvej 16</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">8600 Silkeborg</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>

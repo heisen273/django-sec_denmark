@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Created by Magnus:Årsafslutning--><xbrli:xbrl xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:entry="http://xbrl.dcca.dk/entryBalanceSheetAccountFormIncomeStatementByNature" xmlns:eogs="http://xbrl.dcca.dk/eogs" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:tax="http://xbrl.dcca.dk/tax" xmlns:tch="http://xbrl.dcca.dk/tch" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink"><link:schemaRef xlink:type="simple" xlink:href="http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd"/><xbrli:context id="ID_0"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">30814614</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_2"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">30814614</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension"><cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier></xbrldi:typedMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_1"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">30814614</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_8"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">30814614</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_6"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">30814614</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_7"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">30814614</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension"><cmn:memberOfBoardIdentifier/></xbrldi:typedMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_10"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">30814614</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_9"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">30814614</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_4"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">30814614</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_5"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">30814614</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_3"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">30814614</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_11"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">30814614</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2014-09-30</xbrli:instant></xbrli:period></xbrli:context><xbrli:unit id="percent"><xbrli:measure>xbrli:pure</xbrli:measure></xbrli:unit><xbrli:unit id="decimal"><xbrli:measure>xbrli:pure</xbrli:measure></xbrli:unit><xbrli:unit id="DKK"><xbrli:measure>iso4217:DKK</xbrli:measure></xbrli:unit><xbrli:unit id="share"><xbrli:measure>xbrli:shares</xbrli:measure></xbrli:unit><arr:AddresseeOfAuditorsReportOnAuditedFinancialStatements contextRef="ID_1">Til kapitalejerne i Bo Expert ApS
+ </arr:AddresseeOfAuditorsReportOnAuditedFinancialStatements><arr:AuditorsReportOnFinancialStatements contextRef="ID_1">Påtegning på årsregnskabet</arr:AuditorsReportOnFinancialStatements><arr:IdentificationOfAuditedFinancialStatements contextRef="ID_1">Vi har revideret årsregnskabet for Bo Expert ApS for regnskabsåret 1. oktober 2013 - 30. september 2014, der omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter. Årsregnskabet udarbejdes efter årsregnskabsloven.
+ </arr:IdentificationOfAuditedFinancialStatements><arr:InformationOnSignatureOfAuditors contextRef="ID_1"> 	 
+København, den 22. januar 2015	 
+ 	 
+Chr. Mortensen Revsionsfirma	 
+Statsautoriserede Revisionsinteressentskab	 
+ 	 
+ 	 
+ 	 
+Bent Kofoed	 
+Statsautoriseret revisor	 
+</arr:InformationOnSignatureOfAuditors><arr:OpinionOnAuditedFinancialStatements contextRef="ID_1">Konklusion
+Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30. september 2014  samt af resultatet af selskabets aktiviteter for regnskabsåret 1. oktober 2013 - 30. september 2014 i overensstemmelse med årsregnskabsloven. 
+ </arr:OpinionOnAuditedFinancialStatements><arr:SignatureOfAuditorsDate contextRef="ID_1">2015-01-22</arr:SignatureOfAuditorsDate><arr:SignatureOfAuditorsPlace contextRef="ID_1">København</arr:SignatureOfAuditorsPlace><arr:StatementOfAuditorsResponsibilityForAuditAndAuditPerformed contextRef="ID_1">Vores ansvar er at udtrykke en konklusion om årsregnskabet på grundlag af vores revision. Vi har udført revisionen i overensstemmelse med internationale standarder om revision og yderligere krav ifølge dansk revisorlovgivning. Dette kræver, at vi overholder etiske krav samt planlægger og udfører revisionen for at opnå høj grad af sikkerhed for, om årsregnskabet er uden væsentlig fejlinformation.
+ 
+En revision omfatter udførelse af revisionshandlinger for at opnå revisionsbevis for beløb og oplysninger i årsregnskabet. De valgte revisionshandlinger afhænger af revisors vurdering, herunder vurdering af risici for væsentlig fejlinformation i årsregnskabet, uanset om denne skyldes besvigelser eller fejl. Ved risikovurderingen overvejer revisor intern kontrol, der er relevant for virksomhedens udarbejdelse af et årsregnskab, der giver et retvisende billede. Formålet hermed er at udforme revisionshandlinger, der er passende efter omstændighederne, men ikke at udtrykke en konklusion om effektiviteten af virksomhedens interne kontrol. En revision omfatter endvidere vurdering af, om ledelsens valg af regnskabspraksis er passende, om ledelsens regnskabsmæssige skøn er rimelige samt den samlede præsentation af årsregnskabet.
+ , Det er vores opfattelse, at det opnåede revisionsbevis er tilstrækkeligt og egnet som grundlag for vores konklusion.
+ 
+Revisionen har ikke givet anledning til forbehold.
+ , Revisors ansvar
+Vores ansvar er at udtrykke en konklusion om årsregnskabet på grundlag af vores revision. Vi har udført revisionen i overensstemmelse med internationale standarder om revision og yderligere krav ifølge dansk revisorlovgivning. Dette kræver, at vi overholder etiske krav samt planlægger og udfører revisionen for at opnå høj grad af sikkerhed for, om årsregnskabet er uden væsentlig fejlinformation.
+ 
+En revision omfatter udførelse af revisionshandlinger for at opnå revisionsbevis for beløb og oplysninger i årsregnskabet. De valgte revisionshandlinger afhænger af revisors vurdering, herunder vurdering af risici for væsentlig fejlinformation i årsregnskabet, uanset om denne skyldes besvigelser eller fejl. Ved risikovurderingen overvejer revisor intern kontrol, der er relevant for virksomhedens udarbejdelse af et årsregnskab, der giver et retvisende billede. Formålet hermed er at udforme revisionshandlinger, der er passende efter omstændighederne, men ikke at udtrykke en konklusion om effektiviteten af virksomhedens interne kontrol. En revision omfatter endvidere vurdering af, om ledelsens valg af regnskabspraksis er passende, om ledelsens regnskabsmæssige skøn er rimelige samt den samlede præsentation af årsregnskabet.
+ 
+Det er vores opfattelse, at det opnåede revisionsbevis er tilstrækkeligt og egnet som grundlag for vores konklusion.
+ 
+Revisionen har ikke givet anledning til forbehold.
+ </arr:StatementOfAuditorsResponsibilityForAuditAndAuditPerformed><arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatements contextRef="ID_1">Ledelsens ansvar for årsregnskabet
+Ledelsen har ansvaret for udarbejdelsen af et årsregnskab, der giver et retvisende billede i overensstemmelse med årsregnskabsloven. Ledelsen har endvidere ansvaret for den interne kontrol, som ledelsen anser nødvendig for at udarbejde et årsregnskab uden væsentlig fejlinformation, uanset om denne skyldes besvigelser eller fejl. 
+ </arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatements><arr:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements contextRef="ID_1">Udtalelse om ledelsesberetningen, Vi har i henhold til årsregnskabsloven gennemlæst ledelsesberetningen. Vi har ikke foretaget yderligere handlinger i tillæg til den udførte revision af årsregnskabet. Det er på denne baggrund vores opfattelse, at oplysningerne i ledelsesberetningen er i overensstemmelse med årsregnskabet. 
+ </arr:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements><cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="ID_2">Christen Kold</cmn:NameAndSurnameOfMemberOfExecutiveBoard><cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="ID_7"> 
+Direktion
+ 
+ 
+ 
+Christen Kold
+	 
+ 
+ 
+ 
+ 
+ 
+	 
+ 
+ 
+ 
+ 
+ 
+
+Direktør	 	 
+ 	 	 
+</cmn:NameAndSurnameOfMemberOfExecutiveBoard><cmn:TitleOfMemberOfExecutiveBoard contextRef="ID_2">Direktør</cmn:TitleOfMemberOfExecutiveBoard><cmn:TypeOfAuditorAssistance contextRef="ID_1">Revisionspåtegning</cmn:TypeOfAuditorAssistance><fsa:Assets contextRef="ID_11" unitRef="DKK" decimals="0">0</fsa:Assets><fsa:ClassOfReportingEntity contextRef="ID_9">Regnskabsklasse B</fsa:ClassOfReportingEntity><fsa:DisclosureOfAccountingPolicies contextRef="ID_9"> 
+ 
+Regnskabsklasse
+Årsrapporten for Bo Expert ApS for 2013/14 er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for  virksomheder i regnskabsklasse B.
+ 
+Den anvendte regnskabspraksis er uændret i forhold til tidligere år.
+ 
+Rapporteringsvaluta
+Årsrapporten er aflagt i danske kroner.
+ 
+Omregning af fremmed valuta
+Transaktioner i fremmed valuta omregnes til danske kroner efter transaktionsdagens kurs. Monetære aktiver og forpligtelser i fremmed valuta omregnes til danske kroner efter balancedagens valutakurser. Realiserede og urealiserede valutakursgevinster og -tab indgår i resultatopgørelsen under finansielle poster.
+ 
+Generelt
+ 
+Generelt om indregning og måling
+Indtægter indregnes i resultatopgørelsen i takt med, at de indtjenes, herunder indregnes værdireguleringer af finansielle aktiver og forpligtelser, der måles til dagsværdi eller amortiseret kostpris. Endvidere indregnes i resultatopgørelsen alle omkostninger, der er afholdt for at opnå årets indtjening, herunder afskrivninger, nedskrivninger og hensatte forpligtelser samt tilbageførsler som følge af ændrede regnskabsmæssige skøn af beløb, der tidligere har været indregnet i resultatopgørelsen. 
+ 
+Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt.
+ 
+Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt. 
+ 
+Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver og forpligtelser som beskrevet for hver enkelt regnskabspost nedenfor. 
+ 
+Visse finansielle aktiver og forpligtelser måles til amortiseret kostpris, hvorved der indregnes en konstant effektiv rente over løbetiden. Amortiseret kostpris opgøres som oprindelig kostpris med fradrag af afdrag og tillæg/fradrag af den akkumulerede afskrivning af forskellen mellem kostprisen og det nominelle beløb. Herved fordeles kurstab og -gevinst over løbetiden. 
+ 
+Ved indregning og måling tages hensyn til forudsigelige tab og risici, der fremkommer, inden årsrapporten aflægges, og som be- eller afkræfter forhold, der eksisterer på balancedagen.
+ 
+Resultatopgørelsen
+ 
+Nettoomsætning
+Indtægter ved salg af varer indregnes i resultatopgørelsen på tidspunktet for levering og risikoens overgang, såfremt indtægten kan opgøres pålideligt. Omsætningen opgøres efter fradrag af moms, afgifter og rabatter.
+ 
+Indtægter ved levering af serviceydelser indregnes som omsætning i takt med leveringen af ydelsen.
+ 
+Andre eksterne omkostninger
+Andre eksterne omkostninger omfatter omkostninger vedrørende salg og administration.
+ 
+Af- og nedskrivninger på immaterielle og materielle anlægsaktiver
+Af- og nedskrivninger på immaterielle og materielle anlægsaktiver er foretaget ud fra en løbende vurdering af aktivernes brugstid i virksomheden. Anlægsaktiverne afskrives lineært på grundlag af kostprisen, baseret på følgende vurdering af brugstider og restværdier:
+	
+ 	Brugstid	Restværdi
+Andre anlæg, driftsmateriel og inventar	3-10 år	0%
+ 	 	 
+Fortjeneste eller tab ved afhændelse af immaterielle og materielle anlægsaktiver opgøres som forskellen mellem salgspris med fradrag af salgsomkostninger og den regnskabsmæssige værdi på salgstidspunktet, og indregnes i resultatopgørelsen under andre driftsindtægter eller -omkostninger.
+ 
+Finansielle indtægter og omkostninger
+Finansielle indtægter og omkostninger indregnes i resultatopgørelsen med de beløb, der vedrører regnskabsåret. Finansielle indtægter og omkostninger indeholder renteindtægter og -omkostninger, realiserede og urealiserede kursgevinster og -tab vedrørende værdipapirer, gæld og transaktioner i fremmed valuta, modtaget udbytte fra andre kapitalandele, amortisering af finansielle aktiver og forpligtelser samt tillæg og godtgørelser under acontoskatteordningen.
+ 
+Skat af årets resultat
+Skat af årets resultat omfatter aktuel skat af årets forventede skattepligtige indkomst og årets regulering af udskudt skat med fradrag af den del af årets skat, der vedrører egenkapitalbevægelser. Aktuel og udskudt skat vedrørende egenkapitalbevægelser indregnes direkte i egenkapitalen.
+ 
+Balancen
+ 
+Materielle anlægsaktiver
+Materielle anlægsaktiver måles til kostpris med tillæg af eventuelle opskrivninger og med fradrag af akkumulerede af- og nedskrivninger. Kostpris omfatter anskaffelsesprisen og omkostninger direkte tilknyttet anskaffelsen indtil det tidspunkt, hvor aktivet er klart til at blive taget i brug.
+ 
+Varebeholdninger
+Handelsvarer måles til kostpris, hvilket omfatter anskaffelsespris med tillæg af hjemtagelsesomkostninger.
+ 
+Tilgodehavender
+Tilgodehavender måles til amortiseret kostpris, der almindeligvis svarer til nominel værdi. Værdien reduceres med nedskrivninger til imødegåelse af forventede tab.
+ 
+Periodeafgrænsningsposter, aktiver
+Periodeafgrænsningsposter indregnet under aktiver omfatter forudbetalte omkostninger vedrørende efterfølgende regnskabsår.
+ 
+Andre værdipapirer og kapitalandele, indregnet under omsætningsaktiver
+Andre værdipapirer og kapitalandele der er børsnoteret måles til kursværdien på balancedagen. Andre værdipapirer måles til anslået dagsværdi.
+ 
+Likvider
+Likvider omfatter likvide beholdninger og kortfristede værdipapirer med en løbetid under 3 måneder, og som uden hindring kan omsættes til likvide beholdninger, og hvorpå der kun er ubetydelige risici for værdiændringer.
+ 
+Aktuelle skatteforpligtelser
+Aktuelle skatteforpligtelser og tilgodehavende aktuel skat indregnes i balancen som beregnet skat af årets forventede skattepligtige indkomst, reguleret for skat af tidligere års skattepligtige indkomster samt betalte acontoskatter.
+ 
+Udbytte for regnskabsåret
+Foreslået udbytte for regnskabsåret indregnes som en gældsforpligtelse.
+ </fsa:DisclosureOfAccountingPolicies><fsa:DisclosureOfContributedCapital contextRef="ID_5">4. Virksomhedskapital
+Saldo primo	125.000	 	125.000
+Saldo ultimo	125.000	 	125.000
+ 	 	 	 
+Selskabskapitalen har været uændret de seneste 5 år.
+ 
+</fsa:DisclosureOfContributedCapital><fsa:DisclosureOfEmployeeBenefitsExpense contextRef="ID_3">1. Personaleomkostninger
+Lønninger	555.239	 	586.817
+Regulering feriepengeforpligtelse	10.000	 	0
+Omkostninger til social sikring	7.371	 	6.727
+Andre personaleomkostninger	4.497	 	394
+ 	577.107	 	593.938
+ 	 	 	 
+</fsa:DisclosureOfEmployeeBenefitsExpense><fsa:DisclosureOfEquity contextRef="ID_5">5. Overført resultat
+Saldo primo	488.555	 	575.582
+Årets tilgang	124.894	 	-87.027
+Saldo ultimo	613.449	 	488.555
+ 	 	 	 
+</fsa:DisclosureOfEquity><fsa:DisclosureOfPropertyPlantAndEquipment contextRef="ID_4">3. Andre anlæg, driftsmateriel og inventar
+Kostpris primo	202.777	 	202.777
+Kostpris ultimo	202.777	 	202.777
+ 	 	 	 
+Af- og nedskrivninger primo	-90.548	 	-49.993
+Årets afskrivninger	-39.896	 	-40.555
+Af- og nedskrivninger ultimo	-130.444	 	-90.548
+ 	 	 	 
+Regnskabsmæssig værdi ultimo	72.333	 	112.229
+ 	 	 	 
+</fsa:DisclosureOfPropertyPlantAndEquipment><fsa:DisclosureOfTaxExpenseOnOrdinaryActivities contextRef="ID_3">2. Skat af årets resultat
+Selskabsskat	57.918	 	0
+Udskudt skat	15.900	 	-23.550
+ 	73.818	 	-23.550
+ 	 	 	 
+</fsa:DisclosureOfTaxExpenseOnOrdinaryActivities><fsa:Equity contextRef="ID_11" unitRef="DKK" decimals="0">0</fsa:Equity><fsa:LiabilitiesAndEquity contextRef="ID_11" unitRef="DKK" decimals="0">0</fsa:LiabilitiesAndEquity><fsa:ProfitLoss contextRef="ID_10" unitRef="DKK" decimals="0">0</fsa:ProfitLoss><gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="ID_0">1304, København K</gsd:AddressOfSubmittingEnterprisePostcodeAndTown><gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="ID_0">Adelgade 15</gsd:AddressOfSubmittingEnterpriseStreetAndNumber><gsd:DateOfFoundationOfReportingEntity contextRef="ID_0">2007-08-27</gsd:DateOfFoundationOfReportingEntity><gsd:DateOfGeneralMeeting contextRef="ID_0">2015-02-09</gsd:DateOfGeneralMeeting><gsd:IdentificationNumberCvrOfReportingEntity contextRef="ID_0">30814614</gsd:IdentificationNumberCvrOfReportingEntity><gsd:IdentificationNumberCvrOfSubmittingEnterprise contextRef="ID_0">39463113</gsd:IdentificationNumberCvrOfSubmittingEnterprise><gsd:InformationOnTypeOfSubmittedReport contextRef="ID_0">Årsrapport</gsd:InformationOnTypeOfSubmittedReport><gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="ID_0">Christen Kold</gsd:NameAndSurnameOfChairmanOfGeneralMeeting><gsd:NameOfReportingEntity contextRef="ID_0">Bo Expert ApS</gsd:NameOfReportingEntity><gsd:NameOfSubmittingEnterprise contextRef="ID_0">Chr. Mortensen Revsionsfirma, Statsautoriserede Revisionsinteressentskab</gsd:NameOfSubmittingEnterprise><gsd:RegisteredOfficeOfReportingEntity contextRef="ID_0">101, København</gsd:RegisteredOfficeOfReportingEntity><gsd:ReportingPeriodEndDate contextRef="ID_0">2014-09-30</gsd:ReportingPeriodEndDate><gsd:ReportingPeriodStartDate contextRef="ID_0">2013-10-01</gsd:ReportingPeriodStartDate><mrv:DescriptionOfPrimaryActivitiesOfEntity contextRef="ID_8">Selskabets væsentligste aktiviteter
+Selskabets væsentligste aktiviteter består i handel med gamle møbler og køb og rydning af dødsboer.
+ </mrv:DescriptionOfPrimaryActivitiesOfEntity><mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod contextRef="ID_8">Begivenheder efter regnskabsårets afslutning
+Der er efter regnskabsårets afslutning ikke indtruffet begivenheder af væsentlig betydning for selskabets finansielle stilling.
+ </mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod><mrv:ManagementsReview contextRef="ID_8"> 
+Selskabets væsentligste aktiviteter
+Selskabets væsentligste aktiviteter består i handel med gamle møbler og køb og rydning af dødsboer.
+ 
+Udviklingen i aktiviteter og økonomiske forhold
+Selskabets resultatopgørelse for regnskabsåret 1. oktober 2013 - 30. september 2014 udviser et resultat på kr. 173.194, og selskabets balance pr. 30. september 2014 udviser en balancesum på kr. 999.274, og en egenkapital på kr. 738.449.
+ 
+Begivenheder efter regnskabsårets afslutning
+Der er efter regnskabsårets afslutning ikke indtruffet begivenheder af væsentlig betydning for selskabets finansielle stilling.
+ </mrv:ManagementsReview><sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement contextRef="ID_6">Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.
+ </sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement><sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults contextRef="ID_6">Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30. september 2014 samt af resultatet af selskabets aktiviteter for regnskabsåret 1. oktober 2013 - 30. september 2014.
+ </sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults><sob:IdentificationOfApprovedAnnualReport contextRef="ID_6"> 
+Ledelsen har dags dato behandlet og godkendt årsrapporten for regnskabsåret 1. oktober 2013 - 30. september 2014 for Bo Expert ApS.
+ </sob:IdentificationOfApprovedAnnualReport><sob:ManagementsStatementAboutManagementsReview contextRef="ID_6">Ledelsesberetningen indeholder efter vores opfattelse en retvisende redegørelse for de forhold, beretningen omhandler.
+ </sob:ManagementsStatementAboutManagementsReview><sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting contextRef="ID_6">Årsrapporten indstilles til generalforsamlingens godkendelse.
+ </sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting><sob:StatementByExecutiveAndSupervisoryBoards contextRef="ID_6">
+ 
+Ledelsen har dags dato behandlet og godkendt årsrapporten for regnskabsåret 1. oktober 2013 - 30. september 2014 for Bo Expert ApS.
+ 
+Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.
+ 
+Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30. september 2014 samt af resultatet af selskabets aktiviteter for regnskabsåret 1. oktober 2013 - 30. september 2014.
+ 
+Ledelsesberetningen indeholder efter vores opfattelse en retvisende redegørelse for de forhold, beretningen omhandler.
+ 
+Årsrapporten indstilles til generalforsamlingens godkendelse.
+ 
+ 
+Valby, den 22. januar 2015
+ 
+Direktion
+ 
+ 
+ 
+Christen Kold
+	 
+ 
+ 
+ 
+ 
+ 
+	 
+ 
+ 
+ 
+ 
+ 
+
+Direktør	 	 
+ 	 	 
+</sob:StatementByExecutiveAndSupervisoryBoards></xbrli:xbrl>

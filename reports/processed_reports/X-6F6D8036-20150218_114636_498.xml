@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20140701/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20140701.xsd" xlink:type="simple"/>
+  <xbrli:context id="c0">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">31867606</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-01</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">31867606</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-01</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+        <cmn:auditorIdentifier>1</cmn:auditorIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">31867606</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-01</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">31867606</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-01</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">31867606</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-10-01</xbrli:startDate>
+      <xbrli:endDate>2013-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">31867606</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-01</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">31867606</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-10-01</xbrli:startDate>
+      <xbrli:endDate>2013-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">31867606</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2014-09-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">31867606</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-09-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u0">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:DateOfGeneralMeeting contextRef="c0">2015-02-16</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Pernille Andreassen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">FIRE OF LOVE HOLDING ApS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Studiestræde</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">3</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">1455</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">København K</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">31867606</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:ReportingPeriodStartDate contextRef="c0">2013-10-01</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate contextRef="c0">2014-09-30</gsd:ReportingPeriodEndDate>
+  <gsd:NameOfFinancialInstitution contextRef="c0" xml:lang="da">Danske Bank</gsd:NameOfFinancialInstitution>
+  <gsd:AddressOfFinancialDistrictName contextRef="c0" xml:lang="da">1850 Frederiksberg C</gsd:AddressOfFinancialDistrictName>
+  <cmn:NameOfAuditFirm contextRef="c1" xml:lang="da">MARQUARD REVISION ApS</cmn:NameOfAuditFirm>
+  <gsd:AddressOfAuditorStreetName contextRef="c1" xml:lang="da">Julius Thomsens Gade</gsd:AddressOfAuditorStreetName>
+  <gsd:AddressOfAuditorStreetBuildingIdentifier contextRef="c1" xml:lang="da">12</gsd:AddressOfAuditorStreetBuildingIdentifier>
+  <gsd:AddressOfAuditorPostCodeIdentifier contextRef="c1" xml:lang="da">1632</gsd:AddressOfAuditorPostCodeIdentifier>
+  <gsd:AddressOfAuditorDistrictName contextRef="c1" xml:lang="da">København V</gsd:AddressOfAuditorDistrictName>
+  <gsd:AddressOfAuditorCountryIdentificationCode contextRef="c1" xml:lang="da">DK</gsd:AddressOfAuditorCountryIdentificationCode>
+  <gsd:AddressOfAuditorCountry contextRef="c1" xml:lang="da">Danmark</gsd:AddressOfAuditorCountry>
+  <cmn:IdentificationNumberCvrOfAuditFirm contextRef="c1" xml:lang="da">34526117</cmn:IdentificationNumberCvrOfAuditFirm>
+  <cmn:IdentificationNumberPnrOfAuditFirm contextRef="c1" xml:lang="da">1001721667</cmn:IdentificationNumberPnrOfAuditFirm>
+  <sob:StatementByExecutiveAndSupervisoryBoards contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:1.5pt;"&gt;Direktionen har dags dato behandlet og godkendt årsrapporten for perioden 1. oktober 2013 - 30. september 2014 for Fire of Love Holding ApS.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:1.5pt;"&gt;Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:1.5pt;"&gt;Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30. september 2014 samt af resultatet af selskabets aktiviteter for perioden 1. oktober 2013 - 30. september 2014.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:1.5pt;"&gt;Årsrapporten indstilles til generalforsamlingens godkendelse.&lt;/p&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+  <sob:PlaceOfSignatureOfStatement contextRef="c0" xml:lang="da">København</sob:PlaceOfSignatureOfStatement>
+  <sob:DateOfApprovalOfAnnualReport contextRef="c0">2015-02-16</sob:DateOfApprovalOfAnnualReport>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c2" xml:lang="da">Thomas Kjøng Skovbo Andreassen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <cmn:TitleOfMemberOfExecutiveBoard contextRef="c2" xml:lang="da">Direktør</cmn:TitleOfMemberOfExecutiveBoard>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c3" xml:lang="da">Pernille Andreassen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <cmn:TitleOfMemberOfExecutiveBoard contextRef="c3" xml:lang="da">Direktør</cmn:TitleOfMemberOfExecutiveBoard>
+  <sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption contextRef="c0" xml:lang="da">Revision af årsregnskab
+Selskabets ledelse erklærer, at selskabet opfylder bestemmelserne i årsregnskabslovens § 135 og har derved mulighed for at aflægge et ikke revideret årsregnskab. Selskabets ledelse indstiller til generalforsamlingens godkendelse, at selskabets årsregnskab fremover ikke revideres.
+
+Dirigentens noteringer
+Generalforsamlingen har dags dato behandlet og godkendt ledelsens forslag om at undlade revision.</sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption>
+  <arr:IndependentAuditorsReportsExtendedReview contextRef="c0" xml:lang="da">Den uafhængige revisors erklæringer</arr:IndependentAuditorsReportsExtendedReview>
+  <arr:AddresseeOfAuditorsReportOnExtendedReviewOfFinancialStatements contextRef="c0" xml:lang="da">Til kapitalejerne i FIRE OF LOVE HOLDING ApS</arr:AddresseeOfAuditorsReportOnExtendedReviewOfFinancialStatements>
+  <arr:AuditorsReportOnExtendedReviewOfFinancialStatements contextRef="c0" xml:lang="da">Erklæring om udvidet gennemgang af årsregnskabet</arr:AuditorsReportOnExtendedReviewOfFinancialStatements>
+  <arr:IdentificationOfFinancialStatementsAndDescriptionOfFinancialReportingFrameworkAppliedInPreparationOfFinancialStatementsExtendedReview contextRef="c0" xml:lang="da">Vi har udført udvidet gennemgang af årsregnskabet for FIRE OF LOVE HOLDING ApS for regnskabsåret 1. oktober 2013 - 30. september 2014. Årsregnskabet, der omfatter anvendt regnskabspraksis, resultatopgørelse, balance, egenkapitalopgørelse og noter, udarbejdes efter årsregnskabsloven.</arr:IdentificationOfFinancialStatementsAndDescriptionOfFinancialReportingFrameworkAppliedInPreparationOfFinancialStatementsExtendedReview>
+  <arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatementsExtendedReview contextRef="c0" xml:lang="da">Ledelsen har ansvaret for udarbejdelsen af et årsregnskab, der giver et retvisende billede i overensstemmelse med årsregnskabsloven. Ledelsen har endvidere ansvaret for den interne kontrol, som ledelsen anser nødvendig for at udarbejde et årsregnskab uden væsentlig fejlinformation, uanset om denne skyldes besvigelser eller fejl.</arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatementsExtendedReview>
+  <arr:StatementOfAuditorsResponsibilityExtendedReview contextRef="c0" xml:lang="da">Vores ansvar er at udtrykke en konklusion om årsregnskabet. Vi har udført vores udvidede gennemgang i overensstemmelse med Erhvervsstyrelsens erklæringsstandard for små virksomheder og FSR - danske revisorers standard om udvidet gennemgang af årsregnskaber, der udarbejdes efter årsregnskabsloven. 
+
+Dette kræver, at vi overholder revisorloven og FSR - danske revisorers etiske regler samt planlægger og udfører handlinger med henblik på at opnå begrænset sikkerhed for vores konklusion om årsregnskabet og derudover udfører specifikt krævede supplerende handlinger med henblik på at opnå yderligere sikkerhed for vores konklusion. 
+
+En udvidet gennemgang omfatter handlinger, der primært består af forespørgsler til ledelsen og, hvor det er hensigtsmæssigt, andre i virksomheden, analytiske handlinger og de specifikt krævede supplerende handlinger samt vurdering af det opnåede bevis.
+
+Omfanget af handlinger, der udføres ved en udvidet gennemgang, er mindre end ved en revision, og vi udtrykker derfor ingen revisionskonklusion om årsregnskabet.
+
+Den udvidede gennemgang har ikke givet anledning til forbehold.</arr:StatementOfAuditorsResponsibilityExtendedReview>
+  <arr:OpinionOnFinancialStatementsExtendedReview contextRef="c0" xml:lang="da">Baseret på det udførte arbejde er det vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30. september 2014 samt af resultatet af selskabets aktiviteter for regnskabsåret 1. oktober 2013 - 30. september 2014 i overensstemmelse med årsregnskabsloven.</arr:OpinionOnFinancialStatementsExtendedReview>
+  <arr:SupplementaryInformationOnMattersPertainingToFinancialStatementExtendedReview contextRef="c0" xml:lang="da">Uden at modificere vores konklusion gør vi opmærksom på, at der er betydelig usikkerhed om virksomhedens evne til at fortsætte driften. Vi henviser til note 1 i regnskabet hvoraf fremgår at kapitalen er tabt og at virksomhedens gældsforpligtelser pr. 30. september 2014 overstiger aktiverne, men at det er ledelsens vurdering, at den økonomiske situation vil vende, hvorfor årsregnskabet i overensstemmelse hermed er udarbejdet under forudsætning af virksomhedens fortsatte drift.</arr:SupplementaryInformationOnMattersPertainingToFinancialStatementExtendedReview>
+  <arr:AuditorsReportsAccordingToOtherLegislationAndRegulationExtendedReview contextRef="c0" xml:lang="da">Erklæringer i henhold til anden lovgivning og øvrig regulering</arr:AuditorsReportsAccordingToOtherLegislationAndRegulationExtendedReview>
+  <arr:StatementOnManagementsReviewAuditorsReportOnExtendedReviewFinancialStatementsExtendedReview contextRef="c0" xml:lang="da">Vi har i henhold til årsregnskabsloven gennemlæst ledelsesberetningen. Vi har ikke foretaget yderligere handlinger i tillæg til den udførte udvidede gennemgang af årsregnskabet. Det er på denne baggrund vores opfattelse, at oplysningerne i ledelsesberetningen er i overensstemmelse med årsregnskabet.</arr:StatementOnManagementsReviewAuditorsReportOnExtendedReviewFinancialStatementsExtendedReview>
+  <arr:SignatureOfAuditorsPlace contextRef="c0" xml:lang="da">København</arr:SignatureOfAuditorsPlace>
+  <arr:SignatureOfAuditorsDate contextRef="c0">2015-02-16</arr:SignatureOfAuditorsDate>
+  <cmn:NameAndSurnameOfAuditor contextRef="c1" xml:lang="da">Ole Marquard</cmn:NameAndSurnameOfAuditor>
+  <cmn:DescriptionOfAuditor contextRef="c1" xml:lang="da">Registreret Revisor</cmn:DescriptionOfAuditor>
+  <cmn:NameOfAuditFirm contextRef="c1" xml:lang="da">MARQUARD REVISION ApS</cmn:NameOfAuditFirm>
+  <mrv:ManagementsReview contextRef="c0" xml:lang="da">&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Selskabets væsentligste aktiviteter&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Selskabets væsentligste aktiviteter har i lighed med tidligere år bestået af formueforvaltning.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Efter ledelsens opfattelse omfatter årsrapporten de oplysninger, der er nødvendige for en korrekt bedømmelse af selskabets aktiver og passiver, den økonomiske stilling samt resultat i det forløbne år.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Udviklingen i selskabets aktiviteter og økonomiske forhold&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Den økonomiske udvikling i selskabet har været negativ og årets resultat anses for utilfredsstillende.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Som følge af tidligere års ekstraordinære nedskrivning af anparterne i datterselskaberne er mere end halvdelen af selskabets kapital tabt.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Ledelsen er opmærksom på, at selskabet således er omfattet af kapitalbestemmelserne og vil informere anpartshaverne ved den ordinære geneeralforsamling.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Selskabets fortsatte drift er betinget af, at anpartshaverne fortsat stiller den fornødne kapital til rådighed. Vi forventer, at dette vil ske. Vi henviser i øvrigt til note 1 i årsregnskabet.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Betydningsfulde hændelser indtruffet efter statusdag&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Der er efter regnskabsårets afslutning ikke indtruffet begivenheder, som væsentligt vil kunne påvirke selskabets finansielle stilling.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/h3&gt;</mrv:ManagementsReview>
+  <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+  <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;GENERELT&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Årsregnskabet for Fire of Love Holding ApS for 2013/14 er udarbejdet i overensstemmelse med årsregnskabslovens bestemmelser for selskaber i regnskabsklasse B.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Årsregnskabet er aflagt efter samme regnskabspraksis som sidste år og aflægges i danske kroner.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Generelt om indregning og måling&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Regnskabet er udarbejdet med udgangspunkt i det historiske kostprisprincip.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Indtægter indregnes i resultatopgørelsen i takt med at de indtjenes. Herudover indregnes værdireguleringer af finansielle aktiver og forpligtelser, der måles til dagsværdi eller amortiseret kostpris. Endvidere indregnes i resultatopgørelsen alle omkostninger, der er afholdt for at opnå årets indtjening, herunder afskrivninger, nedskrivninger og hensatte forpligtelser samt tilbageførsler som følge af ændrede regnskabsmæssige skøn af beløb, der tidligere har været indregnet i resultatopgørelsen.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Aktiver indregnes i balancen, når det er sandsynligt at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver og forpligtelser som beskrevet for hver enkelt.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Visse finansielle aktiver og forpligtelser måles til amortiseret kostpris, hvorved der indregnes en konstant effektiv rente over løbetiden. Amortiseret kostpris opgøres som oprindelig kostpris med fradrag af afdrag og tillæg/fradrag af den akkumulerede amortisering af forskellen mellem kostprisen og det nominelle beløb.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Ved indregning og måling tages hensyn til forudsigelige tab og risici, der fremkommer, inden årsregnskabet aflægges, og som be- eller afkræfter forhold, der eksisterer på balancedagen.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Som målevaluta benyttes danske kroner. Alle andre valutaer anses som fremmed valuta.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;RESULTATOPGØRELSEN&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Generelt&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Med henvisning til årsregnskabslovens § 32 er visse indtægter og omkostninger sammendraget i regnskabsposten bruttofortjeneste.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Bruttofortjeneste&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Bruttofortjenesten består af sammentrækning af regnskabsposterne ”nettoomsætning, ændring i lagre af færdigvarer, varer under fremstilling og handelsvarer, andre driftsindtægter, omkostninger til råvarer og hjælpematerialer samt andre eksterne omkostninger”.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Nettoomsætning&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Nettoomsætningen ved salg af handelsvarer og færdigvarer indregnes i resultatopgørelsen, såfremt levering og risikoovergang til køber har fundet sted inden årets udgang. Nettoomsætningen indregnes ekskl. moms og med fradrag af rabatter i forbindelse med salget.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Andre eksterne omkostninger&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Andre eksterne omkostninger omfatter omkostninger til salg, reklame, administration, lokaler, tab på debitorer, operationelle leasingomkostninger mv.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Resultat af kapitalandele i datter- og associerede virksomheder&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Udbytte fra kapitalandele indtægtsføres i det regnskabsår, hvor udbyttet deklareres.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Ekstraordinære indtægter og omkostninger&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Ekstraordinære indtægter og omkostninger indeholder indtægter og omkostninger, som hidrører fra begivenheder eller transaktioner, der klart afviger fra den ordinære drift, og som ikke forventes at være af tilbagevendende karakter.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Skat af årets resultat&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Årets skat, som består af årets aktuelle skat og forskydning i udskudt skat, indregnes i resultatopgørelsen med den del, der kan henføres til årets resultat, og direkte på egenkapitalen med den del, der kan henføres til posteringer direkte på egenkapitalen.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Ændring i udskudt skat som følge af ændringer i skattesatser indregnes i resultatopgørelsen med den del, der kan henføres til årets resultat, og direkte på egenkapitalen med den del, der kan henføres til posteringer direkte på egenkapitalen.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Selskabet er sambeskattet med danske koncernforbundne virksomheder. Udenlandske dattervirksomheder er ikke omfattet af sambeskatningen.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Selskabet fungerer som administrationsselskab. Den samlede danske skat af de danske dattervirksomheders skattepligtige indkomst betales af selskabet.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Skat&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Moderselskabet og de danske koncernvirksomheder er sambeskattede. Den danske selskabsskat fordeles mellem de sambeskattede danske selskaber i forhold til disses skattepligtige indkomster. Moderselskabet fungerer som administrationsselskab for sambeskatningskredsen, således at moderselskabet forestår afregning af skatter mv. til de danske skattemyndigheder.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;BALANCEN&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Finansielle anlægsaktiver&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Kapitalandele i dattervirksomheder og associerede virksomheder&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Kapitalandele i dattervirksomheder indregnes i balancen til kostpris. I tilfælde, hvor kostprisen overstiger nettorealisationsværdien, nedskrives til denne lavere værdi.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Selskabsskat og udskudt skat&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Aktuelle skatteforpligtelser og tilgodehavende aktuel skat indregnes i balancen som beregnet skat af årets skattepligtige indkomst reguleret for skat af tidligere års skattepligtige indkomster samt for betalte acontoskatter.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Udskudt skat måles efter den balanceorienterede gældsmetode af midlertidige forskelle mellem regnskabsmæssig og skattemæssig værdi af aktiver og forpligtelser. I de tilfælde, f.eks. vedrørende aktier, hvor opgørelse af skatteværdien kan foretages efter alternative beskatningsregler, måles udskudt skat på grundlag af den planlagte anvendelse af aktivet henholdsvis afvikling af forpligtelsen.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Udskudte skatteaktiver, herunder skatteværdien af fremførselsberettiget skattemæssigt underskud, måles til den værdi, hvortil aktivet forventes at kunne realiseres, enten ved udligning i skat af fremtidig indtjening eller ved modregning i udskudte skatteforpligtelser inden for samme juridiske skatteenhed. Eventuelle udskudte nettoskatteaktiver måles til nettorealisationsværdi.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Udskudt skat måles på grundlag af de skatteregler og skattesatser, der med balancedagens lovgivning vil være gældende, når den udskudte skat forventes udløst som aktuel skat. Ændring i udskudt skat som følge af ændringer i skattesatser indregnes i resultatopgørelsen.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;
+    &lt;strong&gt;Gældsforpligtelser&lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt;Andre gældsforpligtelser, som omfatter gæld til leverandører, tilknyttede og associerede virksomheder samt anden gæld, måles til amortiseret kostpris, hvilket sædvanligvis svarer til nominel værdi.&lt;/p&gt;
+  &lt;p style="margin-left:1.5pt;"&gt; &lt;/p&gt;
+  &lt;p&gt;                                                                                                                                                      &lt;/p&gt;
+  &lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/h2&gt;</fsa:DisclosureOfAccountingPolicies>
+  <fsa:GrossResult contextRef="c0" decimals="0" unitRef="u0">-4500</fsa:GrossResult>
+  <fsa:GrossResult contextRef="c4" decimals="0" unitRef="u0">-4500</fsa:GrossResult>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">-4500</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c4" decimals="0" unitRef="u0">-4500</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">-4500</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c4" decimals="0" unitRef="u0">-4500</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ExtraordinaryProfitLossBeforeTax contextRef="c0" decimals="0" unitRef="u0">-4500</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:ExtraordinaryProfitLossBeforeTax contextRef="c4" decimals="0" unitRef="u0">-4500</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-4500</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c4" decimals="0" unitRef="u0">-4500</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c5" decimals="0" unitRef="u0">-4500</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c6" decimals="0" unitRef="u0">-4500</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-4500</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c4" decimals="0" unitRef="u0">-4500</fsa:ProfitLoss>
+  <fsa:FixturesFittingsToolsAndEquipment contextRef="c7" decimals="0" unitRef="u0">0</fsa:FixturesFittingsToolsAndEquipment>
+  <fsa:FixturesFittingsToolsAndEquipment contextRef="c8" decimals="0" unitRef="u0">0</fsa:FixturesFittingsToolsAndEquipment>
+  <fsa:PropertyPlantAndEquipment contextRef="c7" decimals="0" unitRef="u0">0</fsa:PropertyPlantAndEquipment>
+  <fsa:PropertyPlantAndEquipment contextRef="c8" decimals="0" unitRef="u0">0</fsa:PropertyPlantAndEquipment>
+  <fsa:NoncurrentAssets contextRef="c7" decimals="0" unitRef="u0">0</fsa:NoncurrentAssets>
+  <fsa:NoncurrentAssets contextRef="c8" decimals="0" unitRef="u0">0</fsa:NoncurrentAssets>
+  <fsa:Assets contextRef="c7" decimals="0" unitRef="u0">0</fsa:Assets>
+  <fsa:Assets contextRef="c8" decimals="0" unitRef="u0">0</fsa:Assets>
+  <fsa:ContributedCapital contextRef="c7" decimals="0" unitRef="u0">125000</fsa:ContributedCapital>
+  <fsa:ContributedCapital contextRef="c8" decimals="0" unitRef="u0">125000</fsa:ContributedCapital>
+  <fsa:RetainedEarnings contextRef="c7" decimals="0" unitRef="u0">-277000</fsa:RetainedEarnings>
+  <fsa:RetainedEarnings contextRef="c8" decimals="0" unitRef="u0">-272500</fsa:RetainedEarnings>
+  <fsa:Equity contextRef="c7" decimals="0" unitRef="u0">-152000</fsa:Equity>
+  <fsa:Equity contextRef="c8" decimals="0" unitRef="u0">-147500</fsa:Equity>
+  <fsa:OtherLongtermPayables contextRef="c7" decimals="0" unitRef="u0">128750</fsa:OtherLongtermPayables>
+  <fsa:OtherLongtermPayables contextRef="c8" decimals="0" unitRef="u0">128750</fsa:OtherLongtermPayables>
+  <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="c7" decimals="0" unitRef="u0">128750</fsa:LongtermLiabilitiesOtherThanProvisions>
+  <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="c8" decimals="0" unitRef="u0">128750</fsa:LongtermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermPayablesToGroupEnterprises contextRef="c7" decimals="0" unitRef="u0">15750</fsa:ShorttermPayablesToGroupEnterprises>
+  <fsa:ShorttermPayablesToGroupEnterprises contextRef="c8" decimals="0" unitRef="u0">11250</fsa:ShorttermPayablesToGroupEnterprises>
+  <fsa:OtherShorttermPayables contextRef="c7" decimals="0" unitRef="u0">7500</fsa:OtherShorttermPayables>
+  <fsa:OtherShorttermPayables contextRef="c8" decimals="0" unitRef="u0">7500</fsa:OtherShorttermPayables>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c7" decimals="0" unitRef="u0">23250</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c8" decimals="0" unitRef="u0">18750</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="c7" decimals="0" unitRef="u0">152000</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="c8" decimals="0" unitRef="u0">147500</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity contextRef="c7" decimals="0" unitRef="u0">0</fsa:LiabilitiesAndEquity>
+  <fsa:LiabilitiesAndEquity contextRef="c8" decimals="0" unitRef="u0">0</fsa:LiabilitiesAndEquity>
+  <fsa:DisclosureOfEquity contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-collapse:collapse; border:0pt none; width:650px"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border:0pt none; width:30%"&gt; &lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Virksomheds-kapital&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Reserve for nettoopskrivning efter indre værdis metode&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Overført resultat&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Foreslået udbytte&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Ialt&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th style="border:0pt none; width:30%"&gt; &lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Saldo primo&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;125.000&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;125.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Udloddet ordinært udbytte&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Årets resultat&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;-272.500&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;-4.500&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;-277.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight:bold"&gt;Egenkapital ultimo&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;125.000&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;-4.500&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;-152.000&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfEquity>
+  <fsa:DisclosureOfLongtermLiabilities contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-collapse:collapse; border:0pt none; width:650px"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border:0pt none; width:40%"&gt; &lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:15%"&gt;Gæld i alt ultimo&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:15%"&gt;Afdrag næste år&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:15%"&gt;Langfristet andel&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:15%"&gt;Restgæld efter 5 år&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th style="border:0pt none; width:40%"&gt; &lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:15%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:15%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:15%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:15%"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gæld til selskabsdeltagere og ledelse&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;128.750&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;128.750&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;128.750&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;128.750&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfLongtermLiabilities>
+  <fsa:DisclosureOfUncertaintiesRelatingToGoingConcern contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;                                                                                                          &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Der er væsentlig usikkerhed om virksomhedens fortsatte drift idet kapitalen er tabt og selskabets forpligtelser ved balancedagen overstiger aktiverne. Den økonomiske situation skyldes primært tidligere års ekstraordinære nedskrivninger af anparterne i datterselskaberne grundet svigtende omsætning. Ledelsen har en forventning om at den negative udvikling i datterselskaberne kan vendes, hvilket vil retablere kapitalen og indestår derudover for betalingen af kreditorerne og er indstillet på fortsat at stille den fornødne kapital til rådighed.  Årsregnskabet er derfor udarbejdet under forudsætning om virksomhedens fortsatte drift.&lt;/p&gt;</fsa:DisclosureOfUncertaintiesRelatingToGoingConcern>
+  <fsa:DisclosureOfMortgagesAndCollaterals contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Sikkerhedsstillelser:           Ingen&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Garantiforpligtelser:          Ingen&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Kautionsforpligtelser:        Ingen&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Leasingforpligtelser:          Ingen&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Øvrige:                              Ingen&lt;/p&gt;</fsa:DisclosureOfMortgagesAndCollaterals>
+  <fsa:DisclosureOfOwnership contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Nærtstående parter&lt;/strong&gt;                                                                                                                      &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Fire of Love Holding ApS ejer 100 % af kapitalandelene i:&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Wild Thing ApS&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Cvr.nr. 31 86 81 73&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;                                      2014                        2013&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Resultat efter skat         8.510                     20.699&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Egenkapital                -16.511                   -25.022&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;True Colors ApS&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Cvr.nr. 31 86 81 57&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;                                      2014                        2013&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Resultat efter skat      -54.074                   -25.134&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="margin-left:28.5pt;"&gt;Egenkapital              -245.772                 -191.698&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;                                                                                                                                  &lt;/p&gt;</fsa:DisclosureOfOwnership>
+  <gsd:PrecedingReportingPeriodStartDate contextRef="c0">2012-10-01</gsd:PrecedingReportingPeriodStartDate>
+  <gsd:PredingReportingPeriodEndDate contextRef="c0">2013-09-30</gsd:PredingReportingPeriodEndDate>
+  <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Erklæring om udvidet gennemgang</cmn:TypeOfAuditorAssistance>
+  <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">0le Marquard</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Julius Thomsens Gade 12,5</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">1632 København V</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>

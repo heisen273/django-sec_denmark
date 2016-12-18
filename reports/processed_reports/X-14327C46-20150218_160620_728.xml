@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20140701/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20140701.xsd" xlink:type="simple"/>
+  <xbrli:context id="c0">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32064272</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-01</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32064272</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-01</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+        <cmn:auditorIdentifier>1</cmn:auditorIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32064272</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-01</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32064272</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-10-01</xbrli:startDate>
+      <xbrli:endDate>2013-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32064272</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-01</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32064272</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-10-01</xbrli:startDate>
+      <xbrli:endDate>2013-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32064272</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2014-09-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32064272</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-09-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u0">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:DateOfGeneralMeeting contextRef="c0">2015-02-10</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Søren Søeborg</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">SØEBORG TOTALBYG ApS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Sandbjerggårdsvej</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">61</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">2605</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">Brøndby</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">32064272</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:ReportingPeriodStartDate contextRef="c0">2013-10-01</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate contextRef="c0">2014-09-30</gsd:ReportingPeriodEndDate>
+  <cmn:NameOfAuditFirm contextRef="c1" xml:lang="da">SR REVISION GODKENDT              REVISIONSAKTIESELSKAB</cmn:NameOfAuditFirm>
+  <gsd:AddressOfAuditorStreetName contextRef="c1" xml:lang="da">Torvet</gsd:AddressOfAuditorStreetName>
+  <gsd:AddressOfAuditorStreetBuildingIdentifier contextRef="c1" xml:lang="da">30</gsd:AddressOfAuditorStreetBuildingIdentifier>
+  <gsd:AddressOfAuditorPostCodeIdentifier contextRef="c1" xml:lang="da">4600</gsd:AddressOfAuditorPostCodeIdentifier>
+  <gsd:AddressOfAuditorDistrictName contextRef="c1" xml:lang="da">Køge</gsd:AddressOfAuditorDistrictName>
+  <gsd:AddressOfAuditorCountryIdentificationCode contextRef="c1" xml:lang="da">DK</gsd:AddressOfAuditorCountryIdentificationCode>
+  <gsd:AddressOfAuditorCountry contextRef="c1" xml:lang="da">Danmark</gsd:AddressOfAuditorCountry>
+  <cmn:IdentificationNumberCvrOfAuditFirm contextRef="c1" xml:lang="da">19536890</cmn:IdentificationNumberCvrOfAuditFirm>
+  <cmn:IdentificationNumberPnrOfAuditFirm contextRef="c1" xml:lang="da">1003859393</cmn:IdentificationNumberPnrOfAuditFirm>
+  <sob:StatementByExecutiveAndSupervisoryBoards contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Ledelsen har dags dato behandlet og godkendt årsrapporten for perioden 1. oktober 2013 til
+&lt;br/&gt;30. september 2014 for Søeborg Totalbyg ApS.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt;Årsregnskabet, der ikke er revideret, er aflagt i overensstemmelse med årsregnskabsloven. Ledelsen anser betingelserne for at undlade revision for opfyldt.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt;Det er min opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og
+&lt;br/&gt;finansielle stilling pr. 30. september 2014 samt af resultatet af selskabets aktiviteter for perioden
+&lt;br/&gt;1. oktober 2013 til 30. september 2014.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt;Det er endvidere min opfattelse, at ledelsesberetningen indeholder en retvisende redegørelse for de
+&lt;br/&gt;forhold, beretningen omhandler.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt;Årsrapporten indstilles til generalforsamlingens godkendelse.&lt;/p&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+  <sob:PlaceOfSignatureOfStatement contextRef="c0" xml:lang="da">Brøndby</sob:PlaceOfSignatureOfStatement>
+  <sob:DateOfApprovalOfAnnualReport contextRef="c0">2015-02-10</sob:DateOfApprovalOfAnnualReport>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c2" xml:lang="da">Søren Søeborg</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <arr:AuditorsReportsOtherReports contextRef="c0" xml:lang="da">Revisors erklæring om opstilling af årsregnskab</arr:AuditorsReportsOtherReports>
+  <arr:AddresseeOfAuditorsReportOnOtherReport contextRef="c0" xml:lang="da">Vi har opstillet årsregnskabet for Søeborg Totalbyg ApS for regnskabsåret 1. oktober 2013 til 30.
+september 2014 på grundlag af selskabets bogføring og øvrige oplysninger, som De har tilvejebragt.</arr:AddresseeOfAuditorsReportOnOtherReport>
+  <arr:DescriptionOfOtherEngagement contextRef="c0" xml:lang="da">Årsregnskabet omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter.
+
+Vi har udført opgaven i overensstemmelse med ISRS 4410, Opgaver om opstilling af finansielle
+oplysninger.
+
+Vi har anvendt vores faglige ekspertise til at assistere Dem med at udarbejde og præsentere årsregnskabet
+i overensstemmelse med årsregnskabsloven. Vi har overholdt relevante bestemmelser i revisorloven og
+FSR – danske revisorers Etiske regler for revisorer, herunder principper vedrørende integritet,
+objektivitet, faglig kompetence og fornøden omhu.
+
+Årsregnskabet samt nøjagtigheden og fuldstændigheden af de oplysninger, der er anvendt til opstillingen
+af årsregnskabet, er Deres ansvar.
+
+Da en opgave om opstilling af finansielle oplysninger ikke er en erklæringsopgave med sikkerhed, er vi
+ikke forpligtet til at verificere nøjagtigheden eller fuldstændigheden af de oplysninger, De har givet os til
+brug for at opstille årsregnskabet. Vi udtrykker derfor ingen revisions- eller reviewkonklusion om,
+hvorvidt årsregnskabet er udarbejdet i overensstemmelse med årsregnskabsloven.</arr:DescriptionOfOtherEngagement>
+  <arr:SignatureOfAuditorsPlace contextRef="c0" xml:lang="da">Køge</arr:SignatureOfAuditorsPlace>
+  <arr:SignatureOfAuditorsDate contextRef="c0">2015-02-10</arr:SignatureOfAuditorsDate>
+  <cmn:NameAndSurnameOfAuditor contextRef="c1" xml:lang="da">Per Riis</cmn:NameAndSurnameOfAuditor>
+  <cmn:DescriptionOfAuditor contextRef="c1" xml:lang="da">Master i Skat. Registreret revisor, medlem af FSR - danske revisorer</cmn:DescriptionOfAuditor>
+  <cmn:NameOfAuditFirm contextRef="c1" xml:lang="da">SR REVISION GODKENDT              REVISIONSAKTIESELSKAB</cmn:NameOfAuditFirm>
+  <mrv:ManagementsReview contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Virksomhedens væsentligste aktiviteter&lt;/strong&gt;
+&lt;br/&gt;Selskabets aktivitet består af at drive tømrer og snedker virksomhed og dermed beslægtet virksomhed
+&lt;br/&gt;samt handel og investering i øvrigt.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt;
+&lt;strong&gt;Udvikling i regnskabsåret 2013/2014&lt;/strong&gt;
+&lt;br/&gt;Årets resultat udgør kr. 16.001,-.
+&lt;br/&gt;Selskabets balance udviset en samlet aktivmasse på kr. 0,- og en egenkapital på kr. -137.137,-.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt;
+&lt;strong&gt;Begivenheder efter regnskabsårets afslutning&lt;/strong&gt;
+&lt;br/&gt;Der er efter regnskabsårets afslutning ikke indtruffet begivenheder, som væsentligt vil kunne påvirke
+&lt;br/&gt;selskabets finansielle stilling.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt;
+&lt;strong&gt;Den forventede udvikling i regnskabsåret 2014/2015&lt;/strong&gt;
+&lt;br/&gt;Det forventes at selskabet vil generere overskud.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt;
+&lt;strong&gt;Kapitaltab&lt;/strong&gt;
+&lt;br/&gt;Ledelsen gør opmærksom på at selskabet har tabt mere end 50% af selskabskapitalen. Der vil blive
+&lt;br/&gt;redegjort herfor på selskabets ordinære generalforsamling.&lt;/p&gt;</mrv:ManagementsReview>
+  <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+  <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Anvendt regnskabspraksis&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Den anvendte regnskabspraksis er uændret i forhold til sidste år.       
+&lt;br/&gt;       
+&lt;br/&gt;
+&lt;strong&gt;Generelt om indregning og måling   &lt;/strong&gt;    
+&lt;br/&gt;Regnskabet er udarbejdet med udgangspunkt i det historiske kostprisprincip.       
+&lt;br/&gt;       
+&lt;br/&gt;Indtægter indregnes i resultatopgørelsen i takt med, at de indtjenes. Herudover indregnes værdireguleringer af finansielle aktiver og forpligtelser, der måles til dagsværdi eller amortiseret kostpris. Endvidere indregnes i resultatopgørelsen alle omkostninger, der er afholdt for at opnå årets indtjening, herunder afskrivninger, nedskrivninger og hensatte forpligtelser samt tilbageførsler som følge af ændrede regnskabsmæssige skøn af beløb, som tidligere har været indregnet i resultatopgørelsen.       
+&lt;br/&gt;       
+&lt;br/&gt;Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt.       
+&lt;br/&gt;       
+&lt;br/&gt;Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt.       
+&lt;br/&gt;       
+&lt;br/&gt;Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver og forpligtelser som beskrevet for hver enkelt regnskabspost nedenfor.       
+&lt;br/&gt;       
+&lt;br/&gt;Visse finansielle aktiver og forpligtelser måles til amortiseret kostpris, hvorved der indregnes en  konstant effektiv rente over løbetiden. Amortiseret kostpris opgøres som oprindelig kostpris med fradrag af afdrag og tillæg/fradrag af den akkumulerede afskrivning af forskellen mellem kostprisen og det nominelle beløb. Herved fordeles kurstab og -gevinst over løbetiden.       
+&lt;br/&gt;       
+&lt;br/&gt;Ved indregning og måling tages hensyn til forudsigelige tab og risici, der fremkommer inden årsrapporten aflægges, og som be- eller afkræfter forhold, der eksisterer på balancedagen.       
+&lt;br/&gt;       
+&lt;br/&gt;Som målevaluta benyttes danske kroner. Alle andre valutaer anses som fremmed valuta.       
+&lt;br/&gt;       
+&lt;br/&gt;
+&lt;strong&gt;Omregning af fremmed valuta      &lt;/strong&gt; 
+&lt;br/&gt;Transaktioner i fremmed valuta omregnes ved første indregning til transaktionsdagens kurs. Valutakursdifferencer, der opstår mellem transaktionsdagens kurs og kursen på betalingsdagen, indregnes i resultatopgørelsen som en finansiel post.       
+&lt;br/&gt;       
+&lt;br/&gt;Tilgodehavender, gæld og andre monetære poster i fremmed valuta omregnes til balancedagens valutakurs. Forskellen mellem balancedagens kurs og kursen på tidspunktet for tilgodehavendets eller gældsforpligtelsens opståen eller indregning i seneste årsregnskab indregnes i resultatopgørelsen under finansielle indtægter og omkostninger.       
+&lt;br/&gt;       
+&lt;br/&gt;Anlægsaktiver, der er købt i fremmed valuta, måles til kursen på transaktionsdagen.&lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/h2&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Resultatopgørelse&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Resultatopgørelsen er artsopdelt.       &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Bruttofortjeneste/bruttotab&lt;/strong&gt;
+&lt;br/&gt;Bruttofortjeneste/bruttotab indeholder nettoomsætning, Ændring i lagre af færdigvarer og varer under fremstilling, arbejde udført for egen regning og opført under aktiver, andre driftsindtægter samt eksterne omkostninger.
+&lt;br/&gt;       
+&lt;br/&gt;
+&lt;strong&gt;Nettoomsætning     &lt;/strong&gt;  
+&lt;br/&gt;Nettoomsætningen ved salg af varer og ydelser indregnes i resultatopgørelsen, såfremt levering og risikoovergang til køber har fundet sted inden årets udgang. Nettoomsætning indregnes ekskl. moms og med fradrag af rabatter i forbindelse med salget.       
+&lt;br/&gt;       
+&lt;br/&gt;
+&lt;strong&gt;Andre eksterne omkostninger     &lt;/strong&gt;  
+&lt;br/&gt;Andre eksterne omkostninger omfatter omkostninger til distribution, salg, reklame, administration, lokaler, tab på debitorer, leasingomkostninger mv.       
+&lt;br/&gt;       
+&lt;br/&gt;
+&lt;strong&gt;Finansielle poster&lt;/strong&gt;       
+&lt;br/&gt;Finansielle indtægter og omkostninger indregnes i resultatopgørelsen med de beløb, der vedrører regnskabsåret. Finansielle poster omfatter renteindtægter og -omkostninger, finansielle omkostninger ved finansiel leasing, realiserede og urealiserede kursgevinster og -tab vedrørende værdipapirer, gæld og transaktioner i fremmed valuta samt amortisering af realkreditlån mv.       
+&lt;br/&gt;       
+&lt;br/&gt;
+&lt;strong&gt;Skat af årets resultat &lt;/strong&gt;      
+&lt;br/&gt;Årets skat, som består af årets aktuelle skat og forskydning i udskudt skat, indregnes i resultatopgørelsen med den del, der kan henføres til årets resultat, og direkte på egenkapitalen med den del, der kan henføres til posteringer direkte på egenkapitalen.        
+&lt;br/&gt;       
+&lt;br/&gt;Årets aktuelle skat er afsat med 24,5%.&lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Balance&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Selskabsskat og udskudt skat       &lt;/strong&gt;
+&lt;br/&gt;Aktuelle skatteforpligtelser og tilgodehavende aktuel skat indregnes i balancen som beregnet skat af årets skattepligtige indkomst reguleret for skat af tidligere års skattepligtige indkomster samt for betalte a'contoskatter.       
+&lt;br/&gt;       
+&lt;br/&gt;Udskudt skat måles efter den balanceorienterede gældsmetode af midlertidige forskelle mellem regnskabsmæssig og skattemæssig værdi af aktiver og forpligtelser. I de tilfælde, f.eks. vedrørende aktier, hvor opgørelse af skatteværdien kan foretages efter alternative beskatningsregler, måles udskudt skat på grundlag af den planlagte anvendelse af aktivet henholdsvis afvikling af forpligtelsen.       
+&lt;br/&gt;       
+&lt;br/&gt;Udskudte skatteaktiver, herunder skatteværdien af fremførselsberettiget skattemæssigt underskud, måles til den værdi, hvortil aktivet forventes at kunne realiseres, enten ved udligning i skat af fremtidig indtjening eller ved modregning i udskudte skatteforpligtelser inden for samme juridiske skatteenhed. Eventuelle udskudte nettoskatteaktiver måles til nettorealisationsværdi.       
+&lt;br/&gt;       
+&lt;br/&gt;Udskudt skat måles på grundlag af de skatteregler og skattesatser, der med balancedagens lovgivning vil være gældende, når den udskudte skat forventes udløst som aktuel skat. Ændring i udskudt skat som følge af ændringer i skattesatser indregnes i resultatopgørelsen. For indeværende år er anvendt en skattesats på 24,5%.       
+&lt;br/&gt;       
+&lt;br/&gt;
+&lt;strong&gt;Gældsforpligtelser   &lt;/strong&gt;    
+&lt;br/&gt;Finansielle forpligtelser indregnes ved lånoptagelse til det modtagne provenu efter fradrag af afholdte transaktionsomkostninger. I efterfølgende perioder måles de finansielle forpligtelser til amortiseret kostpris svarende til den kapitaliserede værdi ved anvendelse af den effektive rente, således at forskellen mellem provenuet og den nominelle værdi indregnes i resultatopgørelsen over låneperioden.       
+&lt;br/&gt;       
+&lt;br/&gt;Andre gældsforpligtelser, som omfatter gæld til leverandører, tilknyttede og associerede virksomheder samt anden gæld, måles til amortiseret kostpris, hvilket sædvanligvis svarer til nominel værdi.&lt;/p&gt;</fsa:DisclosureOfAccountingPolicies>
+  <fsa:GrossProfitLoss contextRef="c0" decimals="0" unitRef="u0">29561</fsa:GrossProfitLoss>
+  <fsa:GrossProfitLoss contextRef="c3" decimals="0" unitRef="u0">35046</fsa:GrossProfitLoss>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">29561</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c3" decimals="0" unitRef="u0">35046</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:OtherFinanceExpenses contextRef="c0" decimals="0" unitRef="u0">8076</fsa:OtherFinanceExpenses>
+  <fsa:OtherFinanceExpenses contextRef="c3" decimals="0" unitRef="u0">7170</fsa:OtherFinanceExpenses>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">21485</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c3" decimals="0" unitRef="u0">27876</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ExtraordinaryProfitLossBeforeTax contextRef="c0" decimals="0" unitRef="u0">21485</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:ExtraordinaryProfitLossBeforeTax contextRef="c3" decimals="0" unitRef="u0">27876</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:TaxExpense contextRef="c0" decimals="0" unitRef="u0">5484</fsa:TaxExpense>
+  <fsa:TaxExpense contextRef="c3" decimals="0" unitRef="u0">1273</fsa:TaxExpense>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">16001</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c3" decimals="0" unitRef="u0">26603</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c4" decimals="0" unitRef="u0">16001</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c5" decimals="0" unitRef="u0">26603</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">16001</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c3" decimals="0" unitRef="u0">26603</fsa:ProfitLoss>
+  <fsa:Assets contextRef="c6" decimals="0" unitRef="u0">0</fsa:Assets>
+  <fsa:Assets contextRef="c7" decimals="0" unitRef="u0">0</fsa:Assets>
+  <fsa:ContributedCapital contextRef="c6" decimals="0" unitRef="u0">125000</fsa:ContributedCapital>
+  <fsa:ContributedCapital contextRef="c7" decimals="0" unitRef="u0">125000</fsa:ContributedCapital>
+  <fsa:RetainedEarnings contextRef="c6" decimals="0" unitRef="u0">-262137</fsa:RetainedEarnings>
+  <fsa:RetainedEarnings contextRef="c7" decimals="0" unitRef="u0">-278138</fsa:RetainedEarnings>
+  <fsa:Equity contextRef="c6" decimals="0" unitRef="u0">-137137</fsa:Equity>
+  <fsa:Equity contextRef="c7" decimals="0" unitRef="u0">-153138</fsa:Equity>
+  <fsa:LongtermTaxPayables contextRef="c6" decimals="0" unitRef="u0">5484</fsa:LongtermTaxPayables>
+  <fsa:LongtermTaxPayables contextRef="c7" decimals="0" unitRef="u0">1273</fsa:LongtermTaxPayables>
+  <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="c6" decimals="0" unitRef="u0">5484</fsa:LongtermLiabilitiesOtherThanProvisions>
+  <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="c7" decimals="0" unitRef="u0">1273</fsa:LongtermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermTaxPayables contextRef="c6" decimals="0" unitRef="u0">1273</fsa:ShorttermTaxPayables>
+  <fsa:ShorttermTaxPayables contextRef="c7" decimals="0" unitRef="u0">0</fsa:ShorttermTaxPayables>
+  <fsa:OtherShorttermPayables contextRef="c6" decimals="0" unitRef="u0">16152</fsa:OtherShorttermPayables>
+  <fsa:OtherShorttermPayables contextRef="c7" decimals="0" unitRef="u0">8762</fsa:OtherShorttermPayables>
+  <fsa:ShorttermPayablesToShareholdersAndManagement contextRef="c6" decimals="0" unitRef="u0">114228</fsa:ShorttermPayablesToShareholdersAndManagement>
+  <fsa:ShorttermPayablesToShareholdersAndManagement contextRef="c7" decimals="0" unitRef="u0">143103</fsa:ShorttermPayablesToShareholdersAndManagement>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c6" decimals="0" unitRef="u0">131653</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c7" decimals="0" unitRef="u0">151865</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="c6" decimals="0" unitRef="u0">137137</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="c7" decimals="0" unitRef="u0">153138</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity contextRef="c6" decimals="0" unitRef="u0">0</fsa:LiabilitiesAndEquity>
+  <fsa:LiabilitiesAndEquity contextRef="c7" decimals="0" unitRef="u0">0</fsa:LiabilitiesAndEquity>
+  <fsa:DisclosureOfTaxExpenses contextRef="c0" xml:lang="da">&lt;table style="border-collapse:collapse; border:0; width:650px" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border:0; width:60%"&gt; &lt;/th&gt;
+      &lt;th style="border:0; font-weight:bold; text-align:right; width:25%"&gt;2013/14&lt;/th&gt;
+      &lt;th style="border:0; font-weight:bold; text-align:right; width:15%"&gt;2012/13&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; padding-bottom:10px; text-align:right"&gt;kr.&lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; padding-bottom:10px; text-align:right"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Skat af skattepligtig indkomst&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;5.484&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;1.273&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Årets skat&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; text-align:right"&gt;
+        &lt;strong&gt;5.484&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; text-align:right"&gt;
+        &lt;strong&gt;1.273&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;</fsa:DisclosureOfTaxExpenses>
+  <gsd:PrecedingReportingPeriodStartDate contextRef="c0">2012-10-01</gsd:PrecedingReportingPeriodStartDate>
+  <gsd:PredingReportingPeriodEndDate contextRef="c0">2013-09-30</gsd:PredingReportingPeriodEndDate>
+  <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Andre erklæringer uden sikkerhed</cmn:TypeOfAuditorAssistance>
+  <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">Pernille Nissen</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Torvet 30</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">4600 Køge</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>

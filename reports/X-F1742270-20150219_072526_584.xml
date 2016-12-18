@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:e="http://xbrl.dcca.dk/sob" xmlns:b="http://xbrl.dcca.dk/entryBalanceSheetAccountFormIncomeStatementByNature" xmlns:h="http://xbrl.dcca.dk/mrv" xmlns:f="http://xbrl.dcca.dk/arr" xmlns:d="http://xbrl.dcca.dk/cmn" xmlns:g="http://xbrl.dcca.dk/fsa" xmlns:c="http://xbrl.dcca.dk/gsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.dcca.dk/entryBalanceSheetAccountFormIncomeStatementByNature http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd"><link:schemaRef xlink:type="simple" xlink:href="http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd"/><c:NameOfSubmittingEnterprise contextRef="c0">BDO Statsautoriseret revisionsaktieselskab</c:NameOfSubmittingEnterprise><c:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0">Bavnehøjvej 6</c:AddressOfSubmittingEnterpriseStreetAndNumber><c:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0">DK-6700 Esbjerg</c:AddressOfSubmittingEnterprisePostcodeAndTown><c:IdentificationNumberCvrOfSubmittingEnterprise contextRef="c0">20222670</c:IdentificationNumberCvrOfSubmittingEnterprise><c:InformationOnTypeOfSubmittedReport contextRef="c0">Årsrapport</c:InformationOnTypeOfSubmittedReport><c:DateOfGeneralMeeting contextRef="c0">2015-02-11</c:DateOfGeneralMeeting><c:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0">Steen Lützhøft</c:NameAndSurnameOfChairmanOfGeneralMeeting><c:NameOfReportingEntity contextRef="c0">A &amp; L I/S</c:NameOfReportingEntity><c:AddressOfReportingEntityStreetName contextRef="c0">Mådevej 80</c:AddressOfReportingEntityStreetName><c:AddressOfReportingEntityPostCodeIdentifier contextRef="c0">6705  Esbjerg Ø</c:AddressOfReportingEntityPostCodeIdentifier><d:TypeOfAuditorAssistance contextRef="c0">Andre erklæringer uden sikkerhed</d:TypeOfAuditorAssistance><c:IdentificationNumberCvrOfReportingEntity contextRef="c0">34701016</c:IdentificationNumberCvrOfReportingEntity><c:RegisteredOfficeOfReportingEntity contextRef="c0">Esbjerg</c:RegisteredOfficeOfReportingEntity><c:ReportingPeriodStartDate contextRef="c0">2014-01-01</c:ReportingPeriodStartDate><c:ReportingPeriodEndDate contextRef="c0">2014-12-31</c:ReportingPeriodEndDate><d:NameOfAuditFirm contextRef="c0">BDO Statsautoriseret revisionsaktieselskab</d:NameOfAuditFirm><c:AddressOfAuditorStreetName contextRef="c0">Bavnehøjvej</c:AddressOfAuditorStreetName><c:AddressOfAuditorStreetBuildingIdentifier contextRef="c0">6</c:AddressOfAuditorStreetBuildingIdentifier><c:AddressOfAuditorPostCodeIdentifier contextRef="c0">6700</c:AddressOfAuditorPostCodeIdentifier><c:AddressOfAuditorDistrictName contextRef="c0">Esbjerg</c:AddressOfAuditorDistrictName><c:NameOfFinancialInstitution contextRef="c0">Sydbank</c:NameOfFinancialInstitution><c:AddressOfFinancialStreetName contextRef="c0">Kongensgade</c:AddressOfFinancialStreetName><c:AddressOfFinancialStreetBuildingIdentifier contextRef="c0">62</c:AddressOfFinancialStreetBuildingIdentifier><c:AddressOfFinancialPostCodeIdentifier contextRef="c0">6700</c:AddressOfFinancialPostCodeIdentifier><c:AddressOfFinancialDistrictName contextRef="c0">Esbjerg</c:AddressOfFinancialDistrictName><e:PlaceOfSignatureOfStatement contextRef="c0">Esbjerg</e:PlaceOfSignatureOfStatement><e:DateOfApprovalOfAnnualReport contextRef="c0">2015-02-03</e:DateOfApprovalOfAnnualReport><d:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c199">Stig Andersen</d:NameAndSurnameOfMemberOfExecutiveBoard><d:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c200">Steen Lützhøft</d:NameAndSurnameOfMemberOfExecutiveBoard><f:SignatureOfAuditorsPlace contextRef="c0">Esbjerg</f:SignatureOfAuditorsPlace><f:SignatureOfAuditorsDate contextRef="c0">2015-02-03</f:SignatureOfAuditorsDate><d:NameOfAuditFirm contextRef="c0">BDO Statsautoriseret revisionsaktieselskab</d:NameOfAuditFirm><d:NameAndSurnameOfAuditor contextRef="c299">Carsten Lyndgaard</d:NameAndSurnameOfAuditor><d:DescriptionOfAuditor contextRef="c299">Registreret revisor</d:DescriptionOfAuditor><g:ClassOfReportingEntity contextRef="c0">Regnskabsklasse B</g:ClassOfReportingEntity><g:AccountingPoliciesAreUnchangedFromPreviousPeriod contextRef="c0">1</g:AccountingPoliciesAreUnchangedFromPreviousPeriod><g:GrossResult contextRef="c0" unitRef="u8" decimals="0">-39711</g:GrossResult><g:GrossResult contextRef="c1" unitRef="u8" decimals="3">-115000</g:GrossResult><g:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="c0" unitRef="u8" decimals="0">1108550</g:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss><g:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="c1" unitRef="u8" decimals="3">0</g:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss><g:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" unitRef="u8" decimals="0">1068839</g:ProfitLossFromOrdinaryOperatingActivities><g:ProfitLossFromOrdinaryOperatingActivities contextRef="c1" unitRef="u8" decimals="3">-115000</g:ProfitLossFromOrdinaryOperatingActivities><g:OtherFinanceIncome contextRef="c0" unitRef="u8" decimals="0">104</g:OtherFinanceIncome><g:OtherFinanceIncome contextRef="c1" unitRef="u8" decimals="3">0</g:OtherFinanceIncome><g:OtherFinanceExpenses contextRef="c0" unitRef="u8" decimals="0">-140484</g:OtherFinanceExpenses><g:OtherFinanceExpenses contextRef="c1" unitRef="u8" decimals="3">-13000</g:OtherFinanceExpenses><g:ProfitLoss contextRef="c0" unitRef="u8" decimals="0">928459</g:ProfitLoss><g:ProfitLoss contextRef="c1" unitRef="u8" decimals="3">-128000</g:ProfitLoss><g:ProfitLoss contextRef="c27" unitRef="u8" decimals="0">454945</g:ProfitLoss><g:ProfitLoss contextRef="c28" unitRef="u8" decimals="3">-63000</g:ProfitLoss><g:ProfitLoss contextRef="c29" unitRef="u8" decimals="0">473514</g:ProfitLoss><g:ProfitLoss contextRef="c30" unitRef="u8" decimals="3">-65000</g:ProfitLoss><g:ManufacturedGoodsAndGoodsForResale contextRef="c2" unitRef="u8" decimals="0">8619570</g:ManufacturedGoodsAndGoodsForResale><g:ManufacturedGoodsAndGoodsForResale contextRef="c4" unitRef="u8" decimals="3">2860000</g:ManufacturedGoodsAndGoodsForResale><g:Inventories contextRef="c2" unitRef="u8" decimals="0">8619570</g:Inventories><g:Inventories contextRef="c4" unitRef="u8" decimals="3">2860000</g:Inventories><g:OtherShorttermReceivables contextRef="c2" unitRef="u8" decimals="0">514652</g:OtherShorttermReceivables><g:OtherShorttermReceivables contextRef="c4" unitRef="u8" decimals="3">95000</g:OtherShorttermReceivables><g:ShorttermReceivables contextRef="c2" unitRef="u8" decimals="0">514652</g:ShorttermReceivables><g:ShorttermReceivables contextRef="c4" unitRef="u8" decimals="3">95000</g:ShorttermReceivables><g:CashAndCashEquivalents contextRef="c2" unitRef="u8" decimals="0">11027</g:CashAndCashEquivalents><g:CashAndCashEquivalents contextRef="c4" unitRef="u8" decimals="3">10000</g:CashAndCashEquivalents><g:CurrentAssets contextRef="c2" unitRef="u8" decimals="0">9145249</g:CurrentAssets><g:CurrentAssets contextRef="c4" unitRef="u8" decimals="3">2965000</g:CurrentAssets><g:Assets contextRef="c2" unitRef="u8" decimals="0">9145249</g:Assets><g:Assets contextRef="c4" unitRef="u8" decimals="3">2965000</g:Assets><g:Equity contextRef="c2" unitRef="u8" decimals="0">771247</g:Equity><g:Equity contextRef="c4" unitRef="u8" decimals="3">1670000</g:Equity><g:ShorttermMortgageDebt contextRef="c2" unitRef="u8" decimals="0">1115000</g:ShorttermMortgageDebt><g:ShorttermMortgageDebt contextRef="c4" unitRef="u8" decimals="3">1115000</g:ShorttermMortgageDebt><g:ShorttermDebtToBanks contextRef="c2" unitRef="u8" decimals="0">7203808</g:ShorttermDebtToBanks><g:ShorttermDebtToBanks contextRef="c4" unitRef="u8" decimals="3">42000</g:ShorttermDebtToBanks><g:ShorttermTradePayables contextRef="c2" unitRef="u8" decimals="0">46194</g:ShorttermTradePayables><g:ShorttermTradePayables contextRef="c4" unitRef="u8" decimals="3">125000</g:ShorttermTradePayables><g:OtherShorttermPayables contextRef="c2" unitRef="u8" decimals="0">0</g:OtherShorttermPayables><g:OtherShorttermPayables contextRef="c4" unitRef="u8" decimals="3">13000</g:OtherShorttermPayables><g:ShorttermDeferredIncome contextRef="c2" unitRef="u8" decimals="0">9000</g:ShorttermDeferredIncome><g:ShorttermDeferredIncome contextRef="c4" unitRef="u8" decimals="3">0</g:ShorttermDeferredIncome><g:ShorttermLiabilitiesOtherThanProvisions contextRef="c2" unitRef="u8" decimals="0">8374002</g:ShorttermLiabilitiesOtherThanProvisions><g:ShorttermLiabilitiesOtherThanProvisions contextRef="c4" unitRef="u8" decimals="3">1295000</g:ShorttermLiabilitiesOtherThanProvisions><g:LiabilitiesOtherThanProvisions contextRef="c2" unitRef="u8" decimals="0">8374002</g:LiabilitiesOtherThanProvisions><g:LiabilitiesOtherThanProvisions contextRef="c4" unitRef="u8" decimals="3">1295000</g:LiabilitiesOtherThanProvisions><g:LiabilitiesAndEquity contextRef="c2" unitRef="u8" decimals="0">9145249</g:LiabilitiesAndEquity><g:LiabilitiesAndEquity contextRef="c4" unitRef="u8" decimals="3">2965000</g:LiabilitiesAndEquity><e:IdentificationOfApprovedAnnualReport contextRef="c0">Ledelsen har dags dato behandlet og godkendt årsrapporten for 1. januar - 31. december 2014 for A &amp; L I/S.
+
+
+
+
+
+
+</e:IdentificationOfApprovedAnnualReport><e:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement contextRef="c0">Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.
+
+
+
+
+
+
+</e:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement><e:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults contextRef="c0">Det er vores opfattelse, at årsregnskabet giver et retvisende billede af virksomhedens aktiver, passiver og finansielle stilling pr. 31. december 2014 samt af resultatet af virksomhedens aktiviteter for regnskabsåret 1. januar - 31. december 2014.
+
+
+
+
+
+
+
+</e:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults><e:ManagementsStatementAboutManagementsReview contextRef="c0">Ledelsesberetningen indeholder efter vores opfattelse en retvisende redegørelse for de forhold, beretningen omhandler.
+
+
+
+
+
+
+
+
+</e:ManagementsStatementAboutManagementsReview><e:ConfirmationThatFinancialStatementsAreExemptedFromAuditing contextRef="c0">Ledelsen anser fortsat betingelserne for at undlade revision for opfyldte. 
+
+
+
+</e:ConfirmationThatFinancialStatementsAreExemptedFromAuditing><e:RecommendationForApprovalOfAnnualReportByGeneralMeeting contextRef="c0">Årsrapporten indstilles til generalforsamlingens godkendelse.
+
+
+
+</e:RecommendationForApprovalOfAnnualReportByGeneralMeeting><f:AddresseeOfAuditorsReportOnOtherReport contextRef="c0">Til interessenterne i A &amp; L I/S
+
+
+</f:AddresseeOfAuditorsReportOnOtherReport><f:DescriptionOfOtherEngagement contextRef="c0">Vi har opstillet årsregnskabet for A &amp; L I/S for regnskabsåret 1. januar - 31. december 2014 på grundlag af virksomhedens bogføring og øvrige oplysninger, som ledelsen har tilvejebragt.
+
+Årsregnskabet omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter.
+
+Vi har udført opgaven i overensstemmelse med den internationale standard, Opgaver om opstilling af finansielle oplysninger.
+
+Vi har anvendt vores faglige ekspertise til at assistere ledelsen med at udarbejde og præsentere årsregnskabet i overensstemmelse med årsregnskabsloven. Vi har overholdt relevante bestemmelser i revisorloven og FSR – danske revisorers Etiske regler for revisorer, herunder principper vedrørende integritet, objektivitet, faglig kompetence og fornøden omhu.
+
+Årsregnskabet samt nøjagtigheden og fuldstændigheden af de oplysninger, der er anvendt til opstillingen af årsregnskabet, er ledelsens ansvar.
+
+Da en opgave om opstilling af finansielle oplysninger ikke er en erklæringsopgave med sikkerhed, er vi ikke forpligtet til at verificere nøjagtigheden eller fuldstændigheden af de oplysninger, ledelsen har givet os til brug for at opstille årsregnskabet. Vi udtrykker derfor ingen revisions- eller reviewkonklusion om, hvorvidt årsregnskabet er udarbejdet i overensstemmelse med årsregnskabsloven.
+
+</f:DescriptionOfOtherEngagement><h:DescriptionOfPrimaryActivitiesOfEntity contextRef="c0">Væsentligste aktiviteter
+
+
+
+
+Virksomhedens formål er at opkøbe og projektudvikle ejendomme og at købe, sælge og udleje ejendomme.
+
+
+
+
+
+
+
+
+</h:DescriptionOfPrimaryActivitiesOfEntity><h:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs contextRef="c0">Udvikling i aktiviteter og økonomiske forhold
+
+
+
+
+Årets resultat udgør kr. 928.459.
+
+
+
+
+
+
+
+Virksomhedens balance udviser en samlet aktivmasse på kr. 9.145.249 og en egenkapital på kr. 771.247.
+
+
+
+
+
+
+
+
+</h:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs><h:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod contextRef="c0">Betydningsfulde hændelser, indtruffet efter regnskabsårets afslutning
+
+
+
+
+Der er ikke efter regnskabsårets afslutning indtruffet begivenheder af væsentlig betydning for selskabets finansielle stilling.
+
+
+
+
+
+
+
+
+</h:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod><g:InformationOnReportingClassOfEntity contextRef="c0">Årsrapporten for A &amp; L I/S for 2014 er aflagt i overensstemmelse med den danske årsregnskabslovs bestemmelser for virksomheder i regnskabsklasse B.
+Regnskabsklasse B
+
+
+
+
+
+
+Årsrapporten er udarbejdet efter samme regnskabspraksis som sidste år.
+1
+
+</g:InformationOnReportingClassOfEntity><g:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies contextRef="c0">Generelt om indregning og måling
+
+
+
+
+
+I resultatopgørelsen indregnes indtægter i takt med, at de indtjenes, herunder indregnes værdireguleringer af finansielle aktiver og forpligtelser. I resultatopgørelsen indregnes ligeledes alle omkostninger, herunder afskrivninger og nedskrivninger.
+
+
+
+
+
+
+
+Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde virksomheden, og aktivets værdi kan måles pålideligt.
+
+
+
+
+
+
+
+
+Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå virksomheden, og forpligtelsens værdi kan måles pålideligt.
+
+
+
+
+
+
+
+
+
+Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver og forpligtelser som beskrevet for hver enkelt regnskabspost nedenfor.
+
+
+
+
+
+
+
+
+
+Ved indregning og måling tages hensyn til forudsigelige tab og risici, der fremkommer inden årsrapporten aflægges, og som be- eller afkræfter forhold, der eksisterede på balancedagen.
+
+
+
+
+
+
+
+
+
+Den regnskabsmæssige værdi af immaterielle og materielle anlægsaktiver gennemgås årligt for at afgøre, om der er indikation af værdiforringelse ud over det, som udtrykkes ved normal afskrivning. Hvis dette er tilfældet, foretages nedskrivning til den lavere genindvindingsværdi.
+
+
+
+
+
+
+
+
+
+</g:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExternalExpenses contextRef="c0">RESULTATOPGØRELSEN
+
+
+
+
+
+
+
+
+
+
+
+Andre eksterne omkostninger
+
+
+
+
+
+Andre eksterne omkostninger omfatter omkostninger til administration mv.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExternalExpenses><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceIncomeAndExpenses contextRef="c0">Finansielle indtægter og omkostninger
+
+
+
+
+
+Finansielle indtægter og omkostninger indregnes i resultatopgørelsen med de beløb, der vedrører regnskabsåret. Finansielle indtægter og omkostninger omfatter renteindtægter og -omkostninger, realiserede og urealiserede kursgevinster og -tab vedrørende værdipapirer.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceIncomeAndExpenses><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses contextRef="c0">Skat
+
+
+
+
+
+Der er ingen skatteforpligtelser medtaget i årsrapporten, idet disse påhviler og afhænger af forholdene i de respektive holdingselskaber. 
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfInventories contextRef="c0">BALANCEN
+
+
+
+
+
+
+
+
+
+
+
+Varebeholdninger
+
+
+
+
+
+Ejendomme til videresalg indregnes til kostpris.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfInventories><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions contextRef="c0">Gældsforpligtelser
+
+
+
+
+
+
+
+
+
+Prioritetsgæld måles til pantebrevsrestgælden.
+
+
+
+
+
+
+
+
+Gæld i øvrigt er målt til amortiseret kostpris svarende til nominel værdi.
+
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions><g:DisclosureOfEquity contextRef="c0">Note
+
+
+
+
+
+
+
+
+
+
+
+
+Egenkapital
+
+
+
+
+1
+
+
+
+
+2014
+2013
+
+
+
+
+
+kr.
+tkr.
+
+
+
+
+
+
+
+
+
+
+
+S.A. Invest 2012 ApS
+
+
+
+
+
+
+Egenkapital 1. januar 
+818.273
+689
+
+0
+
+
+Årets resultatandel 
+454.945
+-63
+
+
+
+
+Indskud 
+0
+192
+
+0
+
+
+Hævninger 
+-895.307
+0
+
+0
+
+
+Egenkapital 31. december 
+377.911
+818
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ApS JES 2012
+
+
+
+
+
+
+Egenkapital 1. januar 
+851.672
+717
+
+516.210
+
+
+Årets resultatandel 
+473.514
+-65
+
+
+
+
+Indskud 
+0
+200
+
+516.220
+
+
+Hævninger 
+-931.850
+0
+
+516.230
+
+
+Egenkapital 31. december 
+393.336
+852
+
+
+
+
+
+
+
+
+
+
+
+EGENKAPITAL 31. DECEMBER 
+771.247
+1.670
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g:DisclosureOfEquity><g:DisclosureOfContingentLiabilities contextRef="c0">Eventualposter mv.
+2
+
+Ingen.
+
+</g:DisclosureOfContingentLiabilities><g:DisclosureOfCollateralsAndAssetsPledgesAsSecurity contextRef="c0">Pantsætninger og sikkerhedsstillelser
+3
+
+Ejerpantebrev kr. 2.000.000 i ejendommen Havnegade 3 ligger til sikkerhed for mellemværende med pengeinstitut.
+
+
+
+
+
+
+
+
+</g:DisclosureOfCollateralsAndAssetsPledgesAsSecurity><!--Aktuelle periode--><context id="c0"><entity><identifier scheme="http://www.dcca.dk/cvr">34701016</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period></context><!--Forrige periode--><context id="c1"><entity><identifier scheme="http://www.dcca.dk/cvr">34701016</identifier></entity><period><startDate>2013-01-01</startDate><endDate>2013-12-31</endDate></period></context><!--Slutdato for aktuelle periode--><context id="c2"><entity><identifier scheme="http://www.dcca.dk/cvr">34701016</identifier></entity><period><instant>2014-12-31</instant></period></context><!--Slutdato for forrige periode--><context id="c4"><entity><identifier scheme="http://www.dcca.dk/cvr">34701016</identifier></entity><period><instant>2013-12-31</instant></period></context><!--Uddelinger--><context id="c27"><entity><identifier scheme="http://www.dcca.dk/cvr">34701016</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:explicitMember dimension="g:ResultDistributionDimension">g:DistributionsMember</xbrldi:explicitMember></scenario></context><!--Uddelinger py--><context id="c28"><entity><identifier scheme="http://www.dcca.dk/cvr">34701016</identifier></entity><period><startDate>2013-01-01</startDate><endDate>2013-12-31</endDate></period><scenario><xbrldi:explicitMember dimension="g:ResultDistributionDimension">g:DistributionsMember</xbrldi:explicitMember></scenario></context><!--Overfoert resultat--><context id="c29"><entity><identifier scheme="http://www.dcca.dk/cvr">34701016</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:explicitMember dimension="g:ResultDistributionDimension">g:RetainedEarningsMember</xbrldi:explicitMember></scenario></context><!--Overfoert resultat py--><context id="c30"><entity><identifier scheme="http://www.dcca.dk/cvr">34701016</identifier></entity><period><startDate>2013-01-01</startDate><endDate>2013-12-31</endDate></period><scenario><xbrldi:explicitMember dimension="g:ResultDistributionDimension">g:RetainedEarningsMember</xbrldi:explicitMember></scenario></context><!--Ledelse1--><context id="c199"><entity><identifier scheme="http://www.dcca.dk/cvr">34701016</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:typedMember dimension="d:IdentificationOfMemberOfExecutiveBoardDimension"><d:memberOfBoardIdentifier>1</d:memberOfBoardIdentifier></xbrldi:typedMember></scenario></context><!--Ledelse2--><context id="c200"><entity><identifier scheme="http://www.dcca.dk/cvr">34701016</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:typedMember dimension="d:IdentificationOfMemberOfExecutiveBoardDimension"><d:memberOfBoardIdentifier>2</d:memberOfBoardIdentifier></xbrldi:typedMember></scenario></context><!--Revisor1 Ny--><context id="c299"><entity><identifier scheme="http://www.dcca.dk/cvr">34701016</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:typedMember dimension="d:IdentificationOfAuditorDimension"><d:auditorIdentifier>1</d:auditorIdentifier></xbrldi:typedMember></scenario></context><!--DKK--><unit id="u8"><measure>iso4217:DKK</measure></unit></xbrl>

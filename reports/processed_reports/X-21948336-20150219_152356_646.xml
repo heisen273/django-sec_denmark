@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Created by Magnus:Årsafslutning--><xbrli:xbrl xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:entry="http://xbrl.dcca.dk/entryBalanceSheetAccountFormIncomeStatementByNature" xmlns:eogs="http://xbrl.dcca.dk/eogs" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:tax="http://xbrl.dcca.dk/tax" xmlns:tch="http://xbrl.dcca.dk/tch" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink"><link:schemaRef xlink:type="simple" xlink:href="http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd"/><xbrli:context id="ID_0"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_2"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension"><cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier></xbrldi:typedMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_3"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension"><cmn:memberOfBoardIdentifier>2</cmn:memberOfBoardIdentifier></xbrldi:typedMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_1"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_10"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_8"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_9"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension"><cmn:memberOfBoardIdentifier/></xbrldi:typedMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_12"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_11"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_5"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_6"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_4"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_7"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_13"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">33646186</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2014-09-30</xbrli:instant></xbrli:period></xbrli:context><xbrli:unit id="percent"><xbrli:measure>xbrli:pure</xbrli:measure></xbrli:unit><xbrli:unit id="decimal"><xbrli:measure>xbrli:pure</xbrli:measure></xbrli:unit><xbrli:unit id="DKK"><xbrli:measure>iso4217:DKK</xbrli:measure></xbrli:unit><xbrli:unit id="share"><xbrli:measure>xbrli:shares</xbrli:measure></xbrli:unit><arr:AddresseeOfAuditorsReportOnAuditedFinancialStatements contextRef="ID_1"> 
+Til kapitalejerne i Owi Gulve ApS
+ </arr:AddresseeOfAuditorsReportOnAuditedFinancialStatements><arr:AuditorsReportOnFinancialStatements contextRef="ID_1">Påtegning på årsregnskabet</arr:AuditorsReportOnFinancialStatements><arr:IdentificationOfAuditedFinancialStatements contextRef="ID_1">Vi har revideret årsregnskabet for Owi Gulve ApS for regnskabsåret 1. oktober 2013 - 30. september 2014, der omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter. Årsregnskabet udarbejdes efter årsregnskabsloven.
+ </arr:IdentificationOfAuditedFinancialStatements><arr:InformationOnSignatureOfAuditors contextRef="ID_1"> 	 
+Silkeborg, den 6. februar 2015	 
+ 	 
+AKTIV REVISION Silkeborg	 
+Registreret Revisionsanpartsselskab	 
+ 	 
+ 	 
+ 	 
+Torben Bach Nielsen	 
+Registreret revisor	 
+</arr:InformationOnSignatureOfAuditors><arr:OpinionOnAuditedFinancialStatements contextRef="ID_1">Konklusion
+Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30. september 2014  samt af resultatet af selskabets aktiviteter for regnskabsåret 1. oktober 2013 - 30. september 2014 i overensstemmelse med årsregnskabsloven. 
+ </arr:OpinionOnAuditedFinancialStatements><arr:SignatureOfAuditorsDate contextRef="ID_1">2015-02-06</arr:SignatureOfAuditorsDate><arr:SignatureOfAuditorsPlace contextRef="ID_1">Silkeborg</arr:SignatureOfAuditorsPlace><arr:StatementOfAuditorsResponsibilityForAuditAndAuditPerformed contextRef="ID_1">Vores ansvar er at udtrykke en konklusion om årsregnskabet på grundlag af vores revision. Vi har udført revisionen i overensstemmelse med internationale standarder om revision og yderligere krav ifølge dansk revisorlovgivning. Dette kræver, at vi overholder etiske krav samt planlægger og udfører revisionen for at opnå høj grad af sikkerhed for, om årsregnskabet er uden væsentlig fejlinformation.
+ 
+En revision omfatter udførelse af revisionshandlinger for at opnå revisionsbevis for beløb og oplysninger i årsregnskabet. De valgte revisionshandlinger afhænger af revisors vurdering, herunder vurdering af risici for væsentlig fejlinformation i årsregnskabet, uanset om denne skyldes besvigelser eller fejl. Ved risikovurderingen overvejer revisor intern kontrol, der er relevant for virksomhedens udarbejdelse af et årsregnskab, der giver et retvisende billede. Formålet hermed er at udforme revisionshandlinger, der er passende efter omstændighederne, men ikke at udtrykke en konklusion om effektiviteten af virksomhedens interne kontrol. En revision omfatter endvidere vurdering af, om ledelsens valg af regnskabspraksis er passende, om ledelsens regnskabsmæssige skøn er rimelige samt den samlede præsentation af årsregnskabet.
+ , Det er vores opfattelse, at det opnåede revisionsbevis er tilstrækkeligt og egnet som grundlag for vores konklusion.
+ 
+Revisionen har ikke givet anledning til forbehold.
+ , Revisors ansvar
+Vores ansvar er at udtrykke en konklusion om årsregnskabet på grundlag af vores revision. Vi har udført revisionen i overensstemmelse med internationale standarder om revision og yderligere krav ifølge dansk revisorlovgivning. Dette kræver, at vi overholder etiske krav samt planlægger og udfører revisionen for at opnå høj grad af sikkerhed for, om årsregnskabet er uden væsentlig fejlinformation.
+ 
+En revision omfatter udførelse af revisionshandlinger for at opnå revisionsbevis for beløb og oplysninger i årsregnskabet. De valgte revisionshandlinger afhænger af revisors vurdering, herunder vurdering af risici for væsentlig fejlinformation i årsregnskabet, uanset om denne skyldes besvigelser eller fejl. Ved risikovurderingen overvejer revisor intern kontrol, der er relevant for virksomhedens udarbejdelse af et årsregnskab, der giver et retvisende billede. Formålet hermed er at udforme revisionshandlinger, der er passende efter omstændighederne, men ikke at udtrykke en konklusion om effektiviteten af virksomhedens interne kontrol. En revision omfatter endvidere vurdering af, om ledelsens valg af regnskabspraksis er passende, om ledelsens regnskabsmæssige skøn er rimelige samt den samlede præsentation af årsregnskabet.
+ 
+Det er vores opfattelse, at det opnåede revisionsbevis er tilstrækkeligt og egnet som grundlag for vores konklusion.
+ 
+Revisionen har ikke givet anledning til forbehold.
+ </arr:StatementOfAuditorsResponsibilityForAuditAndAuditPerformed><arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatements contextRef="ID_1">Ledelsens ansvar for årsregnskabet
+Ledelsen har ansvaret for udarbejdelsen af et årsregnskab, der giver et retvisende billede i overensstemmelse med årsregnskabsloven. Ledelsen har endvidere ansvaret for den interne kontrol, som ledelsen anser nødvendig for at udarbejde et årsregnskab uden væsentlig fejlinformation, uanset om denne skyldes besvigelser eller fejl. 
+ </arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatements><arr:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements contextRef="ID_1">Udtalelse om ledelsesberetningen, Vi har i henhold til årsregnskabsloven gennemlæst ledelsesberetningen. Vi har ikke foretaget yderligere handlinger i tillæg til den udførte revision af årsregnskabet. Det er på denne baggrund vores opfattelse, at oplysningerne i ledelsesberetningen er i overensstemmelse med årsregnskabet. 
+ </arr:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements><cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="ID_2">Michael Dons Andersen</cmn:NameAndSurnameOfMemberOfExecutiveBoard><cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="ID_3">Rune Mangelsen</cmn:NameAndSurnameOfMemberOfExecutiveBoard><cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="ID_9"> 
+Direktion
+ 
+ 
+ 
+Michael Dons Andersen
+	 
+ 
+ 
+ 
+ 
+Rune Mangelsen
+	 
+ 
+ 
+ 
+ 
+ 
+
+Direktør	Direktør	 
+ 	 	 
+</cmn:NameAndSurnameOfMemberOfExecutiveBoard><cmn:TitleOfMemberOfExecutiveBoard contextRef="ID_2">Direktør</cmn:TitleOfMemberOfExecutiveBoard><cmn:TitleOfMemberOfExecutiveBoard contextRef="ID_3">Direktør</cmn:TitleOfMemberOfExecutiveBoard><cmn:TypeOfAuditorAssistance contextRef="ID_1">Revisionspåtegning</cmn:TypeOfAuditorAssistance><fsa:Assets contextRef="ID_13" unitRef="DKK" decimals="0">0</fsa:Assets><fsa:ClassOfReportingEntity contextRef="ID_11">Regnskabsklasse B</fsa:ClassOfReportingEntity><fsa:DisclosureOfAccountingPolicies contextRef="ID_11"> 
+Generelle oplysninger om anvendt regnskabspraksis
+ 
+Regnskabsklasse
+Årsrapporten for Owi Gulve ApS for 2013/2014 er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for  virksomheder i regnskabsklasse B.
+ 
+Anvendt regnskabspraksis er uændret i forhold til tidligere år.
+ 
+Rapporteringsvaluta
+Årsrapporten er aflagt i danske kroner.
+ 
+Omregning af fremmed valuta
+Transaktioner i fremmed valuta omregnes til danske kroner efter transaktionsdagens kurs. Monetære aktiver og forpligtelser i fremmed valuta omregnes til danske kroner efter balancedagens valutakurser. Realiserede og urealiserede valutakursgevinster og -tab indgår i resultatopgørelsen under finansielle poster.
+ 
+Indregningsmetoder og målegrundlag
+ 
+Generelt om indregning og måling
+Indtægter indregnes i resultatopgørelsen i takt med, at de indtjenes, herunder indregnes værdireguleringer af finansielle aktiver og forpligtelser, der måles til dagsværdi eller amortiseret kostpris. Endvidere indregnes i resultatopgørelsen alle omkostninger, der er afholdt for at opnå årets indtjening, herunder afskrivninger, nedskrivninger og hensatte forpligtelser samt tilbageførsler som følge af ændrede regnskabsmæssige skøn af beløb, der tidligere har været indregnet i resultatopgørelsen. 
+ 
+Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt. Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt. Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver og forpligtelser som beskrevet for hver enkelt regnskabspost nedenfor. 
+ 
+Visse finansielle aktiver og forpligtelser måles til amortiseret kostpris, hvorved der indregnes en konstant effektiv rente over løbetiden. Amortiseret kostpris opgøres som oprindelig kostpris med fradrag af afdrag og tillæg/fradrag af den akkumulerede afskrivning af forskellen mellem kostprisen og det nominelle beløb. Herved fordeles kurstab og -gevinst over løbetiden. 
+ 
+Ved indregning og måling tages hensyn til forudsigelige tab og risici, der fremkommer, inden årsrapporten aflægges, og som be- eller afkræfter forhold, der eksisterer på balancedagen.
+ 
+Resultatopgørelsen
+ 
+Bruttofortjeneste og -tab
+Virksomheden har valgt at sammendrage visse poster i resultatopgørelsen efter bestemmelserne i årsregnskabslovens § 32.
+ 
+Nettoomsætning
+Indtægter ved salg af varer indgår i omsætningen på tidspunktet for levering og risikoens overgang, såfremt indtægten kan opgøres pålideligt. Omsætningen opgøres efter fradrag af moms, afgifter og rabatter.
+ 
+Indtægter ved levering af serviceydelser indregnes som omsætning i takt med leveringen af ydelsen.
+ 
+Andre eksterne omkostninger
+Andre eksterne omkostninger omfatter omkostninger vedrørende salg og administration.
+ 
+Personaleomkostninger
+Personaleomkostninger omfatter lønninger og gager, pensioner samt omkostninger til social sikring.
+ 
+Af- og nedskrivninger på immaterielle og materielle anlægsaktiver
+Af- og nedskrivninger på immaterielle og materielle anlægsaktiver er foretaget ud fra en løbende vurdering af aktivernes brugstid i virksomheden. Anlægsaktiverne afskrives lineært på grundlag af kostprisen, baseret på følgende vurdering af brugstider:
+	
+ 	Brugstid	 
+Andre anlæg, driftsmateriel og inventar	5 år	 
+ 	 	 
+Fortjeneste eller tab ved afhændelse af immaterielle og materielle anlægsaktiver opgøres som forskellen mellem salgspris med fradrag af salgsomkostninger og den regnskabsmæssige værdi på salgstidspunktet, og indregnes i resultatopgørelsen under afskrivninger.
+ 
+Finansielle indtægter og omkostninger
+Finansielle indtægter og omkostninger indregnes i resultatopgørelsen med de beløb, der vedrører regnskabsåret. Finansielle indtægter og omkostninger indeholder renteindtægter og -omkostninger, realiserede og urealiserede kursgevinster og -tab vedrørende værdipapirer, gæld og transaktioner i fremmed valuta, modtaget udbytte fra andre kapitalandele, amortisering af finansielle aktiver og forpligtelser samt tillæg og godtgørelser under acontoskatteordningen.
+ 
+Skatter
+Skat af årets resultat omfatter aktuel skat af årets forventede skattepligtige indkomst og årets regulering af udskudt skat med fradrag af den del af årets skat, der vedrører egenkapitalbevægelser. Aktuel og udskudt skat vedrørende egenkapitalbevægelser indregnes direkte i egenkapitalen.
+ 
+Balancen
+ 
+Materielle anlægsaktiver
+Materielle anlægsaktiver måles til kostpris med tillæg af eventuelle opskrivninger og med fradrag af akkumulerede af- og nedskrivninger. Kostpris omfatter anskaffelsesprisen og omkostninger direkte tilknyttet anskaffelsen indtil det tidspunkt, hvor aktivet er klart til at blive taget i brug.
+ 
+Andre finansielle anlægsaktiver
+Andre værdipapirer og kapitalandele måles til kursværdien på balancedagen, såfremt de er børsnoterede, eller en anslået dagsværdi, såfremt de ikke er børsnoterede.
+ 
+ 
+Varebeholdninger
+Varebeholdninger måles til kostpris på grundlag af FIFO-princippet eller til nettorealisationsværdi, hvis denne er lavere.
+ 
+Råvarer og hjælpematerialer måles til kostpris, hvilket omfatter anskaffelsespris med tillæg af hjemtagelsesomkostninger.
+ 
+Igangværende leverancer af serviceydelser
+Igangværende leverancer af serviceydelser måles til salgsværdien af det udførte arbejde. Færdiggørelsesgraden opgøres på grundlag af de medgåede direkte og indirekte omkostninger i forhold til de forventede samlede omkostninger.
+ 
+Værdien af de enkelte igangværende leverancer med fradrag af acontofaktureringer klassificeres som tilgodehavender, såfremt beløbene er positive, og som gæld, såfremt beløbene er negative.
+ 
+Fradrag for tab opgøres som det samlede forventede tab på entreprisen uanset den faktisk udførte andel. 
+ 
+Tilgodehavender
+Tilgodehavender måles til amortiseret kostpris, der almindeligvis svarer til nominel værdi. Værdien reduceres med nedskrivninger til imødegåelse af forventede tab.
+ 
+Periodeafgrænsningsposter, aktiver
+Periodeafgrænsningsposter indregnet under aktiver omfatter forudbetalte omkostninger vedrørende efterfølgende regnskabsår.
+ 
+Likvider
+Likvider omfatter likvide beholdninger samt kortfristede værdipapirer med ubetydelig risiko for værdiændringer.
+ 
+Hensatte forpligtelser
+Udskudt skat
+Udskudt skat og årets regulering heraf opgøres efter den balanceorienterede gældsmetode som skatteværdien af alle midlertidige forskelle mellem regnskabsmæssige og skattemæssige værdier af aktiver og forpligtelser. 
+ 
+Udskudte skatteaktiver, herunder skatteværdien af fremførselsberettigede skattemæssige underskud, indregnes med den værdi, hvortil de forventes at blive anvendt, enten ved udligning i skat af fremtidig indtjening eller ved modregning i udskudte skatteforpligtelser i virksomheder inden for samme juridiske skatteenhed og jurisdiktion.
+ 
+Udskudt skat måles på grundlag af de skatteregler og skattesatser, der med balancedagens lovgivning vil være gældende, når den udskudte skat forventes udløst.
+ 
+Finansielle gældsforpligtelser
+Fastforrentede lån som realkreditlån og lån hos kreditinstitutter indregnes ved lånoptagelsen til det modtagne provenu med fradrag af afholdte transaktionsomkostninger. I efterfølgende perioder måles lånene til amortiseret kostpris, således, at forskellen mellem provenuet og den nominelle værdi indregnes i resultatopgørelsen som en renteomkostning over låneperioden.
+ 
+Øvrige gældsforpligtelser måles til amortiseret kostpris, hvilket almindeligvis svarer til nominel værdi. 
+ 
+Aktuelle skatteforpligtelser
+Aktuelle skatteforpligtelser indregnes i balancen som beregnet skat af årets forventede skattepligtige indkomst, reguleret for skat af tidligere års skattepligtige indkomster samt betalte acontoskatter.
+ 
+Eventualaktiver og -forpligtelser
+Eventualaktiver og -forpligtelser indregnes ikke i balancen, men oplyses alene i noterne.
+ </fsa:DisclosureOfAccountingPolicies><fsa:DisclosureOfCollateralsAndAssetsPledgesAsSecurity contextRef="ID_7">8. Sikkerhedsstillelser og pantsætninger
+Selskabet har stillet arbejdsgarantier for max. kr. 5.000.000.
+
+Der er ingen pantsætninger pr. statusdagen.
+</fsa:DisclosureOfCollateralsAndAssetsPledgesAsSecurity><fsa:DisclosureOfContingentLiabilities contextRef="ID_7">7. Eventualforpligtelser
+Selskabet har indgået to huslejekontrakter, den første med en årlig leje på t.kr. 83, som kan til enhver tid opsiges med 3 måneders varsel. Den anden kontrakt med en årlig leje på t.kr. 90, som automatisk ophører den 30/4 2016.
+
+Selskabet har indgået aftaler om leasing af driftsmidler. Leasingforpligtelserne løber indtil henholdsvis 1/10 2015, 1/10 2016, 1/12 2017 og 1/2 2018. Leasingydelserne i denne periode udgør t.kr. 373.
+ 
+</fsa:DisclosureOfContingentLiabilities><fsa:DisclosureOfContributedCapital contextRef="ID_6">5. Virksomhedskapital
+Saldo primo	80.000	 	80.000
+Saldo ultimo	80.000	 	80.000
+ 	 	 	 
+Selskabskapitalen har været uændret siden stiftelsen.
+ 
+</fsa:DisclosureOfContributedCapital><fsa:DisclosureOfEmployeeBenefitsExpense contextRef="ID_4">1. Personaleomkostninger
+Lønninger	3.911.769	 	2.133.593
+Pensioner	491.699	 	256.066
+Omkostninger til social sikring	50.441	 	31.348
+Andre personaleomkostninger	66.872	 	30.331
+ 	4.520.781	 	2.451.338
+ 	 	 	 
+</fsa:DisclosureOfEmployeeBenefitsExpense><fsa:DisclosureOfEquity contextRef="ID_6">6. Udbytte for regnskabsåret
+Årets tilgang	1.500.000	 	0
+Saldo ultimo	1.500.000	 	0
+ 	 	 	 
+</fsa:DisclosureOfEquity><fsa:DisclosureOfInventories contextRef="ID_5">3. Varebeholdninger
+Varebeholdninger er opgjort således:	 	 	 
+Råvarer og hjælpematerialer	4.640	 	213.418
+Varebeholdninger i alt	4.640	 	213.418
+ 	 	 	 
+</fsa:DisclosureOfInventories><fsa:DisclosureOfOtherFinanceExpenses contextRef="ID_4">2. Finansielle omkostninger
+Andre finansielle omkostninger	69.761	 	30.310
+ 	69.761	 	30.310
+ 	 	 	 
+</fsa:DisclosureOfOtherFinanceExpenses><fsa:Equity contextRef="ID_13" unitRef="DKK" decimals="0">0</fsa:Equity><fsa:InformationOnContractWorkInProgress contextRef="ID_5">4. Igangværende arbejder for fremmed regning
+Salgsværdi af udført arbejde	0	 	122.745
+Nettoværdi af igangværende arbejder	0	 	122.745
+ 	 	 	 
+</fsa:InformationOnContractWorkInProgress><fsa:LiabilitiesAndEquity contextRef="ID_13" unitRef="DKK" decimals="0">0</fsa:LiabilitiesAndEquity><fsa:ProfitLoss contextRef="ID_12" unitRef="DKK" decimals="0">0</fsa:ProfitLoss><gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="ID_0">8600, Silkeborg</gsd:AddressOfSubmittingEnterprisePostcodeAndTown><gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="ID_0">Navervej 1</gsd:AddressOfSubmittingEnterpriseStreetAndNumber><gsd:DateOfFoundationOfReportingEntity contextRef="ID_0">2011-05-11</gsd:DateOfFoundationOfReportingEntity><gsd:DateOfGeneralMeeting contextRef="ID_0">2015-02-19</gsd:DateOfGeneralMeeting><gsd:IdentificationNumberCvrOfReportingEntity contextRef="ID_0">33646186</gsd:IdentificationNumberCvrOfReportingEntity><gsd:IdentificationNumberCvrOfSubmittingEnterprise contextRef="ID_0">14788107</gsd:IdentificationNumberCvrOfSubmittingEnterprise><gsd:InformationOnTypeOfSubmittedReport contextRef="ID_0">Årsrapport</gsd:InformationOnTypeOfSubmittedReport><gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="ID_0">Michael Dons Andersen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting><gsd:NameOfFinancialInstitution contextRef="ID_0">Sydbank</gsd:NameOfFinancialInstitution><gsd:NameOfReportingEntity contextRef="ID_0">Owi Gulve ApS</gsd:NameOfReportingEntity><gsd:NameOfSubmittingEnterprise contextRef="ID_0">AKTIV REVISION Silkeborg, Registreret Revisionsanpartsselskab</gsd:NameOfSubmittingEnterprise><gsd:RegisteredOfficeOfReportingEntity contextRef="ID_0">Silkeborg, 740</gsd:RegisteredOfficeOfReportingEntity><gsd:ReportingPeriodEndDate contextRef="ID_0">2014-09-30</gsd:ReportingPeriodEndDate><gsd:ReportingPeriodStartDate contextRef="ID_0">2013-10-01</gsd:ReportingPeriodStartDate><mrv:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs contextRef="ID_10">Udviklingen i aktiviteter og økonomiske forhold
+Virksomhedens resultatopgørelse for regnskabsåret 1. oktober 2013 - 30. september 2014 udviser et resultat på kr. 1.564.375, og virksomhedens balance pr. 30. september 2014 udviser en balancesum på kr. 5.250.424 og en egenkapital på kr. 2.614.916.
+ </mrv:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs><mrv:DescriptionOfPrimaryActivitiesOfEntity contextRef="ID_10">Virksomhedens væsentligste aktivitet
+Selskabets væsentligste aktivitet er salg og levering samt udførsel af arbejde indenfor gulvbelægning samt anden dermed beslægtet virksomhed, der efter direktionens skøn står i forbindelse hermed.
+ </mrv:DescriptionOfPrimaryActivitiesOfEntity><mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod contextRef="ID_10">Betydningsfulde hændelser, som er indtruffet efter regnskabsårets afslutning
+Der er efter regnskabsårets afslutning ikke indtruffet begivenheder af væsentlig betydning for selskabets finansielle stilling.
+ </mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod><mrv:ManagementsReview contextRef="ID_10"> 
+Virksomhedens væsentligste aktivitet
+Selskabets væsentligste aktivitet er salg og levering samt udførsel af arbejde indenfor gulvbelægning samt anden dermed beslægtet virksomhed, der efter direktionens skøn står i forbindelse hermed.
+ 
+Udviklingen i aktiviteter og økonomiske forhold
+Virksomhedens resultatopgørelse for regnskabsåret 1. oktober 2013 - 30. september 2014 udviser et resultat på kr. 1.564.375, og virksomhedens balance pr. 30. september 2014 udviser en balancesum på kr. 5.250.424 og en egenkapital på kr. 2.614.916.
+ 
+Betydningsfulde hændelser, som er indtruffet efter regnskabsårets afslutning
+Der er efter regnskabsårets afslutning ikke indtruffet begivenheder af væsentlig betydning for selskabets finansielle stilling.
+ </mrv:ManagementsReview><sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement contextRef="ID_8">Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.
+ </sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement><sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults contextRef="ID_8">Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30. september 2014 samt af resultatet af selskabets aktiviteter og pengestrømme for regnskabsåret 1. oktober 2013 - 30. september 2014.
+ </sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults><sob:IdentificationOfApprovedAnnualReport contextRef="ID_8"> 
+Ledelsen har dags dato behandlet og godkendt årsrapporten for 1. oktober 2013 - 30. september 2014 for Owi Gulve ApS.
+ </sob:IdentificationOfApprovedAnnualReport><sob:ManagementsStatementAboutManagementsReview contextRef="ID_8">Ledelsesberetningen indeholder efter vores opfattelse en retvisende redegørelse for de forhold, beretningen omhandler.
+ </sob:ManagementsStatementAboutManagementsReview><sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting contextRef="ID_8">Årsrapporten indstilles til generalforsamlingens godkendelse.
+ 
+ 
+Silkeborg, den 6. februar 2015</sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting><sob:StatementByExecutiveAndSupervisoryBoards contextRef="ID_8">
+ 
+Ledelsen har dags dato behandlet og godkendt årsrapporten for 1. oktober 2013 - 30. september 2014 for Owi Gulve ApS.
+ 
+Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.
+ 
+Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30. september 2014 samt af resultatet af selskabets aktiviteter og pengestrømme for regnskabsåret 1. oktober 2013 - 30. september 2014.
+ 
+Ledelsesberetningen indeholder efter vores opfattelse en retvisende redegørelse for de forhold, beretningen omhandler.
+ 
+Årsrapporten indstilles til generalforsamlingens godkendelse.
+ 
+ 
+Silkeborg, den 6. februar 2015
+ 
+Direktion
+ 
+ 
+ 
+Michael Dons Andersen
+	 
+ 
+ 
+ 
+ 
+Rune Mangelsen
+	 
+ 
+ 
+ 
+ 
+ 
+
+Direktør	Direktør	 
+ 	 	 
+</sob:StatementByExecutiveAndSupervisoryBoards></xbrli:xbrl>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20140701/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByFunctionIncludingManagementsReviewStatisticsAndTax20140701.xsd" xlink:type="simple"/>
+  <xbrli:context id="c0">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32084664</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-09-01</xbrli:startDate>
+      <xbrli:endDate>2014-08-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32084664</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-09-01</xbrli:startDate>
+      <xbrli:endDate>2014-08-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32084664</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-09-01</xbrli:startDate>
+      <xbrli:endDate>2014-08-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32084664</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2014-08-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u0">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:DateOfGeneralMeeting contextRef="c0">2015-02-18</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Carsten Sundenæs</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">TRONGÅRDEN´S VVS ApS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Studiestræde</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">30</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">1455</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">København K</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">32084664</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:ReportingPeriodStartDate contextRef="c0">2013-09-01</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate contextRef="c0">2014-08-31</gsd:ReportingPeriodEndDate>
+  <gsd:NameOfFinancialInstitution contextRef="c0" xml:lang="da">Nordea</gsd:NameOfFinancialInstitution>
+  <sob:StatementByExecutiveAndSupervisoryBoards contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;LEDELSESPÅTEGNING&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Ledelsen har dags dato behandlet og vedtaget årsrapporten for 2013/14 for perioden   1/10   2013 – 31/8 2014 for selskabet  Trongårdens VVS  ApS&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsrapporten er aflagt i overensstemmelse med årsregnskabsloven.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Vi anser den valgte regnskabspraksis for hensigtsmæssig. Årsrapporten giver efter vor opfattelse et retvisende billede af selskabets aktiver og passiver, den finansielle stilling samt resultat.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Vi indstiller årsrapporten til generalforsamlings godkendelse.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;København, den     /&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Direktion&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Carsten Sundenæs&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Godkendt på generalforsamlingen den   /   2015&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Som dirigent&lt;/p&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+  <sob:PlaceOfSignatureOfStatement contextRef="c0" xml:lang="da">København</sob:PlaceOfSignatureOfStatement>
+  <sob:DateOfApprovalOfAnnualReport contextRef="c0">2015-02-18</sob:DateOfApprovalOfAnnualReport>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c1" xml:lang="da">Carsten Sundenæs</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <mrv:ManagementsReview contextRef="c0" xml:lang="da">&lt;h3 xmlns="http://www.w3.org/1999/xhtml"&gt;Hovedaktiviteter&lt;/h3&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabets hovedaktivitet er VVS og blikkenslagerarbejde mm..&lt;/p&gt;
+&lt;h3 xmlns="http://www.w3.org/1999/xhtml"&gt;Udviklingen i aktiviteter og økonomiske forhold&lt;/h3&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Regnskabsårets resultat før skat udgør  -24.059 der  anses for tilfredsstillende. Resultatet fremkommer som følge af en opstart med tilhørende omkostninger.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;For regnskabsåret 2014/2015 forventes aktiviteten forøget, med forventning om positivt resultat.&lt;/p&gt;
+&lt;h3 xmlns="http://www.w3.org/1999/xhtml"&gt;Begivenheder efter regnskabets afslutning&lt;/h3&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Efter regnskabsårets afslutning er der ikke indtruffet betydningsfulde hændelser som forrykker årsrapportens udsagn. &lt;/p&gt;</mrv:ManagementsReview>
+  <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+  <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Generelt&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for regnskabsklasse B.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;h1 xmlns="http://www.w3.org/1999/xhtml"&gt;Generelt om indregning og måling&lt;/h1&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for regnskabsklasse B.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Forpligtigelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske ressourcer vil fragå selskabet, og forpligtigelsens værdi kan måles pålideligt.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Ved første indregning måles aktiver og forpligtigelser til kostpris. Efterfølgende måles aktiver og forpligtigelser som beskrevet for hver regnskabspost nedenfor.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Finansielt leasede aktiver indregnes ikke i balancen. Leasingydelserne indregnes i takt med leasingaftalens løbetid i resultatopgørelsen. Leasingforpligtigelsen oplyses under eventualforpligtelser.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Ved indregning og måling tages hensyn til gevinster, tab og risici, der fremkommer, inden årsrapporten aflægges, og som bekræfter eler afkræfter forhold, der eksisterede på balancedagen.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Indtægter indregnes i resultatopgørelsen i takt med, at de indtjenes, herunder indregnes værdireguleringer af finansielle aktiver og forpligtelser, der måles til dagsværdi eller amortiseret kostpris. Endvidere indregnes omkostninger, der er afholdt for at opnå årets indtjening, herunder afskrivninger, nedskrivninger og hensatte forpligtelser samt tilbageførsler som følge af ændrede regnskabsmæssige skøn af beløb, der tidligere har været indregnet i resultatopgørelsen.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong&gt;Indregning af fremmed valuta&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Transaktioner i fremmed valuta i løbet af regnskabsåret omregnes til transaktionsdagens kurs ved anvendelse af en gennemsnitskurs. Valutadifferencer, der opstår imellem transaktionsdagens kurs og kursen på betalingsdagen, indregnes i resultatopgørelsen som en finansiel post.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Tilgodehavender, gæld og andre monetære poster i fremmed valuta omregnes til balancedagens valutakurs. Forskellen mellem balancedagens kurs og kursen på tidspunktet for tilgodehavendets eller gældens opståen indregnes i resultatopgørelsen under finansielle indtægter og udgifter.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Resultatopgørelse&lt;/h2&gt;
+&lt;h1 xmlns="http://www.w3.org/1999/xhtml"&gt;Nettoomsætningen: Salgsværdien af det i året udførte arbejde indregnes som nettoomsætning, når arbejdet er udført.&lt;/h1&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabet har af konkurrencehensyn valgt ikke at vise posterne nettoomsætning og produktions-&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Omkostninger resultatopgørelsen. Posterne er sammendraget under posten bruttofortjeneste.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Produktionsomkostninger:&lt;/strong&gt; Omfatter regnskabsårets omkostninger til indkøb og forarbejdning&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Af årets udførte arbejde herunder køb af råvarer og hjælpematerialer, løn og gager, lokaleomkostninger og afskrivning på produktionsudstyr.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Distributionsomkostninger:&lt;/strong&gt; omfatter regnskabsåret afholdte udgifter til distribution, herunder markedsføringsomkostninger, rejseudgifter og afskrivning på distributionsudstyr.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Administrationsomkostninger:&lt;/strong&gt; omfatter regnskabsåret afholdte udgifter til administration, herunder løn og gager, lokaleomkostninger, tab debitorer og afskrivning kontorinventar.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Andre driftsindtægter&lt;/strong&gt; omfatter regnskabsposter af sekundær karakter i forhold til virksomhedens&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Hovedaktivitet, herunder lønrefusion og avance ved salg af driftsmateriel.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Finansielle indtægter og omkostninger&lt;/strong&gt; omfatter renteindtægter, valutakursdifferencer vedrørende transaktioner i fremmed valuta samt renteomkostninger til pengeinstitutter m.m.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Skat af årets resultat&lt;/strong&gt; omfatter aktuel skat og årets forskydning i udskudt skat. Aktuel skat beregnes med udgangspunkt i årets resultat før skat, korrigeret for ikke-skattepligtige indtægter og omkostninger. Ved beregningen er anvendt en skatteprocent på 25 pct.&lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Balance&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong&gt; &lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Materielle anlægsaktiver&lt;/strong&gt; måles til kostpris med fradrag af akkumulerede afskrivninger.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Afskrivningsgrundlaget opgøres som kostpris med fradrag af forventet restværdi med afsluttet brugstid. Afskrivning foretages efter følgende principper baseret på aktivernes forventede brugstider:&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Driftsmateriel og inventar                        lineært 3-5 år.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Aktiver der er ikke er bestemt til at fungere sammen med andre aktiver, med en kostpris på under 10.000 pr. enhed eller en levetid på under 3 år indregnes som omkostning i resultatopgørelsen i an-skaffelsesåret.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Fortjeneste og tab ved afhændelse af materielle anlægsaktiver opgøres som forskellen imellem salgsprisen med fradrag af salgsomkostninger og den regnskabsmæssige værdi på salgstidspunktet. Fortjeneste eller tab indregnes i resultatopgørelsen andre driftsindtægter eller udgifter.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;- 8 -&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Varebeholdninger&lt;/strong&gt; måles til kostpris. I tilfælde hvor kostprisen overstiger nettorealisationsværdien, nedskrives til denne lavere værdi. Kostpris for handelsvarer samt råvarer og hjælpematerialer omfatter anskaffelsespris med tillæg af hjemtagelsesomkostninger.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;h1 xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong&gt;
+    &lt;span style="font-size:16px"&gt;Tilgodehavender fra salg måles til amortiseret kostpris. Der sædvanligvis svarer til nominel værdi. Værdien reduceres mednedskrivning til imødegåelse af forventede tab.&lt;/span&gt;
+  &lt;/strong&gt;
+&lt;/h1&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Igangværende arbejde for fremmed regning&lt;/strong&gt; måles til salgsværdien af udført arbejde,  baseret  på vurdering af arbejdernes færdiggørelsesgrad. Færdiggørelsesgraden opgøres ved en konkret vurdering af hver enkelt arbejdes stade. Modtagne betalinger ved acontofakturering er fratrukket posten.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Udskudte skatteaktiver&lt;/strong&gt; beregnes af midlertidige forskelle imellem skattemæssige og regnskabsmæssige værdier samt af fremførselsberettiget skattemæssigt underskud. Udskudte skatteaktiver måles til den værdi, hvortil de forventes at kunne realiseres, enten ved udligning i skat af den fremtidig indtjening eller ved modregning i udskudte skatteforpligtelser.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Periodeafgrænsningsposter,&lt;/strong&gt; indregnet under tilgodehavender, omfatter afholdte omkostninger vedrørende efterfølgende regnskabsår.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;h1 xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="font-size:16px"&gt;
+    &lt;strong&gt;Gældsforpligtigelser måles som udgangspunkt til amortiseret kostpris. Hvor der ikke er kurstab eller kursgevinst forbundet med gældsforpligtelsen, svarer amortiseret kostpris sædvanligvis til nominel restgæld.&lt;/strong&gt;
+  &lt;/span&gt;
+&lt;/h1&gt;</fsa:DisclosureOfAccountingPolicies>
+  <fsa:Revenue contextRef="c0" decimals="0" unitRef="u0">886236</fsa:Revenue>
+  <fsa:CostOfProduction contextRef="c0" decimals="0" unitRef="u0">620445</fsa:CostOfProduction>
+  <fsa:GrossResult contextRef="c0" decimals="0" unitRef="u0">265791</fsa:GrossResult>
+  <fsa:AdministrativeExpenses contextRef="c0" decimals="0" unitRef="u0">278393</fsa:AdministrativeExpenses>
+  <fsa:OtherOperatingExpenses contextRef="c0" decimals="0" unitRef="u0">11457</fsa:OtherOperatingExpenses>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">-24059</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">-24059</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ExtraordinaryProfitLossBeforeTax contextRef="c0" decimals="0" unitRef="u0">-24059</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-24059</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c2" decimals="0" unitRef="u0">-24059</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-24059</fsa:ProfitLoss>
+  <fsa:FixturesFittingsToolsAndEquipment contextRef="c3" decimals="0" unitRef="u0">34284</fsa:FixturesFittingsToolsAndEquipment>
+  <fsa:PropertyPlantAndEquipment contextRef="c3" decimals="0" unitRef="u0">34284</fsa:PropertyPlantAndEquipment>
+  <fsa:NoncurrentAssets contextRef="c3" decimals="0" unitRef="u0">34284</fsa:NoncurrentAssets>
+  <fsa:RawMaterialsAndConsumables contextRef="c3" decimals="0" unitRef="u0">18500</fsa:RawMaterialsAndConsumables>
+  <fsa:Inventories contextRef="c3" decimals="0" unitRef="u0">18500</fsa:Inventories>
+  <fsa:ShorttermTradeReceivables contextRef="c3" decimals="0" unitRef="u0">45300</fsa:ShorttermTradeReceivables>
+  <fsa:ContractWorkInProgress contextRef="c3" decimals="0" unitRef="u0">30000</fsa:ContractWorkInProgress>
+  <fsa:OtherShorttermReceivables contextRef="c3" decimals="0" unitRef="u0">42294</fsa:OtherShorttermReceivables>
+  <fsa:ShorttermReceivables contextRef="c3" decimals="0" unitRef="u0">117594</fsa:ShorttermReceivables>
+  <fsa:CashAndCashEquivalents contextRef="c3" decimals="0" unitRef="u0">31284</fsa:CashAndCashEquivalents>
+  <fsa:CurrentAssets contextRef="c3" decimals="0" unitRef="u0">167378</fsa:CurrentAssets>
+  <fsa:Assets contextRef="c3" decimals="0" unitRef="u0">201662</fsa:Assets>
+  <fsa:ContributedCapital contextRef="c3" decimals="0" unitRef="u0">125000</fsa:ContributedCapital>
+  <fsa:OtherReserves contextRef="c3" decimals="0" unitRef="u0">53361</fsa:OtherReserves>
+  <fsa:RetainedEarnings contextRef="c3" decimals="0" unitRef="u0">-24059</fsa:RetainedEarnings>
+  <fsa:Equity contextRef="c3" decimals="0" unitRef="u0">154302</fsa:Equity>
+  <fsa:ShorttermTradePayables contextRef="c3" decimals="0" unitRef="u0">6000</fsa:ShorttermTradePayables>
+  <fsa:ShorttermTaxPayables contextRef="c3" decimals="0" unitRef="u0">13790</fsa:ShorttermTaxPayables>
+  <fsa:OtherShorttermPayables contextRef="c3" decimals="0" unitRef="u0">27570</fsa:OtherShorttermPayables>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c3" decimals="0" unitRef="u0">47360</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="c3" decimals="0" unitRef="u0">47360</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity contextRef="c3" decimals="0" unitRef="u0">201662</fsa:LiabilitiesAndEquity>
+  <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Ingen bistand</cmn:TypeOfAuditorAssistance>
+  <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">Carsten Sundenæs</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Studiestræde 30,3</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">1455 København K</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>

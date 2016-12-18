@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Created by Magnus:Årsafslutning--><xbrli:xbrl xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:entry="http://xbrl.dcca.dk/entryBalanceSheetAccountFormIncomeStatementByNature" xmlns:eogs="http://xbrl.dcca.dk/eogs" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:tax="http://xbrl.dcca.dk/tax" xmlns:tch="http://xbrl.dcca.dk/tch" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink"><link:schemaRef xlink:type="simple" xlink:href="http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd"/><xbrli:context id="ID_0"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">31601053</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_2"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">31601053</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension"><cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier></xbrldi:typedMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_1"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">31601053</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_8"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">31601053</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_6"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">31601053</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_7"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">31601053</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension"><cmn:memberOfBoardIdentifier/></xbrldi:typedMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_10"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">31601053</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_9"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">31601053</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_4"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">31601053</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_5"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">31601053</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_3"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">31601053</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_11"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">31601053</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2014-09-30</xbrli:instant></xbrli:period></xbrli:context><xbrli:unit id="percent"><xbrli:measure>xbrli:pure</xbrli:measure></xbrli:unit><xbrli:unit id="decimal"><xbrli:measure>xbrli:pure</xbrli:measure></xbrli:unit><xbrli:unit id="DKK"><xbrli:measure>iso4217:DKK</xbrli:measure></xbrli:unit><xbrli:unit id="share"><xbrli:measure>xbrli:shares</xbrli:measure></xbrli:unit><arr:AddresseeOfAuditorsReportOnOtherReport contextRef="ID_1"> 
+Til den daglige ledelse i Moustgaard Holding ApS
+ </arr:AddresseeOfAuditorsReportOnOtherReport><arr:DescriptionOfOtherEngagement contextRef="ID_1">Jeg har opstillet årsregnskabet for Moustgaard Holding ApS for regnskabsåret 01-10-2013 - 30-09-2014 på grundlag af selskabets bogføring og øvrige oplysninger, som De har tilvejebragt.
+ 
+Årsregnskabet omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter.
+ , Da en opgave om opstilling af finansielle oplysninger ikke er en erklæringsopgave med sikkerhed, er jeg ikke forpligtet til at verificere nøjagtigheden eller fuldstændigheden af de oplysninger, De har givet mig til brug for at opstille årsregnskabet. Jeg udtrykker derfor ingen revisions- eller reviewkonklusion om, hvorvidt årsregnskabet er udarbejdet i overensstemmelse med årsregnskabsloven.
+ , Årsregnskabet samt nøjagtigheden og fuldstændigheden af de oplysninger, der er anvendt til opstilling af årsregnskabet, er Deres ansvar.
+ , Jeg har udført opgaven i overensstemmelse med ISRS 4410, Opgaver om opstilling af finansielle oplysninger.
+ 
+Jeg har anvendt min faglige ekspertise til at assistere Dem med at udarbejde og præsentere årsregnskabet i overensstemmelse med årsregnskabsloven. Jeg har overholdt relevante bestemmelser i revisorloven og FSR - danske revisorers Etiske regler for revisorer, herunder principper vedrørende integritet, objektivitet, faglig kompetence og fornøden omhu.
+ </arr:DescriptionOfOtherEngagement><arr:InformationOnSignatureOfAuditors contextRef="ID_1"> 	 
+Agerbæk, den 16-02-2015	 
+ 	 
+Helle Revisionskontor ApS	 
+ 	 
+ 	 
+ 	 
+Peter Jensen	 
+Revisor	 
+</arr:InformationOnSignatureOfAuditors><arr:SignatureOfAuditorsDate contextRef="ID_1">2015-02-16</arr:SignatureOfAuditorsDate><arr:SignatureOfAuditorsPlace contextRef="ID_1">Agerbæk</arr:SignatureOfAuditorsPlace><cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="ID_2">Kurt Moustgaard</cmn:NameAndSurnameOfMemberOfExecutiveBoard><cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="ID_7"> 
+Direktion
+ 
+ 
+ 
+Kurt Moustgaard
+	 
+ 
+ 
+ 
+ 
+ 
+	 
+ 
+ 
+ 
+ 
+ 
+
+Direktør	 	 
+ 	 	 
+</cmn:NameAndSurnameOfMemberOfExecutiveBoard><cmn:TitleOfMemberOfExecutiveBoard contextRef="ID_2">Direktør</cmn:TitleOfMemberOfExecutiveBoard><cmn:TypeOfAuditorAssistance contextRef="ID_1">Andre erklæringer uden sikkerhed</cmn:TypeOfAuditorAssistance><fsa:Assets contextRef="ID_11" unitRef="DKK" decimals="0">0</fsa:Assets><fsa:ClassOfReportingEntity contextRef="ID_9">Regnskabsklasse B</fsa:ClassOfReportingEntity><fsa:DisclosureOfAccountingPolicies contextRef="ID_9"> 
+ 
+Regnskabsklasse
+Årsrapporten for Moustgaard Holding ApS for 2013/14 er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for  virksomheder i regnskabsklasse B.
+ 
+Den anvendte regnskabspraksis er uændret i forhold til tidligere år.
+ 
+Generelt
+ 
+Resultatopgørelsen
+ 
+Andre eksterne omkostninger
+Andre eksterne omkostninger omfatter omkostninger vedrørende salg og administration.
+ 
+Indtægter fra kapitalandele i tilknyttede og associerede virksomheder
+Indtægter fra kapitalandele omfatter den forholdsmæssige andel af resultatet efter skat samt eventuel regulering af intern avance/tab og fradrag af afskrivning på koncerngoodwill.
+ 
+Finansielle indtægter og omkostninger
+Finansielle indtægter og omkostninger indregnes i resultatopgørelsen med de beløb, der vedrører regnskabsåret. Finansielle indtægter og omkostninger indeholder renteindtægter og -omkostninger, realiserede og urealiserede kursgevinster og -tab vedrørende værdipapirer, gæld og transaktioner i fremmed valuta, modtaget udbytte fra andre kapitalandele, amortisering af finansielle aktiver og forpligtelser samt tillæg og godtgørelser under acontoskatteordningen.
+ 
+Skat af årets resultat
+Skat af årets resultat omfatter aktuel skat af årets forventede skattepligtige indkomst og årets regulering af udskudt skat med fradrag af den del af årets skat, der vedrører egenkapitalbevægelser. Aktuel og udskudt skat vedrørende egenkapitalbevægelser indregnes direkte i egenkapitalen. Selskabet og de danske tilknyttede virksomheder er sambeskattede. Den danske selskabsskat fordeles mellem overskuds- og underskudsgivende danske selskaber i forhold til disses skattepligtige indkomst (fuld fordeling).
+ 
+Balancen
+ 
+Kapitalandele i tilknyttede og associerede virksomheder
+Kapitalandele i tilknyttede og associerede virksomheder måles efter den indre værdis metode til den forholdsmæssigt ejede andel af virksomhedernes egenkapital med tillæg af eventuel koncerngoodwill, fradrag for koncerninterne avancer og negativ goodwill. Virksomheder med negativ egenkapital måles til 0, idet den til den negative værdi svarende forholdsmæssige andel modregnes i eventuelle tilgodehavender. Beløb herudover indregnes under posten hensatte forpligtelser, såfremt der er en retlig eller faktisk forpligtelse til at dække underbalancen.
+ 
+Finansielle gældsforpligtelser
+Fastforrentede lån som realkreditlån og lån hos kreditinstitutter indregnes ved lånoptagelsen til det modtagne provenu med fradrag af afholdte transaktionsomkostninger. I efterfølgende perioder måles lånene til amortiseret kostpris, således at forskellen mellem provenuet og den nominelle værdi indregnes i resultatopgørelsen som en renteomkostning over låneperioden.
+ 
+Øvrige gældsforpligtelser måles til amortiseret kostpris, hvilket almindeligvis svarer til nominel værdi. 
+ 
+Aktuelle skatteforpligtelser
+Aktuelle skatteforpligtelser og tilgodehavende aktuel skat indregnes i balancen som beregnet skat af årets forventede skattepligtige indkomst, reguleret for skat af tidligere års skattepligtige indkomster samt betalte acontoskatter.
+ </fsa:DisclosureOfAccountingPolicies><fsa:DisclosureOfContributedCapital contextRef="ID_5">4. Virksomhedskapital
+Saldo primo	125.000	 	125.000
+Saldo ultimo	125.000	 	125.000
+ 	 	 	 
+Selskabskapitalen har været uændret de seneste 5 år.
+ 
+</fsa:DisclosureOfContributedCapital><fsa:DisclosureOfEquity contextRef="ID_5">6. Overført resultat
+Saldo primo	-21.274	 	-41.706
+Årets tilgang	21.274	 	20.432
+Saldo ultimo	0	 	-21.274
+ 	 	 	 
+, 5. Reserve for nettoopskrivning efter den indre værdis metode
+Årets tilgang	123.692	 	0
+Saldo ultimo	123.692	 	0
+ 	 	 	 
+</fsa:DisclosureOfEquity><fsa:DisclosureOfInvestments contextRef="ID_4">3. Oplysninger om kapitalandele i tilknyttede og associerede virksomheder
+Tilknyttede virksomheder	 	 	 	 	 
+Navn	Hjemsted	Ejerandel i %	Egenkapital	 	Resultat
+Starup Smede og VVS ApS	Tofterup	100,00	278.268	 	145.167
+ 	 	 	278.268	 	145.167
+ 	 	 	 	 	 
+, 2. Kapitalandele i tilknyttede virksomheder
+Kostpris primo	125.000	 	125.000
+Kostpris ultimo	125.000	 	125.000
+ 	 	 	 
+Opskrivninger primo	8.101	 	-17.331
+Årets resultat	145.167	 	25.432
+Opskrivninger ultimo	153.268	 	8.101
+ 	 	 	 
+Regnskabsmæssig værdi ultimo	278.268	 	133.101
+ 	 	 	 
+</fsa:DisclosureOfInvestments><fsa:DisclosureOfTaxExpenseOnOrdinaryActivities contextRef="ID_3">1. Skat af årets resultat
+Skat af årets resultat	43.768	 	27.410
+ 	43.768	 	27.410
+ 	 	 	 
+</fsa:DisclosureOfTaxExpenseOnOrdinaryActivities><fsa:Equity contextRef="ID_11" unitRef="DKK" decimals="0">0</fsa:Equity><fsa:LiabilitiesAndEquity contextRef="ID_11" unitRef="DKK" decimals="0">0</fsa:LiabilitiesAndEquity><fsa:ProfitLoss contextRef="ID_10" unitRef="DKK" decimals="0">0</fsa:ProfitLoss><gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="ID_0">Agerbæk, 6753</gsd:AddressOfSubmittingEnterprisePostcodeAndTown><gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="ID_0">Fåborgvej 92</gsd:AddressOfSubmittingEnterpriseStreetAndNumber><gsd:DateOfFoundationOfReportingEntity contextRef="ID_0">2008-07-08</gsd:DateOfFoundationOfReportingEntity><gsd:DateOfGeneralMeeting contextRef="ID_0">2015-02-19</gsd:DateOfGeneralMeeting><gsd:IdentificationNumberCvrOfReportingEntity contextRef="ID_0">31601053</gsd:IdentificationNumberCvrOfReportingEntity><gsd:IdentificationNumberCvrOfSubmittingEnterprise contextRef="ID_0">10300142</gsd:IdentificationNumberCvrOfSubmittingEnterprise><gsd:InformationOnTypeOfSubmittedReport contextRef="ID_0">Årsrapport</gsd:InformationOnTypeOfSubmittedReport><gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="ID_0">Peter Jensen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting><gsd:NameOfReportingEntity contextRef="ID_0">Moustgaard Holding ApS</gsd:NameOfReportingEntity><gsd:NameOfSubmittingEnterprise contextRef="ID_0">Helle Revisionskontor ApS</gsd:NameOfSubmittingEnterprise><gsd:RegisteredOfficeOfReportingEntity contextRef="ID_0">Billund, 530</gsd:RegisteredOfficeOfReportingEntity><gsd:ReportingPeriodEndDate contextRef="ID_0">2014-09-30</gsd:ReportingPeriodEndDate><gsd:ReportingPeriodStartDate contextRef="ID_0">2013-10-01</gsd:ReportingPeriodStartDate><mrv:DescriptionOfPrimaryActivitiesOfEntity contextRef="ID_8">Selskabets væsentligste aktiviteter
+Selskabets væsentligste aktiviteter består i besidde kapitalandele i virksomheder.
+ </mrv:DescriptionOfPrimaryActivitiesOfEntity><mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod contextRef="ID_8">Begivenheder efter regnskabsårets afslutning
+Der er efter regnskabsårets afslutning ikke indtruffet begivenheder af væsentlig betydning for selskabets finansielle stilling.
+ </mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod><mrv:ManagementsReview contextRef="ID_8"> 
+Selskabets væsentligste aktiviteter
+Selskabets væsentligste aktiviteter består i besidde kapitalandele i virksomheder.
+ 
+Udviklingen i aktiviteter og økonomiske forhold
+Selskabets resultatopgørelse for regnskabsåret 01-10-2013 - 30-09-2014 udviser et resultat på kr. 144.966, og selskabets balance pr. 30-09-2014 udviser en balancesum på kr. 278.268, og en egenkapital på kr. 248.692.
+ 
+Begivenheder efter regnskabsårets afslutning
+Der er efter regnskabsårets afslutning ikke indtruffet begivenheder af væsentlig betydning for selskabets finansielle stilling.
+ </mrv:ManagementsReview><sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement contextRef="ID_6">Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.
+ </sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement><sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults contextRef="ID_6">Det er min opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30-09-2014 samt af resultatet af selskabets aktiviteter for regnskabsåret 01-10-2013 - 30-09-2014.
+ </sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults><sob:ConfirmationThatFinancialStatementsAreExemptedFromAuditing contextRef="ID_6">Det er på generalforsamlingen vedtaget, at selskabets årsregnskaber ikke skal revideres. Betingelserne for at undlade revision af årsregnskabet er opfyldt.
+ </sob:ConfirmationThatFinancialStatementsAreExemptedFromAuditing><sob:IdentificationOfApprovedAnnualReport contextRef="ID_6"> 
+Ledelsen har dags dato behandlet og godkendt årsrapporten for regnskabsåret 01-10-2013 - 30-09-2014 for Moustgaard Holding ApS.
+ </sob:IdentificationOfApprovedAnnualReport><sob:ManagementsStatementAboutManagementsReview contextRef="ID_6">Ledelsesberetningen indeholder efter min opfattelse en retvisende redegørelse for de forhold, beretningen omhandler.
+ </sob:ManagementsStatementAboutManagementsReview><sob:PlaceOfSignatureOfStatement contextRef="ID_6"> 
+Hvelplund, den 16-02-2015</sob:PlaceOfSignatureOfStatement><sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting contextRef="ID_6">Årsrapporten indstilles til generalforsamlingens godkendelse.
+ </sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting><sob:StatementByExecutiveAndSupervisoryBoards contextRef="ID_6">
+ 
+Ledelsen har dags dato behandlet og godkendt årsrapporten for regnskabsåret 01-10-2013 - 30-09-2014 for Moustgaard Holding ApS.
+ 
+Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.
+ 
+Det er min opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30-09-2014 samt af resultatet af selskabets aktiviteter for regnskabsåret 01-10-2013 - 30-09-2014.
+ 
+Ledelsesberetningen indeholder efter min opfattelse en retvisende redegørelse for de forhold, beretningen omhandler.
+ 
+Det er på generalforsamlingen vedtaget, at selskabets årsregnskaber ikke skal revideres. Betingelserne for at undlade revision af årsregnskabet er opfyldt.
+ 
+Årsrapporten indstilles til generalforsamlingens godkendelse.
+ 
+ 
+Hvelplund, den 16-02-2015
+ 
+Direktion
+ 
+ 
+ 
+Kurt Moustgaard
+	 
+ 
+ 
+ 
+ 
+ 
+	 
+ 
+ 
+ 
+ 
+ 
+
+Direktør	 	 
+ 	 	 
+</sob:StatementByExecutiveAndSupervisoryBoards></xbrli:xbrl>

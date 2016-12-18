@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20140701/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByFunctionIncludingManagementsReviewStatisticsAndTax20140701.xsd" xlink:type="simple"/>
+  <xbrli:context id="c0">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">33586213</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-01</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">33586213</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-01</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">33586213</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-10-01</xbrli:startDate>
+      <xbrli:endDate>2013-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">33586213</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-01</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">33586213</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-10-01</xbrli:startDate>
+      <xbrli:endDate>2013-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">33586213</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2014-09-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">33586213</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-09-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u0">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:DateOfGeneralMeeting contextRef="c0">2015-02-02</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Martin Bjerg</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">GRØNVANG INVEST GØRDING ApS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Sdr Lourupvej</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">42</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">6690</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">Gørding</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">33586213</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:ReportingPeriodStartDate contextRef="c0">2013-10-01</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate contextRef="c0">2014-09-30</gsd:ReportingPeriodEndDate>
+  <sob:StatementByExecutiveAndSupervisoryBoards contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Ledelsen har behandlet og godkendt årsrapporten for 2013/2014.                                
+&lt;br/&gt;                                
+&lt;br/&gt;Årsrapporten er aflagt i overensstemmelse med årsregnskabsloven samt eventuelle yderligere               krav i vedtægter eller aftale. Ledelsen anser den valgte regnskabspraksis for hensigtsmæssig, så-       ledes at årsregnskabet giver et retvisende billede af virksomhedens aktiver, passiver, fiansielle            stilling og resultatet.                                                      &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsregnskabet er ikke revideret og det erklæres at virksomheden opfylder betingelserne herfor.                                
+&lt;br/&gt;Årsrapporten indstilles til generalforsamlingens godkendelse.    &lt;/p&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+  <sob:PlaceOfSignatureOfStatement contextRef="c0" xml:lang="da">Gørding</sob:PlaceOfSignatureOfStatement>
+  <sob:DateOfApprovalOfAnnualReport contextRef="c0">2015-02-02</sob:DateOfApprovalOfAnnualReport>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c1" xml:lang="da">John Kabbel</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <cmn:TitleOfMemberOfExecutiveBoard contextRef="c1" xml:lang="da">Direktør</cmn:TitleOfMemberOfExecutiveBoard>
+  <sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption contextRef="c0" xml:lang="da">Generalforsamlingen har truffet beslutning om, at årsregnskabet for det kommende regnskabsår 								
+ikke skal revideres.</sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption>
+  <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+  <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Generelt&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsrapporten er aflagt i overensstemmelse med årsregnskabsloven.                                
+&lt;br/&gt;                                
+&lt;br/&gt;Selskabet er omfattet af lovens regler for regnskabsklasse B.                                
+&lt;br/&gt;                                
+&lt;br/&gt;Selskabet har af konkurrencemæssige hensyn undladt at oplyse nettoomsætningen jf.                           årsregnskabslovens.                                &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="font-size:24px"&gt;
+    &lt;strong&gt;Resultatopgørelse&lt;/strong&gt;
+  &lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Indtægterne fra udlejning medtages i det år hvor ejendommen er udlejet.                                
+&lt;br/&gt;                                
+&lt;br/&gt;Finansielle poster:                                
+&lt;br/&gt;Finansielle indtægter og -omkostninger er indregnet i resultatopgørelsen med de beløb, der                   vedrører regnskabsåret.                                 
+&lt;br/&gt;                                
+&lt;br/&gt;Selskabsskat:                                
+&lt;br/&gt;Årets skat, som består af årets aktuelle skat.    &lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Balance&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Ejendommene er optaget til en beregnet værdi af banken. Anparter er optager til salgspriser foretaget   af ejendomsmægler&lt;/p&gt;</fsa:DisclosureOfAccountingPolicies>
+  <fsa:GrossResult contextRef="c0" decimals="0" unitRef="u0">1481042</fsa:GrossResult>
+  <fsa:GrossResult contextRef="c2" decimals="0" unitRef="u0">589481</fsa:GrossResult>
+  <fsa:OtherOperatingExpenses contextRef="c0" decimals="0" unitRef="u0">403498</fsa:OtherOperatingExpenses>
+  <fsa:OtherOperatingExpenses contextRef="c2" decimals="0" unitRef="u0">5000</fsa:OtherOperatingExpenses>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">1077544</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c2" decimals="0" unitRef="u0">584481</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:OtherFinanceIncomeFromGroupEnterprises contextRef="c0" decimals="0" unitRef="u0">-120110</fsa:OtherFinanceIncomeFromGroupEnterprises>
+  <fsa:OtherFinanceIncome contextRef="c0" decimals="0" unitRef="u0">6295</fsa:OtherFinanceIncome>
+  <fsa:OtherFinanceIncome contextRef="c2" decimals="0" unitRef="u0">8698</fsa:OtherFinanceIncome>
+  <fsa:OtherFinanceExpenses contextRef="c0" decimals="0" unitRef="u0">471323</fsa:OtherFinanceExpenses>
+  <fsa:OtherFinanceExpenses contextRef="c2" decimals="0" unitRef="u0">443939</fsa:OtherFinanceExpenses>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">492406</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c2" decimals="0" unitRef="u0">149240</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ExtraordinaryProfitLossBeforeTax contextRef="c0" decimals="0" unitRef="u0">492406</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:ExtraordinaryProfitLossBeforeTax contextRef="c2" decimals="0" unitRef="u0">149240</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:TaxExpense contextRef="c0" decimals="0" unitRef="u0">156964</fsa:TaxExpense>
+  <fsa:TaxExpense contextRef="c2" decimals="0" unitRef="u0">-3199</fsa:TaxExpense>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">335442</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c2" decimals="0" unitRef="u0">152439</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c3" decimals="0" unitRef="u0">335442</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c4" decimals="0" unitRef="u0">152439</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">335442</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c2" decimals="0" unitRef="u0">152439</fsa:ProfitLoss>
+  <fsa:LandAndBuildings contextRef="c5" decimals="0" unitRef="u0">30277000</fsa:LandAndBuildings>
+  <fsa:LandAndBuildings contextRef="c6" decimals="0" unitRef="u0">21606000</fsa:LandAndBuildings>
+  <fsa:PropertyPlantAndEquipment contextRef="c5" decimals="0" unitRef="u0">30277000</fsa:PropertyPlantAndEquipment>
+  <fsa:PropertyPlantAndEquipment contextRef="c6" decimals="0" unitRef="u0">21606000</fsa:PropertyPlantAndEquipment>
+  <fsa:LongtermInvestmentsInGroupEnterprises contextRef="c5" decimals="0" unitRef="u0">579890</fsa:LongtermInvestmentsInGroupEnterprises>
+  <fsa:LongtermInvestmentsInGroupEnterprises contextRef="c6" decimals="0" unitRef="u0">700000</fsa:LongtermInvestmentsInGroupEnterprises>
+  <fsa:LongtermInvestmentsAndReceivables contextRef="c5" decimals="0" unitRef="u0">579890</fsa:LongtermInvestmentsAndReceivables>
+  <fsa:LongtermInvestmentsAndReceivables contextRef="c6" decimals="0" unitRef="u0">700000</fsa:LongtermInvestmentsAndReceivables>
+  <fsa:NoncurrentAssets contextRef="c5" decimals="0" unitRef="u0">30856890</fsa:NoncurrentAssets>
+  <fsa:NoncurrentAssets contextRef="c6" decimals="0" unitRef="u0">22306000</fsa:NoncurrentAssets>
+  <fsa:CashAndCashEquivalents contextRef="c5" decimals="0" unitRef="u0">5530188</fsa:CashAndCashEquivalents>
+  <fsa:CashAndCashEquivalents contextRef="c6" decimals="0" unitRef="u0">937657</fsa:CashAndCashEquivalents>
+  <fsa:CurrentAssets contextRef="c5" decimals="0" unitRef="u0">5530188</fsa:CurrentAssets>
+  <fsa:CurrentAssets contextRef="c6" decimals="0" unitRef="u0">937657</fsa:CurrentAssets>
+  <fsa:Assets contextRef="c5" decimals="0" unitRef="u0">36387078</fsa:Assets>
+  <fsa:Assets contextRef="c6" decimals="0" unitRef="u0">23243657</fsa:Assets>
+  <fsa:ContributedCapital contextRef="c5" decimals="0" unitRef="u0">80000</fsa:ContributedCapital>
+  <fsa:ContributedCapital contextRef="c6" decimals="0" unitRef="u0">80000</fsa:ContributedCapital>
+  <fsa:OtherReserves contextRef="c5" decimals="0" unitRef="u0">7359159</fsa:OtherReserves>
+  <fsa:OtherReserves contextRef="c6" decimals="0" unitRef="u0">5337544</fsa:OtherReserves>
+  <fsa:RetainedEarnings contextRef="c5" decimals="0" unitRef="u0">508807</fsa:RetainedEarnings>
+  <fsa:RetainedEarnings contextRef="c6" decimals="0" unitRef="u0">173365</fsa:RetainedEarnings>
+  <fsa:Equity contextRef="c5" decimals="0" unitRef="u0">7947966</fsa:Equity>
+  <fsa:Equity contextRef="c6" decimals="0" unitRef="u0">5590909</fsa:Equity>
+  <fsa:LongtermMortgageDebt contextRef="c5" decimals="0" unitRef="u0">27793709</fsa:LongtermMortgageDebt>
+  <fsa:LongtermMortgageDebt contextRef="c6" decimals="0" unitRef="u0">17381458</fsa:LongtermMortgageDebt>
+  <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="c5" decimals="0" unitRef="u0">27793709</fsa:LongtermLiabilitiesOtherThanProvisions>
+  <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="c6" decimals="0" unitRef="u0">17381458</fsa:LongtermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermTaxPayables contextRef="c5" decimals="0" unitRef="u0">156964</fsa:ShorttermTaxPayables>
+  <fsa:OtherShorttermPayables contextRef="c5" decimals="0" unitRef="u0">488439</fsa:OtherShorttermPayables>
+  <fsa:OtherShorttermPayables contextRef="c6" decimals="0" unitRef="u0">271290</fsa:OtherShorttermPayables>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c5" decimals="0" unitRef="u0">645403</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c6" decimals="0" unitRef="u0">271290</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="c5" decimals="0" unitRef="u0">28439112</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="c6" decimals="0" unitRef="u0">17652748</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity contextRef="c5" decimals="0" unitRef="u0">36387078</fsa:LiabilitiesAndEquity>
+  <fsa:LiabilitiesAndEquity contextRef="c6" decimals="0" unitRef="u0">23243657</fsa:LiabilitiesAndEquity>
+  <gsd:PrecedingReportingPeriodStartDate contextRef="c0">2012-10-01</gsd:PrecedingReportingPeriodStartDate>
+  <gsd:PredingReportingPeriodEndDate contextRef="c0">2013-09-30</gsd:PredingReportingPeriodEndDate>
+  <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Ingen bistand</cmn:TypeOfAuditorAssistance>
+  <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">Ømer Øzgen</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Kløvervej 30C</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">7190 Billund</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>

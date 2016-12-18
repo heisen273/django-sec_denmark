@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Automatisk instancefil fra C5 Faxe Revisor, version 44C03; MultiLogik, Faxe --><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:sob="http://xbrl.dcca.dk/sob">
+<link:schemaRef xlink:type="simple" xlink:href="http://archprod.service.eogs.dk/taxonomy/20140701/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20140701.xsd"/>
+<xbrli:context id="Yr1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">34484791</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2014-01-01</xbrli:startDate>
+<xbrli:endDate>2014-12-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="Ul1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">34484791</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2014-12-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="Yr2">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">34484791</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2013-01-01</xbrli:startDate>
+<xbrli:endDate>2013-12-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="Ul2">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">34484791</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2013-12-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="Yr1_Auditor_1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">34484791</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2014-01-01</xbrli:startDate>
+<xbrli:endDate>2014-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+<cmn:auditorIdentifier>1</cmn:auditorIdentifier>
+</xbrldi:typedMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="Yr1_MemberOfExecutiveBoard_1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">34484791</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2014-01-01</xbrli:startDate>
+<xbrli:endDate>2014-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+<cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier>
+</xbrldi:typedMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="Yr1_fsa_RetainedEarningsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">34484791</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2014-01-01</xbrli:startDate>
+<xbrli:endDate>2014-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="Yr2_fsa_RetainedEarningsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">34484791</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2013-01-01</xbrli:startDate>
+<xbrli:endDate>2013-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:unit id="DKK">
+<xbrli:measure>iso4217:DKK</xbrli:measure>
+</xbrli:unit>
+<xbrli:unit id="pure">
+<xbrli:measure>xbrli:pure</xbrli:measure>
+</xbrli:unit>
+<xbrli:unit id="shares">
+<xbrli:measure>xbrli:shares</xbrli:measure>
+</xbrli:unit>
+<gsd:ReportingPeriodStartDate contextRef="Yr1">2014-01-01</gsd:ReportingPeriodStartDate>
+<gsd:ReportingPeriodEndDate contextRef="Yr1">2014-12-31</gsd:ReportingPeriodEndDate>
+<gsd:InformationOnTypeOfSubmittedReport contextRef="Yr1">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+<cmn:NameOfAuditFirm contextRef="Yr1_Auditor_1">Revision &amp; Data A/S</cmn:NameOfAuditFirm>
+<gsd:AddressOfAuditorStreetBuildingIdentifier contextRef="Yr1_Auditor_1">225</gsd:AddressOfAuditorStreetBuildingIdentifier>
+<gsd:AddressOfAuditorStreetName contextRef="Yr1_Auditor_1">Lyngbyvej</gsd:AddressOfAuditorStreetName>
+<gsd:AddressOfAuditorDistrictName contextRef="Yr1_Auditor_1">Hellerup</gsd:AddressOfAuditorDistrictName>
+<gsd:AddressOfAuditorPostCodeIdentifier contextRef="Yr1_Auditor_1">2900</gsd:AddressOfAuditorPostCodeIdentifier>
+<cmn:DescriptionOfAuditor contextRef="Yr1_Auditor_1">Registrerede revisorer</cmn:DescriptionOfAuditor>
+<gsd:NameOfSubmittingEnterprise contextRef="Yr1">Revision &amp; Data A/S</gsd:NameOfSubmittingEnterprise>
+<gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="Yr1">Lyngbyvej 225</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+<gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="Yr1">2900  Hellerup</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+<gsd:NameOfReportingEntity contextRef="Yr1">Isterød Erhverv ApS</gsd:NameOfReportingEntity>
+<gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="Yr1">12</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+<gsd:AddressOfReportingEntityStreetName contextRef="Yr1">Uraniavej</gsd:AddressOfReportingEntityStreetName>
+<gsd:AddressOfReportingEntityDistrictName contextRef="Yr1">Frederiksberg C</gsd:AddressOfReportingEntityDistrictName>
+<gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="Yr1">1878</gsd:AddressOfReportingEntityPostCodeIdentifier>
+<gsd:IdentificationNumberCvrOfReportingEntity contextRef="Yr1">34484791</gsd:IdentificationNumberCvrOfReportingEntity>
+<gsd:DateOfFoundationOfReportingEntity contextRef="Yr1">2012-04-26</gsd:DateOfFoundationOfReportingEntity>
+<cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="Yr1_MemberOfExecutiveBoard_1">Jesper Nedergaard Rasmussen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+<fsa:ClassOfReportingEntity contextRef="Yr1">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+<gsd:DateOfApprovalOfReport contextRef="Yr1">2015-01-27</gsd:DateOfApprovalOfReport>
+<sob:PlaceOfSignatureOfStatement contextRef="Yr1">Frederiksberg</sob:PlaceOfSignatureOfStatement>
+<gsd:DateOfGeneralMeeting contextRef="Yr1">2015-01-27</gsd:DateOfGeneralMeeting>
+<gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="Yr1">Jesper Nedergaard Rasmussen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+<arr:SignatureOfAuditorsDate contextRef="Yr1">2015-01-27</arr:SignatureOfAuditorsDate>
+<arr:SignatureOfAuditorsPlace contextRef="Yr1">Hellerup</arr:SignatureOfAuditorsPlace>
+<cmn:TypeOfAuditorAssistance contextRef="Yr1">Andre erklæringer uden sikkerhed</cmn:TypeOfAuditorAssistance>
+<sob:StatementByExecutiveAndSupervisoryBoards contextRef="Yr1">&lt;p&gt;Ledelsen har dags dato behandlet og godkendt årsrapporten for regnskabsåret 2014 for Isterød Erhverv ApS.&lt;/p&gt;&lt;p&gt;Årsrapporten er aflagt i overensstemmelse med årsregnskabsloven.&lt;/p&gt;&lt;p&gt;Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og den finansielle stilling pr. 31. december 2014 samt af resultatet.&lt;/p&gt;&lt;p&gt;Ledelsen anser fortsat betingelserne for fravalg af revision for opfyldt.&lt;/p&gt;&lt;p&gt;Ledelsen indstiller til generalforsamlingen, at årsrapporten for næste år ikke revideres. Årsrapporten indstilles til generalforsamlingens godkendelse.&lt;/p&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+<arr:DescriptionOfOtherEngagement contextRef="Yr1">&lt;p&gt; Vi har opstillet årsregnskabet for Isterød Erhverv ApS for regnskabsåret 2014 på grundlag af selskabets bogføring og øvrige oplysninger, som De har tilvejebragt.&lt;/p&gt;&lt;p&gt;Årsregnskabet omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter.&lt;/p&gt;&lt;p&gt;Vi har udført opgaven i overensstemmelse med ISRS 4410, Opgaver om opstilling af finansielle oplysninger.&lt;/p&gt;&lt;p&gt;Vi har anvendt vores faglige ekspertise til at assistere Dem med at udarbejde og præsentere årsregnskabet i overensstemmelse med årsregnskabsloven. Vi har overholdt relevante bestemmelser i revisorloven og FSR - danske revisorers Etiske regler for revisorer, herunder principper vedrørende integritet, objektivitet, faglig kompetence og fornøden omhu.&lt;/p&gt;&lt;p&gt;Årsregnskabet samt nøjagtigheden og fuldstændigheden af de oplysninger, der er anvendt til opstillingen af årsregnskabet, er Deres ansvar.&lt;/p&gt;&lt;p&gt;Da en opgave om opstilling af finansielle oplysninger ikke er en erklæringsopgave med sikkerhed, er vi ikke forpligtet til at verificere nøjagtigheden eller fuldstændigheden af de oplysninger, De har givet os til brug for at opstille årsregnskabet. Vi udtrykker derfor ingen revisions- eller reviewkonklusion om, hvorvidt årsregnskabet er udarbejdet i overensstemmelse med årsregnskabsloven.&lt;/p&gt;</arr:DescriptionOfOtherEngagement>
+<mrv:DescriptionOfPrimaryActivitiesOfEntity contextRef="Yr1">&lt;p&gt;Selskabets hovedaktivitet er at udøve anden undervisning samt aktiviteter i tilknytning hertil.&lt;/p&gt;</mrv:DescriptionOfPrimaryActivitiesOfEntity>
+<mrv:DescriptionOfAnyUnusualMattersAffectingRecognitionOrMeasurement contextRef="Yr1">Der er ikke konstateret usædvanlige forhold i 2014.</mrv:DescriptionOfAnyUnusualMattersAffectingRecognitionOrMeasurement>
+<mrv:DescriptionOfExpectedDevelopment contextRef="Yr1">&lt;p&gt;Ledelsen forventer et positivt resultat for næste regnskabsår. Selskabets ledelse forventer at kunne reetablere egenkapitalen ved egen indtjening over de næste par år.&lt;/p&gt;</mrv:DescriptionOfExpectedDevelopment>
+<mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod contextRef="Yr1">&lt;p&gt;Der er efter regnskabsårets afslutning ikke indtruffet begivenheder, som væsentligt vil kunne påvirke selskabets finansielle stilling.&lt;/p&gt;</mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod>
+<fsa:DisclosureOfAccountingPolicies contextRef="Yr1">&lt;p&gt;Årsrapporten for Isterød Erhverv ApS 2014 aflægges i overensstemmelse med årsregnskabslovens bestemmelser for regnskabsklasse B.&lt;/p&gt;</fsa:DisclosureOfAccountingPolicies>
+<fsa:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies contextRef="Yr1">&lt;p&gt;I resultatopgørelsen indregnes indtægter i takt med, at de indtjenes, herunder indregnes værdireguleringer af finansielle aktiver og forpligtelser. I resultatopgørelsen indregnes ligeledes alle omkostninger, herunder afskrivninger og nedskrivninger. Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt. Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt.&lt;/p&gt;</fsa:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies>
+<fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfRevenue contextRef="Yr1">&lt;p&gt;Med henvisning til Årsregnskabslovens  32, stk. 1 har selskabet sammendraget visse poster i resultatopgørelsen i posten bruttofortjeneste.&lt;/p&gt;&lt;p&gt;Nettoomsætningen ved salg af handelsvarer og færdigvarer indregnes i resultatopgørelsen, såfremt levering og risikoovergang til køber har fundet sted inden årets udgang. Nettoomsætning indregnes ekskl. moms og med fradrag af rabatter i forbindelse med salget.&lt;/p&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfRevenue>
+<fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfCostOfSales contextRef="Yr1">Råvarer og hjælpemidler forbrugt ved udførelsen af periodens arbejde.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfCostOfSales>
+<fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExternalExpenses contextRef="Yr1">&lt;p&gt;Andre eksterne omkostninger indregnes som omkostninger i form af salgs-, lokale- og administrationsomkostninger mv.&lt;/p&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExternalExpenses>
+<fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceIncomeAndExpenses contextRef="Yr1">&lt;p&gt;Finansielle indtægter og omkostninger indregnes i resultatopgørelsen med de beløb, der vedrører regnskabsåret. Finansielle poster omfatter renteindtægter og -omkostninger, finansielle omkostninger ved finansiel leasing, realiserede og urealiserede kursgevinster og -tab vedrørende værdipapirer, gæld og transaktioner i fremmed valuta, amortisering af realkreditlån samt tillæg og godtgørelse under acontoskatteordningen mv. Udbytte fra kapitalandele indtægtsføres i det regnskabsår, hvor udbyttet deklareres.&lt;/p&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceIncomeAndExpenses>
+<fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses contextRef="Yr1">&lt;p&gt;Årets skat, som består af årets aktuelle skat og forskydning i udskudt skat, indregnes i resultatopgørelsen.&lt;/p&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses>
+<fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIntangibleAssets contextRef="Yr1">&lt;p&gt;Erhvervet goodwill måles til kostpris med fradrag af akkumulerede afskrivninger. Goodwill afskrives lineært over den vurderede økonomiske brugstid, der er vurderet til 7 år.&lt;/p&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIntangibleAssets>
+<fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfPropertyPlantAndEquipment contextRef="Yr1">&lt;p&gt;Grunde og bygninger, tekniske anlæg og maskiner samt andre anlæg, driftsmateriel og inventar måles til kostpris med fradrag af akkumulerede afskrivninger.&lt;/p&gt;&lt;p&gt;Afskrivningsgrundlaget er kostpris med fradrag af forventet restværdi efter afsluttet brugstid. Der afskrives ikke på grunde. Kostprisen omfatter anskaffelsesprisen samt omkostninger direkte tilknyttet anskaffelsen indtil det tidspunkt, hvor aktivet er klar til at blive taget i brug.&lt;/p&gt;&lt;p&gt;Der foretages lineære afskrivninger baseret på følgende vurdering af aktivernes forventede brugstider:&lt;/p&gt;&lt;p&gt;    Andre anlæg, driftsmateriel og inventar 5 år&lt;/p&gt;&lt;p&gt;Aktiver med en kostpris pr. enhed under den skattemæssige beløbsgrænse for småaktiver indregnes som omkostninger i resultatopgørelsen i anskaffelsesåret.&lt;/p&gt;&lt;p&gt;Fortjeneste eller tab med afhændelse af materielle anlægsaktiver opgøres som forskellen mellem salgspris med fradrag af salgsomkostninger og den regnskabsmæssige værdi på salgstidspunktet. Fortjeneste eller tab indregnes i resultatopgørelsen under afskrivninger.&lt;/p&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfPropertyPlantAndEquipment>
+<fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables contextRef="Yr1">&lt;p&gt;Tilgodehavender måles til amortiseret kostpris, der sædvanligvis svarer til nominel værdi. Værdien reduceres med nedskrivning til imødegåelse af forventede tab.&lt;/p&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables>
+<fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfDeferredIncomeAssets contextRef="Yr1">&lt;p&gt;Periodeafgrænsningsposter indregnet under aktiver omfatter afholdte omkostninger vedrørende efterfølgende regnskabsår.&lt;/p&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfDeferredIncomeAssets>
+<fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxPayablesAndDeferredTax contextRef="Yr1">&lt;p&gt;Aktuelle skatteforpligtelser og tilgodehavende aktuel skat indregnes i balancen som beregnet skat af årets skattepligtige indkomst reguleret for skat af tidligere års skattepligtige indkomster samt for betalte acontoskatter.&lt;/p&gt;&lt;p&gt;Udskudte skatteaktiver, herunder skatteværdien af fremførselsberettiget skattemæssigt underskud, måles til den værdi, hvortil aktivet forventes at kunne realiseres, enten ved udligning i skat af fremtidig indtjening eller ved modregning i udskudte skatteforpligtelser inden for samme juridiske skatteenhed. Eventuelle udskudte nettoskatteaktiver måles til nettorealisationsværdi. Skatteaktivet er ikke afsat i regnskabet.&lt;/p&gt;&lt;p&gt;Udskudt skat måles på grundlag af de skatteregler og skattesatser, der med balancedagens lovgivning vil være gældende, når den udskudte skat forventes udløst som aktuel skat. Ændring i udskudt skat som følge af ændringer i skattesatser indregnes i resultatopgørelsen. For indeværende år er anvendt en skattesats på 24,5%.&lt;/p&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxPayablesAndDeferredTax>
+<fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions contextRef="Yr1">Gæld i øvrigt er målt til amortiseret kostpris svarende til nominel værdi.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions>
+<fsa:GrossProfitLoss contextRef="Yr1" decimals="INF" unitRef="DKK">1050740</fsa:GrossProfitLoss>
+<fsa:GrossProfitLoss contextRef="Yr2" decimals="INF" unitRef="DKK">976538</fsa:GrossProfitLoss>
+<fsa:WagesAndSalaries contextRef="Yr1" decimals="INF" unitRef="DKK">-995868</fsa:WagesAndSalaries>
+<fsa:WagesAndSalaries contextRef="Yr2" decimals="INF" unitRef="DKK">-958337</fsa:WagesAndSalaries>
+<fsa:PostemploymentBenefitExpense contextRef="Yr1" decimals="INF" unitRef="DKK">-142945</fsa:PostemploymentBenefitExpense>
+<fsa:PostemploymentBenefitExpense contextRef="Yr2" decimals="INF" unitRef="DKK">-141110</fsa:PostemploymentBenefitExpense>
+<fsa:SocialSecurityContributions contextRef="Yr1" decimals="INF" unitRef="DKK">-73959</fsa:SocialSecurityContributions>
+<fsa:SocialSecurityContributions contextRef="Yr2" decimals="INF" unitRef="DKK">-74257</fsa:SocialSecurityContributions>
+<fsa:EmployeeBenefitsExpense contextRef="Yr1" decimals="INF" unitRef="DKK">-1212772</fsa:EmployeeBenefitsExpense>
+<fsa:EmployeeBenefitsExpense contextRef="Yr2" decimals="INF" unitRef="DKK">-1173704</fsa:EmployeeBenefitsExpense>
+<fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="Yr1" decimals="INF" unitRef="DKK">-29693</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+<fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="Yr2" decimals="INF" unitRef="DKK">-27701</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+<fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="Yr1" decimals="INF" unitRef="DKK">-29693</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+<fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="Yr2" decimals="INF" unitRef="DKK">-27701</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+<fsa:OtherFinanceIncome contextRef="Yr1" decimals="INF" unitRef="DKK">0</fsa:OtherFinanceIncome>
+<fsa:OtherFinanceIncome contextRef="Yr2" decimals="INF" unitRef="DKK">1552</fsa:OtherFinanceIncome>
+<fsa:OtherFinanceExpenses contextRef="Yr1" decimals="INF" unitRef="DKK">-915</fsa:OtherFinanceExpenses>
+<fsa:OtherFinanceExpenses contextRef="Yr2" decimals="INF" unitRef="DKK">3139</fsa:OtherFinanceExpenses>
+<fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="Yr1" decimals="INF" unitRef="DKK">-192640</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+<fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="Yr2" decimals="INF" unitRef="DKK">-220176</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+<fsa:ProfitLoss contextRef="Yr1" decimals="INF" unitRef="DKK">-192640</fsa:ProfitLoss>
+<fsa:ProfitLoss contextRef="Yr2" decimals="INF" unitRef="DKK">-220176</fsa:ProfitLoss>
+<fsa:ProfitLoss contextRef="Yr1_fsa_RetainedEarningsMember" decimals="INF" unitRef="DKK">-192640</fsa:ProfitLoss>
+<fsa:ProfitLoss contextRef="Yr2_fsa_RetainedEarningsMember" decimals="INF" unitRef="DKK">-220176</fsa:ProfitLoss>
+<fsa:ProfitLoss contextRef="Yr1" decimals="INF" unitRef="DKK">-192640</fsa:ProfitLoss>
+<fsa:ProfitLoss contextRef="Yr2" decimals="INF" unitRef="DKK">-220176</fsa:ProfitLoss>
+<fsa:Goodwill contextRef="Ul1" decimals="INF" unitRef="DKK">84571</fsa:Goodwill>
+<fsa:Goodwill contextRef="Ul2" decimals="INF" unitRef="DKK">105714</fsa:Goodwill>
+<fsa:IntangibleAssets contextRef="Ul1" decimals="INF" unitRef="DKK">84571</fsa:IntangibleAssets>
+<fsa:IntangibleAssets contextRef="Ul2" decimals="INF" unitRef="DKK">105714</fsa:IntangibleAssets>
+<fsa:FixturesFittingsToolsAndEquipment contextRef="Ul1" decimals="INF" unitRef="DKK">0</fsa:FixturesFittingsToolsAndEquipment>
+<fsa:FixturesFittingsToolsAndEquipment contextRef="Ul2" decimals="INF" unitRef="DKK">8550</fsa:FixturesFittingsToolsAndEquipment>
+<fsa:PropertyPlantAndEquipment contextRef="Ul1" decimals="INF" unitRef="DKK">0</fsa:PropertyPlantAndEquipment>
+<fsa:PropertyPlantAndEquipment contextRef="Ul2" decimals="INF" unitRef="DKK">8550</fsa:PropertyPlantAndEquipment>
+<fsa:NoncurrentAssets contextRef="Ul1" decimals="INF" unitRef="DKK">84571</fsa:NoncurrentAssets>
+<fsa:NoncurrentAssets contextRef="Ul2" decimals="INF" unitRef="DKK">114264</fsa:NoncurrentAssets>
+<fsa:ShorttermTradeReceivables contextRef="Ul1" decimals="INF" unitRef="DKK">800</fsa:ShorttermTradeReceivables>
+<fsa:ShorttermTradeReceivables contextRef="Ul2" decimals="INF" unitRef="DKK">0</fsa:ShorttermTradeReceivables>
+<fsa:ShorttermReceivablesFromOwnersAndManagement contextRef="Ul1" decimals="INF" unitRef="DKK">0</fsa:ShorttermReceivablesFromOwnersAndManagement>
+<fsa:ShorttermReceivablesFromOwnersAndManagement contextRef="Ul2" decimals="INF" unitRef="DKK">39718</fsa:ShorttermReceivablesFromOwnersAndManagement>
+<fsa:DeferredIncomeAssets contextRef="Ul1" decimals="INF" unitRef="DKK">0</fsa:DeferredIncomeAssets>
+<fsa:DeferredIncomeAssets contextRef="Ul2" decimals="INF" unitRef="DKK">26053</fsa:DeferredIncomeAssets>
+<fsa:ShorttermReceivables contextRef="Ul1" decimals="INF" unitRef="DKK">800</fsa:ShorttermReceivables>
+<fsa:ShorttermReceivables contextRef="Ul2" decimals="INF" unitRef="DKK">65771</fsa:ShorttermReceivables>
+<fsa:CashAndCashEquivalents contextRef="Ul1" decimals="INF" unitRef="DKK">64286</fsa:CashAndCashEquivalents>
+<fsa:CashAndCashEquivalents contextRef="Ul2" decimals="INF" unitRef="DKK">145611</fsa:CashAndCashEquivalents>
+<fsa:CashAndCashEquivalents contextRef="Ul1" decimals="INF" unitRef="DKK">64286</fsa:CashAndCashEquivalents>
+<fsa:CashAndCashEquivalents contextRef="Ul2" decimals="INF" unitRef="DKK">145611</fsa:CashAndCashEquivalents>
+<fsa:CurrentAssets contextRef="Ul1" decimals="INF" unitRef="DKK">65086</fsa:CurrentAssets>
+<fsa:CurrentAssets contextRef="Ul2" decimals="INF" unitRef="DKK">211382</fsa:CurrentAssets>
+<fsa:Assets contextRef="Ul1" decimals="INF" unitRef="DKK">149657</fsa:Assets>
+<fsa:Assets contextRef="Ul2" decimals="INF" unitRef="DKK">325646</fsa:Assets>
+<fsa:ContributedCapital contextRef="Ul1" decimals="INF" unitRef="DKK">80000</fsa:ContributedCapital>
+<fsa:ContributedCapital contextRef="Ul2" decimals="INF" unitRef="DKK">80000</fsa:ContributedCapital>
+<fsa:SharePremium contextRef="Ul1" decimals="INF" unitRef="DKK">111588</fsa:SharePremium>
+<fsa:SharePremium contextRef="Ul2" decimals="INF" unitRef="DKK">111589</fsa:SharePremium>
+<fsa:RetainedEarnings contextRef="Ul1" decimals="INF" unitRef="DKK">-30520</fsa:RetainedEarnings>
+<fsa:RetainedEarnings contextRef="Ul2" decimals="INF" unitRef="DKK">189654</fsa:RetainedEarnings>
+<fsa:ProfitLoss contextRef="Yr1" decimals="INF" unitRef="DKK">-192640</fsa:ProfitLoss>
+<fsa:ProfitLoss contextRef="Yr2" decimals="INF" unitRef="DKK">-220176</fsa:ProfitLoss>
+<fsa:Equity contextRef="Ul1" decimals="INF" unitRef="DKK">-31572</fsa:Equity>
+<fsa:Equity contextRef="Ul2" decimals="INF" unitRef="DKK">161067</fsa:Equity>
+<fsa:ShorttermTradePayables contextRef="Ul1" decimals="INF" unitRef="DKK">16132</fsa:ShorttermTradePayables>
+<fsa:ShorttermTradePayables contextRef="Ul2" decimals="INF" unitRef="DKK">11154</fsa:ShorttermTradePayables>
+<fsa:OtherShorttermPayables contextRef="Ul1" decimals="INF" unitRef="DKK">165097</fsa:OtherShorttermPayables>
+<fsa:OtherShorttermPayables contextRef="Ul2" decimals="INF" unitRef="DKK">153425</fsa:OtherShorttermPayables>
+<fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="Ul1" decimals="INF" unitRef="DKK">181229</fsa:ShorttermLiabilitiesOtherThanProvisions>
+<fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="Ul2" decimals="INF" unitRef="DKK">164579</fsa:ShorttermLiabilitiesOtherThanProvisions>
+<fsa:LiabilitiesOtherThanProvisions contextRef="Ul1" decimals="INF" unitRef="DKK">181229</fsa:LiabilitiesOtherThanProvisions>
+<fsa:LiabilitiesOtherThanProvisions contextRef="Ul2" decimals="INF" unitRef="DKK">164579</fsa:LiabilitiesOtherThanProvisions>
+<fsa:LiabilitiesAndEquity contextRef="Ul1" decimals="INF" unitRef="DKK">149657</fsa:LiabilitiesAndEquity>
+<fsa:LiabilitiesAndEquity contextRef="Ul2" decimals="INF" unitRef="DKK">325646</fsa:LiabilitiesAndEquity>
+<fsa:DisclosureOfIntangibleAssets contextRef="Yr1">&lt;table style="border-collapse: collapse"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="border: 0px solid; text-align: left"&gt;&lt;h4&gt;&lt;/h4&gt;&lt;/th&gt;&lt;th style="border: 0px solid; text-align: right; width: 15%"&gt;&lt;h4&gt;2014&lt;/h4&gt;&lt;/th&gt;&lt;th style="border: 0px solid; text-align: right; width: 15%"&gt;&lt;h4&gt;2013&lt;/h4&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Anskaffelsessum:&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Anskaffelsessum, primo&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;     148.000&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;     148.000&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Anskaffelsessum, ultimo&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;     148.000&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;     148.000&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Opskrivninger:&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Akkumulerede af- og nedskrivninger:&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Af- og nedskrivninger, primo&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;     -42.286&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;     -21.143&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Årets af- og nedskrivninger&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;     -21.143&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;     -21.143&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Af- og nedskrivninger, ultimo&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;     -63.429&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;     -42.286&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Bogført værdi, ultimo&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;      84.571&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;     105.714&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</fsa:DisclosureOfIntangibleAssets>
+<fsa:DisclosureOfPropertyPlantAndEquipment contextRef="Yr1">&lt;table style="border-collapse: collapse"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="border: 0px solid; text-align: left"&gt;&lt;h4&gt;&lt;/h4&gt;&lt;/th&gt;&lt;th style="border: 0px solid; text-align: right; width: 15%"&gt;&lt;h4&gt;2014&lt;/h4&gt;&lt;/th&gt;&lt;th style="border: 0px solid; text-align: right; width: 15%"&gt;&lt;h4&gt;2013&lt;/h4&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Anskaffelsessum:&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Anskaffelsessum, primo&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;      14.250&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;      33.885&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Afgang&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;           0&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;     -19.635&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Anskaffelsessum, ultimo&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;      14.250&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;      14.250&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Opskrivninger:&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Akkumulerede af- og nedskrivninger:&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Af- og nedskrivninger, primo&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;      -5.700&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;      -6.777&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Korrektion afhændede&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;           0&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;       3.927&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Årets af- og nedskrivninger&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;      -8.550&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;      -2.850&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Af- og nedskrivninger, ultimo&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;     -14.250&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;      -5.700&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Bogført værdi, ultimo&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;           0&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;       8.550&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</fsa:DisclosureOfPropertyPlantAndEquipment>
+<fsa:DisclosureOfReceivables contextRef="Yr1">&lt;table style="border-collapse: collapse"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="border: 0px solid; text-align: left"&gt;&lt;h4&gt;&lt;/h4&gt;&lt;/th&gt;&lt;th style="border: 0px solid; text-align: right; width: 25%"&gt;&lt;h4&gt;2014&lt;/h4&gt;&lt;/th&gt;&lt;th style="border: 0px solid; text-align: right; width: 25%"&gt;&lt;h4&gt;2013&lt;/h4&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid"&gt;Lån til selskabsdeltager og ledelse&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;           0&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right"&gt;      39.718&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border: 0px solid; font-weight: bold"&gt;&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right; font-weight: bold"&gt;           0&lt;/td&gt;&lt;td style="border: 0px solid; text-align: right; font-weight: bold"&gt;      39.718&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</fsa:DisclosureOfReceivables>
+<fsa:DisclosureOfCollateralsAndAssetsPledgesAsSecurity contextRef="Yr1">&lt;p&gt;&lt;/p&gt;&lt;p style="font-weight: bold;"&gt;Selskabet har ikke påtaget sig andre forpligtelser eller sikkerhedsstillelser udover sædvanlige forretningsmæssige.&lt;/p&gt;</fsa:DisclosureOfCollateralsAndAssetsPledgesAsSecurity>
+<fsa:DisclosureOfOwnership contextRef="Yr1">&lt;p&gt;&lt;/p&gt;&lt;p style="font-weight: bold;"&gt;Bestemmende indflydelse&lt;/p&gt;&lt;p style="font-weight: bold;"&gt;Direktør Jesper Nedergaard Rasmussen&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style="font-weight: bold;"&gt;Transaktioner med nærtstående parter&lt;/p&gt;&lt;p style="font-weight: bold;"&gt;Ingen.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style="font-weight: bold;"&gt;Ejerforhold&lt;/p&gt;&lt;p style="font-weight: bold;"&gt;Følgende anpartshaver er noteret i selskabets anpartshaverfortegnelse: Direktør Jesper Nedergaard Rasmusssen&lt;/p&gt;</fsa:DisclosureOfOwnership>
+<fsa:DisclosureOfOtherPayables contextRef="Yr1">&lt;p&gt;&lt;/p&gt;&lt;p style="font-weight: bold;"&gt;Selskabet forventer, at resultatet vil blive forbedret til en positiv indtjening, der vil gøre, at den tabte egenkapital bliver genindtjent.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</fsa:DisclosureOfOtherPayables>
+</xbrli:xbrl>

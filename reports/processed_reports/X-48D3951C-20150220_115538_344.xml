@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Version: 1.1.453.0 --><!-- Document created: 20-02-2015 11:28:02 --><!-- Created by:  XBRL Wizard, EasyX --><xbrli:xbrl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:entry="http://xbrl.dcca.dk/entryBalanceSheetAccountFormIncomeStatementByNature" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:tax="http://xbrl.dcca.dk/tax" xmlns:tch="http://xbrl.dcca.dk/tch" xmlns:gen="http://xbrl.org/2008/generic" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:variable="http://xbrl.org/2008/variable" xmlns:eogs="http://xbrl.dcca.dk/eogs" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:valm="http://xbrl.org/2010/message/validation" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:msg="http://xbrl.org/2010/message" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:label="http://xbrl.org/2008/label" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:sob="http://xbrl.dcca.dk/sob" xsi:schemaLocation="http://xbrl.org/2006/xbrldi http://www.xbrl.org/2006/xbrldi-2006.xsd">
+  <link:schemaRef xlink:type="simple" xlink:href="http://archprod.service.eogs.dk/taxonomy/20140701/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20140701.xsd"/>
+  <xbrli:context id="ctx1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">29769745</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-01-01</xbrli:startDate>
+      <xbrli:endDate>2014-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">29769745</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-01-01</xbrli:startDate>
+      <xbrli:endDate>2014-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">29769745</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">29769745</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2014-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">29769745</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="DKK">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <gsd:ReportingPeriodStartDate contextRef="ctx1">2014-01-01</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate contextRef="ctx1">2014-12-31</gsd:ReportingPeriodEndDate>
+  <gsd:NameOfReportingEntity contextRef="ctx1" xml:lang="da">Lower Cardiff Road Komplementar ApS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName contextRef="ctx1" xml:lang="da">c/o Fund Management A/S Amaliegade</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="ctx1" xml:lang="da">27</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="ctx1" xml:lang="da">1256</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName contextRef="ctx1" xml:lang="da">København K</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:ReportingPeriodNumber contextRef="ctx1" unitRef="pure" decimals="0">9</gsd:ReportingPeriodNumber>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="ctx1">29769745</gsd:IdentificationNumberCvrOfReportingEntity>
+  <sob:StatementByExecutiveAndSupervisoryBoards contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;LEDELSESPÅTEGNING&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Direktionen har aflagt årsrapport for Lower Cardiff Road Komplementar ApS for året 2014.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Årsrapporten er aflagt i overensstemmelse med selskabets vedtægter samt årsregnskabsloven.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Ledelsen anser den valgte regnskabspraksis for hensigtsmæssig, således at årsrapporten giver et retvisende billede af selskabets aktiver og passiver, finansielle stilling og resultatet.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Samtidig er det vores opfattelse, at ledelsesberetningen indeholder en retvisende redegørelse for de forhold beretningen omhandler.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Årsrapporten med tilhørende forslag til resultatets fordeling indstilles til generalforsamlingens godkendelse.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Det er direktionens opfattelse, at selskabet stadigvæk opfylder betingelserne for at kunne fravælge revision. Det indstilles derfor til generalforsamlingen, at revisionen for år 2015 fravælges.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+  <sob:PlaceOfSignatureOfStatement contextRef="ctx1" xml:lang="da">København</sob:PlaceOfSignatureOfStatement>
+  <sob:DateOfApprovalOfAnnualReport contextRef="ctx1">2015-01-27</sob:DateOfApprovalOfAnnualReport>
+  <mrv:ManagementsReview contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;LEDELSESBERETNING&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Lower Cardiff Road Komplementar ApS er som komplementar fuldt hæftende deltager i kommanditselskabet K/S Lower Cardiff Road.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Selskabet administreres af Fund Management A/S og har derfor ingen ansatte.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Selskabet er ejet af kommanditisterne i K/S Lower Cardiff Road.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Årets foreslåede resultatfordeling fremgår i forlængelse af resultatopgørelsen.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Der er ikke efter regnskabsårets afslutning indtruffet begivenheder, der ændrer det billede, som regnskabet giver.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</mrv:ManagementsReview>
+  <fsa:DisclosureOfAccountingPolicies contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;ANVENDT REGNSKABSPRAKSIS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Generelt&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DisclosureOfAccountingPolicies>
+  <fsa:InformationOnReportingClassOfEntity contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Årsrapporten for Lower Cardiff Road Komplementar ApS for 2014 er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for klasse B-virksomheder.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Den anvendte regnskabspraksis er uændret i forhold til sidste år.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:InformationOnReportingClassOfEntity>
+  <fsa:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Generelt om indregning og måling&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;I resultatopgørelsen indregnes indtægter i takt med, at de indtjenes, herunder indregnes værdireguleringer af finansielle aktiver og forpligtelser. I resultatopgørelsen indregnes ligeledes alle omkostninger, herunder afskrivninger og nedskrivninger.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver og forpligtelser som beskrevet for hver enkelt regnskabspost nedenfor.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Ved indregning og måling tages hensyn til forudsigelige tab og risici, der fremkommer, inden årsrapporten aflægges, og som be- eller afkræfter forhold, der eksisterede på balancedagen.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeStatementItems contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Resultatopgørelsens indtægter og omkostninger&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Der foretages periodisering af alle indtægter og omkostninger i resultatopgørelsen.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Finansielle indtægter&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Finansielle indtægter omfatter renteindtægter fra mellemregninger.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeStatementItems>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Skat&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Skat af årets resultat omfatter skat af årets skattepligtige indkomst.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Tilgodehavender&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Hensættelser til imødegåelse af tab på tilgodehavender er foretaget på grundlag af individuel vurdering af de fordringer, der skønnes behæftet med særlig risiko.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Gældsforpligtelser&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Gældsforpligtelser måles til amortiseret kostpris.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Alle værdireguleringer foretages over resultatopgørelsen.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions>
+  <fsa:OtherFinanceIncome contextRef="ctx1" unitRef="DKK" decimals="0">10091</fsa:OtherFinanceIncome>
+  <fsa:OtherFinanceExpenses contextRef="ctx1" unitRef="DKK" decimals="0">92</fsa:OtherFinanceExpenses>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="ctx1" unitRef="DKK" decimals="0">9999</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:TaxExpenseOnOrdinaryActivities contextRef="ctx1" unitRef="DKK" decimals="0">2450</fsa:TaxExpenseOnOrdinaryActivities>
+  <fsa:ProfitLoss contextRef="ctx1" unitRef="DKK" decimals="0">7549</fsa:ProfitLoss>
+  <fsa:DisclosureOfOtherFinanceIncome contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td width="100%" colspan="1" align="left" valign="middle" &gt;&lt;b&gt;NOTER &lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="100%" colspan="1" align="left" valign="middle" &gt;Selskabets likvider er placeret på mellemregning med K/S Lower Cardiff Road og forrentes med 7,5%.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DisclosureOfOtherFinanceIncome>
+  <fsa:DisclosureOfTaxExpenses contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="100%" colspan="1" align="left" valign="middle" &gt;Selskabsskat af årets skattepligtige indkomst andrager kr. 2.450.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="100%" colspan="1" align="left" valign="middle" &gt;Der påhviler ikke selskabet udskudt skat.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="100%" colspan="1" align="left" valign="middle" &gt;Selskabet har i regnskabsåret betalt kr. 2.375 i selskabsskat.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DisclosureOfTaxExpenses>
+  <fsa:StatementOfChangesInEquity contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="6"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="100%" colspan="6" align="left" valign="middle" &gt;Anpartskapitalen består af 100 anparter a kr. 1.250.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="6"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="100%" colspan="6" align="left" valign="middle" &gt;Egenkapitalen er opgjort således:&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="14%" &gt;&lt;/td&gt;&lt;td width="14%" &gt;&lt;/td&gt;&lt;td width="14%" &gt;&lt;/td&gt;&lt;td width="18%" colspan="1" align="center" valign="middle" &gt;&lt;b&gt;Anparts-&lt;/b&gt;&lt;/td&gt;&lt;td width="18%" colspan="1" align="center" valign="middle" &gt;&lt;b&gt;Overført&lt;/b&gt;&lt;/td&gt;&lt;td width="22%" colspan="1" align="center" valign="middle" &gt;&lt;b&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="14%" &gt;&lt;/td&gt;&lt;td width="14%" &gt;&lt;/td&gt;&lt;td width="14%" &gt;&lt;/td&gt;&lt;td width="18%" colspan="1" align="center" valign="middle" &gt;&lt;b&gt;kapital&lt;/b&gt;&lt;/td&gt;&lt;td width="18%" colspan="1" align="center" valign="middle" &gt;&lt;b&gt;resultat&lt;/b&gt;&lt;/td&gt;&lt;td width="22%" colspan="1" align="center" valign="middle" &gt;&lt;b&gt;Ialt&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="6"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="42%" colspan="3" align="left" valign="middle" &gt;Saldo, primo&lt;/td&gt;&lt;td width="18%" align="right" valign="middle" &gt;125.000&lt;/td&gt;&lt;td width="18%" align="right" valign="middle" &gt;9.648&lt;/td&gt;&lt;td width="22%" align="right" valign="middle" &gt;134.648&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="42%" colspan="3" align="left" valign="middle" &gt;Årets resultat&lt;/td&gt;&lt;td width="18%" align="right" valign="middle" &gt;0&lt;/td&gt;&lt;td width="18%" align="right" valign="middle" &gt;7.549&lt;/td&gt;&lt;td width="22%" align="right" valign="middle" &gt;7.549&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="6"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="42%" colspan="3" align="left" valign="middle" &gt;Saldo, ultimo&lt;/td&gt;&lt;td width="18%" align="right" valign="middle" &gt;125.000&lt;/td&gt;&lt;td width="18%" align="right" valign="middle" &gt;17.197&lt;/td&gt;&lt;td width="22%" align="right" valign="middle" &gt;142.197&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="6"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:StatementOfChangesInEquity>
+  <fsa:DisclosureOfMortgagesAndCollaterals contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="100%" colspan="1" align="left" valign="middle" &gt;Selskabet er som komplementar i K/S Lower Cardiff Road, København fuldt ansvarlig deltager med ubegrænset hæftelse for alle kommanditselskabets forpligtelser.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DisclosureOfMortgagesAndCollaterals>
+  <gsd:InformationOnTypeOfSubmittedReport contextRef="ctx1">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:IdentificationNumberCvrOfSubmittingEnterprise contextRef="ctx1">32081517</gsd:IdentificationNumberCvrOfSubmittingEnterprise>
+  <gsd:NameOfSubmittingEnterprise contextRef="ctx1" xml:lang="da">Habro &amp; Finansgruppen Fund Management A/S</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="ctx1" xml:lang="da">Amaliegade 27</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="ctx1" xml:lang="da">1256 København K</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+  <gsd:DateOfGeneralMeeting contextRef="ctx1">2015-01-27</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="ctx1" xml:lang="da">Dennis Weile-Lund</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <fsa:ClassOfReportingEntity contextRef="ctx1">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <cmn:TypeOfAuditorAssistance contextRef="ctx1">Ingen bistand</cmn:TypeOfAuditorAssistance>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="ctx2" xml:lang="da">Carsten Vikkelsø Jensen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <fsa:OtherFinanceIncome contextRef="ctx3" unitRef="DKK" decimals="0">9559</fsa:OtherFinanceIncome>
+  <fsa:OtherFinanceExpenses contextRef="ctx3" unitRef="DKK" decimals="0">35</fsa:OtherFinanceExpenses>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="ctx3" unitRef="DKK" decimals="0">9524</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:TaxExpenseOnOrdinaryActivities contextRef="ctx3" unitRef="DKK" decimals="0">2375</fsa:TaxExpenseOnOrdinaryActivities>
+  <fsa:ProfitLoss contextRef="ctx3" unitRef="DKK" decimals="0">7149</fsa:ProfitLoss>
+  <fsa:ShorttermReceivablesFromGroupEnterprises contextRef="ctx4" unitRef="DKK" decimals="0">144647</fsa:ShorttermReceivablesFromGroupEnterprises>
+  <fsa:CurrentAssets contextRef="ctx4" unitRef="DKK" decimals="0">144647</fsa:CurrentAssets>
+  <fsa:Assets contextRef="ctx4" unitRef="DKK" decimals="0">144647</fsa:Assets>
+  <fsa:ContributedCapital contextRef="ctx4" unitRef="DKK" decimals="0">125000</fsa:ContributedCapital>
+  <fsa:RetainedEarnings contextRef="ctx4" unitRef="DKK" decimals="0">17197</fsa:RetainedEarnings>
+  <fsa:Equity contextRef="ctx4" unitRef="DKK" decimals="0">142197</fsa:Equity>
+  <fsa:ShorttermTaxPayables contextRef="ctx4" unitRef="DKK" decimals="0">2450</fsa:ShorttermTaxPayables>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="ctx4" unitRef="DKK" decimals="0">2450</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="ctx4" unitRef="DKK" decimals="0">2450</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity contextRef="ctx4" unitRef="DKK" decimals="0">144647</fsa:LiabilitiesAndEquity>
+  <fsa:ShorttermReceivablesFromGroupEnterprises contextRef="ctx5" unitRef="DKK" decimals="0">137023</fsa:ShorttermReceivablesFromGroupEnterprises>
+  <fsa:CurrentAssets contextRef="ctx5" unitRef="DKK" decimals="0">137023</fsa:CurrentAssets>
+  <fsa:Assets contextRef="ctx5" unitRef="DKK" decimals="0">137023</fsa:Assets>
+  <fsa:ContributedCapital contextRef="ctx5" unitRef="DKK" decimals="0">125000</fsa:ContributedCapital>
+  <fsa:RetainedEarnings contextRef="ctx5" unitRef="DKK" decimals="0">9648</fsa:RetainedEarnings>
+  <fsa:Equity contextRef="ctx5" unitRef="DKK" decimals="0">134648</fsa:Equity>
+  <fsa:ShorttermTaxPayables contextRef="ctx5" unitRef="DKK" decimals="0">2375</fsa:ShorttermTaxPayables>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="ctx5" unitRef="DKK" decimals="0">2375</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="ctx5" unitRef="DKK" decimals="0">2375</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity contextRef="ctx5" unitRef="DKK" decimals="0">137023</fsa:LiabilitiesAndEquity>
+</xbrli:xbrl>

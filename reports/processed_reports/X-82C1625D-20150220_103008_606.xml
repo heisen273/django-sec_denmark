@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Created by Magnus:Årsafslutning--><xbrli:xbrl xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:entry="http://xbrl.dcca.dk/entryBalanceSheetAccountFormIncomeStatementByNature" xmlns:eogs="http://xbrl.dcca.dk/eogs" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:tax="http://xbrl.dcca.dk/tax" xmlns:tch="http://xbrl.dcca.dk/tch" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink"><link:schemaRef xlink:type="simple" xlink:href="http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd"/><xbrli:context id="ID_0"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_2"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension"><cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier></xbrldi:typedMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_1"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_20"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_18"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_19"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension"><cmn:memberOfBoardIdentifier/></xbrldi:typedMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_6"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_8"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInLiabilitiesMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_10"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ReserveForNetRevaluationAccordingToEquityMethodMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_12"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_14"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_21"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_3"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_4"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_5"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2013-10-01</xbrli:startDate><xbrli:endDate>2014-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_7"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2012-04-23</xbrli:startDate><xbrli:endDate>2013-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_9"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2012-04-23</xbrli:startDate><xbrli:endDate>2013-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInLiabilitiesMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_11"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2012-04-23</xbrli:startDate><xbrli:endDate>2013-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ReserveForNetRevaluationAccordingToEquityMethodMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_13"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2012-04-23</xbrli:startDate><xbrli:endDate>2013-09-30</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context><xbrli:context id="ID_15"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2012-04-23</xbrli:startDate><xbrli:endDate>2013-09-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ID_16"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2014-09-30</xbrli:instant></xbrli:period></xbrli:context><xbrli:context id="ID_17"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">34481954</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2013-09-30</xbrli:instant></xbrli:period></xbrli:context><xbrli:unit id="percent"><xbrli:measure>xbrli:pure</xbrli:measure></xbrli:unit><xbrli:unit id="decimal"><xbrli:measure>xbrli:pure</xbrli:measure></xbrli:unit><xbrli:unit id="DKK"><xbrli:measure>iso4217:DKK</xbrli:measure></xbrli:unit><xbrli:unit id="share"><xbrli:measure>xbrli:shares</xbrli:measure></xbrli:unit><arr:AddresseeOfAuditorsReportOnAuditedFinancialStatements contextRef="ID_1">Til kapitalejerne i Erik Homilius Holding ApS
+ </arr:AddresseeOfAuditorsReportOnAuditedFinancialStatements><arr:AuditorsReportOnFinancialStatements contextRef="ID_1">Påtegning på årsregnskabet</arr:AuditorsReportOnFinancialStatements><arr:IdentificationOfAuditedFinancialStatements contextRef="ID_1">Vi har revideret årsregnskabet for Erik Homilius Holding ApS for regnskabsåret 1. oktober 2013 - 30. september 2014, der omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter. Årsregnskabet udarbejdes efter årsregnskabsloven.
+ </arr:IdentificationOfAuditedFinancialStatements><arr:InformationOnSignatureOfAuditors contextRef="ID_1"> 	 
+Aabenraa, den 20. januar 2015	 
+ 	 
+Intension Registreret revisionsaktieselskab	 
+ 	 
+ 	 
+ 	 
+Allan Søberg, HD(R) 	 
+Registreret revisor	 
+</arr:InformationOnSignatureOfAuditors><arr:OpinionOnAuditedFinancialStatements contextRef="ID_1">Konklusion
+Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30. september 2014  samt af resultatet af selskabets aktiviteter for regnskabsåret 1. oktober 2013 - 30. september 2014 i overensstemmelse med årsregnskabsloven. 
+ </arr:OpinionOnAuditedFinancialStatements><arr:SignatureOfAuditorsDate contextRef="ID_1">2015-01-20</arr:SignatureOfAuditorsDate><arr:SignatureOfAuditorsPlace contextRef="ID_1">Aabenraa</arr:SignatureOfAuditorsPlace><arr:StatementOfAuditorsResponsibilityForAuditAndAuditPerformed contextRef="ID_1">Vores ansvar er at udtrykke en konklusion om årsregnskabet på grundlag af vores revision. Vi har udført revisionen i overensstemmelse med internationale standarder om revision og yderligere krav ifølge dansk revisorlovgivning. Dette kræver, at vi overholder etiske krav samt planlægger og udfører revisionen for at opnå høj grad af sikkerhed for, om årsregnskabet er uden væsentlig fejlinformation.
+ 
+En revision omfatter udførelse af revisionshandlinger for at opnå revisionsbevis for beløb og oplysninger i årsregnskabet. De valgte revisionshandlinger afhænger af revisors vurdering, herunder vurdering af risici for væsentlig fejlinformation i årsregnskabet, uanset om denne skyldes besvigelser eller fejl. Ved risikovurderingen overvejer revisor intern kontrol, der er relevant for virksomhedens udarbejdelse af et årsregnskab, der giver et retvisende billede. Formålet hermed er at udforme revisionshandlinger, der er passende efter omstændighederne, men ikke at udtrykke en konklusion om effektiviteten af virksomhedens interne kontrol. En revision omfatter endvidere vurdering af, om ledelsens valg af regnskabspraksis er passende, om ledelsens regnskabsmæssige skøn er rimelige samt den samlede præsentation af årsregnskabet.
+ , Det er vores opfattelse, at det opnåede revisionsbevis er tilstrækkeligt og egnet som grundlag for vores konklusion.
+ 
+Revisionen har ikke givet anledning til forbehold.
+ , Revisors ansvar
+Vores ansvar er at udtrykke en konklusion om årsregnskabet på grundlag af vores revision. Vi har udført revisionen i overensstemmelse med internationale standarder om revision og yderligere krav ifølge dansk revisorlovgivning. Dette kræver, at vi overholder etiske krav samt planlægger og udfører revisionen for at opnå høj grad af sikkerhed for, om årsregnskabet er uden væsentlig fejlinformation.
+ 
+En revision omfatter udførelse af revisionshandlinger for at opnå revisionsbevis for beløb og oplysninger i årsregnskabet. De valgte revisionshandlinger afhænger af revisors vurdering, herunder vurdering af risici for væsentlig fejlinformation i årsregnskabet, uanset om denne skyldes besvigelser eller fejl. Ved risikovurderingen overvejer revisor intern kontrol, der er relevant for virksomhedens udarbejdelse af et årsregnskab, der giver et retvisende billede. Formålet hermed er at udforme revisionshandlinger, der er passende efter omstændighederne, men ikke at udtrykke en konklusion om effektiviteten af virksomhedens interne kontrol. En revision omfatter endvidere vurdering af, om ledelsens valg af regnskabspraksis er passende, om ledelsens regnskabsmæssige skøn er rimelige samt den samlede præsentation af årsregnskabet.
+ 
+Det er vores opfattelse, at det opnåede revisionsbevis er tilstrækkeligt og egnet som grundlag for vores konklusion.
+ 
+Revisionen har ikke givet anledning til forbehold.
+ </arr:StatementOfAuditorsResponsibilityForAuditAndAuditPerformed><arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatements contextRef="ID_1">Ledelsens ansvar for årsregnskabet
+Ledelsen har ansvaret for udarbejdelsen af et årsregnskab, der giver et retvisende billede i overensstemmelse med årsregnskabsloven. Ledelsen har endvidere ansvaret for den interne kontrol, som ledelsen anser nødvendig for at udarbejde et årsregnskab uden væsentlig fejlinformation, uanset om denne skyldes besvigelser eller fejl. 
+ </arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatements><arr:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements contextRef="ID_1">Udtalelse om ledelsesberetningen
+Vi har i henhold til årsregnskabsloven gennemlæst ledelsesberetningen. Vi har ikke foretaget yderligere handlinger i tillæg til den udførte revision af årsregnskabet. Det er på denne baggrund vores opfattelse, at oplysningerne i ledelsesberetningen er i overensstemmelse med årsregnskabet. 
+ , Vi har i henhold til årsregnskabsloven gennemlæst ledelsesberetningen. Vi har ikke foretaget yderligere handlinger i tillæg til den udførte revision af årsregnskabet. Det er på denne baggrund vores opfattelse, at oplysningerne i ledelsesberetningen er i overensstemmelse med årsregnskabet. 
+ </arr:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements><cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="ID_19"> 
+Direktion
+ 
+ 
+ 
+Erik Homilius
+	 
+ 
+ 
+ 
+ 
+ 
+	 
+ 
+ 
+ 
+ 
+ 
+
+Direktør	 	 
+ 	 	 
+</cmn:NameAndSurnameOfMemberOfExecutiveBoard><cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="ID_2">Erik Homilius</cmn:NameAndSurnameOfMemberOfExecutiveBoard><cmn:TitleOfMemberOfExecutiveBoard contextRef="ID_2">Direktør</cmn:TitleOfMemberOfExecutiveBoard><cmn:TypeOfAuditorAssistance contextRef="ID_1">Revisionspåtegning</cmn:TypeOfAuditorAssistance><fsa:Assets contextRef="ID_16" unitRef="DKK" decimals="0">783480</fsa:Assets><fsa:Assets contextRef="ID_17" unitRef="DKK" decimals="0">287305</fsa:Assets><fsa:CashAndCashEquivalents contextRef="ID_16" unitRef="DKK" decimals="0">209</fsa:CashAndCashEquivalents><fsa:CashAndCashEquivalents contextRef="ID_17" unitRef="DKK" decimals="0">0</fsa:CashAndCashEquivalents><fsa:ClassOfReportingEntity contextRef="ID_21">Regnskabsklasse B</fsa:ClassOfReportingEntity><fsa:ContributedCapital contextRef="ID_16" unitRef="DKK" decimals="0">80000</fsa:ContributedCapital><fsa:ContributedCapital contextRef="ID_17" unitRef="DKK" decimals="0">80000</fsa:ContributedCapital><fsa:CurrentAssets contextRef="ID_16" unitRef="DKK" decimals="0">209</fsa:CurrentAssets><fsa:CurrentAssets contextRef="ID_17" unitRef="DKK" decimals="0">0</fsa:CurrentAssets><fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="ID_6" unitRef="DKK" decimals="0">15750</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss><fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="ID_7" unitRef="DKK" decimals="0">3958</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss><fsa:DisclosureOfAccountingPolicies contextRef="ID_21"> 
+ 
+Regnskabsklasse
+Årsrapporten for Erik Homilius Holding ApS for 2013/14 er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for  virksomheder i regnskabsklasse B.
+ 
+Den anvendte regnskabspraksis er uændret i forhold til tidligere år.
+ 
+Rapporteringsvaluta
+Årsrapporten er aflagt i danske kroner.
+ 
+Generelt
+ 
+Generelt om indregning og måling
+Indtægter indregnes i resultatopgørelsen i takt med, at de indtjenes, herunder indregnes værdireguleringer af finansielle aktiver og forpligtelser, der måles til dagsværdi eller amortiseret kostpris. Endvidere indregnes i resultatopgørelsen alle omkostninger, der er afholdt for at opnå årets indtjening, herunder afskrivninger, nedskrivninger og hensatte forpligtelser samt tilbageførsler som følge af ændrede regnskabsmæssige skøn af beløb, der tidligere har været indregnet i resultatopgørelsen. 
+ 
+Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt.
+ 
+Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt. 
+ 
+Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver og forpligtelser som beskrevet for hver enkelt regnskabspost nedenfor. 
+ 
+Visse finansielle aktiver og forpligtelser måles til amortiseret kostpris, hvorved der indregnes en konstant effektiv rente over løbetiden. Amortiseret kostpris opgøres som oprindelig kostpris med fradrag af afdrag og tillæg/fradrag af den akkumulerede afskrivning af forskellen mellem kostprisen og det nominelle beløb. Herved fordeles kurstab og -gevinst over løbetiden. 
+ 
+Ved indregning og måling tages hensyn til forudsigelige tab og risici, der fremkommer, inden årsrapporten aflægges, og som be- eller afkræfter forhold, der eksisterer på balancedagen.
+ 
+Resultatopgørelsen
+ 
+Bruttofortjeneste og -tab
+Virksomheden har valgt at sammendrage visse poster i resultatopgørelsen efter bestemmelserne i årsregnskabslovens § 32.
+ 
+Administrationsomkostninger
+I administrationsomkostninger indregnes omkostninger, der er afholdt i året til kontoromkostninger og lignende omkostninger.
+ 
+Af- og nedskrivninger på immaterielle og materielle anlægsaktiver
+Af- og nedskrivninger på immaterielle og materielle anlægsaktiver er foretaget ud fra en løbende vurdering af aktivernes brugstid i virksomheden. Anlægsaktiverne afskrives lineært på grundlag af kostprisen, baseret på følgende vurdering af brugstider og restværdier:
+	
+ 	Brugstid	 
+Goodwill	5 år	 
+ 	 	 
+Fortjeneste eller tab ved afhændelse af immaterielle og materielle anlægsaktiver opgøres som forskellen mellem salgspris med fradrag af salgsomkostninger og den regnskabsmæssige værdi på salgstidspunktet, og indregnes i resultatopgørelsen under afskrivninger.
+ 
+Indtægter fra kapitalandele i tilknyttede og associerede virksomheder
+Indtægter fra kapitalandele omfatter den forholdsmæssige andel af resultatet efter skat samt eventuel regulering af intern avance/tab og fradrag af afskrivning på koncerngoodwill.
+ 
+Finansielle indtægter og omkostninger
+Finansielle indtægter og omkostninger indregnes i resultatopgørelsen med de beløb, der vedrører regnskabsåret. Finansielle indtægter og omkostninger indeholder renteindtægter og -omkostninger, realiserede og urealiserede kursgevinster og -tab vedrørende værdipapirer, gæld og transaktioner i fremmed valuta, modtaget udbytte fra andre kapitalandele, amortisering af finansielle aktiver og forpligtelser samt tillæg og godtgørelser under acontoskatteordningen.
+ 
+Skat af årets resultat
+Skat af årets resultat omfatter aktuel skat af årets forventede skattepligtige indkomst og årets regulering af udskudt skat med fradrag af den del af årets skat, der vedrører egenkapitalbevægelser. Aktuel og udskudt skat vedrørende egenkapitalbevægelser indregnes direkte i egenkapitalen.
+ 
+Balancen
+ 
+Immaterielle anlægsaktiver
+Goodwill måles til kostpris med fradrag af akkumulerede af- og nedskrivninger.
+ 
+Kapitalandele i tilknyttede og associerede virksomheder
+Kapitalandele i tilknyttede og associerede virksomheder måles efter den indre værdis metode til den forholdsmæssigt ejede andel af virksomhedernes egenkapital med tillæg af eventuel koncerngoodwill, fradrag for koncerninterne avancer og negativ goodwill. Virksomheder med negativ egenkapital måles til 0, idet den til den negative værdi svarende forholdsmæssige andel modregnes i eventuelle tilgodehavender. Beløb herudover indregnes under posten hensatte forpligtelser, såfremt der er en retlig eller faktisk forpligtelse til at dække underbalancen.
+ 
+Tilgodehavender
+Tilgodehavender måles til amortiseret kostpris, der almindeligvis svarer til nominel værdi. Værdien reduceres med nedskrivninger til imødegåelse af forventede tab.
+ 
+Likvider
+Likvider omfatter likvide beholdninger.
+ 
+Hensatte forpligtelser
+Udskudt skat
+Udskudt skat og årets regulering heraf opgøres efter den balanceorienterede gældsmetode som skatteværdien af alle midlertidige forskelle mellem regnskabsmæssige og skattemæssige værdier af aktiver og forpligtelser. 
+ 
+Udskudte skatteaktiver, herunder skatteværdien af fremførselsberettigede skattemæssige underskud, indregnes med den værdi, hvortil de forventes at blive anvendt, enten ved udligning i skat af fremtidig indtjening eller ved modregning i udskudte skatteforpligtelser i virksomheder inden for samme juridiske skatteenhed og jurisdiktion.
+ 
+Udskudt skat måles på grundlag af de skatteregler og skattesatser, der med balancedagens lovgivning vil være gældende, når den udskudte skat forventes udløst som aktuel skat.
+ 
+Finansielle gældsforpligtelser
+Fastforrentede lån som realkreditlån og lån hos kreditinstitutter indregnes ved lånoptagelsen til det modtagne provenu med fradrag af afholdte transaktionsomkostninger. I efterfølgende perioder måles lånene til amortiseret kostpris, således at forskellen mellem provenuet og den nominelle værdi indregnes i resultatopgørelsen som en renteomkostning over låneperioden.
+ 
+Øvrige gældsforpligtelser måles til amortiseret kostpris, hvilket almindeligvis svarer til nominel værdi. 
+ 
+Aktuelle skatteforpligtelser
+Aktuelle skatteforpligtelser og tilgodehavende aktuel skat indregnes i balancen som beregnet skat af årets forventede skattepligtige indkomst, reguleret for skat af tidligere års skattepligtige indkomster samt betalte acontoskatter.
+ 
+Udbytte for regnskabsåret
+Foreslået udbytte for regnskabsåret indregnes som en gældsforpligtelse.
+ 
+Eventualaktiver og -forpligtelser
+Eventualaktiver og -forpligtelser indregnes ikke i balancen, men oplyses alene i noterne.
+ </fsa:DisclosureOfAccountingPolicies><fsa:DisclosureOfCollateralsAndAssetsPledgesAsSecurity contextRef="ID_5">5. Sikkerhedsstillelser og pantsætninger
+Der er ingen sikkerhedsstillelser eller pantsætninger pr. statusdagen.
+ 
+</fsa:DisclosureOfCollateralsAndAssetsPledgesAsSecurity><fsa:DisclosureOfContingentLiabilities contextRef="ID_5">4. Eventualforpligtelser
+Der er ingen eventualforpligtelser pr. statusdagen.
+ 
+
+</fsa:DisclosureOfContingentLiabilities><fsa:DisclosureOfInvestments contextRef="ID_3">1. Oplysninger om kapitalandele i tilknyttede og associerede virksomheder
+Associerede virksomheder	 	 	 	 	 
+Navn	Hjemsted	Ejerandel i %	Egenkapital	 	Resultat
+Kaj Homilius A/S	Aabenraa	19,00	2.010.791	 	1.460.346
+ 	 	 	2.010.791	 	1.460.346
+ 	 	 	 	 	 
+</fsa:DisclosureOfInvestments><fsa:DisclosureOfLongtermLiabilities contextRef="ID_4">3. Langfristede gældsforpligtelser
+ 	Forfald	 	Forfald	 	Forfald
+ 	efter 1 år	 	indenfor 1 år	 	efter 5 år
+Anden gæld	316.710	 	0	 	316.710
+Gæld til virksomhedsdeltagere og ledelse	61.907	 	0	 	61.907
+ 	378.617	 	0	 	378.617
+ 	 	 	 	 	 
+</fsa:DisclosureOfLongtermLiabilities><fsa:Equity contextRef="ID_16" unitRef="DKK" decimals="0">327610</fsa:Equity><fsa:Equity contextRef="ID_17" unitRef="DKK" decimals="0">133367</fsa:Equity><fsa:Goodwill contextRef="ID_16" unitRef="DKK" decimals="0">123821</fsa:Goodwill><fsa:Goodwill contextRef="ID_17" unitRef="DKK" decimals="0">10011</fsa:Goodwill><fsa:GrossProfitLoss contextRef="ID_6" unitRef="DKK" decimals="0">-8000</fsa:GrossProfitLoss><fsa:GrossProfitLoss contextRef="ID_7" unitRef="DKK" decimals="0">-4110</fsa:GrossProfitLoss><fsa:IncomeFromInvestmentsInGroupEnterprisesAndAssociates contextRef="ID_6" unitRef="DKK" decimals="0">277466</fsa:IncomeFromInvestmentsInGroupEnterprisesAndAssociates><fsa:IncomeFromInvestmentsInGroupEnterprisesAndAssociates contextRef="ID_7" unitRef="DKK" decimals="0">145163</fsa:IncomeFromInvestmentsInGroupEnterprisesAndAssociates><fsa:IntangibleAssets contextRef="ID_16" unitRef="DKK" decimals="0">123821</fsa:IntangibleAssets><fsa:IntangibleAssets contextRef="ID_17" unitRef="DKK" decimals="0">10011</fsa:IntangibleAssets><fsa:LiabilitiesAndEquity contextRef="ID_16" unitRef="DKK" decimals="0">783480</fsa:LiabilitiesAndEquity><fsa:LiabilitiesAndEquity contextRef="ID_17" unitRef="DKK" decimals="0">287305</fsa:LiabilitiesAndEquity><fsa:LiabilitiesOtherThanProvisions contextRef="ID_16" unitRef="DKK" decimals="0">455870</fsa:LiabilitiesOtherThanProvisions><fsa:LiabilitiesOtherThanProvisions contextRef="ID_17" unitRef="DKK" decimals="0">153938</fsa:LiabilitiesOtherThanProvisions><fsa:LongtermInvestmentsAndReceivables contextRef="ID_16" unitRef="DKK" decimals="0">659450</fsa:LongtermInvestmentsAndReceivables><fsa:LongtermInvestmentsAndReceivables contextRef="ID_17" unitRef="DKK" decimals="0">277294</fsa:LongtermInvestmentsAndReceivables><fsa:LongtermInvestmentsInAssociates contextRef="ID_16" unitRef="DKK" decimals="0">382050</fsa:LongtermInvestmentsInAssociates><fsa:LongtermInvestmentsInAssociates contextRef="ID_17" unitRef="DKK" decimals="0">201044</fsa:LongtermInvestmentsInAssociates><fsa:LongtermLiabilitiesOtherThanProvisions contextRef="ID_16" unitRef="DKK" decimals="0">378617</fsa:LongtermLiabilitiesOtherThanProvisions><fsa:LongtermLiabilitiesOtherThanProvisions contextRef="ID_17" unitRef="DKK" decimals="0">105638</fsa:LongtermLiabilitiesOtherThanProvisions><fsa:LongtermReceivablesFromAssociates contextRef="ID_16" unitRef="DKK" decimals="0">277400</fsa:LongtermReceivablesFromAssociates><fsa:LongtermReceivablesFromAssociates contextRef="ID_17" unitRef="DKK" decimals="0">76250</fsa:LongtermReceivablesFromAssociates><fsa:LongtermTaxPayables contextRef="ID_16" unitRef="DKK" decimals="0">0</fsa:LongtermTaxPayables><fsa:LongtermTaxPayables contextRef="ID_17" unitRef="DKK" decimals="0">28053</fsa:LongtermTaxPayables><fsa:NoncurrentAssets contextRef="ID_16" unitRef="DKK" decimals="0">783271</fsa:NoncurrentAssets><fsa:NoncurrentAssets contextRef="ID_17" unitRef="DKK" decimals="0">287305</fsa:NoncurrentAssets><fsa:OtherDisclosures contextRef="ID_5">2. Egenkapital
+ 	 	Virksomheds kapital	 	Reserve for nettoopskrivn. indre værdis metode	 	Overført resultat	 	Ultimo	 
+Saldo primo	 	80.000	 	13	 	53.354	 	133.367	 
+Tilgang i året	 	0	 	66	 	194.177	 	194.243	 
+Afgang i året	 	0	 	0	 	0	 	0	 
+ 	 	80.000	 	79	 	247.531	 	327.610	 
+ 	 	 	 	 	 	 	 	 	 
+</fsa:OtherDisclosures><fsa:OtherLongtermPayables contextRef="ID_16" unitRef="DKK" decimals="0">316710</fsa:OtherLongtermPayables><fsa:OtherLongtermPayables contextRef="ID_17" unitRef="DKK" decimals="0">0</fsa:OtherLongtermPayables><fsa:OtherShorttermPayables contextRef="ID_16" unitRef="DKK" decimals="0">49200</fsa:OtherShorttermPayables><fsa:OtherShorttermPayables contextRef="ID_17" unitRef="DKK" decimals="0">48300</fsa:OtherShorttermPayables><fsa:PayablesToShareholdersAndManagement contextRef="ID_16" unitRef="DKK" decimals="0">61907</fsa:PayablesToShareholdersAndManagement><fsa:PayablesToShareholdersAndManagement contextRef="ID_17" unitRef="DKK" decimals="0">77585</fsa:PayablesToShareholdersAndManagement><fsa:ProfitLoss contextRef="ID_10" unitRef="DKK" decimals="0">-66</fsa:ProfitLoss><fsa:ProfitLoss contextRef="ID_11" unitRef="DKK" decimals="0">-13</fsa:ProfitLoss><fsa:ProfitLoss contextRef="ID_12" unitRef="DKK" decimals="0">-194177</fsa:ProfitLoss><fsa:ProfitLoss contextRef="ID_13" unitRef="DKK" decimals="0">-53354</fsa:ProfitLoss><fsa:ProfitLoss contextRef="ID_14" unitRef="DKK" decimals="0">-243443</fsa:ProfitLoss><fsa:ProfitLoss contextRef="ID_15" unitRef="DKK" decimals="0">-101667</fsa:ProfitLoss><fsa:ProfitLoss contextRef="ID_6" unitRef="DKK" decimals="0">243443</fsa:ProfitLoss><fsa:ProfitLoss contextRef="ID_7" unitRef="DKK" decimals="0">101667</fsa:ProfitLoss><fsa:ProfitLoss contextRef="ID_8" unitRef="DKK" decimals="0">-49200</fsa:ProfitLoss><fsa:ProfitLoss contextRef="ID_9" unitRef="DKK" decimals="0">-48300</fsa:ProfitLoss><fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="ID_6" unitRef="DKK" decimals="0">243443</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax><fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="ID_7" unitRef="DKK" decimals="0">129720</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax><fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="ID_6" unitRef="DKK" decimals="0">-23750</fsa:ProfitLossFromOrdinaryOperatingActivities><fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="ID_7" unitRef="DKK" decimals="0">-8068</fsa:ProfitLossFromOrdinaryOperatingActivities><fsa:ReserveForNetRevaluationAccordingToEquityMethod contextRef="ID_16" unitRef="DKK" decimals="0">79</fsa:ReserveForNetRevaluationAccordingToEquityMethod><fsa:ReserveForNetRevaluationAccordingToEquityMethod contextRef="ID_17" unitRef="DKK" decimals="0">13</fsa:ReserveForNetRevaluationAccordingToEquityMethod><fsa:RetainedEarnings contextRef="ID_16" unitRef="DKK" decimals="0">247531</fsa:RetainedEarnings><fsa:RetainedEarnings contextRef="ID_17" unitRef="DKK" decimals="0">53354</fsa:RetainedEarnings><fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="ID_16" unitRef="DKK" decimals="0">77253</fsa:ShorttermLiabilitiesOtherThanProvisions><fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="ID_17" unitRef="DKK" decimals="0">48300</fsa:ShorttermLiabilitiesOtherThanProvisions><fsa:ShorttermTaxPayables contextRef="ID_16" unitRef="DKK" decimals="0">28053</fsa:ShorttermTaxPayables><fsa:ShorttermTaxPayables contextRef="ID_17" unitRef="DKK" decimals="0">0</fsa:ShorttermTaxPayables><fsa:TaxExpenseOnOrdinaryActivities contextRef="ID_6" unitRef="DKK" decimals="0">0</fsa:TaxExpenseOnOrdinaryActivities><fsa:TaxExpenseOnOrdinaryActivities contextRef="ID_7" unitRef="DKK" decimals="0">28053</fsa:TaxExpenseOnOrdinaryActivities><gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="ID_0">6200, Aabenraa</gsd:AddressOfSubmittingEnterprisePostcodeAndTown><gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="ID_0">Næstmark 25</gsd:AddressOfSubmittingEnterpriseStreetAndNumber><gsd:DateOfApprovalOfReport contextRef="ID_0">2015-01-20</gsd:DateOfApprovalOfReport><gsd:DateOfFoundationOfReportingEntity contextRef="ID_0">2012-04-23</gsd:DateOfFoundationOfReportingEntity><gsd:DateOfGeneralMeeting contextRef="ID_0">2015-02-19</gsd:DateOfGeneralMeeting><gsd:EmailOfReportingEntity contextRef="ID_0">erik.homilius@gmail.com</gsd:EmailOfReportingEntity><gsd:IdentificationNumberCvrOfReportingEntity contextRef="ID_0">34481954</gsd:IdentificationNumberCvrOfReportingEntity><gsd:IdentificationNumberCvrOfSubmittingEnterprise contextRef="ID_0">26632315</gsd:IdentificationNumberCvrOfSubmittingEnterprise><gsd:InformationOnTypeOfSubmittedReport contextRef="ID_0">Årsrapport</gsd:InformationOnTypeOfSubmittedReport><gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="ID_0">Erik Homilius</gsd:NameAndSurnameOfChairmanOfGeneralMeeting><gsd:NameOfFinancialInstitution contextRef="ID_0">Den Jyske Sparekasse</gsd:NameOfFinancialInstitution><gsd:NameOfReportingEntity contextRef="ID_0">Erik Homilius Holding ApS</gsd:NameOfReportingEntity><gsd:NameOfSubmittingEnterprise contextRef="ID_0">Intension Registreret revisionsaktieselskab</gsd:NameOfSubmittingEnterprise><gsd:RegisteredOfficeOfReportingEntity contextRef="ID_0">580, Aabenraa</gsd:RegisteredOfficeOfReportingEntity><gsd:ReportingPeriodEndDate contextRef="ID_0">2014-09-30</gsd:ReportingPeriodEndDate><gsd:ReportingPeriodStartDate contextRef="ID_0">2013-10-01</gsd:ReportingPeriodStartDate><gsd:TelephoneNumberOfReportingEntity contextRef="ID_0">74669532</gsd:TelephoneNumberOfReportingEntity><mrv:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs contextRef="ID_20"> 
+Udviklingen i virksomhedens aktiviteter og økonomiske forhold
+Årets resultat udgør kr. 243.443, hvilket betegnes som tilfredsstillende. 
+ 
+Virksomhedens balance udviser en samlet aktivmasse på kr. 783.480 og en egenkapital på kr. 327.610.
+ </mrv:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs><mrv:DescriptionOfExpectedDevelopment contextRef="ID_20">Virksomhedens forventede udvikling
+Det forventes, at virksomheden i indeværende år vil opnå en positiv udvikling i resultatet.
+ </mrv:DescriptionOfExpectedDevelopment><mrv:DescriptionOfPrimaryActivitiesOfEntity contextRef="ID_20">Virksomhedens væsentligste aktiviteter
+Selskabets væsentligste aktiviteert består i at eje aktier og anparter i erhvervsdrivende selskaber indenfor køb og salg samt reparation.</mrv:DescriptionOfPrimaryActivitiesOfEntity><mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod contextRef="ID_20">Betydningsfulde hændelser, som er indtruffet efter regnskabsårets afslutning
+Der er efter regnskabsårets afslutning ikke indtruffet begivenheder af væsentlig betydning for selskabets finansielle stilling.
+ </mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod><mrv:ManagementsReview contextRef="ID_20"> 
+Virksomhedens væsentligste aktiviteter
+Selskabets væsentligste aktiviteert består i at eje aktier og anparter i erhvervsdrivende selskaber indenfor køb og salg samt reparation.
+ 
+Udviklingen i virksomhedens aktiviteter og økonomiske forhold
+Årets resultat udgør kr. 243.443, hvilket betegnes som tilfredsstillende. 
+ 
+Virksomhedens balance udviser en samlet aktivmasse på kr. 783.480 og en egenkapital på kr. 327.610.
+ 
+Betydningsfulde hændelser, som er indtruffet efter regnskabsårets afslutning
+Der er efter regnskabsårets afslutning ikke indtruffet begivenheder af væsentlig betydning for selskabets finansielle stilling.
+ 
+Virksomhedens forventede udvikling
+Det forventes, at virksomheden i indeværende år vil opnå en positiv udvikling i resultatet.
+ </mrv:ManagementsReview><sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement contextRef="ID_18">Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.
+ </sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement><sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults contextRef="ID_18">Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30. september 2014 samt af resultatet af selskabets aktiviteter for regnskabsåret 1. oktober 2013 - 30. september 2014.
+ </sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults><sob:IdentificationOfApprovedAnnualReport contextRef="ID_18"> 
+Ledelsen har dags dato behandlet og godkendt årsrapporten for regnskabsåret 1. oktober 2013 - 30. september 2014 for Erik Homilius Holding ApS.
+ </sob:IdentificationOfApprovedAnnualReport><sob:ManagementsStatementAboutManagementsReview contextRef="ID_18">Ledelsesberetningen indeholder efter vores opfattelse en retvisende redegørelse for de forhold, beretningen omhandler.
+ </sob:ManagementsStatementAboutManagementsReview><sob:PlaceOfSignatureOfStatement contextRef="ID_18"> 
+Hellevad, den 20. januar 2015</sob:PlaceOfSignatureOfStatement><sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting contextRef="ID_18">Årsrapporten indstilles til generalforsamlingens godkendelse.
+ </sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting><sob:StatementByExecutiveAndSupervisoryBoards contextRef="ID_18">
+ 
+Ledelsen har dags dato behandlet og godkendt årsrapporten for regnskabsåret 1. oktober 2013 - 30. september 2014 for Erik Homilius Holding ApS.
+ 
+Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.
+ 
+Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30. september 2014 samt af resultatet af selskabets aktiviteter for regnskabsåret 1. oktober 2013 - 30. september 2014.
+ 
+Ledelsesberetningen indeholder efter vores opfattelse en retvisende redegørelse for de forhold, beretningen omhandler.
+ 
+Årsrapporten indstilles til generalforsamlingens godkendelse.
+ 
+ 
+Hellevad, den 20. januar 2015
+ 
+Direktion
+ 
+ 
+ 
+Erik Homilius
+	 
+ 
+ 
+ 
+ 
+ 
+	 
+ 
+ 
+ 
+ 
+ 
+
+Direktør	 	 
+ 	 	 
+</sob:StatementByExecutiveAndSupervisoryBoards></xbrli:xbrl>

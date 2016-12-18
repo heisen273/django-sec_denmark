@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20140701/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20140701.xsd" xlink:type="simple"/>
+  <xbrli:context id="c0">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32336442</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-03-17</xbrli:startDate>
+      <xbrli:endDate>2014-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32336442</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-03-17</xbrli:startDate>
+      <xbrli:endDate>2014-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32336442</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-03-17</xbrli:startDate>
+      <xbrli:endDate>2014-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32336442</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-03-17</xbrli:startDate>
+      <xbrli:endDate>2014-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">32336442</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2014-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u0">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:DateOfGeneralMeeting contextRef="c0">2015-02-08</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Kasper Kyndsberg</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">DIN VIRKSOMHED ApS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Parkvej</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">26</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">4700</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">Næstved</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:TelephoneNumberOfReportingEntity contextRef="c0" xml:lang="da">22533031</gsd:TelephoneNumberOfReportingEntity>
+  <gsd:EmailOfReportingEntity contextRef="c0" xml:lang="da">info@dinvirksomhed.nu</gsd:EmailOfReportingEntity>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">32336442</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:ReportingPeriodStartDate contextRef="c0">2014-03-17</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate contextRef="c0">2014-12-31</gsd:ReportingPeriodEndDate>
+  <sob:StatementByExecutiveAndSupervisoryBoards contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Direktionen aflægger hermed årsrapport for 2014 for Din Virksomhed ApS.
+&lt;br/&gt; 
+&lt;br/&gt;Årsrapporten er aflagt i overensstemmelse med årsregnskabsloven.
+&lt;br/&gt; 
+&lt;br/&gt;Årsrapporten giver et retvisende billede af virksomhedens aktiver og passiver, finansielle stilling samt resultatet.
+&lt;br/&gt; 
+&lt;br/&gt;Årsrapporten indstilles til generalforsamlingens godkendelse.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Resultatdisponering fremgår af resultatopgørelsen.
+&lt;br/&gt; 
+&lt;br/&gt;Selskabet har på stiftelsestidspunktet fravalgt revision. Det er direktionens opfattelse at selskabet opfylder lovgivningens betingelser for fravalg af revision.&lt;/p&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+  <sob:PlaceOfSignatureOfStatement contextRef="c0" xml:lang="da">Næstved</sob:PlaceOfSignatureOfStatement>
+  <sob:DateOfApprovalOfAnnualReport contextRef="c0">2014-02-01</sob:DateOfApprovalOfAnnualReport>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c1" xml:lang="da">Anita Kvistgaard Andersen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <cmn:TitleOfMemberOfExecutiveBoard contextRef="c1" xml:lang="da">Direktør</cmn:TitleOfMemberOfExecutiveBoard>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c2" xml:lang="da">Kasper Kyndsberg</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <cmn:TitleOfMemberOfExecutiveBoard contextRef="c2" xml:lang="da">Direktør</cmn:TitleOfMemberOfExecutiveBoard>
+  <sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption contextRef="c0" xml:lang="da">Selskabet skal fortsat ikke revideres</sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption>
+  <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+  <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt"&gt;Årsrapporten er aflagt efter årsregnskabslovens regnskabsklasse B.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt"&gt; &lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold"&gt;Bruttoresultat&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+&lt;span style="font-family:calibri; font-size:11pt"&gt;Regnskabsposterne nettoomsætning, vareforbrug, andre eksterne omkostninger og andre driftsindtægter er sammendraget&lt;/span&gt; 
+&lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;til en post benævnt bruttofortjeneste eller bruttotab i den offentliggjorte årsrapport.&lt;/span&gt;&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold"&gt;Nettoomsætningen&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt"&gt;Salg indregnes som nettoomsætning, når varen er solgt og leveret (salgsmetoden).&lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt"&gt; &lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold"&gt;Variable omkostninger&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+&lt;span style="font-family:calibri; font-size:11pt"&gt;Køb af diverse&lt;/span&gt; 
+&lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;materialer til videresalg.&lt;/span&gt;&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold; vertical-align:baseline"&gt;Personaleomkostninger&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+&lt;span style="font-family:calibri; font-size:11pt"&gt;Lønninger, forsikringer, atp&lt;/span&gt; 
+&lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;og øvrige sociale omkostninger samt omkostninger i øvrigt.&lt;/span&gt;&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt"&gt; &lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold"&gt;Andre eksterne omkostninger&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+&lt;span style="font-family:calibri; font-size:11pt"&gt;Omkostninger til salg og administration samt indirekte omkostninger .&lt;/span&gt; 
+&lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold"&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold"&gt; &lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold"&gt;Finansielle poster&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+&lt;span style="font-family:calibri; font-size:11pt"&gt;Renter&lt;/span&gt; 
+&lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;vedr. bank, kreditorer, SKAT og evt. gevinster og tab på valuta.&lt;/span&gt;&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt"&gt;  &lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold"&gt;Skat af årets resultat&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt"&gt;Skat af årets resultat omfatter aktuel skat og årets forskydning i udskudt skat. Aktuel skat beregnes med udgangspunkt i årets resultat før skat, korrigeret for ikke-skattepligtige indtægter og omkostninger. Ved beregningen er anvendt en skatteprocent på 24,5 pct.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold"&gt;Finansielle anlægsaktiver:&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+&lt;span style="font-family:calibri; font-size:11pt"&gt;Kapitalandele&lt;/span&gt; 
+&lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;i datterselskaber og associerede selskabet indmåles til kostpris. Såfremt den indre værdi understiger kostprisen, nedskrives kapitalandelen til indre værdi.&lt;/span&gt;&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold"&gt;Tilgodehavender:&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+&lt;span style="font-family:calibri; font-size:11pt"&gt;Debitorer og øvrige tilgodehavender indmåles&lt;/span&gt; 
+&lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;til nominel værdi&lt;/span&gt;
+&lt;span style="font-family:calibri; font-size:11pt"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold"&gt;Gældsforpligtelser&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt"&gt;Gæld måles til nominel restgæld. &lt;/span&gt;
+&lt;/p&gt;</fsa:DisclosureOfAccountingPolicies>
+  <fsa:GrossResult contextRef="c0" decimals="0" unitRef="u0">561156</fsa:GrossResult>
+  <fsa:EmployeeBenefitsExpense contextRef="c0" decimals="0" unitRef="u0">550360</fsa:EmployeeBenefitsExpense>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">10796</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:OtherFinanceIncome contextRef="c0" decimals="0" unitRef="u0">154</fsa:OtherFinanceIncome>
+  <fsa:OtherFinanceExpenses contextRef="c0" decimals="0" unitRef="u0">73</fsa:OtherFinanceExpenses>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">10877</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ExtraordinaryProfitLossBeforeTax contextRef="c0" decimals="0" unitRef="u0">10877</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:TaxExpense contextRef="c0" decimals="0" unitRef="u0">4357</fsa:TaxExpense>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">6520</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c3" decimals="0" unitRef="u0">6520</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">6520</fsa:ProfitLoss>
+  <fsa:LongtermInvestmentsInGroupEnterprises contextRef="c4" decimals="0" unitRef="u0">1000</fsa:LongtermInvestmentsInGroupEnterprises>
+  <fsa:LongtermInvestmentsInAssociates contextRef="c4" decimals="0" unitRef="u0">25000</fsa:LongtermInvestmentsInAssociates>
+  <fsa:LongtermInvestmentsAndReceivables contextRef="c4" decimals="0" unitRef="u0">26000</fsa:LongtermInvestmentsAndReceivables>
+  <fsa:NoncurrentAssets contextRef="c4" decimals="0" unitRef="u0">26000</fsa:NoncurrentAssets>
+  <fsa:ShorttermTradeReceivables contextRef="c4" decimals="0" unitRef="u0">123839</fsa:ShorttermTradeReceivables>
+  <fsa:OtherShorttermReceivables contextRef="c4" decimals="0" unitRef="u0">58683</fsa:OtherShorttermReceivables>
+  <fsa:ShorttermReceivables contextRef="c4" decimals="0" unitRef="u0">182522</fsa:ShorttermReceivables>
+  <fsa:CashAndCashEquivalents contextRef="c4" decimals="0" unitRef="u0">324795</fsa:CashAndCashEquivalents>
+  <fsa:CurrentAssets contextRef="c4" decimals="0" unitRef="u0">507317</fsa:CurrentAssets>
+  <fsa:Assets contextRef="c4" decimals="0" unitRef="u0">533317</fsa:Assets>
+  <fsa:ContributedCapital contextRef="c4" decimals="0" unitRef="u0">50000</fsa:ContributedCapital>
+  <fsa:RetainedEarnings contextRef="c4" decimals="0" unitRef="u0">6520</fsa:RetainedEarnings>
+  <fsa:Equity contextRef="c4" decimals="0" unitRef="u0">56520</fsa:Equity>
+  <fsa:ShorttermDebtToOtherCreditInstitutions contextRef="c4" decimals="0" unitRef="u0">200000</fsa:ShorttermDebtToOtherCreditInstitutions>
+  <fsa:ShorttermTradePayables contextRef="c4" decimals="0" unitRef="u0">25486</fsa:ShorttermTradePayables>
+  <fsa:OtherShorttermPayables contextRef="c4" decimals="0" unitRef="u0">158928</fsa:OtherShorttermPayables>
+  <fsa:ShorttermPayablesToShareholdersAndManagement contextRef="c4" decimals="0" unitRef="u0">92383</fsa:ShorttermPayablesToShareholdersAndManagement>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c4" decimals="0" unitRef="u0">476797</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="c4" decimals="0" unitRef="u0">476797</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity contextRef="c4" decimals="0" unitRef="u0">533317</fsa:LiabilitiesAndEquity>
+  <fsa:DisclosureOfEmployeeBenefitsExpense contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-bottom:0px; border-collapse:collapse; border-left:0px; border-right:0px; border-top:0px; width:650px"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border-bottom:0px; border-left:0px; border-right:0px; border-top:0px; width:60%"&gt; &lt;/th&gt;
+      &lt;th style="border-bottom:0px; border-left:0px; border-right:0px; border-top:0px; font-weight:bold; text-align:right; width:25%"&gt;2014&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; padding-bottom:10px; text-align:right"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Løn og gager&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;543.664&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pensionsbidrag&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Andre omkostninger til social sikring&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;6.696&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; text-align:right"&gt;550.360&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfEmployeeBenefitsExpense>
+  <fsa:DisclosureOfTaxExpenses contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-bottom:0px; border-collapse:collapse; border-left:0px; border-right:0px; border-top:0px; width:650px"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border-bottom:0px; border-left:0px; border-right:0px; border-top:0px; width:60%"&gt; &lt;/th&gt;
+      &lt;th style="border-bottom:0px; border-left:0px; border-right:0px; border-top:0px; font-weight:bold; text-align:right; width:25%"&gt;2014&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; padding-bottom:10px; text-align:right"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Aktuel skat&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;-4.357&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ændring af udskudt skat&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Regulering vedrørende tidligere år&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; text-align:right"&gt;-4.357&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfTaxExpenses>
+  <fsa:DisclosureOfInvestments contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-bottom:0pt; border-collapse:collapse; border-left:0pt; border-right:0pt; border-top:0pt; width:650px"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border-bottom:0pt; border-left:0pt; border-right:0pt; border-top:0pt; width:70%"&gt; &lt;/th&gt;
+      &lt;th style="border-bottom:0pt; border-left:0pt; border-right:0pt; border-top:0pt; font-weight:bold; text-align:right; width:15%"&gt;Kapitalandele i tilknyttede virksomheder&lt;/th&gt;
+      &lt;th style="border-bottom:0pt; border-left:0pt; border-right:0pt; border-top:0pt; font-weight:bold; text-align:right; width:15%"&gt;Kapitalandele i associerede virksomheder&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; padding-bottom:10px; text-align:right"&gt;kr.&lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; padding-bottom:10px; text-align:right"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kostpris primo&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tilgang&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;1.000&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;25.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Afgang&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight:bold"&gt;Kostpris ultimo&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;1.000&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;25.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="text-align:right"&gt; &lt;/td&gt;
+      &lt;td style="text-align:right"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nettoopskrivninger primo&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Andel i årets resultat jf. note&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Udloddet udbytte&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight:bold"&gt;Nettoopskrivninger ultimo&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="text-align:right"&gt; &lt;/td&gt;
+      &lt;td style="text-align:right"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight:bold"&gt;Regnskabsmæssig værdi ultimo&lt;/td&gt;
+      &lt;td style="border-bottom:1px solid; font-weight:bold; text-align:right"&gt;1.000&lt;/td&gt;
+      &lt;td style="border-bottom:1px solid; font-weight:bold; text-align:right"&gt;25.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td/&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt;Kapitalandele i tilknyttede virksomheder omfatter:&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-bottom:0pt; border-collapse:collapse; border-left:0pt; border-right:0pt; border-top:0pt; width:100%"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border-bottom:0pt; border-left:0pt; border-right:0pt; border-top:0pt; text-align:left; width:55%"&gt;Navn, retsform og hjemsted&lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; font-weight:bold; text-align:right; width:15%"&gt;Ejerandel&lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; font-weight:bold; text-align:right; width:15%"&gt;Egenkapital&lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; font-weight:bold; text-align:right; width:15%"&gt;Årets resultat&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Sommerlundt &amp;amp; Co IVS&lt;/td&gt;
+      &lt;td style="border-bottom:1px solid; text-align:right"&gt;100%&lt;/td&gt;
+      &lt;td style="border-bottom:1px solid; text-align:right"&gt;I/T&lt;/td&gt;
+      &lt;td style="border-bottom:1px solid; text-align:right"&gt;I/T&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabets første regnskabsår afsluttes 31. december 2015, hvorfor regnskabsdata ikke er tilgængeligt.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt;Kapitalandele i associerede virksomheder omfatter:&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-bottom:0pt; border-collapse:collapse; border-left:0pt; border-right:0pt; border-top:0pt; width:100%"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border-bottom:0pt; border-left:0pt; border-right:0pt; border-top:0pt; text-align:left; width:55%"&gt;Navn, retsform og hjemsted&lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; font-weight:bold; text-align:right; width:15%"&gt;Ejerandel&lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; font-weight:bold; text-align:right; width:15%"&gt;Egenkapital&lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; font-weight:bold; text-align:right; width:15%"&gt;Årets resultat&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DK Ejendomsservice ApS&lt;/td&gt;
+      &lt;td style="border-bottom:1px solid; text-align:right"&gt;50%&lt;/td&gt;
+      &lt;td style="border-bottom:1px solid; text-align:right"&gt;64.458&lt;/td&gt;
+      &lt;td style="border-bottom:1px solid; text-align:right"&gt;14.458&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;</fsa:DisclosureOfInvestments>
+  <fsa:DisclosureOfContributedCapital contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Anpartskapitalen består af 50.00 anparter a 1 kr. Anparterne er ikke opdelt i klasser.
+&lt;br/&gt; &lt;/p&gt;</fsa:DisclosureOfContributedCapital>
+  <fsa:DisclosureOfEquity contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-collapse:collapse; border:0pt none; width:650px"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border:0pt none; width:30%"&gt; &lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Virksomheds-kapital&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Reserve for nettoopskrivning efter indre værdis metode&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Overført resultat&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Foreslået udbytte&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;Ialt&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th style="border:0pt none; width:30%"&gt; &lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+      &lt;th style="border:0pt none; font-weight:bold; text-align:right; width:14%"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Saldo primo&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;50.000&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;50.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Udloddet ordinært udbytte&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Årets resultat&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;6.520&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;6.520&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight:bold"&gt;Egenkapital ultimo&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;50.000&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;6.520&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;0&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;56.520&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfEquity>
+  <fsa:DisclosureOfMainActivitiesAndAccountingAndFinancialMatters contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt"&gt;Selskabets formål er at udøve virksomhed med rådgivning og undervisning indenfor regnskab, administration, økonomistyring samt aktiviteter i tilknytning hertil.&lt;/span&gt;
+&lt;/p&gt;</fsa:DisclosureOfMainActivitiesAndAccountingAndFinancialMatters>
+  <fsa:DisclosureOfMortgagesAndCollaterals contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Ingen&lt;/p&gt;</fsa:DisclosureOfMortgagesAndCollaterals>
+  <fsa:DisclosureOfOwnership contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold"&gt;Bestemmende indflydelse:&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt"&gt;Anita Kvistgaard Andersen&lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt"&gt;Vordingborg&lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt"&gt;Direktør&lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;Kasper Kyndsberg&lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;Næstved&lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;Direktør&lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;strong style="font-family:calibri; font-size:11pt; font-weight:bold; vertical-align:baseline"&gt;Ejerforhold:&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;Følgnede kapitalejere er noteret i selskabets ejerbog som ejende minimum 5% af stemmerne eller minimum 5% af anpartskapitalen:&lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;Anita Kvistgaard Andersen&lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;Vordingborg&lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;Kaspers Holdingselskab ApS&lt;/span&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml" style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in; text-indent:0in"&gt;
+  &lt;span style="font-family:calibri; font-size:11pt; vertical-align:baseline"&gt;Næstved&lt;/span&gt;
+&lt;/p&gt;</fsa:DisclosureOfOwnership>
+  <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Ingen bistand</cmn:TypeOfAuditorAssistance>
+  <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">Kasper Kyndsberg</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Parkvej 26, 7. th</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">4700 Næstved</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>

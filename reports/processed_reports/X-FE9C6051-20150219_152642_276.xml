@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20140701/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20140701.xsd" xlink:type="simple"/>
+  <xbrli:context id="c0">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35513787</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-09</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35513787</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-09</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+        <cmn:auditorIdentifier>1</cmn:auditorIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35513787</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-09</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35513787</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-10-09</xbrli:startDate>
+      <xbrli:endDate>2014-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35513787</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2014-09-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u0">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:DateOfGeneralMeeting contextRef="c0">2015-02-19</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Nina Hansen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">MERKANTIL COMPANY ApS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Klitvej</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">20</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">2680</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">Solrød Strand</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">35513787</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:ReportingPeriodStartDate contextRef="c0">2013-10-09</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate contextRef="c0">2014-09-30</gsd:ReportingPeriodEndDate>
+  <gsd:NameOfFinancialInstitution contextRef="c0" xml:lang="da">Sydbank A/S</gsd:NameOfFinancialInstitution>
+  <cmn:NameOfAuditFirm contextRef="c1" xml:lang="da">REGISTRERET                       REVISIONSANPARTSSELSKAB           DM REVISION</cmn:NameOfAuditFirm>
+  <gsd:AddressOfAuditorStreetName contextRef="c1" xml:lang="da">Ulstrupvej</gsd:AddressOfAuditorStreetName>
+  <gsd:AddressOfAuditorStreetBuildingIdentifier contextRef="c1" xml:lang="da">10</gsd:AddressOfAuditorStreetBuildingIdentifier>
+  <gsd:AddressOfAuditorPostCodeIdentifier contextRef="c1" xml:lang="da">4682</gsd:AddressOfAuditorPostCodeIdentifier>
+  <gsd:AddressOfAuditorDistrictName contextRef="c1" xml:lang="da">Tureby</gsd:AddressOfAuditorDistrictName>
+  <gsd:AddressOfAuditorCountryIdentificationCode contextRef="c1" xml:lang="da">DK</gsd:AddressOfAuditorCountryIdentificationCode>
+  <gsd:AddressOfAuditorCountry contextRef="c1" xml:lang="da">Danmark</gsd:AddressOfAuditorCountry>
+  <cmn:IdentificationNumberCvrOfAuditFirm contextRef="c1" xml:lang="da">14569391</cmn:IdentificationNumberCvrOfAuditFirm>
+  <cmn:IdentificationNumberPnrOfAuditFirm contextRef="c1" xml:lang="da">1000765485</cmn:IdentificationNumberPnrOfAuditFirm>
+  <sob:StatementByExecutiveAndSupervisoryBoards contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:600px"&gt;
+  &lt;colgroup&gt;
+    &lt;col/&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Direktionen har dags dato behandlet og godkendt årsrapporten for regnskabsåret&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;2013/14 for Merkantil Company ApS.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Årsrapporten, der ikke er revideret, er aflagt i overensstemmelse med årsregnskabsloven.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver,&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;passiver og den finansielle stilling pr. 30. september 2014 samt af resultatet af&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;selskabets aktiviteter for regnskabsåret 09. oktober 2013 - 30. september 2014.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Direktionen anser betingelserne for, at undlade revision for opfyldt og har besluttet fortsat,&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;at fravælge revision for det kommende regnskabsår.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Årsrapporten indstilles til generalforsamlingens godkendelse.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+  <sob:PlaceOfSignatureOfStatement contextRef="c0" xml:lang="da">Solrød</sob:PlaceOfSignatureOfStatement>
+  <sob:DateOfApprovalOfAnnualReport contextRef="c0">2015-02-16</sob:DateOfApprovalOfAnnualReport>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c2" xml:lang="da">Nina Hansen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <cmn:TitleOfMemberOfExecutiveBoard contextRef="c2" xml:lang="da">Direktør</cmn:TitleOfMemberOfExecutiveBoard>
+  <arr:AuditorsReportsOtherReports contextRef="c0" xml:lang="da">Revisors erklæring om opstilling af årsregnskab</arr:AuditorsReportsOtherReports>
+  <arr:AddresseeOfAuditorsReportOnOtherReport contextRef="c0" xml:lang="da">Til den daglige ledelse i Merkantil Company ApS:</arr:AddresseeOfAuditorsReportOnOtherReport>
+  <arr:DescriptionOfOtherEngagement contextRef="c0" xml:lang="da">Vi har opstillet årsregnskabet for Merkantil Company ApS for regnskabsåret 09. oktober
+2013 - 30. september 2014 på grundlag af selskabets bilag samt øvrige oplysninger, som
+ledelsen har tilvejebragt.
+
+Årsregnskabet omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter.
+
+Vi har udført opgaven i overensstemmelse med den internationale standard om opstilling
+af finansielle oplysninger, ISRS 4410.
+
+Vi har anvendt vores faglige ekspertise i regnskab og regnskabsaflæggelse til at
+assistere ledelsen med at udarbejde og præsentere årsregnskabet i overensstemmelse
+med årsregnskabsloven. Vi har overholdt relevante etiske krav, herunder principper
+vedrørende integritet, objektivitet, faglig kompetence og fornøden omhu.
+
+Årsregnskabet samt nøjagtigheden og fuldstændigheden af de oplysninger, der er
+anvendt til opstillingen af årsregnskabet, er ledelsens ansvar.
+
+Da en opgave om opstilling af finansielle oplysninger ikke er en erklæringsopgave med
+sikkerhed, er vi ikke forpligtet til at verificere nøjagtigheden eller fuldstændigheden af de
+oplysninger, ledelsen har givet os til brug for at opstille årsregnskabet. Vi udtrykker derfor
+ingen revisions- eller reviewkonklusion om, hvorvidt årsregnskabet er udarbejdet i
+overensstemmelse med årsregnskabsloven.</arr:DescriptionOfOtherEngagement>
+  <arr:SignatureOfAuditorsPlace contextRef="c0" xml:lang="da">Tureby</arr:SignatureOfAuditorsPlace>
+  <arr:SignatureOfAuditorsDate contextRef="c0">2015-02-16</arr:SignatureOfAuditorsDate>
+  <cmn:NameAndSurnameOfAuditor contextRef="c1" xml:lang="da">Merete Leth</cmn:NameAndSurnameOfAuditor>
+  <cmn:DescriptionOfAuditor contextRef="c1" xml:lang="da">Reg. revisor</cmn:DescriptionOfAuditor>
+  <cmn:NameOfAuditFirm contextRef="c1" xml:lang="da">REGISTRERET                       REVISIONSANPARTSSELSKAB           DM REVISION</cmn:NameOfAuditFirm>
+  <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+  <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Generelt&lt;/h2&gt;
+&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:600px"&gt;
+  &lt;colgroup&gt;
+    &lt;col/&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Årsrapporten for Merkantil Company ApS 2013/14 aflægges i overensstemmelse med&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;årsregnskabslovens bestemmelser for regnskabsklasse B.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Selskabet driver handelsvirksomhed, men har ikke været aktivt i perioden.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:24px"&gt;
+      &lt;td style="height:24px; width:600px"&gt;
+        &lt;strong&gt;Generelt om indregning og måling&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;I resultatopgørelsen indregnes indtægter i takt med, at de indtjenes, herunder indregnes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;værdireguleringer af finansielle aktiver og forpligtelser. I resultatopgørelsen indregnes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;ligeledes alle omkostninger, herunder afskrivninger og nedskrivninger.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;tilflyde selskabet, og aktivets værdi kan måles pålideligt.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Ved indregning eller måling tages hensyn til forudsigelige tab og risici, der fremkommer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;inden årsrapporten aflægges, og som be- eller afkræfter forhold, der eksisterede på&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;balancedagen.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Resultatopgørelse&lt;/h2&gt;
+&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:600px"&gt;
+  &lt;colgroup&gt;
+    &lt;col/&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px; width:600px"&gt;
+        &lt;strong&gt;Andre eksterne omkostninger&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Andre eksterne omkostninger omfatter omkostninger til distribution, salg, reklame,&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;administration, lokaler, tab på debitorer, operationelle leasingomkostninger mv.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Balance&lt;/h2&gt;
+&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:600px"&gt;
+  &lt;colgroup&gt;
+    &lt;col/&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px; width:600px"&gt;
+        &lt;strong&gt;Tilgodehavender&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Tilgodehavender måles til amortiseret kostpris, der sædvanligvis svarer til nominel værdi.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Værdien reduceres med nedskrivning til imødegåelse af forventede tab, hvor der&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;vurderes at være indtruffet en objektiv indikation på, at et tilgodehavende er&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;værdiforringet.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px; width:600px"&gt;
+        &lt;strong&gt;Likvide beholdninger&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Likvide beholdninger er medtaget til nominel værdi på statusdagen.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px; width:600px"&gt;
+        &lt;strong&gt;Gældsforpligtelser&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:600px"&gt;Gæld i øvrigt er målt til amortiseret kostpris svarende til nominel værdi.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;</fsa:DisclosureOfAccountingPolicies>
+  <fsa:Revenue contextRef="c0" decimals="0" unitRef="u0">0</fsa:Revenue>
+  <fsa:ExternalExpenses contextRef="c0" decimals="0" unitRef="u0">6130</fsa:ExternalExpenses>
+  <fsa:GrossResult contextRef="c0" decimals="0" unitRef="u0">-6130</fsa:GrossResult>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">-6130</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">-6130</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ExtraordinaryProfitLossBeforeTax contextRef="c0" decimals="0" unitRef="u0">-6130</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-6130</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c3" decimals="0" unitRef="u0">-6130</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-6130</fsa:ProfitLoss>
+  <fsa:CashAndCashEquivalents contextRef="c4" decimals="0" unitRef="u0">73870</fsa:CashAndCashEquivalents>
+  <fsa:CurrentAssets contextRef="c4" decimals="0" unitRef="u0">73870</fsa:CurrentAssets>
+  <fsa:Assets contextRef="c4" decimals="0" unitRef="u0">73870</fsa:Assets>
+  <fsa:ContributedCapital contextRef="c4" decimals="0" unitRef="u0">80000</fsa:ContributedCapital>
+  <fsa:RetainedEarnings contextRef="c4" decimals="0" unitRef="u0">-6130</fsa:RetainedEarnings>
+  <fsa:Equity contextRef="c4" decimals="0" unitRef="u0">73870</fsa:Equity>
+  <fsa:LiabilitiesAndEquity contextRef="c4" decimals="0" unitRef="u0">73870</fsa:LiabilitiesAndEquity>
+  <fsa:DisclosureOfContributedCapital contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Anpartskapitalen består af 80 anparter a 1.000 kr. Anparterne er ikke opdelt i klasser.
+&lt;br/&gt; &lt;/p&gt;
+&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-collapse:collapse; border:0pt none; width:650px"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style="border-bottom:1px solid; padding-bottom:10px; text-align:right; width:15%"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Ændringer i aktiekapitalen de seneste fem regnskabsår:&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td style="text-align:right"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Anpartskapital &lt;/td&gt;
+      &lt;td style="text-align:right"&gt;80.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tilgang &lt;/td&gt;
+      &lt;td style="text-align:right"&gt;
+        &lt;strong&gt;0&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight:bold"&gt;Anpartskapital ultimo&lt;/td&gt;
+      &lt;td style="border-bottom:2px solid; border-top:2px solid; font-weight:bold; text-align:right"&gt;
+        &lt;strong&gt;80.000&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div xmlns="http://www.w3.org/1999/xhtml" style="text-align: right;"&gt; &lt;/div&gt;</fsa:DisclosureOfContributedCapital>
+  <fsa:DisclosureOfMortgagesAndCollaterals contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:355px"&gt;
+  &lt;colgroup&gt;
+    &lt;col/&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:355px"&gt;Selskabet har ikke påtaget sig andre forpligtelser og&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:355px"&gt;sikkerhedsstillelser udover sædvanlige forretnings-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:19px"&gt;
+      &lt;td style="height:19px; width:355px"&gt;mæssige.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfMortgagesAndCollaterals>
+  <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Andre erklæringer uden sikkerhed</cmn:TypeOfAuditorAssistance>
+  <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">Merete Leth</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Ulstrupvej 10</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">4682 Tureby</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>

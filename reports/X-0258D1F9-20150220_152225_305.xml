@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:e="http://xbrl.dcca.dk/sob" xmlns:b="http://xbrl.dcca.dk/entryBalanceSheetAccountFormIncomeStatementByNature" xmlns:h="http://xbrl.dcca.dk/mrv" xmlns:f="http://xbrl.dcca.dk/arr" xmlns:d="http://xbrl.dcca.dk/cmn" xmlns:g="http://xbrl.dcca.dk/fsa" xmlns:c="http://xbrl.dcca.dk/gsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.dcca.dk/entryBalanceSheetAccountFormIncomeStatementByNature http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd"><link:schemaRef xlink:type="simple" xlink:href="http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd"/><c:NameOfSubmittingEnterprise contextRef="c0">BDO Statsautoriseret revisionsaktieselskab</c:NameOfSubmittingEnterprise><c:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0">Fælledvej 1</c:AddressOfSubmittingEnterpriseStreetAndNumber><c:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0">DK-5000 Odense C</c:AddressOfSubmittingEnterprisePostcodeAndTown><c:IdentificationNumberCvrOfSubmittingEnterprise contextRef="c0">20222670</c:IdentificationNumberCvrOfSubmittingEnterprise><c:InformationOnTypeOfSubmittedReport contextRef="c0">Årsrapport</c:InformationOnTypeOfSubmittedReport><c:DateOfGeneralMeeting contextRef="c0">2015-02-20</c:DateOfGeneralMeeting><c:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0">Lars Bundgaard</c:NameAndSurnameOfChairmanOfGeneralMeeting><c:NameOfReportingEntity contextRef="c0">TrueLink A/S</c:NameOfReportingEntity><c:AddressOfReportingEntityStreetName contextRef="c0">Havneparken 1, 1. sal</c:AddressOfReportingEntityStreetName><c:AddressOfReportingEntityPostCodeIdentifier contextRef="c0">7100  Vejle</c:AddressOfReportingEntityPostCodeIdentifier><d:TypeOfAuditorAssistance contextRef="c0">Revisionspåtegning</d:TypeOfAuditorAssistance><c:TelephoneNumberOfReportingEntity contextRef="c0">79307833</c:TelephoneNumberOfReportingEntity><c:HomepageOfReportingEntity contextRef="c0">www.truelink.dk</c:HomepageOfReportingEntity><c:IdentificationNumberCvrOfReportingEntity contextRef="c0">31261430</c:IdentificationNumberCvrOfReportingEntity><c:DateOfFoundationOfReportingEntity contextRef="c0">2008-02-07</c:DateOfFoundationOfReportingEntity><c:RegisteredOfficeOfReportingEntity contextRef="c0">Vejle</c:RegisteredOfficeOfReportingEntity><c:ReportingPeriodStartDate contextRef="c0">2014-01-01</c:ReportingPeriodStartDate><c:ReportingPeriodEndDate contextRef="c0">2014-12-31</c:ReportingPeriodEndDate><d:NameOfAuditFirm contextRef="c0">BDO Statsautoriseret revisionsaktieselskab</d:NameOfAuditFirm><c:AddressOfAuditorStreetName contextRef="c0">Fælledvej</c:AddressOfAuditorStreetName><c:AddressOfAuditorStreetBuildingIdentifier contextRef="c0">1</c:AddressOfAuditorStreetBuildingIdentifier><c:AddressOfAuditorPostCodeIdentifier contextRef="c0">5000</c:AddressOfAuditorPostCodeIdentifier><c:AddressOfAuditorDistrictName contextRef="c0">Odense C</c:AddressOfAuditorDistrictName><c:NameOfLawFirm contextRef="c0">SKOV Advokater</c:NameOfLawFirm><c:AddressOfLawFirmStreetName contextRef="c0">Havneparken</c:AddressOfLawFirmStreetName><c:AddressOfLawFirmStreetBuildingIdentifier contextRef="c0">4</c:AddressOfLawFirmStreetBuildingIdentifier><c:AddressOfLawFirmPostCodeIdentifier contextRef="c0">7100</c:AddressOfLawFirmPostCodeIdentifier><c:AddressOfLawFirmDistrictName contextRef="c0">Vejle</c:AddressOfLawFirmDistrictName><e:PlaceOfSignatureOfStatement contextRef="c0">Vejle</e:PlaceOfSignatureOfStatement><e:DateOfApprovalOfAnnualReport contextRef="c0">2015-02-20</e:DateOfApprovalOfAnnualReport><d:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c199">Per Hedeboe Jensen</d:NameAndSurnameOfMemberOfExecutiveBoard><d:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="c208">Lars Bundgaard</d:NameAndSurnameOfMemberOfSupervisoryBoard><d:TitleOfMemberOfSupervisoryBoard contextRef="c208">Formand</d:TitleOfMemberOfSupervisoryBoard><d:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="c209">Jørn Bjerregaard Buch</d:NameAndSurnameOfMemberOfSupervisoryBoard><d:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="c210">Per Hedeboe Jensen</d:NameAndSurnameOfMemberOfSupervisoryBoard><f:SignatureOfAuditorsPlace contextRef="c0">Odense</f:SignatureOfAuditorsPlace><f:SignatureOfAuditorsDate contextRef="c0">2015-02-20</f:SignatureOfAuditorsDate><d:NameOfAuditFirm contextRef="c0">BDO Statsautoriseret revisionsaktieselskab</d:NameOfAuditFirm><d:NameAndSurnameOfAuditor contextRef="c299">Steen Haagensen</d:NameAndSurnameOfAuditor><d:DescriptionOfAuditor contextRef="c299">Statsautoriseret revisor</d:DescriptionOfAuditor><g:ClassOfReportingEntity contextRef="c0">Regnskabsklasse B</g:ClassOfReportingEntity><g:AccountingPoliciesAreUnchangedFromPreviousPeriod contextRef="c0">1</g:AccountingPoliciesAreUnchangedFromPreviousPeriod><g:GrossResult contextRef="c0" unitRef="u8" decimals="0">8744014</g:GrossResult><g:GrossResult contextRef="c1" unitRef="u8" decimals="0">9825981</g:GrossResult><g:EmployeeBenefitsExpense contextRef="c0" unitRef="u8" decimals="0">-8012242</g:EmployeeBenefitsExpense><g:EmployeeBenefitsExpense contextRef="c1" unitRef="u8" decimals="0">-6871951</g:EmployeeBenefitsExpense><g:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="c0" unitRef="u8" decimals="0">-155646</g:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss><g:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="c1" unitRef="u8" decimals="0">-970879</g:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss><g:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" unitRef="u8" decimals="0">576126</g:ProfitLossFromOrdinaryOperatingActivities><g:ProfitLossFromOrdinaryOperatingActivities contextRef="c1" unitRef="u8" decimals="0">1983151</g:ProfitLossFromOrdinaryOperatingActivities><g:IncomeFromInvestmentsInGroupEnterprisesAndAssociates contextRef="c0" unitRef="u8" decimals="0">-133127</g:IncomeFromInvestmentsInGroupEnterprisesAndAssociates><g:IncomeFromInvestmentsInGroupEnterprisesAndAssociates contextRef="c1" unitRef="u8" decimals="0">9844</g:IncomeFromInvestmentsInGroupEnterprisesAndAssociates><g:OtherFinanceIncome contextRef="c0" unitRef="u8" decimals="0">6779</g:OtherFinanceIncome><g:OtherFinanceIncome contextRef="c1" unitRef="u8" decimals="0">14745</g:OtherFinanceIncome><g:OtherFinanceExpenses contextRef="c0" unitRef="u8" decimals="0">-620</g:OtherFinanceExpenses><g:OtherFinanceExpenses contextRef="c1" unitRef="u8" decimals="0">0</g:OtherFinanceExpenses><g:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" unitRef="u8" decimals="0">449158</g:ProfitLossFromOrdinaryActivitiesBeforeTax><g:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c1" unitRef="u8" decimals="0">2007740</g:ProfitLossFromOrdinaryActivitiesBeforeTax><g:TaxExpenseOnOrdinaryActivities contextRef="c0" unitRef="u8" decimals="0">-143272</g:TaxExpenseOnOrdinaryActivities><g:TaxExpenseOnOrdinaryActivities contextRef="c1" unitRef="u8" decimals="0">-513952</g:TaxExpenseOnOrdinaryActivities><g:ProfitLoss contextRef="c0" unitRef="u8" decimals="0">305886</g:ProfitLoss><g:ProfitLoss contextRef="c1" unitRef="u8" decimals="0">1493788</g:ProfitLoss><g:ProfitLoss contextRef="c5" unitRef="u8" decimals="0">0</g:ProfitLoss><g:ProfitLoss contextRef="c6" unitRef="u8" decimals="0">1500000</g:ProfitLoss><g:ProfitLoss contextRef="c29" unitRef="u8" decimals="0">305886</g:ProfitLoss><g:ProfitLoss contextRef="c30" unitRef="u8" decimals="0">-6212</g:ProfitLoss><g:FixturesFittingsToolsAndEquipment contextRef="c2" unitRef="u8" decimals="0">142434</g:FixturesFittingsToolsAndEquipment><g:FixturesFittingsToolsAndEquipment contextRef="c4" unitRef="u8" decimals="0">119072</g:FixturesFittingsToolsAndEquipment><g:LeaseholdImprovements contextRef="c2" unitRef="u8" decimals="0">23286</g:LeaseholdImprovements><g:LeaseholdImprovements contextRef="c4" unitRef="u8" decimals="0">0</g:LeaseholdImprovements><g:PropertyPlantAndEquipment contextRef="c2" unitRef="u8" decimals="0">165720</g:PropertyPlantAndEquipment><g:PropertyPlantAndEquipment contextRef="c4" unitRef="u8" decimals="0">119072</g:PropertyPlantAndEquipment><g:LongtermInvestmentsInGroupEnterprises contextRef="c2" unitRef="u8" decimals="0">102410</g:LongtermInvestmentsInGroupEnterprises><g:LongtermInvestmentsInGroupEnterprises contextRef="c4" unitRef="u8" decimals="0">77370</g:LongtermInvestmentsInGroupEnterprises><g:LongtermInvestmentsInAssociates contextRef="c2" unitRef="u8" decimals="0">141833</g:LongtermInvestmentsInAssociates><g:LongtermInvestmentsInAssociates contextRef="c4" unitRef="u8" decimals="0">300000</g:LongtermInvestmentsInAssociates><g:OtherLongtermReceivables contextRef="c2" unitRef="u8" decimals="0">137221</g:OtherLongtermReceivables><g:OtherLongtermReceivables contextRef="c4" unitRef="u8" decimals="0">62245</g:OtherLongtermReceivables><g:LongtermInvestmentsAndReceivables contextRef="c2" unitRef="u8" decimals="0">381464</g:LongtermInvestmentsAndReceivables><g:LongtermInvestmentsAndReceivables contextRef="c4" unitRef="u8" decimals="0">439615</g:LongtermInvestmentsAndReceivables><g:NoncurrentAssets contextRef="c2" unitRef="u8" decimals="0">547184</g:NoncurrentAssets><g:NoncurrentAssets contextRef="c4" unitRef="u8" decimals="0">558687</g:NoncurrentAssets><g:ShorttermTradeReceivables contextRef="c2" unitRef="u8" decimals="0">829591</g:ShorttermTradeReceivables><g:ShorttermTradeReceivables contextRef="c4" unitRef="u8" decimals="0">656277</g:ShorttermTradeReceivables><g:ContractWorkInProgress contextRef="c2" unitRef="u8" decimals="0">173470</g:ContractWorkInProgress><g:ContractWorkInProgress contextRef="c4" unitRef="u8" decimals="0">234205</g:ContractWorkInProgress><g:CurrentDeferredTaxAssets contextRef="c2" unitRef="u8" decimals="0">103965</g:CurrentDeferredTaxAssets><g:CurrentDeferredTaxAssets contextRef="c4" unitRef="u8" decimals="0">242926</g:CurrentDeferredTaxAssets><g:OtherShorttermReceivables contextRef="c2" unitRef="u8" decimals="0">11875</g:OtherShorttermReceivables><g:OtherShorttermReceivables contextRef="c4" unitRef="u8" decimals="0">28500</g:OtherShorttermReceivables><g:DeferredIncomeAssets contextRef="c2" unitRef="u8" decimals="0">131580</g:DeferredIncomeAssets><g:DeferredIncomeAssets contextRef="c4" unitRef="u8" decimals="0">109118</g:DeferredIncomeAssets><g:ShorttermReceivables contextRef="c2" unitRef="u8" decimals="0">1250481</g:ShorttermReceivables><g:ShorttermReceivables contextRef="c4" unitRef="u8" decimals="0">1271026</g:ShorttermReceivables><g:CashAndCashEquivalents contextRef="c2" unitRef="u8" decimals="0">2005099</g:CashAndCashEquivalents><g:CashAndCashEquivalents contextRef="c4" unitRef="u8" decimals="0">2975778</g:CashAndCashEquivalents><g:CurrentAssets contextRef="c2" unitRef="u8" decimals="0">3255580</g:CurrentAssets><g:CurrentAssets contextRef="c4" unitRef="u8" decimals="0">4246804</g:CurrentAssets><g:Assets contextRef="c2" unitRef="u8" decimals="0">3802764</g:Assets><g:Assets contextRef="c4" unitRef="u8" decimals="0">4805491</g:Assets><g:ContributedCapital contextRef="c2" unitRef="u8" decimals="0">1000000</g:ContributedCapital><g:ContributedCapital contextRef="c4" unitRef="u8" decimals="0">1000000</g:ContributedCapital><g:RetainedEarnings contextRef="c2" unitRef="u8" decimals="0">1080110</g:RetainedEarnings><g:RetainedEarnings contextRef="c4" unitRef="u8" decimals="0">624224</g:RetainedEarnings><g:ProposedDividendRecognisedInEquity contextRef="c2" unitRef="u8" decimals="0">0</g:ProposedDividendRecognisedInEquity><g:ProposedDividendRecognisedInEquity contextRef="c4" unitRef="u8" decimals="0">1500000</g:ProposedDividendRecognisedInEquity><g:Equity contextRef="c2" unitRef="u8" decimals="0">2080110</g:Equity><g:Equity contextRef="c4" unitRef="u8" decimals="0">3124224</g:Equity><g:ShorttermContractWorkInProgressLiabilities contextRef="c2" unitRef="u8" decimals="0">165809</g:ShorttermContractWorkInProgressLiabilities><g:ShorttermContractWorkInProgressLiabilities contextRef="c4" unitRef="u8" decimals="0">127656</g:ShorttermContractWorkInProgressLiabilities><g:ShorttermPayablesToGroupEnterprises contextRef="c2" unitRef="u8" decimals="0">15034</g:ShorttermPayablesToGroupEnterprises><g:ShorttermPayablesToGroupEnterprises contextRef="c4" unitRef="u8" decimals="0">2325</g:ShorttermPayablesToGroupEnterprises><g:ShorttermTaxPayables contextRef="c2" unitRef="u8" decimals="0">4312</g:ShorttermTaxPayables><g:ShorttermTaxPayables contextRef="c4" unitRef="u8" decimals="0">26950</g:ShorttermTaxPayables><g:OtherShorttermPayables contextRef="c2" unitRef="u8" decimals="0">1309138</g:OtherShorttermPayables><g:OtherShorttermPayables contextRef="c4" unitRef="u8" decimals="0">1357236</g:OtherShorttermPayables><g:ShorttermDeferredIncome contextRef="c2" unitRef="u8" decimals="0">228361</g:ShorttermDeferredIncome><g:ShorttermDeferredIncome contextRef="c4" unitRef="u8" decimals="0">167100</g:ShorttermDeferredIncome><g:ShorttermLiabilitiesOtherThanProvisions contextRef="c2" unitRef="u8" decimals="0">1722654</g:ShorttermLiabilitiesOtherThanProvisions><g:ShorttermLiabilitiesOtherThanProvisions contextRef="c4" unitRef="u8" decimals="0">1681267</g:ShorttermLiabilitiesOtherThanProvisions><g:LiabilitiesOtherThanProvisions contextRef="c2" unitRef="u8" decimals="0">1722654</g:LiabilitiesOtherThanProvisions><g:LiabilitiesOtherThanProvisions contextRef="c4" unitRef="u8" decimals="0">1681267</g:LiabilitiesOtherThanProvisions><g:LiabilitiesAndEquity contextRef="c2" unitRef="u8" decimals="0">3802764</g:LiabilitiesAndEquity><g:LiabilitiesAndEquity contextRef="c4" unitRef="u8" decimals="0">4805491</g:LiabilitiesAndEquity><g:WagesAndSalaries contextRef="c0" unitRef="u8" decimals="0">-7327726</g:WagesAndSalaries><g:WagesAndSalaries contextRef="c1" unitRef="u8" decimals="0">-6332947</g:WagesAndSalaries><g:PostemploymentBenefitExpense contextRef="c0" unitRef="u8" decimals="0">-473156</g:PostemploymentBenefitExpense><g:PostemploymentBenefitExpense contextRef="c1" unitRef="u8" decimals="0">-386916</g:PostemploymentBenefitExpense><g:SocialSecurityContributions contextRef="c0" unitRef="u8" decimals="0">-70356</g:SocialSecurityContributions><g:SocialSecurityContributions contextRef="c1" unitRef="u8" decimals="0">-53605</g:SocialSecurityContributions><g:OtherEmployeeExpense contextRef="c0" unitRef="u8" decimals="0">-141004</g:OtherEmployeeExpense><g:OtherEmployeeExpense contextRef="c1" unitRef="u8" decimals="0">-98483</g:OtherEmployeeExpense><g:EmployeeBenefitsExpense contextRef="c0" unitRef="u8" decimals="0">-8012242</g:EmployeeBenefitsExpense><g:EmployeeBenefitsExpense contextRef="c1" unitRef="u8" decimals="0">-6871951</g:EmployeeBenefitsExpense><g:CurrentTaxExpense contextRef="c0" unitRef="u8" decimals="0">-4312</g:CurrentTaxExpense><g:CurrentTaxExpense contextRef="c1" unitRef="u8" decimals="0">-572550</g:CurrentTaxExpense><g:AdjustmentsForCurrentTaxOfPriorPeriod contextRef="c0" unitRef="u8" decimals="0">-138960</g:AdjustmentsForCurrentTaxOfPriorPeriod><g:AdjustmentsForCurrentTaxOfPriorPeriod contextRef="c1" unitRef="u8" decimals="0">70167</g:AdjustmentsForCurrentTaxOfPriorPeriod><g:AdjustmentsForCurrentTaxRelatingToTaxRateChangesOrImpositionOfNewTaxes contextRef="c0" unitRef="u8" decimals="0">0</g:AdjustmentsForCurrentTaxRelatingToTaxRateChangesOrImpositionOfNewTaxes><g:AdjustmentsForCurrentTaxRelatingToTaxRateChangesOrImpositionOfNewTaxes contextRef="c1" unitRef="u8" decimals="0">-11569</g:AdjustmentsForCurrentTaxRelatingToTaxRateChangesOrImpositionOfNewTaxes><g:TaxExpenseOnOrdinaryActivities contextRef="c0" unitRef="u8" decimals="0">-143272</g:TaxExpenseOnOrdinaryActivities><g:TaxExpenseOnOrdinaryActivities contextRef="c1" unitRef="u8" decimals="0">-513952</g:TaxExpenseOnOrdinaryActivities><g:InvestmentsGross contextRef="c113" unitRef="u8" decimals="0">80000</g:InvestmentsGross><g:InvestmentsGross contextRef="c116" unitRef="u8" decimals="0">300000</g:InvestmentsGross><g:InvestmentsGross contextRef="c115" unitRef="u8" decimals="0">80000</g:InvestmentsGross><g:InvestmentsGross contextRef="c118" unitRef="u8" decimals="0">300000</g:InvestmentsGross><g:AccumulatedRevaluationsOfInvestments contextRef="c113" unitRef="u8" decimals="0">-2630</g:AccumulatedRevaluationsOfInvestments><g:AccumulatedRevaluationsOfInvestments contextRef="c116" unitRef="u8" decimals="0">0</g:AccumulatedRevaluationsOfInvestments><g:RevaluationsOfInvestmentsOfTheYear contextRef="c114" unitRef="u8" decimals="0">25040</g:RevaluationsOfInvestmentsOfTheYear><g:RevaluationsOfInvestmentsOfTheYear contextRef="c117" unitRef="u8" decimals="0">-158167</g:RevaluationsOfInvestmentsOfTheYear><g:AccumulatedRevaluationsOfInvestments contextRef="c115" unitRef="u8" decimals="0">22410</g:AccumulatedRevaluationsOfInvestments><g:AccumulatedRevaluationsOfInvestments contextRef="c118" unitRef="u8" decimals="0">-158167</g:AccumulatedRevaluationsOfInvestments><g:LongtermInvestmentsAndReceivables contextRef="c115" unitRef="u8" decimals="0">102410</g:LongtermInvestmentsAndReceivables><g:LongtermInvestmentsAndReceivables contextRef="c118" unitRef="u8" decimals="0">141833</g:LongtermInvestmentsAndReceivables><g:Equity contextRef="c137" unitRef="u8" decimals="0">1000000</g:Equity><g:Equity contextRef="c158" unitRef="u8" decimals="0">624224</g:Equity><g:Equity contextRef="c161" unitRef="u8" decimals="0">1500000</g:Equity><g:DividendPaid contextRef="c162" unitRef="u8" decimals="0">-1500000</g:DividendPaid><g:DividendsFromTreasuryShares contextRef="c159" unitRef="u8" decimals="0">150000</g:DividendsFromTreasuryShares><g:ProfitLoss contextRef="c159" unitRef="u8" decimals="0">305886</g:ProfitLoss><g:ProfitLoss contextRef="c162" unitRef="u8" decimals="0">0</g:ProfitLoss><g:Equity contextRef="c139" unitRef="u8" decimals="0">1000000</g:Equity><g:Equity contextRef="c160" unitRef="u8" decimals="0">1080110</g:Equity><g:Equity contextRef="c163" unitRef="u8" decimals="0">0</g:Equity><e:IdentificationOfApprovedAnnualReport contextRef="c0">Bestyrelsen og direktionen har dags dato behandlet og godkendt årsrapporten for 1. januar - 31. december 2014 for TrueLink A/S.
+
+
+
+
+
+
+</e:IdentificationOfApprovedAnnualReport><e:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement contextRef="c0">Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.
+
+
+
+
+
+
+</e:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement><e:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults contextRef="c0">Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 31. december 2014 samt af resultatet af selskabets aktiviteter for regnskabsåret 1. januar - 31. december 2014.
+
+
+
+
+
+
+
+</e:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults><e:ManagementsStatementAboutManagementsReview contextRef="c0">Ledelsesberetningen indeholder efter vores opfattelse en retvisende redegørelse for de forhold, beretningen omhandler.
+
+
+
+
+
+
+
+
+</e:ManagementsStatementAboutManagementsReview><e:RecommendationForApprovalOfAnnualReportByGeneralMeeting contextRef="c0">Årsrapporten indstilles til generalforsamlingens godkendelse.
+
+
+
+</e:RecommendationForApprovalOfAnnualReportByGeneralMeeting><f:AddresseeOfAuditorsReportOnAuditedFinancialStatements contextRef="c0">Til kapitalejerne i TrueLink A/S
+
+
+</f:AddresseeOfAuditorsReportOnAuditedFinancialStatements><f:IdentificationOfAuditedFinancialStatements contextRef="c0">Vi har revideret årsregnskabet for TrueLink A/S for regnskabsåret 1. januar - 31. december 2014, der omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter. Årsregnskabet udarbejdes efter årsregnskabsloven.
+
+
+
+
+
+</f:IdentificationOfAuditedFinancialStatements><f:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatements contextRef="c0">Ledelsens ansvar for årsregnskabet
+
+
+
+Ledelsen har ansvaret for udarbejdelsen af et årsregnskab, der giver et retvisende billede i overensstemmelse med årsregnskabsloven. Ledelsen har endvidere ansvaret for den interne kontrol, som ledelsen anser nødvendig for at udarbejde et årsregnskab uden væsentlig fejlinformation, uanset om denne skyldes besvigelser eller fejl.
+
+
+
+
+
+
+</f:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatements><f:StatementOfAuditorsResponsibilityForAuditAndAuditPerformed contextRef="c0">Vores ansvar er at udtrykke en konklusion om årsregnskabet på grundlag af vores revision. Vi har udført revisionen i overensstemmelse med internationale standarder om revision og yderligere krav ifølge dansk revisorlovgivning. Dette kræver, at vi overholder etiske krav samt planlægger og udfører revisionen for at opnå høj grad af sikkerhed for, om årsregnskabet er uden væsentlig fejlinformation.
+
+
+
+
+
+
+
+En revision omfatter udførelse af revisionshandlinger for at opnå revisionsbevis for beløb og oplysninger i årsregnskabet. De valgte revisionshandlinger afhænger af revisors vurdering, herunder vurdering af risici for væsentlig fejlinformation i årsregnskabet, uanset om denne skyldes besvigelser eller fejl. Ved risikovurderingen overvejer revisor intern kontrol, der er relevant for virksomhedens udarbejdelse af et årsregnskab, der giver et retvisende billede. Formålet hermed er at udforme revisionshandlinger, der er passende efter omstændighederne, men ikke at udtrykke en konklusion om effektiviteten af virksomhedens interne kontrol. En revision omfatter endvidere vurdering af, om ledelsens valg af regnskabspraksis er passende, om ledelsens regnskabsmæssige skøn er rimelige samt den samlede præsentation af årsregnskabet.
+
+
+
+
+
+
+
+Det er vores opfattelse, at det opnåede revisionsbevis er tilstrækkeligt og egnet som grundlag for vores konklusion.
+
+
+
+
+
+
+
+Revisionen har ikke givet anledning til forbehold.
+
+
+</f:StatementOfAuditorsResponsibilityForAuditAndAuditPerformed><f:OpinionOnAuditedFinancialStatements contextRef="c0">Konklusion
+
+
+
+Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 31. december 2014 samt af resultatet af selskabets aktiviteter for regnskabsåret 1. januar - 31. december 2014 i overensstemmelse med årsregnskabsloven.
+
+
+
+
+
+
+</f:OpinionOnAuditedFinancialStatements><f:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements contextRef="c0">Vi har i henhold til årsregnskabsloven gennemlæst ledelsesberetningen. Vi har ikke foretaget yderligere handlinger i tillæg til den udførte revision af årsregnskabet. Det er på denne baggrund vores opfattelse, at oplysningerne i ledelsesberetningen er i overensstemmelse med årsregnskabet.
+
+
+
+
+
+
+</f:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements><h:DescriptionOfPrimaryActivitiesOfEntity contextRef="c0">Væsentligste aktiviteter
+
+
+
+
+Selskabets væsentligste aktiviteter er serviceløsninger til virksomheders elektroniske samspil med kunder, leverandører og partnere samt udvikling heraf.
+
+
+
+
+
+
+
+
+</h:DescriptionOfPrimaryActivitiesOfEntity><h:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs contextRef="c0">Udvikling i aktiviteter og økonomiske forhold
+
+
+
+
+Der har i 2013 og 2014 været  igangsat en række investeringer og initiativer for at skabe yderligere vækst i 2014 og fremover. Resultaterne heraf er i al væsentlighed udeblevet i 2014. Selskabet har derfor i slutningen af 2014 foretaget en justering af initiativer og indsatser, således at der for 2015 forventes vækst i aktivitetsniveauet samt et væsentlig bedre resultat.  Resultatet for 2014 betragtes som utilfredsstillende.
+
+
+
+
+
+
+
+
+</h:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs><h:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod contextRef="c0">Betydningsfulde hændelser, indtruffet efter regnskabsårets afslutning
+
+
+
+
+Der er ikke efter regnskabsårets afslutning indtruffet begivenheder af væsentlig betydning for selskabets finansielle stilling.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</h:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod><g:InformationOnReportingClassOfEntity contextRef="c0">Årsrapporten for TrueLink A/S for 2014 er aflagt i overensstemmelse med den danske årsregnskabslovs bestemmelser for virksomheder i regnskabsklasse B.
+Regnskabsklasse B
+
+
+
+
+
+
+Årsrapporten er udarbejdet efter samme regnskabspraksis som sidste år.
+1
+
+</g:InformationOnReportingClassOfEntity><g:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies contextRef="c0">Generelt om indregning og måling
+
+
+
+
+
+I resultatopgørelsen indregnes indtægter i takt med, at de indtjenes, herunder indregnes værdireguleringer af finansielle aktiver og forpligtelser. I resultatopgørelsen indregnes ligeledes alle omkostninger, herunder afskrivninger og nedskrivninger.
+
+
+
+
+
+
+
+Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt.
+
+
+
+
+
+
+
+
+Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt.
+
+
+
+
+
+
+
+
+
+Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver og forpligtelser som beskrevet for hver enkelt regnskabspost nedenfor.
+
+
+
+
+
+
+
+
+
+Visse finansielle aktiver og forpligtelser måles til amortiseret kostpris, hvorved der indregnes en konstant effektiv rente over løbetiden. Amortiseret kostpris opgøres som oprindelig kostpris med fradrag af eventuelle afdrag samt tillæg/fradrag af den akkumulerede amortisering af forskellen mellem kostpris og nominelt beløb.
+
+
+
+
+
+
+
+
+
+Ved indregning og måling tages hensyn til forudsigelige tab og risici, der fremkommer inden årsrapporten aflægges, og som be- eller afkræfter forhold, der eksisterede på balancedagen.
+
+
+
+
+
+
+
+
+
+Den regnskabsmæssige værdi af immaterielle og materielle anlægsaktiver gennemgås årligt for at afgøre, om der er indikation af værdiforringelse ud over det, som udtrykkes ved normal afskrivning. Hvis dette er tilfældet, foretages nedskrivning til den lavere genindvindingsværdi.
+
+
+
+
+
+
+
+
+
+</g:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies><g:InformationOnOmissionOfConsolidatedFinancialStatement contextRef="c0">Der er ikke udarbejdet koncernregnskab, da koncernen opfylder fritagelsesbestemmelserne i årsregnskabslovens § 110 om regnskabsaflæggelse for mindre koncerner.
+
+
+</g:InformationOnOmissionOfConsolidatedFinancialStatement><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfRevenue contextRef="c0">RESULTATOPGØRELSEN
+
+
+
+
+
+
+
+
+
+
+
+Nettoomsætning
+
+
+
+
+
+Nettoomsætningen ved salg af handelsvarer og færdigvarer indregnes i resultatopgørelsen, såfremt levering og risikoovergang til køber har fundet sted inden årets udgang. Nettoomsætning indregnes eksklusiv moms, afgifter og med fradrag af rabatter i forbindelse med salget.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfRevenue><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfCostOfSales contextRef="c0">Vareforbrug
+
+
+
+
+
+Vareforbrug omfatter omkostninger, der afholdes for at opnå årets nettoomsætning. Herunder indgår direkte og indirekte omkostninger.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfCostOfSales><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExternalExpenses contextRef="c0">Andre eksterne omkostninger
+
+
+
+
+
+Andre eksterne omkostninger omfatter omkostninger til distribution, salg, reklame, administration, lokaler, tab på debitorer, operationelle leasingomkostninger mv.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExternalExpenses><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfEmployeeBenefitExpense contextRef="c0">Personaleomkostninger
+
+
+
+
+
+Personaleomkostninger omfatter løn og gager, inklusiv feriepenge og pensioner samt andre omkostninger til social sikring mv. til selskabets medarbejdere. I personaleomkostninger er fratrukket modtagne godtgørelser fra offentlige myndigheder.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfEmployeeBenefitExpense><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeAndExpensesFromInvestmentsInGroupEnterprisesAndAssociates contextRef="c0">Resultat af kapitalandele i dattervirksomheder og associerede virksomheder
+
+
+
+
+I selskabets resultatopgørelse indregnes den forholdsmæssige andel af dattervirksomhedens resultat efter fuld eliminering af intern avance/tab og fradrag af afskrivning på goodwill.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeAndExpensesFromInvestmentsInGroupEnterprisesAndAssociates><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceIncomeAndExpenses contextRef="c0">Finansielle indtægter og omkostninger
+
+
+
+
+
+Finansielle indtægter og omkostninger indeholder renteindtægter og -omkostninger, finansielle omkostninger ved finansiel leasing, realiserede og urealiserede kursgevinster og -tab vedrørende værdipapirer, gæld og transaktioner i fremmed valuta, amortisering af finansielle aktiver og forpligtelser samt tillæg og godtgørelse under acontoskatteordningen mv. Finansielle indtægter og omkostninger indregnes med de beløb, der vedrører regnskabsåret.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceIncomeAndExpenses><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses contextRef="c0">Skat
+
+
+
+
+
+Årets skat, som består af årets aktuelle skat og forskydning i udskudt skat, indregnes i resultatopgørelsen med den del, der kan henføres til årets resultat, og direkte på egenkapitalen med den del, der kan henføres til posteringer direkte på egenkapitalen.
+
+
+
+
+
+
+
+Selskabet er sambeskattet med koncernforbundne danske selskaber. Den aktuelle danske selskabsskat fordeles mellem de sambeskattede danske selskaber i forhold til disses skattepligtige indkomst, og med fuld fordeling med refusion vedrørende skattemæssige underskud. De sambeskattede selskaber indgår i acontoskatteordningen.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfPropertyPlantAndEquipment contextRef="c0">BALANCEN
+
+
+
+
+
+
+
+
+
+
+
+Materielle anlægsaktiver
+
+
+
+
+
+Grunde og bygninger, produktionsanlæg og maskiner samt andre anlæg, driftsmateriel og inventar måles til kostpris med fradrag af akkumulerede af- og nedskrivninger. Der afskrives ikke på grunde.
+
+
+
+
+
+
+
+Afskrivningsgrundlaget er kostpris med fradrag af den skønnede restværdi efter afsluttet brugstid.
+
+
+
+
+
+
+
+
+Kostprisen omfatter anskaffelsesprisen samt omkostninger direkte tilknyttet anskaffelsen indtil det tidspunkt, hvor aktivet er klar til at blive taget i brug. For egenfremstillede aktiver omfatter kostprisen omkostninger til materialer, komponenter, underleverandører, direkte lønforbrug samt indirekte produktionsomkostninger. 
+
+
+
+
+
+
+
+
+
+Der foretages lineære afskrivninger baseret på følgende vurdering af aktivernes forventede brugstider og restværdi herefter:
+
+
+
+
+
+
+
+
+
+Brugstid Restværdi
+
+
+
+
+
+Driftsmateriel og inventar  5 år 0%
+
+
+
+
+EDB hardware og software  3 år 0%
+
+
+
+
+Indretning af lejede lokaler  3-5 år 0%
+
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfPropertyPlantAndEquipment><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfInvestments contextRef="c0">Finansielle anlægsaktiver
+
+
+
+
+
+Kapitalandele i dattervirksomheder og associerede virksomheder måles i moderselskabets balance efter den indre værdis metode.
+
+
+
+
+
+
+
+Kapitalandele i dattervirksomheder og associerede virksomheder måles i balancen til den forholdsmæssige andel af virksomhedernes regnskabsmæssige indre værdi opgjort efter moderselskabets regnskabspraksis med fradrag eller tillæg af urealiserede koncerninterne avancer og tab og med tillæg eller fradrag af resterende værdi af positiv eller negativ goodwill opgjort efter overtagelsesmetoden.
+
+
+
+Ved køb af virksomheder anvendes overtagelsesmetoden. Merværdier i form af koncerngoodwill afskrives over den vurderede økonomiske levetid, der fastlægges på baggrund af ledelsens erfaringer inden for de enkelte forretningsområder. Koncerngoodwill afskrives lineært over afskrivningsperioden, der udgør 5 år. 
+
+
+
+
+Nettoopskrivning af kapitalandele i dattervirksomheder og associerede virksomheder overføres under egenkapitalen til reserve for nettoopskrivning efter den indre værdis metode i det omfang, den regnskabsmæssige værdi overstiger anskaffelsesværdien. Ved køb af dattervirksomheder anvendes overtagelsesmetoden, jf. beskrivelse ovenfor under koncernregnskabet.
+
+
+
+
+
+
+
+
+
+Dattervirksomheder og associerede virksomheder med negativ regnskabsmæssig indre værdi måles til 0 kr. og et eventuelt tilgodehavende hos disse virksomheder nedskrives med moderselskabets andel af den negative indre værdi, i det omfang det vurderes som uerholdeligt. Såfremt den regnskabsmæssige negative indre værdi overstiger tilgodehavender, indregnes det resterende beløb under hensatte forpligtelser i det omfang, modervirksomheden har en retlig eller faktisk forpligtelse til at dække dattervirksomheder og associerede virksomheders underbalance.
+
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfInvestments><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables contextRef="c0">Tilgodehavender
+
+
+
+
+
+Tilgodehavender måles til amortiseret kostpris, hvilket sædvanligvis svarer til nominel værdi. Værdien reduceres med nedskrivning til imødegåelse af forventede tab.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfContractWorkInProgress contextRef="c0">Igangværende arbejder for fremmed regning
+
+
+
+
+
+Igangværende arbejder for fremmed regning måles til salgsværdien af det udførte arbejde. Salgsværdien måles på baggrund af færdiggørelsesgraden på balancedagen og de samlede forventede indtægter på det enkelte igangværende arbejde. 
+
+
+
+
+
+
+
+Det enkelte igangværende arbejde indregnes i balancen under tilgodehavender eller gældsforpligtelser, afhængig af nettoværdien af salgssummen med fradrag af acontofaktureringer og -betalinger.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfContractWorkInProgress><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfDeferredIncomeAssets contextRef="c0">Periodeafgrænsningsposter, aktiver
+
+
+
+
+
+Periodeafgrænsningsposter indregnet under aktiver omfatter afholdte omkostninger vedrørende efterfølgende regnskabsår.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfDeferredIncomeAssets><g:DescriptionOfMethodsOfDividends contextRef="c0">Udbytte
+
+
+
+
+
+Udbytte, som forventes udbetalt for året, vises som en særskilt post under egenkapitalen.
+
+
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfDividends><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxPayablesAndDeferredTax contextRef="c0">Skyldig skat og udskudt skat
+
+
+
+
+Aktuelle skatteforpligtelser og tilgodehavende aktuel skat indregnes i balancen som beregnet skat af årets skattepligtige indkomst reguleret for skat af tidligere års skattepligtige indkomster samt for betalte acontoskatter.
+
+
+
+
+
+
+
+Udskudt skat måles af midlertidige forskelle mellem regnskabsmæssig og skattemæssig værdi af aktiver og forpligtelser.
+
+
+
+
+
+
+
+Udskudte skatteaktiver, herunder skatteværdien af fremførselsberettiget skattemæssigt underskud, måles til den værdi, hvortil aktivet forventes at kunne realiseres, enten ved udligning i skat af fremtidig indtjening, eller ved modregning i udskudte skatteforpligtelser inden for samme juridiske skatteenhed.
+
+
+
+
+
+
+
+Udskudt skat måles på grundlag af de skatteregler og skattesatser, der med balancedagens lovgivning vil være gældende, når den udskudte skat forventes udløst som aktuel skat. Ændring i udskudt skat som følge af ændringer i skattesatser indregnes i resultatopgørelsen bortset fra poster, der føres direkte på egenkapitalen.
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxPayablesAndDeferredTax><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions contextRef="c0">Gældsforpligtelser
+
+
+
+
+
+Gæld er målt til amortiseret kostpris svarende til nominel værdi.
+
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfDeferredIncomeLiabilities contextRef="c0">Periodeafgrænsningsposter, passiver
+
+
+
+
+
+Under periodeafgrænsningsposter indregnet under passiver indgår modtagne betalinger vedrørende indtægter i de efterfølgende år.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfDeferredIncomeLiabilities><g:DisclosureOfEmployeeBenefitsExpense contextRef="c0">Personaleomkostninger
+
+
+1
+
+Løn og gager 
+7.327.726
+6.332.947
+
+
+Pensioner 
+473.156
+386.916
+
+
+Andre omkostninger til social sikring 
+70.356
+53.605
+
+
+Andre personaleomkostninger 
+141.004
+98.483
+
+
+
+
+
+
+
+
+8.012.242
+6.871.951
+
+
+
+
+I posten løn og gager er indregnet ressourcer faktureret via en underleverandør med 2.776 tkr. mod 2.383 tkr. sidste år.
+
+
+
+
+</g:DisclosureOfEmployeeBenefitsExpense><g:DisclosureOfTaxExpenseOnOrdinaryActivities contextRef="c0">Skat af årets resultat
+
+
+2
+
+Beregnet skat af årets skattepligtige indkomst 
+4.312
+572.550
+
+
+Regulering af udskudt skat 
+138.960
+-70.167
+
+
+Regulering af udskudt skat som følge af ændret skattesats 
+0
+11.569
+
+
+
+
+
+
+
+
+143.272
+513.952
+
+
+
+
+
+</g:DisclosureOfTaxExpenseOnOrdinaryActivities><g:DisclosureOfInvestments contextRef="c0">Finansielle anlægsaktiver
+
+
+
+
+3
+
+
+
+
+
+
+Kapitalandele i tilknyttede virksomheder
+Kapitalandele i associerede virksomheder
+
+
+
+
+
+
+Kostpris 1. januar 2014 
+80.000
+300.000
+
+Kostpris 31. december 2014 
+80.000
+300.000
+
+
+
+
+
+Opskrivninger 1. januar 2014 
+-2.630
+0
+
+Årets opskrivninger  
+25.040
+-158.167
+
+Opskrivninger 31. december 2014 
+22.410
+-158.167
+
+
+
+
+
+Regnskabsmæssig værdi 31. december 2014 
+102.410
+141.833
+
+
+
+
+
+
+
+
+
+
+
+Kapitalandele i dattervirksomheder (kr.)
+
+
+
+
+
+
+
+
+Navn og hjemsted
+Stemme- og ejerandel
+
+
+
+
+
+
+
+TrueLink Nemhandel ApS, Vejle 
+100 %
+
+
+
+
+
+
+
+
+
+
+
+
+Kapitalandele i associerede virksomheder (kr.)
+
+
+
+
+
+
+
+
+Navn og hjemsted
+Stemme- og ejerandel
+
+
+
+
+
+
+
+TrueID A/S, Vejle 
+50 %
+
+
+
+
+
+
+
+
+
+
+
+</g:DisclosureOfInvestments><g:DisclosureOfInvestments contextRef="c0">TrueLink Nemhandel ApS, Vejle 
+100 %
+
+</g:DisclosureOfInvestments><g:DisclosureOfInvestments contextRef="c0">TrueID A/S, Vejle 
+50 %
+
+</g:DisclosureOfInvestments><g:InformationOnContractWorkInProgress contextRef="c0">Igangværende arbejder for fremmed regning
+
+
+4
+
+Medgåede timer til salgspriser 
+938.106
+645.250
+
+
+Acontofaktureret 
+-930.445
+-538.701
+
+
+
+
+
+
+
+Igangværende arbejder for fremmed regning, netto 
+7.661
+106.549
+
+
+
+
+
+
+
+Der indregnes således:
+
+
+
+
+Igangværende arbejder for fremmed regning (aktiver) 
+173.470
+234.205
+
+
+Igangværende arbejder for fremmed regning (passiver) 
+-165.809
+-127.656
+
+
+
+
+
+
+
+7.661
+106.549
+
+
+
+
+
+</g:InformationOnContractWorkInProgress><g:DisclosureOfEquity contextRef="c0">Egenkapital
+
+
+
+
+5
+
+
+
+
+
+
+
+
+
+Aktiekapital
+Overført overskud
+Foreslået udbytte for regnskabsåret
+I alt
+
+
+
+
+
+
+
+Egenkapital 1. januar 2014 
+1.000.000
+624.224
+1.500.000
+3.124.224
+
+Betalt udbytte 
+
+
+-1.500.000
+-1.500.000
+
+Udbytte af egne aktier 
+
+150.000
+
+150.000
+
+Forslag til årets resultatdisponering 
+
+305.886
+
+305.886
+
+
+
+
+
+
+
+Egenkapital 31. december 2014 
+1.000.000
+1.080.110
+0
+2.080.110
+
+
+
+
+
+
+
+
+2014
+kr.
+
+
+Aktiekapital 1. januar 2009 
+125.000
+Kapitaludvidelse kontant, 15. januar 2009 
+875.000
+
+Aktiekapital 31. december 2014 
+1.000.000
+
+
+
+
+
+
+2014
+2013
+
+kr.
+kr.
+Aktiekapital
+Aktiekapitalen er fordelt således:
+
+
+A-aktier, 10.000 stk. a nom. 100 kr. 
+1.000.000
+1.000.000
+
+
+
+1.000.000
+1.000.000
+
+
+
+
+
+
+Egne aktier
+Beholdningen af egne aktier er således:
+
+
+A-aktier, 1.000 stk. a nom. 100 kr. 
+100.000
+100.000
+
+
+
+
+100.000
+100.000
+
+
+
+Egne aktier i % af selskabskapitalen:
+
+
+A-aktier 
+10,0
+10,0
+
+
+
+
+10,0
+10,0
+
+
+
+Der er ikke i årets løb købt eller solgt egne aktier.
+
+
+
+
+
+
+
+</g:DisclosureOfEquity><g:InformationOnClassesOfIssuedShares contextRef="c0">2014
+2013
+
+kr.
+kr.
+Aktiekapital
+Aktiekapitalen er fordelt således:
+
+
+A-aktier, 10.000 stk. a nom. 100 kr. 
+1.000.000
+1.000.000
+
+
+
+1.000.000
+1.000.000</g:InformationOnClassesOfIssuedShares><g:DisclosureOfContingentLiabilities contextRef="c0">Eventualposter mv.
+6
+
+Der er indgået leasingaftale på personbil, frem til 18. februar 2016. Den årlige ydelse er 79 tkr.  Selskabet har indgået huslejeaftaler, med uopsigelighed indtil 1. november 2017 og herefter 6 måneders opsigelse, med en årlig lejeudgift på 408 tkr.
+
+
+
+Hæftelse i sambeskatningen Selskabet hæfter solidarisk sammen med moderselskabet og de øvrige selskaber i den sambeskattede koncern for skat af koncernens sambeskattede indkomst.  Skyldig skat af koncernens sambeskattede indkomst fremgår af årsrapporten for selskab Hedeboe Holding ApS, der er administrationsselskab for sambeskatningen.
+
+</g:DisclosureOfContingentLiabilities><g:DisclosureOfCollateralsAndAssetsPledgesAsSecurity contextRef="c0">Pantsætninger og sikkerhedsstillelser
+7
+
+Ingen.
+
+
+
+
+
+
+
+
+</g:DisclosureOfCollateralsAndAssetsPledgesAsSecurity><g:DisclosureOfOwnership contextRef="c0">Ejerforhold
+8
+
+Følgende aktionærer er noteret i selskabets særlige aktionærfortegnelse over betydelige kapitalposter som ejende minimum 5% af stemmerne eller aktiekapitalen:
+Hedeboe Holding ApS
+Majvænget 31
+6000 Kolding 
+Wulff Holding ApS
+Bottrupvej 45
+8723 Løsning 
+JBB Holding Egtved ApS
+Spurvevej 10
+6040 Egtved 
+</g:DisclosureOfOwnership><!--Aktuelle periode--><context id="c0"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period></context><!--Forrige periode--><context id="c1"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2013-01-01</startDate><endDate>2013-12-31</endDate></period></context><!--Slutdato for aktuelle periode--><context id="c2"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><instant>2014-12-31</instant></period></context><!--Slutdato for forrige periode--><context id="c4"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><instant>2013-12-31</instant></period></context><!--Udbytte--><context id="c5"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:explicitMember dimension="g:ResultDistributionDimension">g:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember></scenario></context><!--Udbytte py--><context id="c6"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2013-01-01</startDate><endDate>2013-12-31</endDate></period><scenario><xbrldi:explicitMember dimension="g:ResultDistributionDimension">g:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember></scenario></context><!--Overfoert resultat--><context id="c29"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:explicitMember dimension="g:ResultDistributionDimension">g:RetainedEarningsMember</xbrldi:explicitMember></scenario></context><!--Overfoert resultat py--><context id="c30"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2013-01-01</startDate><endDate>2013-12-31</endDate></period><scenario><xbrldi:explicitMember dimension="g:ResultDistributionDimension">g:RetainedEarningsMember</xbrldi:explicitMember></scenario></context><!--Fin tilk primo--><context id="c113"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><instant>2014-01-01</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfInvestmentsDimension">g:InvestmentsInGroupEnterprisesMember</xbrldi:explicitMember></scenario></context><!--Fin tilk bev--><context id="c114"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfInvestmentsDimension">g:InvestmentsInGroupEnterprisesMember</xbrldi:explicitMember></scenario></context><!--Fin tilk ultimo--><context id="c115"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><instant>2014-12-31</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfInvestmentsDimension">g:InvestmentsInGroupEnterprisesMember</xbrldi:explicitMember></scenario></context><!--Fin ass primo--><context id="c116"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><instant>2014-01-01</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfInvestmentsDimension">g:InvestmentsInAssociatesMember</xbrldi:explicitMember></scenario></context><!--Fin ass bev--><context id="c117"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfInvestmentsDimension">g:InvestmentsInAssociatesMember</xbrldi:explicitMember></scenario></context><!--Fin ass ultimo--><context id="c118"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><instant>2014-12-31</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfInvestmentsDimension">g:InvestmentsInAssociatesMember</xbrldi:explicitMember></scenario></context><!--EG kapital primo--><context id="c137"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><instant>2014-01-01</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:ContributedCapitalMember</xbrldi:explicitMember></scenario></context><!--EG kapital ultimo--><context id="c139"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><instant>2014-12-31</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:ContributedCapitalMember</xbrldi:explicitMember></scenario></context><!--EG resultat primo--><context id="c158"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><instant>2014-01-01</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:RetainedEarningsMember</xbrldi:explicitMember></scenario></context><!--EG resultat bev--><context id="c159"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:RetainedEarningsMember</xbrldi:explicitMember></scenario></context><!--EG resultat ultimo--><context id="c160"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><instant>2014-12-31</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:RetainedEarningsMember</xbrldi:explicitMember></scenario></context><!--EG udbytte primo--><context id="c161"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><instant>2014-01-01</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:ProposedExtraordinaryDividendRecognisedInEquityMember</xbrldi:explicitMember></scenario></context><!--EG udbytte bev--><context id="c162"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:ProposedExtraordinaryDividendRecognisedInEquityMember</xbrldi:explicitMember></scenario></context><!--EG udbytte ultimo--><context id="c163"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><instant>2014-12-31</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:ProposedExtraordinaryDividendRecognisedInEquityMember</xbrldi:explicitMember></scenario></context><!--Ledelse1--><context id="c199"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:typedMember dimension="d:IdentificationOfMemberOfExecutiveBoardDimension"><d:memberOfBoardIdentifier>1</d:memberOfBoardIdentifier></xbrldi:typedMember></scenario></context><!--Bestyrelse1--><context id="c208"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:typedMember dimension="d:IdentificationOfMemberOfSupervisoryBoardDimension"><d:memberOfBoardIdentifier>1</d:memberOfBoardIdentifier></xbrldi:typedMember></scenario></context><!--Bestyrelse2--><context id="c209"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:typedMember dimension="d:IdentificationOfMemberOfSupervisoryBoardDimension"><d:memberOfBoardIdentifier>2</d:memberOfBoardIdentifier></xbrldi:typedMember></scenario></context><!--Bestyrelse3--><context id="c210"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:typedMember dimension="d:IdentificationOfMemberOfSupervisoryBoardDimension"><d:memberOfBoardIdentifier>3</d:memberOfBoardIdentifier></xbrldi:typedMember></scenario></context><!--Revisor1 Ny--><context id="c299"><entity><identifier scheme="http://www.dcca.dk/cvr">31261430</identifier></entity><period><startDate>2014-01-01</startDate><endDate>2014-12-31</endDate></period><scenario><xbrldi:typedMember dimension="d:IdentificationOfAuditorDimension"><d:auditorIdentifier>1</d:auditorIdentifier></xbrldi:typedMember></scenario></context><!--DKK--><unit id="u8"><measure>iso4217:DKK</measure></unit></xbrl>

@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:e="http://xbrl.dcca.dk/sob" xmlns:b="http://xbrl.dcca.dk/entryBalanceSheetAccountFormIncomeStatementByNature" xmlns:h="http://xbrl.dcca.dk/mrv" xmlns:f="http://xbrl.dcca.dk/arr" xmlns:d="http://xbrl.dcca.dk/cmn" xmlns:g="http://xbrl.dcca.dk/fsa" xmlns:c="http://xbrl.dcca.dk/gsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.dcca.dk/entryBalanceSheetAccountFormIncomeStatementByNature http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd"><link:schemaRef xlink:type="simple" xlink:href="http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd"/><c:NameOfSubmittingEnterprise contextRef="c0">BDO Statsautoriseret revisionsaktieselskab</c:NameOfSubmittingEnterprise><c:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0">Sæbygårdvej 25</c:AddressOfSubmittingEnterpriseStreetAndNumber><c:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0">DK-9300 Sæby</c:AddressOfSubmittingEnterprisePostcodeAndTown><c:IdentificationNumberCvrOfSubmittingEnterprise contextRef="c0">20222670</c:IdentificationNumberCvrOfSubmittingEnterprise><c:InformationOnTypeOfSubmittedReport contextRef="c0">Årsrapport</c:InformationOnTypeOfSubmittedReport><c:DateOfGeneralMeeting contextRef="c0">2015-02-18</c:DateOfGeneralMeeting><c:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0">Jan Kramme</c:NameAndSurnameOfChairmanOfGeneralMeeting><c:NameOfReportingEntity contextRef="c0">Krammehuset ApS</c:NameOfReportingEntity><c:AddressOfReportingEntityStreetName contextRef="c0">Lokesvej 9</c:AddressOfReportingEntityStreetName><c:AddressOfReportingEntityPostCodeIdentifier contextRef="c0">9900  Frederikshavn</c:AddressOfReportingEntityPostCodeIdentifier><d:TypeOfAuditorAssistance contextRef="c0">Erklæring om udvidet gennemgang</d:TypeOfAuditorAssistance><c:IdentificationNumberCvrOfReportingEntity contextRef="c0">27587852</c:IdentificationNumberCvrOfReportingEntity><c:DateOfFoundationOfReportingEntity contextRef="c0">2004-02-09</c:DateOfFoundationOfReportingEntity><c:RegisteredOfficeOfReportingEntity contextRef="c0">Frederikshavn</c:RegisteredOfficeOfReportingEntity><c:ReportingPeriodStartDate contextRef="c0">2013-10-01</c:ReportingPeriodStartDate><c:ReportingPeriodEndDate contextRef="c0">2014-09-30</c:ReportingPeriodEndDate><d:NameOfAuditFirm contextRef="c0">BDO Statsautoriseret revisionsaktieselskab</d:NameOfAuditFirm><c:AddressOfAuditorStreetName contextRef="c0">Sæbygårdvej</c:AddressOfAuditorStreetName><c:AddressOfAuditorStreetBuildingIdentifier contextRef="c0">25</c:AddressOfAuditorStreetBuildingIdentifier><c:AddressOfAuditorPostCodeIdentifier contextRef="c0">9300</c:AddressOfAuditorPostCodeIdentifier><c:AddressOfAuditorDistrictName contextRef="c0">Sæby</c:AddressOfAuditorDistrictName><e:PlaceOfSignatureOfStatement contextRef="c0">Frederikshavn</e:PlaceOfSignatureOfStatement><e:DateOfApprovalOfAnnualReport contextRef="c0">2015-01-29</e:DateOfApprovalOfAnnualReport><d:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c199">Jan Kramme</d:NameAndSurnameOfMemberOfExecutiveBoard><f:SignatureOfAuditorsPlace contextRef="c0">Sæby</f:SignatureOfAuditorsPlace><f:SignatureOfAuditorsDate contextRef="c0">2015-01-29</f:SignatureOfAuditorsDate><d:NameOfAuditFirm contextRef="c0">BDO Statsautoriseret revisionsaktieselskab</d:NameOfAuditFirm><d:NameAndSurnameOfAuditor contextRef="c299">Morten Kallehauge</d:NameAndSurnameOfAuditor><d:DescriptionOfAuditor contextRef="c299">Statsautoriseret revisor</d:DescriptionOfAuditor><g:ClassOfReportingEntity contextRef="c0">Regnskabsklasse B</g:ClassOfReportingEntity><g:AccountingPoliciesAreUnchangedFromPreviousPeriod contextRef="c0">1</g:AccountingPoliciesAreUnchangedFromPreviousPeriod><g:IncomeFromInvestmentsInGroupEnterprisesAndAssociates contextRef="c0" unitRef="u8" decimals="0">64468</g:IncomeFromInvestmentsInGroupEnterprisesAndAssociates><g:IncomeFromInvestmentsInGroupEnterprisesAndAssociates contextRef="c1" unitRef="u8" decimals="0">34281</g:IncomeFromInvestmentsInGroupEnterprisesAndAssociates><g:OtherExternalExpenses contextRef="c0" unitRef="u8" decimals="0">-22250</g:OtherExternalExpenses><g:OtherExternalExpenses contextRef="c1" unitRef="u8" decimals="0">-17875</g:OtherExternalExpenses><g:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" unitRef="u8" decimals="0">42218</g:ProfitLossFromOrdinaryOperatingActivities><g:ProfitLossFromOrdinaryOperatingActivities contextRef="c1" unitRef="u8" decimals="0">16406</g:ProfitLossFromOrdinaryOperatingActivities><g:OtherFinanceIncome contextRef="c0" unitRef="u8" decimals="0">19449</g:OtherFinanceIncome><g:OtherFinanceIncome contextRef="c1" unitRef="u8" decimals="0">11491</g:OtherFinanceIncome><g:OtherFinanceExpenses contextRef="c0" unitRef="u8" decimals="0">-276</g:OtherFinanceExpenses><g:OtherFinanceExpenses contextRef="c1" unitRef="u8" decimals="0">-1129</g:OtherFinanceExpenses><g:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" unitRef="u8" decimals="0">61391</g:ProfitLossFromOrdinaryActivitiesBeforeTax><g:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c1" unitRef="u8" decimals="0">26768</g:ProfitLossFromOrdinaryActivitiesBeforeTax><g:TaxExpenseOnOrdinaryActivities contextRef="c0" unitRef="u8" decimals="0">686</g:TaxExpenseOnOrdinaryActivities><g:TaxExpenseOnOrdinaryActivities contextRef="c1" unitRef="u8" decimals="0">1875</g:TaxExpenseOnOrdinaryActivities><g:ProfitLoss contextRef="c0" unitRef="u8" decimals="0">62077</g:ProfitLoss><g:ProfitLoss contextRef="c1" unitRef="u8" decimals="0">28643</g:ProfitLoss><g:ProfitLoss contextRef="c5" unitRef="u8" decimals="0">106800</g:ProfitLoss><g:ProfitLoss contextRef="c6" unitRef="u8" decimals="0">96600</g:ProfitLoss><g:ProfitLoss contextRef="c29" unitRef="u8" decimals="0">-44723</g:ProfitLoss><g:ProfitLoss contextRef="c30" unitRef="u8" decimals="0">-67957</g:ProfitLoss><g:LongtermInvestmentsInGroupEnterprises contextRef="c2" unitRef="u8" decimals="0">648435</g:LongtermInvestmentsInGroupEnterprises><g:LongtermInvestmentsInGroupEnterprises contextRef="c4" unitRef="u8" decimals="0">840085</g:LongtermInvestmentsInGroupEnterprises><g:LongtermInvestmentsInAssociates contextRef="c2" unitRef="u8" decimals="0">0</g:LongtermInvestmentsInAssociates><g:LongtermInvestmentsInAssociates contextRef="c4" unitRef="u8" decimals="0">0</g:LongtermInvestmentsInAssociates><g:LongtermInvestmentsAndReceivables contextRef="c2" unitRef="u8" decimals="0">648435</g:LongtermInvestmentsAndReceivables><g:LongtermInvestmentsAndReceivables contextRef="c4" unitRef="u8" decimals="0">840085</g:LongtermInvestmentsAndReceivables><g:NoncurrentAssets contextRef="c2" unitRef="u8" decimals="0">648435</g:NoncurrentAssets><g:NoncurrentAssets contextRef="c4" unitRef="u8" decimals="0">840085</g:NoncurrentAssets><g:ShorttermReceivablesFromGroupEnterprises contextRef="c2" unitRef="u8" decimals="0">315443</g:ShorttermReceivablesFromGroupEnterprises><g:ShorttermReceivablesFromGroupEnterprises contextRef="c4" unitRef="u8" decimals="0">210111</g:ShorttermReceivablesFromGroupEnterprises><g:ShorttermReceivablesFromAssociates contextRef="c2" unitRef="u8" decimals="0">1</g:ShorttermReceivablesFromAssociates><g:ShorttermReceivablesFromAssociates contextRef="c4" unitRef="u8" decimals="0">0</g:ShorttermReceivablesFromAssociates><g:ShorttermReceivablesFromOwnersAndManagement contextRef="c2" unitRef="u8" decimals="0">4705</g:ShorttermReceivablesFromOwnersAndManagement><g:ShorttermReceivablesFromOwnersAndManagement contextRef="c4" unitRef="u8" decimals="0">0</g:ShorttermReceivablesFromOwnersAndManagement><g:OtherShorttermReceivables contextRef="c2" unitRef="u8" decimals="0">7335</g:OtherShorttermReceivables><g:OtherShorttermReceivables contextRef="c4" unitRef="u8" decimals="0">0</g:OtherShorttermReceivables><g:ShorttermTaxReceivables contextRef="c2" unitRef="u8" decimals="0">6050</g:ShorttermTaxReceivables><g:ShorttermTaxReceivables contextRef="c4" unitRef="u8" decimals="0">2150</g:ShorttermTaxReceivables><g:ShorttermReceivables contextRef="c2" unitRef="u8" decimals="0">333534</g:ShorttermReceivables><g:ShorttermReceivables contextRef="c4" unitRef="u8" decimals="0">212261</g:ShorttermReceivables><g:CashAndCashEquivalents contextRef="c2" unitRef="u8" decimals="0">14732</g:CashAndCashEquivalents><g:CashAndCashEquivalents contextRef="c4" unitRef="u8" decimals="0">12067</g:CashAndCashEquivalents><g:CurrentAssets contextRef="c2" unitRef="u8" decimals="0">348266</g:CurrentAssets><g:CurrentAssets contextRef="c4" unitRef="u8" decimals="0">224328</g:CurrentAssets><g:Assets contextRef="c2" unitRef="u8" decimals="0">996701</g:Assets><g:Assets contextRef="c4" unitRef="u8" decimals="0">1064413</g:Assets><g:ContributedCapital contextRef="c2" unitRef="u8" decimals="0">130000</g:ContributedCapital><g:ContributedCapital contextRef="c4" unitRef="u8" decimals="0">130000</g:ContributedCapital><g:RetainedEarnings contextRef="c2" unitRef="u8" decimals="0">626059</g:RetainedEarnings><g:RetainedEarnings contextRef="c4" unitRef="u8" decimals="0">670782</g:RetainedEarnings><g:ProposedDividendRecognisedInEquity contextRef="c2" unitRef="u8" decimals="0">106800</g:ProposedDividendRecognisedInEquity><g:ProposedDividendRecognisedInEquity contextRef="c4" unitRef="u8" decimals="0">96600</g:ProposedDividendRecognisedInEquity><g:Equity contextRef="c2" unitRef="u8" decimals="0">862859</g:Equity><g:Equity contextRef="c4" unitRef="u8" decimals="0">897382</g:Equity><g:OtherProvisions contextRef="c2" unitRef="u8" decimals="0">104267</g:OtherProvisions><g:OtherProvisions contextRef="c4" unitRef="u8" decimals="0">130475</g:OtherProvisions><g:Provisions contextRef="c2" unitRef="u8" decimals="0">104267</g:Provisions><g:Provisions contextRef="c4" unitRef="u8" decimals="0">130475</g:Provisions><g:LongtermTaxPayables contextRef="c2" unitRef="u8" decimals="0">6649</g:LongtermTaxPayables><g:LongtermTaxPayables contextRef="c4" unitRef="u8" decimals="0">0</g:LongtermTaxPayables><g:LongtermLiabilitiesOtherThanProvisions contextRef="c2" unitRef="u8" decimals="0">6649</g:LongtermLiabilitiesOtherThanProvisions><g:LongtermLiabilitiesOtherThanProvisions contextRef="c4" unitRef="u8" decimals="0">0</g:LongtermLiabilitiesOtherThanProvisions><g:OtherShorttermPayables contextRef="c2" unitRef="u8" decimals="0">22926</g:OtherShorttermPayables><g:OtherShorttermPayables contextRef="c4" unitRef="u8" decimals="0">36556</g:OtherShorttermPayables><g:ShorttermLiabilitiesOtherThanProvisions contextRef="c2" unitRef="u8" decimals="0">22926</g:ShorttermLiabilitiesOtherThanProvisions><g:ShorttermLiabilitiesOtherThanProvisions contextRef="c4" unitRef="u8" decimals="0">36556</g:ShorttermLiabilitiesOtherThanProvisions><g:LiabilitiesOtherThanProvisions contextRef="c2" unitRef="u8" decimals="0">29575</g:LiabilitiesOtherThanProvisions><g:LiabilitiesOtherThanProvisions contextRef="c4" unitRef="u8" decimals="0">36556</g:LiabilitiesOtherThanProvisions><g:LiabilitiesAndEquity contextRef="c2" unitRef="u8" decimals="0">996701</g:LiabilitiesAndEquity><g:LiabilitiesAndEquity contextRef="c4" unitRef="u8" decimals="0">1064413</g:LiabilitiesAndEquity><g:InterestIncomeFromGroupEnterprises contextRef="c0" unitRef="u8" decimals="0">19422</g:InterestIncomeFromGroupEnterprises><g:InterestIncomeFromGroupEnterprises contextRef="c1" unitRef="u8" decimals="0">11455</g:InterestIncomeFromGroupEnterprises><g:OtherInterestIncome contextRef="c0" unitRef="u8" decimals="0">27</g:OtherInterestIncome><g:OtherInterestIncome contextRef="c1" unitRef="u8" decimals="0">36</g:OtherInterestIncome><g:OtherFinanceIncome contextRef="c0" unitRef="u8" decimals="0">19449</g:OtherFinanceIncome><g:OtherFinanceIncome contextRef="c1" unitRef="u8" decimals="0">11491</g:OtherFinanceIncome><g:OtherInterestExpenses contextRef="c0" unitRef="u8" decimals="0">-276</g:OtherInterestExpenses><g:OtherInterestExpenses contextRef="c1" unitRef="u8" decimals="0">-1129</g:OtherInterestExpenses><g:OtherFinanceExpenses contextRef="c0" unitRef="u8" decimals="0">-276</g:OtherFinanceExpenses><g:OtherFinanceExpenses contextRef="c1" unitRef="u8" decimals="0">-1129</g:OtherFinanceExpenses><g:CurrentTaxExpense contextRef="c0" unitRef="u8" decimals="0">686</g:CurrentTaxExpense><g:CurrentTaxExpense contextRef="c1" unitRef="u8" decimals="0">1875</g:CurrentTaxExpense><g:TaxExpenseOnOrdinaryActivities contextRef="c0" unitRef="u8" decimals="0">686</g:TaxExpenseOnOrdinaryActivities><g:TaxExpenseOnOrdinaryActivities contextRef="c1" unitRef="u8" decimals="0">1875</g:TaxExpenseOnOrdinaryActivities><g:InvestmentsGross contextRef="c113" unitRef="u8" decimals="0">840000</g:InvestmentsGross><g:InvestmentsGross contextRef="c116" unitRef="u8" decimals="0">65625</g:InvestmentsGross><g:AdditionsToInvestments contextRef="c114" unitRef="u8" decimals="0">0</g:AdditionsToInvestments><g:AdditionsToInvestments contextRef="c117" unitRef="u8" decimals="0">1</g:AdditionsToInvestments><g:DisposalsOfInvestments contextRef="c114" unitRef="u8" decimals="0">0</g:DisposalsOfInvestments><g:DisposalsOfInvestments contextRef="c117" unitRef="u8" decimals="0">-65625</g:DisposalsOfInvestments><g:InvestmentsGross contextRef="c115" unitRef="u8" decimals="0">840000</g:InvestmentsGross><g:InvestmentsGross contextRef="c118" unitRef="u8" decimals="0">1</g:InvestmentsGross><g:AccumulatedRevaluationsOfInvestments contextRef="c113" unitRef="u8" decimals="0">85</g:AccumulatedRevaluationsOfInvestments><g:AccumulatedRevaluationsOfInvestments contextRef="c116" unitRef="u8" decimals="0">0</g:AccumulatedRevaluationsOfInvestments><g:DividendIncomeRelatedToInvestments contextRef="c114" unitRef="u8" decimals="0">-240000</g:DividendIncomeRelatedToInvestments><g:DividendIncomeRelatedToInvestments contextRef="c117" unitRef="u8" decimals="0">0</g:DividendIncomeRelatedToInvestments><g:RevaluationsOfInvestmentsOfTheYear contextRef="c114" unitRef="u8" decimals="0">65637</g:RevaluationsOfInvestmentsOfTheYear><g:RevaluationsOfInvestmentsOfTheYear contextRef="c117" unitRef="u8" decimals="0">0</g:RevaluationsOfInvestmentsOfTheYear><g:AccumulatedRevaluationsOfInvestments contextRef="c115" unitRef="u8" decimals="0">-174278</g:AccumulatedRevaluationsOfInvestments><g:AccumulatedRevaluationsOfInvestments contextRef="c118" unitRef="u8" decimals="0">0</g:AccumulatedRevaluationsOfInvestments><g:AccumulatedImpairmentLossesAndDepreciationOfInvestments contextRef="c113" unitRef="u8" decimals="0">0</g:AccumulatedImpairmentLossesAndDepreciationOfInvestments><g:AccumulatedImpairmentLossesAndDepreciationOfInvestments contextRef="c116" unitRef="u8" decimals="0">501882</g:AccumulatedImpairmentLossesAndDepreciationOfInvestments><g:ImpairmentLossesOfInvestments contextRef="c114" unitRef="u8" decimals="0">17287</g:ImpairmentLossesOfInvestments><g:ImpairmentLossesOfInvestments contextRef="c117" unitRef="u8" decimals="0">-501881</g:ImpairmentLossesOfInvestments><g:AccumulatedImpairmentLossesAndDepreciationOfInvestments contextRef="c115" unitRef="u8" decimals="0">17287</g:AccumulatedImpairmentLossesAndDepreciationOfInvestments><g:AccumulatedImpairmentLossesAndDepreciationOfInvestments contextRef="c118" unitRef="u8" decimals="0">1</g:AccumulatedImpairmentLossesAndDepreciationOfInvestments><g:LongtermInvestmentsAndReceivables contextRef="c115" unitRef="u8" decimals="0">648435</g:LongtermInvestmentsAndReceivables><g:LongtermInvestmentsAndReceivables contextRef="c118" unitRef="u8" decimals="0">0</g:LongtermInvestmentsAndReceivables><g:Equity contextRef="c137" unitRef="u8" decimals="0">130000</g:Equity><g:Equity contextRef="c158" unitRef="u8" decimals="0">670782</g:Equity><g:Equity contextRef="c161" unitRef="u8" decimals="0">96600</g:Equity><g:DividendPaid contextRef="c162" unitRef="u8" decimals="0">-96600</g:DividendPaid><g:ProfitLoss contextRef="c159" unitRef="u8" decimals="0">-44723</g:ProfitLoss><g:ProfitLoss contextRef="c162" unitRef="u8" decimals="0">106800</g:ProfitLoss><g:Equity contextRef="c139" unitRef="u8" decimals="0">130000</g:Equity><g:Equity contextRef="c160" unitRef="u8" decimals="0">626059</g:Equity><g:Equity contextRef="c163" unitRef="u8" decimals="0">106800</g:Equity><g:LongtermLiabilitiesOtherThanProvisions contextRef="c183" unitRef="u8" decimals="0">0</g:LongtermLiabilitiesOtherThanProvisions><g:LongtermLiabilitiesOtherThanProvisions contextRef="c184" unitRef="u8" decimals="0">6649</g:LongtermLiabilitiesOtherThanProvisions><g:LongtermLiabilitiesOtherThanProvisionsDueInOneYear contextRef="c184" unitRef="u8" decimals="0">0</g:LongtermLiabilitiesOtherThanProvisionsDueInOneYear><g:LongtermLiabilitiesOtherThanProvisionsDueAfterFiveYearsAndMore contextRef="c184" unitRef="u8" decimals="0">0</g:LongtermLiabilitiesOtherThanProvisionsDueAfterFiveYearsAndMore><e:IdentificationOfApprovedAnnualReport contextRef="c0">Direktionen har dags dato behandlet og godkendt årsrapporten for 1. oktober 2013 - 30. september 2014 for Krammehuset ApS.
+
+
+
+
+
+
+</e:IdentificationOfApprovedAnnualReport><e:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement contextRef="c0">Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.
+
+
+
+
+
+
+</e:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement><e:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults contextRef="c0">Det er min opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30. september 2014 samt af resultatet af selskabets aktiviteter for regnskabsåret 1. oktober 2013 - 30. september 2014.
+
+
+
+
+
+
+
+</e:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults><e:ManagementsStatementAboutManagementsReview contextRef="c0">Ledelsesberetningen indeholder efter min opfattelse en retvisende redegørelse for de forhold, beretningen omhandler.
+
+
+
+
+
+
+
+
+</e:ManagementsStatementAboutManagementsReview><e:RecommendationForApprovalOfAnnualReportByGeneralMeeting contextRef="c0">Årsrapporten indstilles til generalforsamlingens godkendelse.
+
+
+
+</e:RecommendationForApprovalOfAnnualReportByGeneralMeeting><f:AddresseeOfAuditorsReportOnExtendedReviewOfFinancialStatements contextRef="c0">Til kapitalejeren i Krammehuset ApS
+
+
+</f:AddresseeOfAuditorsReportOnExtendedReviewOfFinancialStatements><f:IdentificationOfFinancialStatementsAndDescriptionOfFinancialReportingFrameworkAppliedInPreparationOfFinancialStatementsExtendedReview contextRef="c0">Vi har udført udvidet gennemgang af årsregnskabet for Krammehuset ApS for regnskabsåret 1. oktober 2013 - 30. september 2014, der omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter. Årsregnskabet udarbejdes efter årsregnskabsloven.
+
+
+
+
+
+</f:IdentificationOfFinancialStatementsAndDescriptionOfFinancialReportingFrameworkAppliedInPreparationOfFinancialStatementsExtendedReview><f:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatementsExtendedReview contextRef="c0">Ledelsens ansvar for årsregnskabet
+
+
+
+Ledelsen har ansvaret for udarbejdelsen af et årsregnskab, der giver et retvisende billede i overensstemmelse med årsregnskabsloven. Ledelsen har endvidere ansvaret for den interne kontrol, som ledelsen anser nødvendig for at udarbejde et årsregnskab uden væsentlig fejlinformation, uanset om denne skyldes besvigelser eller fejl.
+
+
+
+
+
+
+</f:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatementsExtendedReview><f:StatementOfAuditorsResponsibilityExtendedReview contextRef="c0">Vores ansvar er at udtrykke en konklusion om årsregnskabet. Vi har udført vores udvidede gennemgang i overensstemmelse med Erhvervsstyrelsens erklæringsstandard for små virksomheder og FSR - danske revisorers standard om udvidet gennemgang af årsregnskaber, der udarbejdes efter årsregnskabsloven.
+
+
+
+
+
+
+
+Dette kræver, at vi overholder revisorloven og FSR - danske revisorers etiske regler samt planlægger og udfører handlinger med henblik på at opnå begrænset sikkerhed for vores konklusion om årsregnskabet og derudover udfører specifikt krævede supplerende handlinger med henblik på at opnå yderligere sikkerhed for vores konklusion.
+
+
+
+
+
+
+
+En udvidet gennemgang omfatter handlinger, der primært består af forespørgsler til ledelsen og, hvor det er hensigtsmæssigt, andre i virksomheden, analytiske handlinger og de specifikt krævede supplerende handlinger samt vurdering af det opnåede bevis.
+
+
+
+
+
+
+
+Omfanget af handlinger, der udføres ved en udvidet gennemgang, er mindre end ved en revision, og vi udtrykker derfor ingen revisionskonklusion om årsregnskabet.
+
+
+
+
+
+
+
+Den udvidede gennemgang har ikke givet anledning til forbehold.
+
+
+</f:StatementOfAuditorsResponsibilityExtendedReview><f:OpinionOnFinancialStatementsExtendedReview contextRef="c0">Konklusion
+
+
+
+På grundlag af det udførte arbejde er det vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 30. september 2014 samt af resultatet af selskabets aktiviteter for regnskabsåret 1. oktober 2013 - 30. september 2014 i overensstemmelse med årsregnskabsloven.
+
+
+
+
+
+
+</f:OpinionOnFinancialStatementsExtendedReview><f:SupplementaryInformationOnMattersPertainingToFinancialStatementExtendedReview contextRef="c0">Supplerende oplysning vedrørende forhold i regnskabet
+
+
+
+Uden at det har påvirket vores konklusion, skal vi henlede opmærksomheden på, at selskabet i strid med selskabsloven har ydet lån til en anpartshaver, hvorved ledelsen kan ifalde ansvar.
+
+
+
+
+
+
+</f:SupplementaryInformationOnMattersPertainingToFinancialStatementExtendedReview><f:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements contextRef="c0">Vi har i henhold til årsregnskabsloven gennemlæst ledelsesberetningen. Vi har ikke foretaget yderligere handlinger i tillæg til den udvidede gennemgang af årsregnskabet. Det er på denne baggrund vores opfattelse, at oplysningerne i ledelsesberetningen er i overensstemmelse med årsregnskabet.
+
+
+
+
+
+
+</f:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements><h:DescriptionOfPrimaryActivitiesOfEntity contextRef="c0">Væsentligste aktiviteter
+
+
+
+
+Selskabets væsentligste aktiviteter er at eje kapitalandele i dattervirksomhed og associeret virksomhed.
+
+
+
+
+
+
+
+
+</h:DescriptionOfPrimaryActivitiesOfEntity><h:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod contextRef="c0">Betydningsfulde hændelser, indtruffet efter regnskabsårets afslutning
+
+
+
+
+Der er ikke efter regnskabsårets afslutning indtruffet begivenheder af væsentlig betydning for selskabets finansielle stilling.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</h:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod><g:InformationOnReportingClassOfEntity contextRef="c0">Årsrapporten for Krammehuset ApS for 2013/14 er aflagt i overensstemmelse med den danske årsregnskabslovs bestemmelser for virksomheder i regnskabsklasse B.
+Resultatopgørelsens opstillingsform er tilpasset selskabets aktivitet som et holdingselskab. 
+Regnskabsklasse B
+
+
+
+
+
+
+Årsrapporten er udarbejdet efter samme regnskabspraksis som sidste år.
+1
+
+</g:InformationOnReportingClassOfEntity><g:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies contextRef="c0">Generelt om indregning og måling
+
+
+
+
+
+I resultatopgørelsen indregnes indtægter i takt med, at de indtjenes, herunder indregnes værdireguleringer af finansielle aktiver og forpligtelser. I resultatopgørelsen indregnes ligeledes alle omkostninger, herunder afskrivninger og nedskrivninger.
+
+
+
+
+
+
+
+Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt.
+
+
+
+
+
+
+
+
+Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt.
+
+
+
+
+
+
+
+
+
+Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver og forpligtelser som beskrevet for hver enkelt regnskabspost nedenfor.
+
+
+
+
+
+
+
+
+
+Visse finansielle aktiver og forpligtelser måles til amortiseret kostpris, hvorved der indregnes en konstant effektiv rente over løbetiden. Amortiseret kostpris opgøres som oprindelig kostpris med fradrag af eventuelle afdrag samt tillæg/fradrag af den akkumulerede amortisering af forskellen mellem kostpris og nominelt beløb.
+
+
+
+
+
+
+
+
+
+Ved indregning og måling tages hensyn til forudsigelige tab og risici, der fremkommer inden årsrapporten aflægges, og som be- eller afkræfter forhold, der eksisterede på balancedagen.
+
+
+
+
+
+
+
+
+
+</g:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies><g:InformationOnOmissionOfConsolidatedFinancialStatement contextRef="c0">Der er ikke udarbejdet koncernregnskab, da koncernen opfylder fritagelsesbestemmelserne i årsregnskabslovens § 110 om regnskabsaflæggelse for mindre koncerner.
+
+
+</g:InformationOnOmissionOfConsolidatedFinancialStatement><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeAndExpensesFromInvestmentsInGroupEnterprisesAndAssociates contextRef="c0">RESULTATOPGØRELSEN
+
+
+
+
+
+
+
+
+
+
+Resultat af kapitalandel i dattervirksomhed og associeret virksomhed
+
+
+
+
+I selskabets resultatopgørelse indregnes den forholdsmæssige andel af dattervirksomhed og associeret virksomheds resultat efter fuld eliminering af intern avance/tab og fradrag af afskrivning på goodwill.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeAndExpensesFromInvestmentsInGroupEnterprisesAndAssociates><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExternalExpenses contextRef="c0">Andre eksterne omkostninger
+
+
+
+
+
+Andre eksterne omkostninger omfatter omkostninger til administration mv.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExternalExpenses><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceIncomeAndExpenses contextRef="c0">Finansielle indtægter og omkostninger
+
+
+
+
+
+Finansielle indtægter og omkostninger indeholder renteindtægter og -omkostninger, samt tillæg og godtgørelse under acontoskatteordningen mv. Finansielle indtægter og omkostninger indregnes med de beløb, der vedrører regnskabsåret.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceIncomeAndExpenses><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses contextRef="c0">Skat
+
+
+
+
+
+Årets skat, som består af årets aktuelle skat og forskydning i udskudt skat, indregnes i resultatopgørelsen med den del, der kan henføres til årets resultat, og direkte på egenkapitalen med den del, der kan henføres til posteringer direkte på egenkapitalen.
+
+
+
+
+
+
+
+Selskabet er sambeskattet med koncernforbundne danske selskaber. Den aktuelle danske selskabsskat fordeles mellem de sambeskattede danske selskaber i forhold til disses skattepligtige indkomst, og med fuld fordeling med refusion vedrørende skattemæssige underskud. De sambeskattede selskaber indgår i acontoskatteordningen.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfInvestments contextRef="c0">BALANCEN
+
+
+
+
+
+
+
+
+
+
+Finansielle anlægsaktiver
+
+
+
+
+
+Kapitalandele i dattervirksomhed og associeret virksomhed måles i moderselskabets balance efter den indre værdis metode.
+
+
+
+
+
+
+
+Kapitalandele i dattervirksomhed og associeret virksomhed måles i balancen til den forholdsmæssige andel af virksomhedernes regnskabsmæssige indre værdi opgjort efter moderselskabets regnskabspraksis med fradrag eller tillæg af urealiserede koncerninterne avancer og tab og med tillæg eller fradrag af resterende værdi af positiv eller negativ goodwill opgjort efter overtagelsesmetoden.
+
+
+
+Ved køb af virksomheder anvendes overtagelsesmetoden. Merværdier i form af koncerngoodwill afskrives over den vurderede økonomiske levetid, der fastlægges på baggrund af ledelsens erfaringer inden for de enkelte forretningsområder. Koncerngoodwill afskrives lineært over afskrivningsperioden, der udgør 5 år. 
+
+
+
+
+Nettoopskrivning af kapitalandele i dattervirksomhed og associeret virksomhed overføres under egenkapitalen til reserve for nettoopskrivning efter den indre værdis metode i det omfang, den regnskabsmæssige værdi overstiger anskaffelsesværdien. Ved køb af dattervirksomhed anvendes overtagelsesmetoden.
+
+
+
+
+
+
+
+
+
+Dattervirksomhed og associeret virksomhed med negativ regnskabsmæssig indre værdi måles til 0 kr. og et eventuelt tilgodehavende hos disse virksomheder nedskrives med moderselskabets andel af den negative indre værdi, i det omfang det vurderes som uerholdeligt. Såfremt den regnskabsmæssige negative indre værdi overstiger tilgodehavender, indregnes det resterende beløb under hensatte forpligtelser i det omfang, modervirksomheden har en retlig eller faktisk forpligtelse til at dække dattervirksomhed og associeret virksomheds underbalance.
+
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfInvestments><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables contextRef="c0">Tilgodehavender
+
+
+
+
+
+Tilgodehavender måles til amortiseret kostpris, hvilket sædvanligvis svarer til nominel værdi. Værdien reduceres med nedskrivning til imødegåelse af forventede tab.
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables><g:DescriptionOfMethodsOfDividends contextRef="c0">Udbytte
+
+
+
+
+
+Udbytte, som forventes udbetalt for året, vises som en særskilt post under egenkapitalen.
+
+
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfDividends><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxPayablesAndDeferredTax contextRef="c0">Skyldig skat og udskudt skat
+
+
+
+
+Aktuelle skatteforpligtelser og tilgodehavende aktuel skat indregnes i balancen som beregnet skat af årets skattepligtige indkomst reguleret for skat af tidligere års skattepligtige indkomster samt for betalte acontoskatter.
+
+
+
+
+
+
+
+Udskudt skat måles af midlertidige forskelle mellem regnskabsmæssig og skattemæssig værdi af aktiver og forpligtelser.
+
+
+
+
+
+
+
+Udskudte skatteaktiver, herunder skatteværdien af fremførselsberettiget skattemæssigt underskud, måles til den værdi, hvortil aktivet forventes at kunne realiseres, enten ved udligning i skat af fremtidig indtjening, eller ved modregning i udskudte skatteforpligtelser inden for samme juridiske skatteenhed.
+
+
+
+
+
+
+
+Udskudt skat måles på grundlag af de skatteregler og skattesatser, der med balancedagens lovgivning vil være gældende, når den udskudte skat forventes udløst som aktuel skat. Ændring i udskudt skat som følge af ændringer i skattesatser indregnes i resultatopgørelsen bortset fra poster, der føres direkte på egenkapitalen.
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxPayablesAndDeferredTax><g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions contextRef="c0">Gældsforpligtelser
+
+
+
+
+
+Gæld er målt til amortiseret kostpris svarende til nominel værdi.
+
+
+
+
+
+
+
+
+
+</g:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions><g:DisclosureOfOtherFinanceIncome contextRef="c0">Finansielle indtægter
+
+
+1
+
+Tilknyttede virksomheder 
+19.422
+11.455
+
+172.110
+Finansielle indtægter i øvrigt 
+27
+36
+
+
+
+
+
+
+
+19.449
+11.491
+
+
+
+
+</g:DisclosureOfOtherFinanceIncome><g:DisclosureOfOtherFinanceExpenses contextRef="c0">Finansielle omkostninger
+
+
+2
+
+Finansielle omkostninger i øvrigt 
+276
+1.129
+
+
+
+
+
+
+
+276
+1.129
+
+
+
+
+</g:DisclosureOfOtherFinanceExpenses><g:DisclosureOfTaxExpenseOnOrdinaryActivities contextRef="c0">Skat af årets resultat
+
+
+3
+
+Beregnet skat af årets skattepligtige indkomst 
+-686
+-1.875
+
+
+
+
+
+
+
+
+-686
+-1.875
+
+
+
+
+
+</g:DisclosureOfTaxExpenseOnOrdinaryActivities><g:DisclosureOfInvestments contextRef="c0">Finansielle anlægsaktiver
+
+
+
+
+4
+
+
+
+
+
+
+Kapitalandel i dattervirksomhed
+Kapitalandel i associeret virksomhed
+
+
+
+
+
+
+Kostpris 1. oktober 2013 
+840.000
+65.625
+
+Tilgang 
+0
+1
+
+Afgang 
+0
+-65.625
+
+Kostpris 30. september 2014 
+840.000
+1
+
+
+
+
+
+Opskrivninger 1. oktober 2013 
+85
+0
+
+Udloddet resultat  
+-240.000
+0
+
+Årets opskrivninger  
+65.637
+0
+
+Opskrivninger 30. september 2014 
+-174.278
+0
+
+
+
+
+
+Ned- og afskrivninger 1. oktober 2013 
+0
+501.882
+
+Årets nedskrivning 
+17.287
+-501.881
+
+Ned- og afskrivninger 30. september 2014 
+17.287
+1
+
+
+
+
+
+Regnskabsmæssig værdi 30. september 2014 
+648.435
+0
+
+
+
+
+
+
+
+
+
+
+
+Kapitalandel i dattervirksomhed (kr.)
+
+
+
+
+
+
+
+
+
+
+Navn og hjemsted
+Egenkapital
+Årets resultat
+Stemme- og ejerandel
+
+
+
+
+
+
+
+
+
+Studsgaard Skilte ApS, Frederikshavn 
+734.115
+82.046
+80 %
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Finansielle anlægsaktiver (fortsat)
+4
+
+
+
+
+
+
+
+
+Kapitalandel i associeret virksomhed (kr.)
+
+
+
+
+
+
+
+
+
+
+Navn og hjemsted
+Egenkapital
+Årets resultat
+Stemme- og ejerandel
+
+
+
+
+
+
+
+
+
+Ejendomsselskabet Tima ApS, Frederikshavn 
+-1.339.374
+-77.753
+48,75 %
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g:DisclosureOfInvestments><g:DisclosureOfInvestments contextRef="c0">Studsgaard Skilte ApS, Frederikshavn 
+734.115
+82.046
+80 %
+
+</g:DisclosureOfInvestments><g:DisclosureOfInvestments contextRef="c0">Ejendomsselskabet Tima ApS, Frederikshavn 
+-1.339.374
+-77.753
+48,75 %
+
+</g:DisclosureOfInvestments><g:InformationOnReceivablesFromOwnersAndManagement contextRef="c0">Tilgodehavende hos ledelsen og ejere
+
+
+5
+
+Tilgodehavende hos direktion med i alt 4.705 pr. 30. september 2014. Lånet er forrentet med 9 % og med aftalt afdrag inden for et år.
+
+
+
+
+</g:InformationOnReceivablesFromOwnersAndManagement><g:DisclosureOfEquity contextRef="c0">Egenkapital
+
+
+
+
+6
+
+
+
+
+
+
+
+
+
+Anpartskapital
+Overført overskud
+Forslag til udbytte
+I alt
+
+
+
+
+
+
+
+Egenkapital 1. oktober 2013 
+130.000
+670.782
+96.600
+897.382
+
+Betalt udbytte 
+
+
+-96.600
+-96.600
+
+Forslag til årets resultatdisponering 
+
+-44.723
+106.800
+62.077
+
+
+
+
+
+
+
+Egenkapital 30. september 2014 
+130.000
+626.059
+106.800
+862.859
+
+
+
+
+
+
+
+Anpartskapitalen har ikke været ændret i de seneste 5 år. 
+
+
+
+</g:DisclosureOfEquity><g:DisclosureOfLongtermLiabilities contextRef="c0">Langfristede gældsforpligtelser
+
+
+7
+
+
+1/10 2013
+30/9 2014
+Afdrag
+Restgæld
+
+gæld i alt
+gæld i alt
+næste år
+efter 5 år
+
+
+
+
+
+
+
+Selskabsskat 
+0
+6.649
+0
+0
+534.100
+534.100.01
+
+
+
+
+
+
+0
+6.649
+0
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g:DisclosureOfLongtermLiabilities><g:DisclosureOfContingentLiabilities contextRef="c0">Eventualposter mv.
+8
+
+Selskabet har afgivet solidarisk efterkaution for Datterselskabers mellemværende med pengeinstitut. Den samlede restgæld pr. 30. september 2014 udgør 1.050 tkr.
+
+
+
+Hæftelse i sambeskatningen Selskabet hæfter solidarisk med dattervirksomhed Studsgaard Skilte ApS for skat af koncernens sambeskattede indkomst og for visse eventuelle kildeskatter.  Skyldig skat af koncernens sambeskattede indkomst udgør 6.649 tkr. pr. balancedagen.
+
+</g:DisclosureOfContingentLiabilities><g:DisclosureOfOwnership contextRef="c0">Ejerforhold
+9
+
+Følgende anpartshaver er noteret i selskabets særlige anpartshaverfortegnelse som eneejer af anpartskapitalen:
+Jan Kramme
+Lokesvej 9
+9900  Frederikshavn 
+</g:DisclosureOfOwnership><!--Aktuelle periode--><context id="c0"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><startDate>2013-10-01</startDate><endDate>2014-09-30</endDate></period></context><!--Forrige periode--><context id="c1"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><startDate>2012-10-01</startDate><endDate>2013-09-30</endDate></period></context><!--Slutdato for aktuelle periode--><context id="c2"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2014-09-30</instant></period></context><!--Slutdato for forrige periode--><context id="c4"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2013-09-30</instant></period></context><!--Udbytte--><context id="c5"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><startDate>2013-10-01</startDate><endDate>2014-09-30</endDate></period><scenario><xbrldi:explicitMember dimension="g:ResultDistributionDimension">g:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember></scenario></context><!--Udbytte py--><context id="c6"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><startDate>2012-10-01</startDate><endDate>2013-09-30</endDate></period><scenario><xbrldi:explicitMember dimension="g:ResultDistributionDimension">g:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember></scenario></context><!--Overfoert resultat--><context id="c29"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><startDate>2013-10-01</startDate><endDate>2014-09-30</endDate></period><scenario><xbrldi:explicitMember dimension="g:ResultDistributionDimension">g:RetainedEarningsMember</xbrldi:explicitMember></scenario></context><!--Overfoert resultat py--><context id="c30"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><startDate>2012-10-01</startDate><endDate>2013-09-30</endDate></period><scenario><xbrldi:explicitMember dimension="g:ResultDistributionDimension">g:RetainedEarningsMember</xbrldi:explicitMember></scenario></context><!--Fin tilk primo--><context id="c113"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2013-10-01</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfInvestmentsDimension">g:InvestmentsInGroupEnterprisesMember</xbrldi:explicitMember></scenario></context><!--Fin tilk bev--><context id="c114"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><startDate>2013-10-01</startDate><endDate>2014-09-30</endDate></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfInvestmentsDimension">g:InvestmentsInGroupEnterprisesMember</xbrldi:explicitMember></scenario></context><!--Fin tilk ultimo--><context id="c115"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2014-09-30</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfInvestmentsDimension">g:InvestmentsInGroupEnterprisesMember</xbrldi:explicitMember></scenario></context><!--Fin ass primo--><context id="c116"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2013-10-01</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfInvestmentsDimension">g:InvestmentsInAssociatesMember</xbrldi:explicitMember></scenario></context><!--Fin ass bev--><context id="c117"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><startDate>2013-10-01</startDate><endDate>2014-09-30</endDate></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfInvestmentsDimension">g:InvestmentsInAssociatesMember</xbrldi:explicitMember></scenario></context><!--Fin ass ultimo--><context id="c118"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2014-09-30</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfInvestmentsDimension">g:InvestmentsInAssociatesMember</xbrldi:explicitMember></scenario></context><!--EG kapital primo--><context id="c137"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2013-10-01</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:ContributedCapitalMember</xbrldi:explicitMember></scenario></context><!--EG kapital ultimo--><context id="c139"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2014-09-30</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:ContributedCapitalMember</xbrldi:explicitMember></scenario></context><!--EG resultat primo--><context id="c158"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2013-10-01</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:RetainedEarningsMember</xbrldi:explicitMember></scenario></context><!--EG resultat bev--><context id="c159"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><startDate>2013-10-01</startDate><endDate>2014-09-30</endDate></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:RetainedEarningsMember</xbrldi:explicitMember></scenario></context><!--EG resultat ultimo--><context id="c160"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2014-09-30</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:RetainedEarningsMember</xbrldi:explicitMember></scenario></context><!--EG udbytte primo--><context id="c161"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2013-10-01</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:ProposedExtraordinaryDividendRecognisedInEquityMember</xbrldi:explicitMember></scenario></context><!--EG udbytte bev--><context id="c162"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><startDate>2013-10-01</startDate><endDate>2014-09-30</endDate></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:ProposedExtraordinaryDividendRecognisedInEquityMember</xbrldi:explicitMember></scenario></context><!--EG udbytte ultimo--><context id="c163"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2014-09-30</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfEquityDimension">g:ProposedExtraordinaryDividendRecognisedInEquityMember</xbrldi:explicitMember></scenario></context><!--Lg skat primo--><context id="c183"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2013-10-01</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfLongTermLiabilitiesDimension">g:LongtermTaxPayablesMember</xbrldi:explicitMember></scenario></context><!--Lg skat ultimo--><context id="c184"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><instant>2014-09-30</instant></period><scenario><xbrldi:explicitMember dimension="g:ClassesOfLongTermLiabilitiesDimension">g:LongtermTaxPayablesMember</xbrldi:explicitMember></scenario></context><!--Ledelse1--><context id="c199"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><startDate>2013-10-01</startDate><endDate>2014-09-30</endDate></period><scenario><xbrldi:typedMember dimension="d:IdentificationOfMemberOfExecutiveBoardDimension"><d:memberOfBoardIdentifier>1</d:memberOfBoardIdentifier></xbrldi:typedMember></scenario></context><!--Revisor1 Ny--><context id="c299"><entity><identifier scheme="http://www.dcca.dk/cvr">27587852</identifier></entity><period><startDate>2013-10-01</startDate><endDate>2014-09-30</endDate></period><scenario><xbrldi:typedMember dimension="d:IdentificationOfAuditorDimension"><d:auditorIdentifier>1</d:auditorIdentifier></xbrldi:typedMember></scenario></context><!--DKK--><unit id="u8"><measure>iso4217:DKK</measure></unit></xbrl>
