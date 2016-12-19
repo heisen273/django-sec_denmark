@@ -786,6 +786,9 @@ class FundamentantalAccountingConcepts:
         except:
             try:dic['Auditor'] = self.xbrl.getNode('d:NameAndSurnameOfAuditor').text
             except:dic['Auditor'] = 'None'
+        #try:dic['EntityRegistrantName'] = self.xbrl.fields['EntityRegistrantName']
+        #except:
+        #    dic['EntityRegistrantName'] = 'None'
 
         string_lst = []
         
@@ -794,12 +797,15 @@ class FundamentantalAccountingConcepts:
         for value in dic:
             for item in result_dic:
                 if value == item:
+                    #print(value)
                     result_dic[item] = dic[value]           
         for item in self.xbrl.fields:
-            try:
-                if result_dic[item] <> '0' and self.xbrl.fields[item] == 0:
+            #try:
+            if result_dic[item] <> '0' and self.xbrl.fields[item] == 0:
                     continue
-            except:result_dic[item] = self.xbrl.fields[item]
+            #except:
+            result_dic[item] = self.xbrl.fields[item]
+            #print('lil')
             
         i = 0 
         for item in result_dic:
@@ -810,7 +816,9 @@ class FundamentantalAccountingConcepts:
 
         #print('antoha',unicodedata.normalize("NFKD", self.xbrl.getNode("gsd:InformationOnTypeOfSubmittedReport").text))
         #print('lol',)
-        print(dic)
+        print(result_dic)
+        #print(1,self.xbrl.fields['EntityRegistrantName'])
+        #print(666,result_dic['EntityRegistrantName'])
         for item in dic:
             try:
                 result_dic[item] = str(result_dic[item]).replace("'","")
