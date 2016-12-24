@@ -21,59 +21,31 @@ class XBRL:
         else:
             self.EntireInstanceDocument = open(XBRLInstanceLocation,'r').read()
             lst = [line for line in open(XBRLInstanceLocation,'r').read().splitlines()]
-            #print(len(lst))
-            #print lst
-            try:
-                for item in lst:
+            print(len(lst))
+            for item in lst:
                 #print(item)
-                    if 'fsa:' or 'e:' in item:
-                    #print item
+                if 'fsa' in item:
                     #print('weeeee')
                     
-                        str = item
-                        while str[0] == ' ':
-                            str = str[1:]
-                        if str[0] == '<': self.tags.append(str.split(' ')[0][1:])
-                        else: self.tags.append(str.split(' ')[0])
-                    else:continue
-            except:
-                print('ollololo')
-                l = []
-                self.tags=[]
-                for item in lst:
-                    items = item.split('><')
-                    for element in items:
-                        l.append(element)
-                for item in l:
-                    try:
-                        if 'e:' or 'd:' or 'c:' or 'f:' in item:
-                            if item[0] == '<':
-                                item = item.replace('<','')
-                            if item[0] == '/':
-                                item = item.replace('/','')
-                            if '>' in item:
-                                item = item.split('>')[0]
-                            if item[:2] == 'e:' or item[:2] == 'c:' or item[:2] == 'f:' or item[:2] == 'd:':
-                                self.tags.append(item.split(' ')[0])
-                    except:continue          
-                        
-                        
-            
-            print(len(self.tags))
+                    str = item
+                    while str[0] == ' ':
+                        str = str[1:]
+                    if str[0] == '<': self.tags.append(str.split(' ')[0][1:])
+                    else: self.tags.append(str.split(' ')[0])
+                else:continue
             self.tags = list(set(self.tags))
-            
             if len(lst) == 1:
                 for item in lst:
                     items = item.split('><')
                 for element in items:
-                    if 'fsa:' or 'e:' in element:
+                    if 'fsa' in element:
                         str = element
                         self.tags.append(str.split(' ')[0])
                     else:continue
                     
                     
                     
-            
+            print(self.tags)
             for item in self.tags:
                 if item.split(':')[0] == 'fsa':
                     if 'Disclosure' in item: # NE RABOTAET UBERI DISCLOSURE ! ! ! 
@@ -167,21 +139,11 @@ class XBRL:
 
     def GetBaseInformation(self):
        
-        #print(123,self.fields['ContextForDurations'])
         #Registered Name
         try:
             oNode = self.getNode("//gsd:NameOfReportingEntity" + "[@contextRef='" + self.fields['ContextForDurations'] + "']")
-        except:
-            try:oNode = self.getNode("//gsd:NameOfReportingEntity[@contextRef]")
-            except:
-                try:
-                    oNode = self.getNode("//c:NameOfReportingEntity" + "[@contextRef='" + self.fields['ContextForDurations'] + "']")
-                    print oNode.text
-                
-                except:
-                    oNode = self.getNode("//c:NameOfReportingEntity[@contextRef]")
-                    print oNode.text
-        print(123123123,oNode.text)
+        except: 
+            oNode = self.getNode("//gsd:NameOfReportingEntity[@contextRef]")
             #print(oNode)
                 
         #oNode = self.getNode("//gsd:NameOfReportingEntity[@contextRef]")
@@ -200,16 +162,7 @@ class XBRL:
         #EntityCentralIndexKey
         try:
             oNode = self.getNode("//gsd:IdentificationNumberCvrOfReportingEntity" + "[@contextRef='" + self.fields['ContextForDurations'] + "']")
-        except:
-            try:oNode = self.getNode("//gsd:IdentificationNumberCvrOfReportingEntity[@contextRef]")
-            except:
-                try:
-                    oNode = self.getNode('//c:IdentificationNumberCvrOfReportingEntity" + "[@contextRef='" + self.fields['ContextForDurations'] + "']")')
-                    #print oNode.text
-
-                except:
-                    oNode = self.getNode("//c:IdentificationNumberCvrOfReportingEntity[@contextRef]")
-                    #print oNode.text
+        except: oNode = self.getNode("//gsd:IdentificationNumberCvrOfReportingEntity[@contextRef]")
 
         if oNode is not None:
             self.fields['EntityCentralIndexKey'] = oNode.text
@@ -245,20 +198,9 @@ class XBRL:
         #    self.fields['DocumentFiscalPeriodFocus'] = "Fiscal period focus not found"
         
         #DocumentType
-
         try:
             oNode = self.getNode("//gsd:InformationOnTypeOfSubmittedReport" + "[@contextRef='" + self.fields['ContextForDurations'] + "']")
-        except:
-            try:oNode = self.getNode("//gsd:InformationOnTypeOfSubmittedReport[@contextRef]")
-            except:
-                try:
-                    oNode = self.getNode('//c:InformationOnTypeOfSubmittedReport" + "[@contextRef='" + self.fields['ContextForDurations'] + "']")')
-                    #print oNode.text
-
-                except:
-                    oNode = self.getNode("//c:InformationOnTypeOfSubmittedReport[@contextRef]")
-                    #print oNode.text
-
+        except: oNode = self.getNode("//gsd:InformationOnTypeOfSubmittedReport[@contextRef]")
         if oNode is not None:
             self.fields['DocumentType'] = oNode.text.encode('ascii', 'ignore').decode('ascii')
         else:
@@ -376,7 +318,7 @@ class XBRL:
         #Get context ID of durations and the start date for the database table
         try:
             oNodelist2 = self.getNodeList("fsa:CashAndCashEquivalentsPeriodIncreaseDecrease | fsa:CashPeriodIncreaseDecrease | fsa:NetIncomeLoss | gsd:ReportingPeriodEndDate")
-        except: oNodelist2 = self.getNodeList("e:CashAndCashEquivalentsPeriodIncreaseDecrease | e:CashPeriodIncreaseDecrease | e:NetIncomeLoss | c:ReportingPeriodEndDate")
+        except: oNodelist2 = self.getNodeList("e:CashAndCashEquivalentsPeriodIncreaseDecrease | e:CashPeriodIncreaseDecrease | e:NetIncomeLoss | e:ReportingPeriodEndDate")
 
         StartDate = "ERROR"
         StartDateYTD = "2099-01-01"
@@ -462,8 +404,7 @@ class XBRL:
         for oNode_Alt in oNodeList_Alt:
             #Found possible contexts
             #MsgBox oNode_Alt.selectSingleNode("@id").text
-            try: something = self.getNode("fsa:Assets[@contextRef='" + oNode_Alt.get("id") + "']")
-            except: something = self.getNode("g:Assets[@contextRef='" + oNode_Alt.get("id") + "']")
+            something = self.getNode("fsa:Assets[@contextRef='" + oNode_Alt.get("id") + "']")
             if something is not None:
                 #MsgBox "Use this context: " + oNode_Alt.selectSingleNode("@id").text
                 return oNode_Alt.get("id")

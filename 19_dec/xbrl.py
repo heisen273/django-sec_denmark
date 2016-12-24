@@ -21,59 +21,31 @@ class XBRL:
         else:
             self.EntireInstanceDocument = open(XBRLInstanceLocation,'r').read()
             lst = [line for line in open(XBRLInstanceLocation,'r').read().splitlines()]
-            #print(len(lst))
-            #print lst
-            try:
-                for item in lst:
+            print(len(lst))
+            for item in lst:
                 #print(item)
-                    if 'fsa:' or 'e:' in item:
-                    #print item
+                if 'fsa' in item:
                     #print('weeeee')
                     
-                        str = item
-                        while str[0] == ' ':
-                            str = str[1:]
-                        if str[0] == '<': self.tags.append(str.split(' ')[0][1:])
-                        else: self.tags.append(str.split(' ')[0])
-                    else:continue
-            except:
-                print('ollololo')
-                l = []
-                self.tags=[]
-                for item in lst:
-                    items = item.split('><')
-                    for element in items:
-                        l.append(element)
-                for item in l:
-                    try:
-                        if 'e:' or 'd:' or 'c:' or 'f:' in item:
-                            if item[0] == '<':
-                                item = item.replace('<','')
-                            if item[0] == '/':
-                                item = item.replace('/','')
-                            if '>' in item:
-                                item = item.split('>')[0]
-                            if item[:2] == 'e:' or item[:2] == 'c:' or item[:2] == 'f:' or item[:2] == 'd:':
-                                self.tags.append(item.split(' ')[0])
-                    except:continue          
-                        
-                        
-            
-            print(len(self.tags))
+                    str = item
+                    while str[0] == ' ':
+                        str = str[1:]
+                    if str[0] == '<': self.tags.append(str.split(' ')[0][1:])
+                    else: self.tags.append(str.split(' ')[0])
+                else:continue
             self.tags = list(set(self.tags))
-            
             if len(lst) == 1:
                 for item in lst:
                     items = item.split('><')
                 for element in items:
-                    if 'fsa:' or 'e:' in element:
+                    if 'fsa' in element:
                         str = element
                         self.tags.append(str.split(' ')[0])
                     else:continue
                     
                     
                     
-            
+            print(self.tags)
             for item in self.tags:
                 if item.split(':')[0] == 'fsa':
                     if 'Disclosure' in item: # NE RABOTAET UBERI DISCLOSURE ! ! ! 
@@ -167,7 +139,6 @@ class XBRL:
 
     def GetBaseInformation(self):
        
-        #print(123,self.fields['ContextForDurations'])
         #Registered Name
         try:
             oNode = self.getNode("//gsd:NameOfReportingEntity" + "[@contextRef='" + self.fields['ContextForDurations'] + "']")
@@ -175,7 +146,7 @@ class XBRL:
             try:oNode = self.getNode("//gsd:NameOfReportingEntity[@contextRef]")
             except:
                 try:
-                    oNode = self.getNode("//c:NameOfReportingEntity" + "[@contextRef='" + self.fields['ContextForDurations'] + "']")
+                    oNode = self.getNode('//c:NameOfReportingEntity" + "[@contextRef='" + self.fields['ContextForDurations'] + "']")')
                     print oNode.text
                 
                 except:

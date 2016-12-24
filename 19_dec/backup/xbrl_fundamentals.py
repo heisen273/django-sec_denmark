@@ -746,93 +746,63 @@ class FundamentantalAccountingConcepts:
         conn = psycopg2.connect(conn_string)
         cursor = conn.cursor()
         lst = []
-        try:start_dt = self.xbrl.getNode("gsd:ReportingPeriodStartDate").text
-        except:start_dt = self.xbrl.getNode("c:ReportingPeriodStartDate").text
-        try:end_dt = self.xbrl.getNode("gsd:ReportingPeriodEndDate").text
-        except:end_dt = self.xbrl.getNode("c:ReportingPeriodEndDate").text
-        columns = ['DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfOtherOperatingIncomeAndExpenses', 'DescriptionOfMethodsOfStatingKeyFiguresAndFinancialRatiosIncludedInManagementReview', 'GainsLossesFromCurrentValueAdjustmentsOfOtherInvestmentAssets', 'NetCashFlowsFinancingDiscontinued', 'NonoperatingIncomeLossPlusInterestAndDebtExpense', 'OtherInvestmentAssets', 'ProfitLoss', 'DisclosureOfProvisions', 'InformationOnReceivablesFromOwnersAndManagement', 'DisclosureOfMortgagesAndCollaterals', 'GrossProfitLoss', 'DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies', 'NetCashFlowsInvestingDiscontinued', '&lt;br/&gt;Selskabet', 'StatementOfChangesInEquity', 'CashAndCashEquivalentsConcerningCashflowStatement', 'ExchangeGainsLosses', 'CostOfSales', 'IncomeFromEquityMethodInvestments', 'NetCashFlowsDiscontinued', 'FeesForAuditorsPerformingStatutoryAudit', 'InformationOnRecognisedButNotOwnedAssets', 'OtherOperatingIncome', 'ProfitLossFromOrdinaryActivitiesBeforeTax', 'ShorttermMortgageDebt', 'CostOfRevenue', 'TaxPayables', 'DisclosureOfLongtermLiabilities', 'Barberens', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfGrossProfitLoss', 'LiabilitiesOtherThanProvisions', 'InformationOnShorttermInvestmentsInAssociates', 'DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod', 'InvestmentInPropertyPlantAndEquipment', 'DescriptionOfMethodsOfAmortisationOfNoncurrentAssets', 'IncomeFromInvestmentsInAssociates', 'PropertyPlantAndEquipmentGross', 'ResultsFromNetFinancials', 'IncomeFromContinuingOperationsBeforeTax', 'Ledelsen', 'EmployeeBenefitsExpense', 'SharePremium', 'OtherInterestExpenses', 'TaxExpenseOnOrdinaryActivities', 'Provisions', 'LongtermReceivablesFromOwnersAndManagement', 'InformationOnOmissionOfConsolidatedFinancialStatement', 'IncomeFromInvestmentsInGroupEnterprises', 'AdditionsToPropertyPlantAndEquipment', 'PropertyPlantAndEquipmentInProgress', 'LongtermDebtToOtherCreditInstitutions', 'RawMaterialsAndConsumables', 'anpartshaver&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;span', 'TemporaryEquity', 'PrepaymentsForGoods', 'Auditor', 'CCTC', 'DescriptionOfAccountingPoliciesRelatedToDerivativeFinancialInstruments', 'Kontrakter', 'DisclosureOfRelatedParties', 'NetIncomeLoss', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisIncludingBasesUsedForRevaluationsDepreciationAmortisationEstimatedResidualValueUsefulLifeWritedownsUpwardAndDownwardAdjustments', 'Andre', 'ShorttermPrepaymentsReceivedFromCustomers', 'InterestAndDebtExpense', 'PayablesToShareholdersAndManagement', 'CurrentDeferredTaxAssets', 'InformationOnConsolidations', 'OpinionOnAuditedFinancialStatements', 'Ved', 'DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss', 'Restl\xc3\xb8betid', 'DividendPaid', 'FeesForAuditorsPerformingTaxConsultancy', 'OtherComprehensiveIncome', 'RevaluationReserve', 'InformationOnConsolidatedFinancialStatements', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfOtherInvestmentAssets', 'ComprehensiveIncome', 'DisclosureOfContingentLiabilities', 'MortgageDebt', 'DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssets', 'DocumentType', 'AcquiredLicences', 'NonoperatingIncomePlusInterestAndDebtExpensePlusIncomeFromEquityMethodInvestments', 'ShorttermReceivablesFromAssociates', 'NameOfComponentOfCashFlowsFromUsedInInvestingActivities', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfProvisions', 'DisclosureOfPropertyPlantAndEquipment', 'Revenue', 'ShorttermDebtToBanks', 'ShorttermPayablesToAssociates', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses', 'DisclosureOfRevenue', 'ExchangeRateProfit', 'InformationOnCalculationOfKeyFiguresAndFinancialRatios', 'Positive', 'OtherShorttermReceivables', 'Egenkapitalen', 'ProposedDividendRecognisedInEquity', 'MP-AX', 'DisclosureOfAnyUnusualMatters', 'InvestmentProperty', 'AmountOfComponentOfCashFlowsFromUsedInInvestingActivities', 'DissolutionOfPreviousYearsRevaluations', 'typedMember', 'DisclosureOfProvisionsForDeferredTax', 'ProfitLossRelatedToInvestments', 'LongtermTaxPayablesToGroupEnterprises', 'LiabilitiesAndEquity', 'ShorttermPayablesToGroupEnterprises', 'ShorttermDebtToBanksCashFlowsStatement', 'ExplanationOfEntitysDefinitionOfCashAndCashEquivalents', 'DisclosureOfDepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss', 'OperatingIncomeLoss', 'NonoperatingIncomeLoss', 'DividendPaidCashFlow', 'DisclosureOfContingentAssets', 'AmountOfComponentOfCashFlowsFromUsedInOperatingActivities', 'Tilgodehavende', 'OtherDisclosures', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfPropertyPlantAndEquipment', 'OtherTaxExpenses', 'OtherLongtermReceivables', 'ExtraordaryItemsGainLoss', 'WorkInProgress', 'AdjustmentsForDeferredTax', 'Udskudt', 'Kostprisen', 'IncomeTaxesPaidRefundClassifiedAsOperatingActivities', 'NoncurrentLiabilities', 'CashFlowsFromUsedInOperatingActivities', 'AuditorsFees', 'ClassOfReportingEntity', 'NetCashFlowsInvestingContinuing', 'relatedEntityIdentifier', 'InformationOnShorttermInvestmentsInGroupEnterprises', 'TradePayables', 'ProfitLossFromOrdinaryActivitiesAfterTax', 'CashAndCashEquivalents', 'DescriptionOfMethodsOfLeases', 'ExternalExpenses', 'DisclosureOfOwnership', 'DisclosureOfReceivables', 'InterestPaidClassifiedAsOperatingActivities', 'Goodwill', 'EquityAttributableToParent', 'InformationOnAnyPartOfLiabilityFallingDueInMoreThanFiveYears', 'ImpairmentLossesAndDepreciationOfDisposedPropertyPlantAndEquipment', 'EquityAttributableToNoncontrollingInterest', 'DisclosureOfIncomeFromOtherLongtermInvestmentsAndReceivables', 'InformationOnUncertaintiesRelatingToGoingConcern', 'NonoperatingIncomePlusInterestAndDbtExpnsPlsIncFrmEqtyMthdInvst', 'Kapitalandele', 'DisclosureOfIncomeIncludingDividendIncomeFromInvestmentsInGroupEnterprisesAndAssociates', 'AdjustmentsForDecreaseIncreaseInWorkingCapital', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions', 'DescriptionMethodsOfRecognitionAndMeasurementBasisForCashFlowsStatement', '&lt;br/&gt;J\xc3\xb8rgen', 'SelectedElementsFromReportingClassD', 'FixturesFittingsToolsAndEquipment', 'SelectedElementsFromReportingClassC', 'CEO', 'xbrl', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfContractWorkInProgress', 'ShareHeldByEntityOrConsolidatedEnterprisesInRelatedEntity', 'OtherShorttermPayables', 'EntityRegistrantName', 'ShorttermTaxPayablesToGroupEnterprises', 'ShorttermTaxPayables', 'DisclosureOfAnyUncertaintyConnectedWithRecognitionOrMeasurement', 'NameOfComponentOfCashFlowsFromUsedInOperatingActivities', 'Nettorenteb\xc3\xa6rende', 'InformationOnReportingClassOfEntity', 'CashFlowsStatement', 'BiologicalAssets', 'Planes', 'GainsLossesFromCurrentValueAdjustmentsOfDebtLiabilitiesConcerningInvestmentProperty', 'ShorttermInvestmentsInGroupEnterprises', 'IncomeStatementPeriodYTD', 'componentOfCashFlowsIdentifier', 'Udskudte', 'Erik', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeStatementItems', 'DisposalsOfIntangibleAssets', 'IncomeFromDiscontinuedOperations', 'OtherFinanceIncome', '?xml', 'DistributionCosts', 'LongtermLiabilitiesOtherThanProvisions', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfAssetsAndLiabilities', 'ExplanationOfPrepayments', 'DisclosureOfLiabilitiesOtherThanProvisions', 'Afsat', 'WritedownsOfCurrentAssetsOtherThanCurrentFinancialAssets', 'DepositsLongtermInvestmentsAndReceivables', 'RepaymentsOfLongtermLiabilitiesClassifiedAsFinancingActivities', 'CurrentAssets', 'Dividend', 'DisclosureOfCashAndCashEquivalents', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfEmployeeBenefitExpense', 'InformationOnOtherShorttermInvestments', 'InformationOnSegments', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfInventories', 'KINONDO', 'Netto', 'DisclosureOfEmployeeBenefitsExpense', 'TransferredToFromReservesAvailable', 'NetCashFlowsOperatingDiscontinued', 'SupplementaryInformationOnOtherMattersExtendedReview', 'PaidContributedCapital', 'ShorttermInvestments', 'Adjustments', 'Virksomhedens', 'AdjustmentsForDeferredTaxCashFlow', 'AccumulatedImpairmentLossesAndDepreciationOfPropertyPlantAndEquipment', 'Equity', 'DevelopmentProjectsInProgress', 'NameAndSurnameOfMemberOfSupervisoryBoard', '&lt;p', 'OtherInterestIncome', 'Da', 'PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities', 'CurrentLiabilities', 'InformationOnReconciliationOfChangesInIntangibleAssets', 'RestOfOtherReserves', 'DisclosureOfTaxExpenseOnOrdinaryActivities', 'ShorttermDebtToOtherCreditInstitutions', 'DisclosureOfShorttermLiabilities', 'DisclosureOfInvestments', 'IntangibleAssets', 'ShorttermPayablesToShareholdersAndManagement', 'IncomeBeforeEquityMethodInvestments', 'Omkostninger', 'DisclosureOfContributedCapital', 'ShorttermReceivablesDividendsFromGroupEnterprises', 'ShorttermTradeReceivables', 'DisclosureOfAccountingPolicies', 'InformationOnRevaluatedOrWrittenDownLongtermInvestmentsNotContinuouslyAdjustedToFairValue', 'LongtermLeaseCommitments', 'RawMaterialsAndConsumablesUsed', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxPayablesAndDeferredTax', '&lt;br/&gt;\xc3\x85rets', 'ProfitLossFromOrdinaryOperatingActivitiesBeforeGainsLossesFromFairValueAdjustments', 'DescriptionOfMethodsOfInvestmentsAsCurrentAssets', 'ExtraordinaryDividendPaid', 'Afskrivningsgrundlaget', 'TaxExpense', 'OtherExternalExpenses', 'Aktivitetsniveauet', 'DebtToBanks', 'ProvisionsForDeferredTax', 'CashFlowsFromUsedInFinancingActivities', 'Assets', 'NoncurrentAssets', 'explicitMember', 'DisclosureOfDiscontinuedOperations', 'DescriptionOfMethodsOfDividends', 'OtherLongtermPayables', 'NetIncomeAttributableToNoncontrollingInterest', 'NetCashFlowsFinancing', 'DescriptionOfMethodsOfTranslationOfForeignCurrencies', 'NetCashFlowsFinancingContinuing', 'LongtermPayablesToShareholdersAndManagement', 'InformationOnRelatedEntities', 'For', 'ShorttermReceivablesFromOwnersAndManagement', 'NameOfComponentOfCashFlowsFromUsedInFinancingActivities', 'LandAndBuildings', 'DisclosureOfEquity', 'OtherShorttermDebtRaisedByIssuanceOfBonds', 'ExtraordinaryProfitLossBeforeTax', 'AccumulatedRevaluationsOfInvestments', 'DescriptionOfMethodsOfInvestments', 'LongtermMortgageDebt', 'LongtermPayablesToGroupEnterprises', 'Tilgodehavendet', 'IncomeFromOtherLongtermInvestmentsAndReceivables', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfCashAndCashEquivalents', 'OtherShorttermInvestments', 'ShorttermPartOfLongtermLiabilitiesOtherThanProvisions', 'AcquiredOtherSimilarRights', 'DisclosureOfInventories', 'AverageNumberOfEmployees', 'ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities', '&lt;br/&gt;mellemv\xc3\xa6rende', 'InformationOnContractWorkInProgress', 'PurchaseOfInvestments', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExtraordinaryIncomeAndExpenses', 'Omfanget', 'context', 'SocialSecurityContributions', 'AdditionsToInvestments', 'InformationOnAuditorsFees', 'Inventories', 'ChangeInInventoriesOfFinishedGoodsWorkInProgressAndGoodsForResale', 'DisclosureOfOtherFinanceIncomeFromGroupEnterprises', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeAndExpensesFromInvestmentsInGroupEnterprisesAndAssociates', 'DisclosureOfOtherFinanceIncome', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfCostOfProduction', 'AmountOfComponentOfCashFlowsFromUsedInFinancingActivities', 'DisclosureOfOtherArrangementsNotRecognisedInBalanceSheet', 'Nettoopskrivning', 'ContextForInstants', 'NetCashFlowsInvesting', 'DepositsShorttermLiabilitiesOtherThanProvisions', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfCostOfSales', 'ShorttermTaxReceivables', 'ComprehensiveIncomeAttributableToNoncontrollingInterest', 'Nettorealisationsv\xc3\xa6rdi', 'DisclosureOfTaxExpenses', 'CostsAndExpenses', 'DisclosureOfUncertaintiesRelatingToGoingConcern', 'LongtermInvestmentsInAssociates', 'DeferredIncomeAssets', 'DisposalsOfInvestments', 'ShorttermDeferredIncome', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables', 'IncomeTaxExpenseBenefit', 'ShorttermTradePayables', 'ProposedDividend', 'LongtermTaxPayables', 'CashFlowFromOrdinaryOperatingActivities', 'OperatingExpenses', 'Liabilities', 'ContractWorkInProgress', 'RelatedEntityName', 'ComprehensiveIncomeAttributableToParent', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfDeferredIncomeAssets', 'GainsLossesFromCurrentValueAdjustmentsOfInvestmentAssets', 'PrepaymentsForPropertyPlantAndEquipment', 'RestOfOtherFinanceExpenses', 'GainsLossesFromCurrentValueAdjustmentsOfInvestmentProperty', 'OtherOperatingExpenses', 'AccumulatedImpairmentLossesAndAmortisationOfIntangibleAssets', 'InformationOnNoncomparabilityOrRestatement', 'Til', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfInvestments', 'GainsLossesFromCurrentValueAdjustmentsOfFinancialInstrumentsFinanceExpenses', 'DescriptionOfMethodsOfCurrentTaxReceivablesAndLiabilities', 'FinanceExpensesArisingFromGroupEnterprises', 'IncreaseDecreaseOfInvestmentsThroughNetExchangeDifferences', 'NetCashFlow', 'WagesAndSalaries', 'NetCashFlowsContinuing', 'DisclosureOfIntangibleAssets', '&lt;br/&gt;Peter', 'PlantAndMachinery', 'ExchangeRateLoss', 'ProvisionsForInvestmentsInGroupEnterprises', 'I', 'DescriptionOfMethodsOfImpairmentLossesAndDepreciation', 'DisclosureOfOtherFinanceExpenses', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfInvestmentProperty', 'NumberOfEmployees', 'CurrentTaxExpense', 'LeaseholdImprovements', 'Som', 'PostemploymentBenefitExpense', 'ShorttermTaxReceivablesFromGroupEnterprises', 'NameAndSurnameOfMemberOfExecutiveBoard', 'ManufacturedGoodsAndGoodsForResale', 'AccountingPoliciesAreUnchangedFromPreviousPeriod', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfAdministrativeExpenses', 'PrepaymentsForIntangibleAssets', 'DisclosureOfLiabilitiesUnderLeases', 'ExplanationOfOtherMethodsOfRecognitionAndMeasurementBasisForAssetsInPreviousPeriod', 'InformationOnLeasingContracts', 'FeesForOtherServicesPerformedByAuditors', '\xc3\x85rets', 'RetainedEarnings', 'ContributedCapital', 'CostOfProduction', 'NetIncomeAvailableToCommonStockholdersBasic', 'TaxExpenseOnExtraordinaryEvents', 'Materielle', 'OtherLongtermInvestments', 'ProfitLossFromOrdinaryOperatingActivities', 'CommitmentsAndContingencies', 'EntityCentralIndexKey', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfEquity', 'DisclosureOfCollateralsAndAssetsPledgesAsSecurity', 'ReserveForNetRevaluationAccordingToEquityMethod', 'CashFlowFromOperatingActivitiesBeforeFinancialItems', 'RepaymentOfDebtToCreditInstitutions', 'IncomeFromContinuingOperationsAfterTax', 'InformationOnOtherReceivables', 'konklusion.&lt;/span&gt;&lt;br', 'OtherFinanceExpenses', 'OtherPayables', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfOtherOperatingExpenses', 'CompletedDevelopmentProjects', 'PreferredStockDividendsAndOtherAdjustments', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisForInvestmentsInSubsidiariesAndAssociates', 'LongtermInvestmentsAndReceivables', 'DisclosureOfMainActivitiesAndAccountingAndFinancialMatters', 'DescriptionOfAmortisationForIntangibleAssetsExceedingFiveYears', '&lt;br/&gt;Foresl\xc3\xa5et', 'NetIncomeAttributableToParent', 'InformationOnRemunerationOfManagementCategoriesAndSpecialIncentiveProgrammes', 'ContingentLiabilitiesRelatedToGroupEnterprises', 'ShorttermReceivables', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceIncomeAndExpenses', 'OtherLongtermDebtRaisedByIssuanceOfBonds', 'DepreciationOfPropertyPlantAndEquipment', 'DescriptionOfMethodsOfPrepayments', 'ExtraordinaryIncome', 'DescriptionOfMethodsOfForeignCurrencies', 'OtherEmployeeExpense', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfDeferredIncomeLiabilities', 'SaleOfInvestments', 'DisclosureOfOtherOperatingExpenses', 'DescriptionOfMethodsOfHedgingRecognisedExpectedToReceiveAndAssumedAssetsAndLiabilities', 'AdjustmentsOfHedgingInstruments', 'LongtermReceivablesFromGroupEnterprises', 'OtherFinanceIncomeFromGroupEnterprises', 'AmortisationOfIntangibleAssets', 'ReserveForNetRevaluationOfInvestmentAssets', 'OtherProvisions', 'InformationOnIntragroupTransactions', 'OtherReserves', 'NoncurrentDeferredTaxAssets', 'Chairmen', 'Modervirksomheden', 'PropertyPlantAndEquipment', 'Der', 'Det', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfGainsLossesFromCurrentValueAdjustmentsOfOtherInvestmentAssets', 'LongtermEquityLoan', 'Den', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfRevenue', 'NetCashFlowsOperatingContinuing', 'CashFlowsFromUsedInInvestingActivities', 'PropertyCost', 'ContextForDurations', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLeaseholdImprovements', 'Efter', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIntangibleAssets', 'NetIncreaseDecreaseInCashAndCashEquivalents', 'DisposalsOfPropertyPlantAndEquipment', '&lt;br/&gt;som', '&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br', 'InformationOnChangesAndEffectsOfChangesOnRecognitionAndMeasurementBasisResultingFromChangesInAccountingEstimatesOrErrors', 'ImpairmentLossesAndAmortisationOfDisposedIntangibleAssets', 'ShorttermReceivablesFromGroupEnterprises', 'ShorttermLiabilitiesOtherThanProvisions', 'DepositsLongtermLiabilitiesOtherThanProvisions', 'LongtermReceivablesFromAssociates', 'ImpairmentOfFinancialAssets', 'IntangibleAssetsGross', 'InformationOnAverageNumberOfEmployees', 'NetCashFlowsOperating', 'InterestReceivedClassifiedAsOperatingActivities', 'ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities', 'GrossProfit', 'ProvisionsForInvestmentsInGroupAssociates', 'LongtermDebtToBanks', 'DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExternalExpenses', 'AcquisitionOfOtherCompany', 'PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities', 'InvestmentsGross', 'DisclosureOfExternalExpenses', 'LongtermInvestmentsInGroupEnterprises', 'Selskabet', 'IncomeFromInvestmentsInGroupEnterprisesAndAssociates', 'GrossResult', 'BalanceSheetDate', 'AdministrativeExpenses', 'InformationOnReconciliationOfChangesInInvestments', 'AdditionsToIntangibleAssets']        
+        start_dt = self.xbrl.getNode("c:ReportingPeriodStartDate").text
+        end_dt = self.xbrl.getNode("c:ReportingPeriodEndDate").text
+        
         dic = {}
         #print(dic)
-        result_dic = {}
-        #x.getNode("e:Assets[@contextRef='"+x.fields['ContextForInstants']+"']").text
         for item in self.xbrl.tags: 
             try:
                 item_name = item.split(':')[1]
-                tag = item.split(':')[0]
                 if '>' in item_name:
                     item_name = item_name.split('>')[0]
                     item = item.split('>')[0]
-                if '<' in tag:
-                    tag = tag.split('<')[0]
             except:item_name = item
-            try: dic[item_name] = self.xbrl.getNode(tag+':'+item_name+"[@contextRef='"+self.xbrl.fields['ContextForInstants']+"']").text
+            try: dic[item_name] = self.xbrl.GetFactValue(item,'Instant')
             except: 
-                try:    dic[item_name] = dic[item_name] = self.xbrl.getNode(tag+item_name+"[@contextRef='"+self.xbrl.fields['ContextForDurations']+"']").text
+                try:    dic[item_name] = self.xbrl.GetFactValue(item,'Duration')
                 except: dic[item_name] = '0'
 
-        #print(dic)   
+
                 
                 #dic['DocumentType'] = unicodedata.normalize("NFKD", self.xbrl.getNode("gsd:InformationOnTypeOfSubmittedReport").text)
                 #dic['EntityCentralIndexKey'] = self.xbrl.fields['EntityCentralIndexKey']
-        try:dic['CEO'] = self.xbrl.getNode('cmn:NameAndSurnameOfMemberOfExecutiveBoard').text
-        except:
-            try:dic['CEO'] = self.xbrl.getNode('d:NameAndSurnameOfMemberOfExecutiveBoard').text
-            except:dic['CEO'] = 'None'
-        try:dic['Chairmen'] = self.xbrl.getNode('gsd:NameAndSurnameOfChairmanOfGeneralMeeting').text
-        except:
-            try:dic['Chairmen'] = self.xbrl.getNode('c:NameAndSurnameOfChairmanOfGeneralMeeting').text
-            except:dic['Chairmen'] = 'None'
-        try:dic['Auditor'] = self.xbrl.getNode('cmn:NameAndSurnameOfAuditor').text
-        except:
-            try:dic['Auditor'] = self.xbrl.getNode('d:NameAndSurnameOfAuditor').text
-            except:dic['Auditor'] = 'None'
-        #try:dic['EntityRegistrantName'] = self.xbrl.fields['EntityRegistrantName']
-        #except:
-        #    dic['EntityRegistrantName'] = 'None'
 
-        string_lst = []
-        
-        for item in columns:
-            result_dic[item] = 'None'            
-        for value in dic:
-            for item in result_dic:
-                if value == item:
-                    #print(value)
-                    result_dic[item] = dic[value]           
-        for item in self.xbrl.fields:
-            #try:
-            if result_dic[item] <> '0' and self.xbrl.fields[item] == 0:
-                    continue
-            #except:
-            result_dic[item] = self.xbrl.fields[item]
-            #print('lil')
             
+           
+        for item in self.xbrl.fields:
+            dic[item] = self.xbrl.fields[item]
         i = 0 
-        for item in result_dic:
-            #if len(item) > 63:
-                #result_dic[item[:63]] = result_dic.pop[item]
-            try:string_lst.append("'"+str(result_dic[item])+"'")
-            except:string_lst.append("'"+str(result_dic[item].encode('utf-8'))+"'")
-
+        try:dic['CEO'] = self.xbrl.getNode('cmn:NameAndSurnameOfMemberOfExecutiveBoard').text
+        except:pass
+        try:dic['Chairmen'] = self.xbrl.getNode('gsd:NameAndSurnameOfChairmanOfGeneralMeeting').text
+        except:pass
+        try:dic['Auditor'] = self.xbrl.getNode('cmn:NameAndSurnameOfAuditor').text
+        except:pass
         #print('antoha',unicodedata.normalize("NFKD", self.xbrl.getNode("gsd:InformationOnTypeOfSubmittedReport").text))
         #print('lol',)
-        print(result_dic)
-        #print(1,self.xbrl.fields['EntityRegistrantName'])
-        #print(666,result_dic['EntityRegistrantName'])
+        print(dic)
         for item in dic:
             try:
-                result_dic[item] = str(result_dic[item]).replace("'","")
+                dic[item] = str(dic[item]).replace("'","")
             except: pass
                 
-         
+            i += 1
+            if i % 1000 == 0:
+                conn.commit() 
+            #print(123123123)
+            try:
+                cursor.execute("UPDATE django_sec_lol SET value_name='"+str(item)+"', value='"+str(dic[item])+"' ,start_date='"+str(start_dt)+"',end_date='"+str(end_dt)+"',company_id="+str(self.xbrl.fields['EntityCentralIndexKey'])+", doc_type='"+str(self.xbrl.fields['DocumentType'])+"' WHERE value_name='"+str(item)+"' and value='"+str(dic[item])+"' and start_date='"+str(start_dt)+"' and end_date='"+str(end_dt)+"' and company_id="+str(self.xbrl.fields['EntityCentralIndexKey'])+" and doc_type='"+str(self.xbrl.fields['DocumentType'])+"';")
+                if cursor.rowcount == 0:
+                    cursor.execute("INSERT INTO django_sec_lol SELECT '"+str(item)+"','"+str(dic[item])+"' ,'"+str(start_dt)+"','"+str(end_dt)+"',"+str(self.xbrl.fields['EntityCentralIndexKey'])+", '"+str(self.xbrl.fields['DocumentType'])+"' WHERE NOT EXISTS(select 1 from django_sec_lol where  value_name='"+str(item)+"' and  value='"+str(dic[item])+"' and start_date='"+str(start_dt)+"' and end_date='"+str(end_dt)+"' and company_id="+str(self.xbrl.fields['EntityCentralIndexKey'])+" and doc_type='"+str(self.xbrl.fields['DocumentType'])+"')")
                 
-        try:
-            cursor.execute("INSERT INTO django_sec_new VALUES("+self.xbrl.fields['EntityCentralIndexKey']+", '"+start_dt+"', '"+end_dt+"', "+', '.join(string_lst)+")")
-        except Exception as e:
-            print(e)
-            print(len(string_lst))
-            raise
-        conn.commit()
+                #conn.commit()
+            except Exception as e:
+                #print(66666)
+                #print(e)
+                pass
+                #print(77777777777)
+            conn.commit()
         conn.close()
         cursor.close()
         #os.system('python '+os.path.dirname(os.path.realpath(__file__))+'/adjuster.py')
