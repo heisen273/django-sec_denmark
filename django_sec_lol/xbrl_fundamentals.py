@@ -778,7 +778,7 @@ class FundamentantalAccountingConcepts:
            
         for item in self.xbrl.fields:
             try:
-                if dic[item] <> '0' and self.xbrl.fields[item] == 0:
+                if dic[item] != '0' and self.xbrl.fields[item] == 0:
                     continue
             except:dic[item] = self.xbrl.fields[item]
             
@@ -799,10 +799,9 @@ class FundamentantalAccountingConcepts:
         #print('lol',)
         print(dic)
         for item in dic:
-            try:
-                dic[item] = str(dic[item]).replace("'","")
-            except: pass
-                
+            try:dic[item] = str(dic[item].encode('utf-8')).replace("'","")
+            except:pass
+
             i += 1
             if i % 1000 == 0:
                 conn.commit() 

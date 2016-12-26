@@ -791,14 +791,18 @@ class FundamentantalAccountingConcepts:
         #    dic['EntityRegistrantName'] = 'None'
 
         string_lst = []
-        
+
+
         for item in columns:
             result_dic[item] = 'None'            
         for value in dic:
             for item in result_dic:
                 if value == item:
+                    if 'Description' in item or item == 'InformationOnRelatedEntities':
+                        continue
                     #print(value)
-                    result_dic[item] = dic[value]           
+                    else:
+                        result_dic[item] = dic[value]
         for item in self.xbrl.fields:
             #try:
             if result_dic[item] != '0' and self.xbrl.fields[item] == 0:
@@ -807,8 +811,18 @@ class FundamentantalAccountingConcepts:
             result_dic[item] = self.xbrl.fields[item]
             #print('lil')
             
-        i = 0 
+        i = 0
+        #for item in result_dic:
+        #    try:
+        #        result_dic[item] = str(result_dic[item]).replace("'","")
+        #        print(1)
+        #    except:
+        #        print(0)
+       #         pass
+
         for item in result_dic:
+            try:result_dic[item] = str(result_dic[item].encode('utf-8')).replace("'","")
+            except:pass
             #if len(item) > 63:
                 #result_dic[item[:63]] = result_dic.pop[item]
             try:string_lst.append("'"+str(result_dic[item])+"'")
@@ -819,19 +833,18 @@ class FundamentantalAccountingConcepts:
         print(result_dic)
         #print(1,self.xbrl.fields['EntityRegistrantName'])
         #print(666,result_dic['EntityRegistrantName'])
-        for item in dic:
-            try:
-                result_dic[item] = str(result_dic[item]).replace("'","")
-            except: pass
+
                 
          
                 
         try:
+
             cursor.execute("INSERT INTO django_sec_new VALUES("+self.xbrl.fields['EntityCentralIndexKey']+", '"+start_dt+"', '"+end_dt+"', "+', '.join(string_lst)+")")
         except Exception as e:
+
             print(e)
-            print(len(string_lst))
-            raise
+            print(len(string_lst), item)
+            #raise
         conn.commit()
         conn.close()
         cursor.close()
