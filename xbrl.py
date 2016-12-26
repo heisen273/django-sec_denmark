@@ -37,7 +37,7 @@ class XBRL:
                         else: self.tags.append(str.split(' ')[0])
                     else:continue
             except:
-                print('ollololo')
+                #print('ollololo')
                 l = []
                 self.tags=[]
                 for item in lst:
@@ -59,7 +59,7 @@ class XBRL:
                         
                         
             
-            print(len(self.tags))
+            #print(len(self.tags))
             self.tags = list(set(self.tags))
             
             if len(lst) == 1:
@@ -176,12 +176,12 @@ class XBRL:
             except:
                 try:
                     oNode = self.getNode("//c:NameOfReportingEntity" + "[@contextRef='" + self.fields['ContextForDurations'] + "']")
-                    print oNode.text
+                    #print oNode.text
                 
                 except:
                     oNode = self.getNode("//c:NameOfReportingEntity[@contextRef]")
-                    print oNode.text
-        print(123123123,oNode.text)
+                    #print oNode.text
+        #print(123123123,oNode.text)
             #print(oNode)
                 
         #oNode = self.getNode("//gsd:NameOfReportingEntity[@contextRef]")

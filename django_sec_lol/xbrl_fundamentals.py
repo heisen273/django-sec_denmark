@@ -742,7 +742,7 @@ class FundamentantalAccountingConcepts:
         lngCF6 = self.xbrl.fields['NetCashFlowsFinancing'] - (self.xbrl.fields['NetCashFlowsFinancingContinuing'] + self.xbrl.fields['NetCashFlowsFinancingDiscontinued'])
 	# conn.cursor will return a cursor object, you can use this cursor to perform queries
         #print('ANTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONIO')
-        conn_string = "host='localhost' dbname='vcs' user='postgres' password='123'"
+        conn_string = "host='localhost' dbname='mysite' user='postgres' password=''"
         conn = psycopg2.connect(conn_string)
         cursor = conn.cursor()
         lst = []
@@ -766,10 +766,10 @@ class FundamentantalAccountingConcepts:
             except:item_name = item
             try: dic[item_name] = self.xbrl.getNode(tag+':'+item_name+"[@contextRef='"+self.xbrl.fields['ContextForInstants']+"']").text
             except: 
-                try:    dic[item_name] = dic[item_name] = self.xbrl.getNode(tag+item_name+"[@contextRef='"+self.xbrl.fields['ContextForDurations']+"']").text
+                try:    dic[item_name] = self.xbrl.getNode(tag+':'+item_name+"[@contextRef='"+self.xbrl.fields['ContextForDurations']+"']").text
                 except: dic[item_name] = '0'
 
-        print(dic)   
+        #print(dic)
                 
                 #dic['DocumentType'] = unicodedata.normalize("NFKD", self.xbrl.getNode("gsd:InformationOnTypeOfSubmittedReport").text)
                 #dic['EntityCentralIndexKey'] = self.xbrl.fields['EntityCentralIndexKey']
@@ -819,6 +819,7 @@ class FundamentantalAccountingConcepts:
                 pass
                 #print(77777777777)
             conn.commit()
+        conn.commit()
         conn.close()
         cursor.close()
         #os.system('python '+os.path.dirname(os.path.realpath(__file__))+'/adjuster.py')
